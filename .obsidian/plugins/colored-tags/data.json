@@ -1,0 +1,26 @@
+{
+  "palette": {
+    "seed": 0,
+    "selected": "adaptive-soft",
+    "custom": "e12729-f37324-f8cc1b-72b043-007f4e"
+  },
+  "mixColors": true,
+  "transition": true,
+  "accessibility": {
+    "highTextContrast": false
+  },
+  "knownTags": {
+    "casting": 6,
+    "diw": 7,
+    "fdm": 4,
+    "material": 2,
+    "paper": 1,
+    "review": 3,
+    "silver-paste": 8,
+    "sla": 5,
+    "material/commercial": 1,
+    "material/proprietary": 2
+  },
+  "tagColors": {},
+  "_version": 4
+}

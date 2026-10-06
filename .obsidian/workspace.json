@@ -1,0 +1,304 @@
+{
+  "main": {
+    "id": "80fef3350a885f23",
+    "type": "split",
+    "children": [
+      {
+        "id": "575613e3a816423c",
+        "type": "tabs",
+        "dimension": 57.61421319796954,
+        "children": [
+          {
+            "id": "bbf910ee69ef38e1",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "pdfs/s40145_022_0567_5_annotated.pdf",
+                "page": 23,
+                "left": -14,
+                "top": 710,
+                "zoom": 1.0785927892207923
+              },
+              "icon": "lucide-file-text",
+              "title": "s40145_022_0567_5_annotated"
+            }
+          },
+          {
+            "id": "220f0b0044e8a3de",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "pdfs/Additive_Manufacturing_of_Toroid_Inductor_for_Power_Electronics_Applications.pdf",
+                "page": 2,
+                "left": -39,
+                "top": 28,
+                "zoom": 1
+              },
+              "icon": "lucide-file-text",
+              "title": "Additive_Manufacturing_of_Toroid_Inductor_for_Power_Electronics_Applications"
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "2a591465ccb4a546",
+        "type": "tabs",
+        "dimension": 42.38578680203046,
+        "children": [
+          {
+            "id": "a2acc40369693a16",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/papers/Additive Manufacturing of Toroid Inductor for Power Electronics Applications.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Additive Manufacturing of Toroid Inductor for Power Electronics Applications"
+            }
+          },
+          {
+            "id": "63def99ea3859ee3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/papers/Additive manufacturing of magnetic components for power electronics integration.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Additive manufacturing of magnetic components for power electronics integration"
+            }
+          },
+          {
+            "id": "4206ec104f65d6a0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/Inductors.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Inductors"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6e2f2821e5314010",
+    "type": "split",
+    "children": [
+      {
+        "id": "e969b33fd317f0ee",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b37d9289e39cfa6f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "40012b731e223e3c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:material/",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "19565919568f8f22",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "99df83c926c4e567",
+    "type": "split",
+    "children": [
+      {
+        "id": "6540ca827c9ee3cc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4a7be81d4dc3939e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "obsidian/papers.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "9597a050978bb618",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "notes/papers/Additive Manufacturing of Toroid Inductor for Power Electronics Applications.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "04d1d76e05b8df65",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "20687b79530eb7d9",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "9d2e67c425b38cff",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "obsidian/papers.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false
+    }
+  },
+  "active": "a2acc40369693a16",
+  "lastOpenFiles": [
+    "pdfs/Additive_Manufacturing_of_Toroid_Inductor_for_Power_Electronics_Applications.pdf",
+    "notes/papers/Additive Manufacturing of Toroid Inductor for Power Electronics Applications.md",
+    "notes/papers/Additive manufacturing of magnetic components for power electronics integration.md",
+    "notes/Inductors.md",
+    "notes/manufacturing method/injection molding.md",
+    "notes/manufacturing method/DIW.md",
+    "pdfs/Additive_manufacturing_of_magnetic_components_for_power_electronics_integration.pdf",
+    "notes/materials/Silver paste.md",
+    "notes/materials",
+    "pdfs/s40145_022_0567_5_annotated.pdf",
+    "notes/theory/Constant-flux inductor.md",
+    "pdfs/1-s2.0-S0304885317309423-main.pdf",
+    "Untitled 1.md",
+    "notes/papers/3D printed magnetic polymer composite transformers.md",
+    "notes/theory/Hysteresis loop.md",
+    "notes/papers/Advances in 3D printing of magnetic materials Fabrication, properties, and their applications.md",
+    "notes/papers/3-D-Printed Air-Core Inductors for High-Frequency Power Converters.md",
+    "notes/papers/13.56 MHz High Density DC–DC Converter With PCB Inductors.md",
+    "images/Pasted image 20261006104021.png",
+    "notes/theory",
+    "notes/methodology",
+    "Pasted image 20261006103740.png",
+    "notes/methodology/SEM.md",
+    "images/hysteresis_loop.jpg.~tmp",
+    "images/hysteresis_loop.jpg",
+    "images/unnamed.png",
+    "pdfs/3-D-Printed_Air-Core_Inductors_for_High-Frequency_Power_Converters.pdf",
+    "pdfs/1356_MHz_High_Density_DCDC_Converter_With_PCB_Inductors.pdf",
+    "3-D-Printed Air-Core Inductors for High-Frequency Power Converters208.md",
+    "notes/manufacturing method/Nuvotronics Polystrata.md",
+    "notes/papers.md",
+    "notes/liang3DPrintedAirCoreInductors2016.md",
+    "pages/3-D-Printed Air-Core Inductors for High-Frequency Power Converters.md",
+    "obsidian/liang3DPrintedAirCoreInductors2016.md",
+    "obsidian/Nuvotronics Polystrata.md",
+    "obsidian/papers.md",
+    "images/isotropic_vs_anisotropic.jpg"
+  ]
+}

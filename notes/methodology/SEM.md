@@ -1,0 +1,1 @@
+Scanning electron microscopy (SEM) is an imaging technique that uses a focused beam of high-energy electrons to scan the surface of a solid sample, producing high-resolution, three-dimensional images of its topography and composition.
