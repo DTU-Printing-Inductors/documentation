@@ -4,8 +4,6 @@ Year: "2017"
 Author: Lindsey M. Bollig, Peter J. Hilpisch, Greg S. Mowry, Brittany B. Nelson-Cheeseman
 Tags:
   - "#paper"
-  - "#material/commercial"
-  - "#FDM"
 URL: https://linkinghub.elsevier.com/retrieve/pii/S0304885317309423
 DOI: 10.1016/j.jmmm.2017.06.070
 Cite Key: "[@bollig3DPrintedMagnetic2017]"
@@ -62,7 +60,7 @@ Entry: "[[1-s2.0-S0304885317309423-main.pdf]]"
 > > The inability for the printed core to saturate as easily as a standard ferrite is an important hurdle that will need to be overcome for this technology to be successful.
 
 > [!PDF|note] [[1-s2.0-S0304885317309423-main.pdf#page=4&selection=23,42,24,42&color=note|1-s2.0-S0304885317309423-main, p.100]]
-> > irst, as shown above, the highest fill factors must be utilized. 
+> > First, as shown above, the highest fill factors must be utilized. 
 
 > [!PDF|note] [[1-s2.0-S0304885317309423-main.pdf#page=4&selection=24,42,25,66&color=note|1-s2.0-S0304885317309423-main, p.100]]
 > > Second, higher Fe contents are needed; however, as one increases the percentage of Fe particulate, the extrusion processing of the composite material becomes more complicated.
@@ -73,3 +71,8 @@ Entry: "[[1-s2.0-S0304885317309423-main.pdf]]"
 > [!PDF|note] [[1-s2.0-S0304885317309423-main.pdf#page=5&selection=6,0,7,56&color=note|1-s2.0-S0304885317309423-main, p.101]]
 > > Finally, the transformer geometry (diameter/radius ratio) and turn ratio could also be modified to optimize the performance.
 
+## Connections
+[[FDM]]
+[[PLA]]
+[[Iron]]
+[[Magnetic-core inductors]]

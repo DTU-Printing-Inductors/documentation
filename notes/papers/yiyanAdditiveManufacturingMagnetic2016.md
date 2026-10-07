@@ -4,9 +4,7 @@ Year: "2016"
 Author: Yi Yan, Khai D. T. Ngo, Yuhui Mei, Guo-Quan Lu
 Tags:
   - "#paper"
-  - "#DIW"
-  - "#silver-paste"
-  - "#material/proprietary"
+  - "#read"
 URL: http://ieeexplore.ieee.org/document/7486849/
 DOI: 10.1109/ICEP.2016.7486849
 Cite Key: "[@yiyanAdditiveManufacturingMagnetic2016]"
@@ -47,3 +45,16 @@ Entry: "[[Additive_manufacturing_of_magnetic_components_for_power_electronics_in
 > [[DIW]] manufactured toroid compared to [[injection molding]] had 10% lower relative permeability.
 
 ## Ideas
+> [!PDF|note] [[Additive_manufacturing_of_magnetic_components_for_power_electronics_integration.pdf#page=3&selection=26,9,28,36&color=note|Additive_manufacturing_of_magnetic_components_for_power_electronics_integration, p.3]]
+> > Figure 5 shows the 3D-printing process to form a planar inductor, the heating profile used to harden the printed part, and a finished planar inductor
+> 
+> Planar geometry was printed, future would entail 3D complex geometries, already done by the next paper from the same group. [[yanAdditiveManufacturingToroid2017]]
+
+## Connections
+[[DIW]]
+[[sintering]]
+[[Silver paste]]
+[[permeability]]
+[[Magnetic-core inductors]]
+[[electrical resistivity]]
+[[SEM]]

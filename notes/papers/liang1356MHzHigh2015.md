@@ -14,3 +14,7 @@ Entry: "[[1356_MHz_High_Density_DCDC_Converter_With_PCB_Inductors.pdf]]"
 ## Interpretation
 
 ## Ideas
+
+## Connections
+[[PCB inductor]]
+[[Air-core inductors]]

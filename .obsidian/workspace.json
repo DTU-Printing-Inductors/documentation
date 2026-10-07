@@ -15,9 +15,9 @@
               "type": "pdf",
               "state": {
                 "file": "pdfs/s40145_022_0567_5_annotated.pdf",
-                "page": 23,
+                "page": 22,
                 "left": -14,
-                "top": 710,
+                "top": 64,
                 "zoom": 1.0785927892207923
               },
               "icon": "lucide-file-text",
@@ -25,23 +25,39 @@
             }
           },
           {
-            "id": "220f0b0044e8a3de",
+            "id": "c7afb5a9f70988c7",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
                 "file": "pdfs/Additive_Manufacturing_of_Toroid_Inductor_for_Power_Electronics_Applications.pdf",
-                "page": 2,
+                "page": 5,
                 "left": -39,
-                "top": 28,
+                "top": 769,
                 "zoom": 1
               },
               "icon": "lucide-file-text",
               "title": "Additive_Manufacturing_of_Toroid_Inductor_for_Power_Electronics_Applications"
             }
+          },
+          {
+            "id": "48587822f3d23d5e",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "pdfs/Additive_manufacturing_of_magnetic_components_for_power_electronics_integration.pdf",
+                "page": 4,
+                "left": -14,
+                "top": 786,
+                "zoom": 1.0785927892207925
+              },
+              "icon": "lucide-file-text",
+              "title": "Additive_manufacturing_of_magnetic_components_for_power_electronics_integration"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "2a591465ccb4a546",
@@ -49,48 +65,49 @@
         "dimension": 42.38578680203046,
         "children": [
           {
-            "id": "a2acc40369693a16",
+            "id": "83a9a92ecd7d1f4c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/papers/Additive Manufacturing of Toroid Inductor for Power Electronics Applications.md",
+                "file": "notes/papers/yiyanAdditiveManufacturingMagnetic2016.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Additive Manufacturing of Toroid Inductor for Power Electronics Applications"
+              "title": "yiyanAdditiveManufacturingMagnetic2016"
             }
           },
           {
-            "id": "63def99ea3859ee3",
+            "id": "f5b48b7fd7f52f85",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/papers/Additive manufacturing of magnetic components for power electronics integration.md",
+                "file": "notes/research groups/Virginia Tech, Department of Materials Science and Engineering.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Additive manufacturing of magnetic components for power electronics integration"
+              "title": "Virginia Tech, Department of Materials Science and Engineering"
             }
           },
           {
-            "id": "4206ec104f65d6a0",
+            "id": "fafa577bcf5312ad",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/Inductors.md",
+                "file": "notes/papers/yiyanAdditiveManufacturingMagnetic2016.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Inductors"
+              "title": "yiyanAdditiveManufacturingMagnetic2016"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -261,44 +278,47 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "a2acc40369693a16",
+  "active": "f5b48b7fd7f52f85",
   "lastOpenFiles": [
+    "pdfs/Additive_manufacturing_of_magnetic_components_for_power_electronics_integration.pdf",
+    "notes/papers/yiyanAdditiveManufacturingMagnetic2016.md",
+    "notes/research groups/Virginia Tech, Department of Materials Science and Engineering.md",
+    "notes/papers/yanAdditiveManufacturingToroid2017.md",
     "pdfs/Additive_Manufacturing_of_Toroid_Inductor_for_Power_Electronics_Applications.pdf",
-    "notes/papers/Additive Manufacturing of Toroid Inductor for Power Electronics Applications.md",
-    "notes/papers/Additive manufacturing of magnetic components for power electronics integration.md",
-    "notes/Inductors.md",
+    "pdfs/s40145_022_0567_5_annotated.pdf",
+    "notes/research groups",
+    "pdfs/Design_and_Additive_Manufacturing_of_Multipermeability_Magnetic_Cores.pdf",
+    "notes/theory/properties/core loss.md",
+    "notes/manufacturing method/sintering.md",
+    "notes/theory/properties/impedance.md",
+    "notes/theory/properties/inductance.md",
+    "notes/theory/properties/electrical resistivity.md",
+    "notes/papers/liang3DPrintedAirCoreInductors2016.md",
+    "notes/theory/properties/permeability.md",
+    "notes/papers/weiAdvances3DPrinting2022.md",
+    "notes/papers/liang1356MHzHigh2015.md",
+    "pdfs/1356_MHz_High_Density_DCDC_Converter_With_PCB_Inductors.pdf",
+    "notes/papers/bollig3DPrintedMagnetic2017.md",
+    "pdfs/1-s2.0-S0304885317309423-main.pdf",
+    "notes/theory/properties",
+    "notes/materials/PLA.md",
+    "notes/materials/Iron.md",
+    "notes/theory/Magnetic-core inductors.md",
+    "notes/theory/Air-core inductors.md",
+    "notes/theory/Inductors.md",
+    "notes/manufacturing method/FDM.md",
+    "notes/theory/Constant-flux inductor.md",
+    "notes/manufacturing method/casting.md",
+    "notes/manufacturing method/SLA.md",
     "notes/manufacturing method/injection molding.md",
     "notes/manufacturing method/DIW.md",
-    "pdfs/Additive_manufacturing_of_magnetic_components_for_power_electronics_integration.pdf",
     "notes/materials/Silver paste.md",
     "notes/materials",
-    "pdfs/s40145_022_0567_5_annotated.pdf",
-    "notes/theory/Constant-flux inductor.md",
-    "pdfs/1-s2.0-S0304885317309423-main.pdf",
-    "Untitled 1.md",
-    "notes/papers/3D printed magnetic polymer composite transformers.md",
-    "notes/theory/Hysteresis loop.md",
-    "notes/papers/Advances in 3D printing of magnetic materials Fabrication, properties, and their applications.md",
-    "notes/papers/3-D-Printed Air-Core Inductors for High-Frequency Power Converters.md",
-    "notes/papers/13.56 MHz High Density DC–DC Converter With PCB Inductors.md",
     "images/Pasted image 20261006104021.png",
     "notes/theory",
-    "notes/methodology",
     "Pasted image 20261006103740.png",
-    "notes/methodology/SEM.md",
-    "images/hysteresis_loop.jpg.~tmp",
     "images/hysteresis_loop.jpg",
     "images/unnamed.png",
-    "pdfs/3-D-Printed_Air-Core_Inductors_for_High-Frequency_Power_Converters.pdf",
-    "pdfs/1356_MHz_High_Density_DCDC_Converter_With_PCB_Inductors.pdf",
-    "3-D-Printed Air-Core Inductors for High-Frequency Power Converters208.md",
-    "notes/manufacturing method/Nuvotronics Polystrata.md",
-    "notes/papers.md",
-    "notes/liang3DPrintedAirCoreInductors2016.md",
-    "pages/3-D-Printed Air-Core Inductors for High-Frequency Power Converters.md",
-    "obsidian/liang3DPrintedAirCoreInductors2016.md",
-    "obsidian/Nuvotronics Polystrata.md",
-    "obsidian/papers.md",
     "images/isotropic_vs_anisotropic.jpg"
   ]
 }

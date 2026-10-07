@@ -10,16 +10,9 @@
     "highTextContrast": false
   },
   "knownTags": {
-    "casting": 6,
-    "diw": 7,
-    "fdm": 4,
-    "material": 2,
     "paper": 1,
-    "review": 3,
-    "silver-paste": 8,
-    "sla": 5,
-    "material/commercial": 1,
-    "material/proprietary": 2
+    "read": 4,
+    "review": 3
   },
   "tagColors": {},
   "_version": 4

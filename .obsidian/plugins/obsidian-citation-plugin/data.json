@@ -2,7 +2,7 @@
   "citationExportFormat": "biblatex",
   "literatureNoteTitleTemplate": "@{{citekey}}",
   "literatureNoteFolder": "Reading notes",
-  "literatureNoteContentTemplate": "---\nTitle: \"{{title}}\"\nYear: \"{{year}}\"\nAuthor: \"{{authorString}}\"\nTags: \n  - '#paper'\nURL: \"{{URL}}\"\nDOI: \"{{DOI}}\"\nCite Key: \"[@{{citekey}}]\"\nEntry: \"[[{{entry.files}}]]\"\n---\n## Source \n\n## Interpretation\n\n## Ideas",
+  "literatureNoteContentTemplate": "---\nTitle: \"{{title}}\"\nYear: \"{{year}}\"\nAuthor: \"{{authorString}}\"\nTags: \n  - '#paper'\nURL: \"{{URL}}\"\nDOI: \"{{DOI}}\"\nCite Key: \"[@{{citekey}}]\"\nEntry: \"[[{{entry.files}}]]\"\n---\n## Source \n\n## Interpretation\n\n## Ideas\n\n## Connections",
   "markdownCitationTemplate": "[@{{citekey}}]",
   "alternativeMarkdownCitationTemplate": "@{{citekey}}",
   "citationExportPath": "pdfs/bibliography.bib"

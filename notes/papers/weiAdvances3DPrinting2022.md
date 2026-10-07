@@ -49,14 +49,17 @@ Soft magnets are commonly used in inductors and trasformers, due to their low co
 ## Source
 
 > [!PDF|] [[s40145_022_0567_5_annotated.pdf#page=23&selection=36,37,43,1|s40145_022_0567_5_annotated, p.23]]
-> > Within 3D printing, electrical systems can be direct print into complex geometries difficult or impossible to achieve by other means, allowing customization for a specific end user application [207, [[3-D-Printed Air-Core Inductors for High-Frequency Power Converters|208]], 209].
+> > Within 3D printing, electrical systems can be direct print into complex geometries difficult or impossible to achieve by other means, allowing customization for a specific end user application [207, [[liang3DPrintedAirCoreInductors2016|208]], 209].
 > > 
  Important citation to 3-D printed air-core inductor with SLA and wax casting. 
+ 
  > [!PDF|] [[s40145_022_0567_5_annotated.pdf#page=23&selection=44,0,50,32|s40145_022_0567_5_annotated, p.23]]
-> > Inductors and transformers, crucial components for most electronics, have been widely investigated [ [[3D printed magnetic polymer composite transformers|78]], [[|210]], 211]
+> > Inductors and transformers, crucial components for most electronics, have been widely investigated [ [[bollig3DPrintedMagnetic2017|78]], [[yanAdditiveManufacturingToroid2017|210]], 211]
 > 
-> [[3D printed magnetic polymer composite transformers|78]] is a good paper on 3D-printing a magnetic core.
+> [[bollig3DPrintedMagnetic2017|78]] is a good paper on 3D-printing a magnetic core.
 > 
 ## Interpretation
 ## Ideas
 Figure out what the field is currently trying to tackle.
+
+## Connections
