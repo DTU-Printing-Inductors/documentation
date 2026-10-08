@@ -1,0 +1,535 @@
+/* Literature Graph styles. */
+
+/* Citations panel. Built from Obsidian's own tree classes, like the backlinks pane. */
+.literature-graph-panel-title {
+	font-weight: var(--font-semibold);
+	padding: var(--size-4-2) var(--size-4-2) var(--size-4-1);
+}
+
+.literature-graph-section-header {
+	font-weight: var(--font-semibold);
+	color: var(--text-muted);
+}
+
+.literature-graph-status {
+	display: flex;
+	align-items: center;
+	margin-inline-end: var(--size-4-1);
+	color: var(--text-success);
+}
+
+.literature-graph-work.is-doi .literature-graph-status {
+	color: var(--text-muted);
+}
+
+.literature-graph-work.is-broken .literature-graph-status,
+.literature-graph-work.is-broken .literature-graph-work-label {
+	color: var(--text-error);
+}
+
+.literature-graph-work-detail {
+	font-size: var(--font-ui-smaller);
+	color: var(--text-muted);
+}
+
+.literature-graph-passage {
+	font-size: var(--font-ui-smaller);
+	color: var(--text-muted);
+	padding-inline-start: var(--size-4-8);
+}
+
+.literature-graph-subsection {
+	font-size: var(--font-ui-smaller);
+	font-weight: var(--font-semibold);
+	color: var(--text-muted);
+}
+
+.literature-graph-work.is-entry .literature-graph-status {
+	color: var(--text-faint);
+}
+
+/*
+ * Literature graph view. As specific as Obsidian's
+ * `.workspace-leaf-content .view-content`, which otherwise wins and lets the
+ * view scroll. `clip`, not `hidden`: a hidden overflow can still be scrolled
+ * by the browser (to bring a focused slider of the panel into view), which
+ * pushed the panel's buttons out of sight.
+ */
+.workspace-leaf-content .view-content.literature-graph-view {
+	position: relative;
+	padding: 0;
+	overflow: clip;
+}
+
+.literature-graph-view canvas {
+	display: block;
+}
+
+.literature-graph-view-status {
+	position: absolute;
+	left: var(--size-4-3);
+	bottom: var(--size-4-2);
+	font-size: var(--font-ui-smaller);
+	color: var(--text-muted);
+	pointer-events: none;
+}
+
+.literature-graph-view-hint {
+	position: absolute;
+	left: var(--size-4-2);
+	bottom: calc(var(--size-4-2) + 1.6em);
+	max-width: calc(100% - var(--size-4-4));
+	padding: var(--size-2-1) var(--size-4-2);
+	border-radius: var(--radius-s);
+	/* Readable over the graph's lines, in the theme's colors. */
+	background-color: color-mix(in srgb, var(--background-primary) 85%, transparent);
+	font-size: var(--font-ui-small);
+	color: var(--text-normal);
+	pointer-events: none;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.literature-graph-view-hint.is-hidden {
+	display: none;
+}
+
+.literature-graph-view-hint-action {
+	color: var(--text-muted);
+}
+
+/* "→ cites 5 · ← cited by 3", each in the color of its arrows (set by the view). */
+.literature-graph-view-hint-arrow {
+	color: var(--literature-graph-arrow, var(--text-muted));
+	font-weight: var(--font-semibold);
+}
+
+/*
+ * The buttons of the graph in a column along its right edge, and the open
+ * panel to their left. The row lets clicks through where it is empty.
+ */
+.literature-graph-side {
+	position: absolute;
+	top: var(--size-4-2);
+	right: var(--size-4-2);
+	height: calc(100% - var(--size-4-4));
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: flex-start;
+	gap: var(--size-4-2);
+	pointer-events: none;
+}
+
+.literature-graph-side > * {
+	pointer-events: auto;
+}
+
+.literature-graph-toolbar {
+	flex: none;
+	display: flex;
+	flex-direction: column;
+	gap: var(--size-2-1);
+	padding: var(--size-2-1);
+	background-color: var(--background-primary);
+	border: 1px solid var(--background-modifier-border);
+	border-radius: var(--radius-m);
+	box-shadow: var(--shadow-s);
+}
+
+.literature-graph-toolbar .clickable-icon.is-active {
+	color: var(--text-accent);
+}
+
+/* The settings and display panels, to the left of the buttons. */
+.literature-graph-controls {
+	flex: none;
+	width: 280px;
+	max-height: 100%;
+	overflow-y: auto;
+	background-color: var(--background-primary);
+	border: 1px solid var(--background-modifier-border);
+	border-radius: var(--radius-m);
+	box-shadow: var(--shadow-s);
+	padding: var(--size-4-1) var(--size-4-3);
+}
+
+.literature-graph-controls.is-collapsed {
+	display: none;
+}
+
+/* In the narrow panels, a setting with a description puts it above its controls. */
+.literature-graph-controls .setting-item.literature-graph-setting-stacked {
+	flex-wrap: wrap;
+	row-gap: var(--size-2-3);
+}
+
+.literature-graph-controls .setting-item.literature-graph-setting-stacked .setting-item-info {
+	flex: 1 0 100%;
+	margin-inline-end: 0;
+}
+
+.literature-graph-controls .setting-item.literature-graph-setting-stacked .setting-item-control {
+	flex: 1 0 100%;
+	justify-content: flex-start;
+}
+
+.literature-graph-controls .setting-item.literature-graph-setting-stacked .setting-item-control .dropdown {
+	flex: 1 1 auto;
+	min-width: 0;
+}
+
+.literature-graph-controls .setting-item {
+	padding: var(--size-4-2) 0;
+}
+
+/* Color groups in the graph's panel: query, color, remove, on one line. */
+.literature-graph-group .setting-item-info {
+	display: none;
+}
+
+.literature-graph-group .setting-item-control {
+	flex: 1;
+	justify-content: flex-start;
+}
+
+.literature-graph-group .setting-item-control input[type="text"] {
+	flex: 1;
+	min-width: 0;
+}
+
+.literature-graph-controls .literature-graph-groups .setting-item {
+	border-top: none;
+	padding: var(--size-2-2) 0;
+}
+
+.literature-graph-view:not(.is-local) .literature-graph-local-only {
+	display: none;
+}
+
+/* Ghost note of a work outside the vault: it looks like a note, but is not one yet. */
+.literature-graph-work-view {
+	padding: var(--size-4-6) var(--size-4-8);
+	max-width: var(--file-line-width);
+	margin: 0 auto;
+}
+
+.literature-graph-work-banner {
+	padding: var(--size-4-2) var(--size-4-3);
+	margin-bottom: var(--size-4-4);
+	border: 1px dashed var(--background-modifier-border);
+	border-radius: var(--radius-m);
+	color: var(--text-muted);
+	font-size: var(--font-ui-small);
+}
+
+.literature-graph-work-buttons {
+	display: flex;
+	flex-wrap: wrap;
+	gap: var(--size-4-2);
+	margin-top: var(--size-4-2);
+}
+
+.literature-graph-work-button {
+	display: inline-flex;
+	align-items: center;
+	gap: var(--size-4-1);
+}
+
+.literature-graph-work-title {
+	opacity: 0.85;
+}
+
+.literature-graph-work-properties {
+	display: grid;
+	grid-template-columns: max-content 1fr;
+	gap: var(--size-2-2) var(--size-4-3);
+	margin-bottom: var(--size-4-4);
+	font-size: var(--font-ui-small);
+}
+
+.literature-graph-work-property-key {
+	color: var(--text-muted);
+	align-self: center;
+}
+
+.literature-graph-work-properties input {
+	width: 100%;
+}
+
+.literature-graph-work-property-extra {
+	grid-column: 1 / -1;
+	color: var(--text-faint);
+	font-family: var(--font-monospace);
+}
+
+.literature-graph-work-body {
+	width: 100%;
+	min-height: 40vh;
+	font-family: var(--font-text);
+	font-size: var(--font-text-size);
+	resize: vertical;
+}
+
+.literature-graph-work-status {
+	color: var(--text-muted);
+	margin-bottom: var(--size-4-2);
+}
+
+/* Reading suggestions: a list at the left of the graph view. */
+.literature-graph-suggestions {
+	position: absolute;
+	/* Below the search field. */
+	top: calc(var(--size-4-2) + var(--input-height) + var(--size-4-2));
+	left: var(--size-4-2);
+	width: 300px;
+	max-width: calc(100% - var(--size-4-4));
+	max-height: calc(100% - var(--size-4-8) - var(--input-height) - 3em);
+	overflow-y: auto;
+	background-color: var(--background-primary);
+	border: 1px solid var(--background-modifier-border);
+	border-radius: var(--radius-m);
+	box-shadow: var(--shadow-s);
+	padding: 0 var(--size-4-2) var(--size-4-2);
+	font-size: var(--font-ui-small);
+}
+
+.literature-graph-suggestions.is-hidden {
+	display: none;
+}
+
+.literature-graph-suggestions-header {
+	position: sticky;
+	top: 0;
+	z-index: 1;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: var(--size-4-1) 0;
+	background-color: var(--background-primary);
+}
+
+.literature-graph-suggestions-title {
+	font-weight: var(--font-semibold);
+}
+
+.literature-graph-suggestions-desc,
+.literature-graph-suggestions-empty {
+	color: var(--text-muted);
+	font-size: var(--font-ui-smaller);
+	margin-bottom: var(--size-4-2);
+}
+
+.literature-graph-suggestion {
+	display: flex;
+	align-items: flex-start;
+	gap: var(--size-4-2);
+	padding: var(--size-2-2) var(--size-2-3);
+	border-radius: var(--radius-s);
+	cursor: pointer;
+}
+
+.literature-graph-suggestion:hover {
+	background-color: var(--background-modifier-hover);
+}
+
+.literature-graph-suggestion-rank {
+	min-width: 2em;
+	text-align: right;
+	color: var(--text-faint);
+}
+
+.literature-graph-suggestion-text {
+	flex: 1;
+	min-width: 0;
+}
+
+.literature-graph-suggestion-title {
+	color: var(--text-muted);
+	font-size: var(--font-ui-smaller);
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+/* Tabs of the list: all works, or those OpenAlex does not know. */
+.literature-graph-suggestions-tabs {
+	display: flex;
+	gap: var(--size-2-2);
+	margin-bottom: var(--size-4-2);
+}
+
+.literature-graph-suggestions-tab {
+	padding: var(--size-2-1) var(--size-4-2);
+	border-radius: var(--radius-s);
+	font-size: var(--font-ui-smaller);
+	color: var(--text-muted);
+	cursor: pointer;
+}
+
+.literature-graph-suggestions-tab:hover {
+	background-color: var(--background-modifier-hover);
+}
+
+.literature-graph-suggestions-tab.is-active {
+	background-color: var(--background-modifier-active-hover);
+	color: var(--text-normal);
+}
+
+/* The whole reference of a work OpenAlex does not know, to find it by hand. */
+.literature-graph-suggestion-reference {
+	color: var(--text-muted);
+	font-size: var(--font-ui-smaller);
+	user-select: text;
+}
+
+.literature-graph-suggestion-actions {
+	display: flex;
+	gap: var(--size-2-1);
+	margin-top: var(--size-2-1);
+}
+
+.literature-graph-suggestion-score {
+	color: var(--text-accent);
+	font-variant-numeric: tabular-nums;
+}
+
+.literature-graph-suggestions-more {
+	width: 100%;
+	margin-top: var(--size-4-2);
+}
+
+/* A discreet warning in the citations panel: another note seems to be the same work. */
+.literature-graph-duplicate {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 0 var(--size-2-2);
+	margin: 0 var(--size-4-2) var(--size-4-2);
+	font-size: var(--font-ui-smaller);
+	color: var(--text-warning);
+}
+
+.literature-graph-duplicate-icon {
+	display: flex;
+}
+
+.literature-graph-duplicate-icon svg {
+	width: var(--icon-xs);
+	height: var(--icon-xs);
+}
+
+.literature-graph-duplicate-link {
+	cursor: pointer;
+}
+
+/* "Find duplicate works". */
+.literature-graph-duplicates-group {
+	padding: var(--size-4-2) 0;
+	border-top: 1px solid var(--background-modifier-border);
+}
+
+.literature-graph-duplicates-reason {
+	font-size: var(--font-ui-smaller);
+	color: var(--text-muted);
+}
+
+.literature-graph-duplicates-note {
+	color: var(--text-accent);
+	cursor: pointer;
+}
+
+.literature-graph-duplicates-note:hover {
+	text-decoration: underline;
+}
+
+/* Search field of the graph view. */
+.literature-graph-search {
+	position: absolute;
+	top: var(--size-4-2);
+	left: var(--size-4-2);
+	width: 240px;
+	max-width: calc(100% - var(--size-4-4) - 60px);
+}
+
+.literature-graph-search input {
+	width: 100%;
+	background-color: var(--background-primary);
+	box-shadow: var(--shadow-s);
+}
+
+.literature-graph-search-title {
+	font-size: var(--font-ui-smaller);
+	color: var(--text-muted);
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+/* "Citations from": one checkbox per source, on one line in the graph's panel. */
+.literature-graph-controls .setting-item-control .literature-graph-source {
+	display: inline-flex;
+	align-items: center;
+	gap: var(--size-2-1);
+	font-size: var(--font-ui-smaller);
+}
+
+/* Coloring by topic: the main topics of the graph and their colors, in the panel. */
+.literature-graph-topics {
+	display: flex;
+	flex-direction: column;
+	gap: var(--size-2-1);
+	padding-bottom: var(--size-4-2);
+	font-size: var(--font-ui-smaller);
+}
+
+.literature-graph-topic {
+	display: flex;
+	align-items: center;
+	gap: var(--size-4-2);
+}
+
+.literature-graph-topic-swatch {
+	flex: none;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: var(--literature-graph-topic);
+}
+
+.literature-graph-topic-name {
+	flex: 1;
+	min-width: 0;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.literature-graph-topic-count {
+	color: var(--text-faint);
+	font-variant-numeric: tabular-nums;
+}
+
+/* Nothing to show: a message in the middle of the graph, and why. */
+.literature-graph-empty {
+	position: absolute;
+	inset: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: var(--size-4-3);
+	padding: var(--size-4-8);
+	pointer-events: none;
+	text-align: center;
+	color: var(--text-muted);
+}
+
+.literature-graph-empty > * {
+	pointer-events: auto;
+	max-width: 420px;
+}
+
+.literature-graph-empty.is-hidden {
+	display: none;
+}

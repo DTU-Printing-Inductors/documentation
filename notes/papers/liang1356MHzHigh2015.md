@@ -4,6 +4,7 @@ Year: "2015"
 Author: Wei Liang, John Glaser, Juan Rivas
 Tags:
   - "#paper"
+  - skimmed
 URL: http://ieeexplore.ieee.org/document/6897989/
 DOI: 10.1109/TPEL.2014.2357398
 Cite Key: "[@liang1356MHzHigh2015]"

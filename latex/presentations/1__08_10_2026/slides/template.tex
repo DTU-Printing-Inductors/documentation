@@ -1,0 +1,101 @@
+\begin{frame}{Colors}
+\begin{testcolors}[rgb,cmyk]
+\testcolor{dtured}
+\testcolor{white}
+\testcolor{black}
+\testcolor{blue}
+\testcolor{brightgreen}
+\testcolor{navyblue}
+\testcolor{yellow}
+\testcolor{orange}
+\testcolor{pink}
+\testcolor{red}
+\testcolor{green}
+\testcolor{purple}
+\end{testcolors}
+\end{frame}
+
+\begin{frame}{Graphs and figures}
+\section{Tables and figures}
+
+\begin{table}[H]
+\centering
+\label{tab:tableExample}
+\begin{tabular}{@{}llS@{}}
+\toprule
+\multicolumn{2}{c}{Item} &            \\ \cmidrule(r){1-2}
+Animal     & Description & Price (\$) \\ \midrule
+Gnat       & per gram    & 13.65      \\
+           & each        & 0.01       \\
+Gnu        & stuffed     & 92.50      \\
+Emu        & stuffed     & 33.33      \\
+Armadillo  & frozen      & 8.99       \\ \bottomrule
+\end{tabular}
+\end{table}
+\end{frame}
+
+\begin{frame}{Equations}
+The ideal gas law is shown in .
+\begin{equation}
+    p \cdot V = n \cdot R \cdot T
+\end{equation}
+
+\begin{equation} \label{eq:IME}
+    \frac{\partial}{\partial t} \int_{0}^{\delta} U dy = - \delta \frac{1}{\rho}\frac{\partial P}{\partial x}-U_f(t)^2
+\end{equation}
+
+\end{frame}
+
+\begin{frame}{More equations}
+\begin{equation}
+\begin{aligned} 
+    CH_3COOH + OH^{-} &\rightleftharpoons CH_3COO^{-} + H_2O \\
+    H_2O &\rightleftharpoons H^{+}_{(aq)} + OH^{-}_{(aq)}
+\end{aligned}
+\end{equation}
+
+
+\begin{align} 
+    \label{eq:align1}     
+    f(x) &= 1 + x - 3 x^2 \\
+    \label{eq:align2} 
+    g(x) + y &= 3x - \frac{1}{2} x^3 
+\end{align}
+\end{frame}
+
+\begin{frame}[allowframebreaks]{Probability}
+    \begin{block}{Law of total probability for random variables}
+    Let \(X,Y\) be random variables where \(x,y\) represent possible values, it holds that:
+    \[
+        P(x) = \sum_y P(x,y) = \sum_y P(x|y)\cdot P(y)
+    \]
+    \end{block}
+    \framebreak
+    
+    
+    \begin{block}{Bayes' theorem}
+    \begin{itemize}
+        \item For any two events \(A\) and \(B\) in the sample space \(S\), where \(\mathds{P}(B) \neq 0\), it holds that
+        \[\mathds{P}(A|B) = \frac{\mathds{P}(P|A) \cdot \mathds{P}(A)}{\mathds{P}(B)}\]
+        \item Let \(A_1, A_2, \dots , A_K\) be a \textit{partition} of the sample space \(S\). Using the \textit{law of total probability} for \(\mathds{P}(B)\), it then holds that:
+        \[
+            \mathds{P}(A_j | B) = \frac{\mathds{P}(B|A_j) \cdot \mathds{(A_j)}}{\sum_k \mathds{P}(B|A_k) \cdot \mathds{P}(A_k)}
+        \]
+    \end{itemize}
+    \end{block}
+\end{frame}
+
+\begin{frame}{Generalising problem-solving by searching}
+
+So far we have only considered search problems in environments that are:
+\begin{itemize}
+    \item \textbf{Single agent.} There is a single agent acting, the one we control.
+    \item \textbf{Static.} When the agent is not acting, the world doesn't change.
+    \item \textbf{Deterministic.} Every action has a unique outcome.
+    \item \textbf{Fully observable.} The full state description is accessible to the agent.
+\end{itemize}
+Problem solving in the real world rarely satisfies these assumptions.
+
+Today, we will drop the assumption that the environment is deterministic and fully observable. We will also shortly consider generalising beyond single-agent and static environments.
+
+\end{frame}

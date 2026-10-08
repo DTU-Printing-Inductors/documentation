@@ -4,6 +4,7 @@ Year: "2016"
 Author: Wei Liang, Luke Raymond, Juan Rivas
 Tags:
   - "#paper"
+  - skimmed
 URL: http://ieeexplore.ieee.org/document/7116563/
 DOI: 10.1109/TPEL.2015.2441005
 Cite Key: "[@liang3DPrintedAirCoreInductors2016]"

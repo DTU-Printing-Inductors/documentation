@@ -4,6 +4,7 @@ Year: "2017"
 Author: Lindsey M. Bollig, Peter J. Hilpisch, Greg S. Mowry, Brittany B. Nelson-Cheeseman
 Tags:
   - "#paper"
+  - read
 URL: https://linkinghub.elsevier.com/retrieve/pii/S0304885317309423
 DOI: 10.1016/j.jmmm.2017.06.070
 Cite Key: "[@bollig3DPrintedMagnetic2017]"

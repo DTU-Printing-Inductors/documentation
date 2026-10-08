@@ -58,3 +58,4 @@ Entry: "[[Additive_manufacturing_of_magnetic_components_for_power_electronics_in
 [[Magnetic-core inductors]]
 [[electrical resistivity]]
 [[SEM]]
+[[Voids and cracks]]

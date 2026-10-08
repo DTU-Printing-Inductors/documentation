@@ -1,0 +1,55 @@
+\mode<presentation>
+
+\usefonttheme{DTU}
+\useoutertheme{DTU}
+\useinnertheme{DTU}
+\usecolortheme{DTU}
+
+\setbeamertemplate{items}[circle]
+\setbeamercolor{itemize item}{fg=\chosencolor}
+\setbeamercolor{itemize subitem}{fg=\chosencolor}
+
+\setbeamertemplate{enumerate items}[circle]
+\setbeamercolor{item projected}{fg=white,bg=\chosencolor}
+
+\setbeamercolor{block title}{fg=white,bg=\chosencolor}
+\setbeamerfont{block title}{series=\bfseries\small}
+\setbeamercolor{block body}{fg=black,bg=gray!5}
+
+\setbeamercolor{bibliography item}{fg=\chosencolor}
+\setbeamercolor*{bibliography entry author}{fg=\chosencolor}
+\setbeamercolor*{bibliography entry title}{fg=black}
+\setbeamercolor*{bibliography entry location}{fg=\chosencolor}
+\setbeamercolor*{bibliography entry note}{fg=\chosencolor}
+
+\setbeamerfont{section in toc}{size=\normalsize}
+\setbeamerfont{subsection in toc}{size=\small}
+\setbeamerfont{subsubsection in toc}{size=\scriptsize}
+
+% Table of contents
+\setbeamertemplate{section in toc}{%
+  \hskip1em{\color{\chosencolor}$\bullet$  \inserttocsection} \par}
+
+\setbeamertemplate{subsection in toc}{
+  \hskip3em{\color{\chosencolor}$\bullet$ \inserttocsubsection} \par}
+
+\setbeamertemplate{subsubsection in toc}{
+  \hskip5em{\color{\chosencolor}$\circ$ \inserttocsubsubsection} \par}
+
+% Fix space between sections and subsections in toc
+\makeatletter
+\patchcmd{\beamer@sectionintoc}
+{\vfill}
+{\vskip\itemsep}
+{}
+{}
+\pretocmd{\beamer@subsectionintoc}
+{\vskip0.5\itemsep}
+{}
+{}
+\makeatother 
+
+\setbeamercolor{background canvas}{bg = \chosencolor}
+
+\mode
+<all>
