@@ -10,6 +10,7 @@
     "highTextContrast": false
   },
   "knownTags": {
+    "not-read": 6,
     "paper": 1,
     "read": 4,
     "skimmed": 5
