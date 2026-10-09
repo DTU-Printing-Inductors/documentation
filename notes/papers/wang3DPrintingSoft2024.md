@@ -18,3 +18,4 @@ Interesting paper, Chapter 8 is interesting
 ## Ideas
 
 ## Connections
+This paper cites the work from [[Chemnitz University of Technology]] group

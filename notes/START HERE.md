@@ -1,11 +1,12 @@
 ## Initial goal
 Learn and map the field of 3d-printed soft magnetic materials for inductors, so that a research gaps could be indentified, and one chosen that is the easiest and most feasable to solve.
 
-## Potential Research questions
+## The first paper I read
+[[weiAdvances3DPrinting2022]]
 
-Can we adjust printing parameters to achieve multipermeability magnetic core without the use of different permeability materials?
-
-## Major research directions
+## Potential reads
+[[chaudharyAdditiveManufacturingMagnetic2020]] Another review worth checking out
+[[wang3DPrintingSoft2024]] Another review 
 
 ## Research direction tracker
 
@@ -16,38 +17,3 @@ Can we adjust printing parameters to achieve multipermeability magnetic core wit
 | Air-core inductors               | Paused     | Two papers in the vault     | The focus is to explore magnetic material printing.                                         | If an air-core approach becomes relevant | Reassess relevance            |
 | FDM magnetic composites          | Revisit    | Some paper notes            | Initially to not to go too deep yet                                                         | If polymer composites become relevant    | Compare limitations           |
 | SLM magnetics                    | Unexplored | Review-level reading        | Didn't investigate further as it might be difficult and no real multi-material capabilities | If SLM becomes relevant                  | Read review papers on it      |
-
-### 1. Printed magnetic materials
-- [[Ferrite]]
-- [[Iron]]
-- [[Magnetic composites]]
-
-### 2. Printing processes
-- [[DIW]]
-- [[FDM]]
-- [[SLA]]
-- [[Sintering]]
-
-### 3. Printed conductors
-- [[Silver paste]]
-
-### 4. Magnetic component architectures
-- [[Magnetic-core inductors]]
-- [[Air-core inductors]]
-- [[Constant-flux inductor]]
-- [[Multipermeability magnetic cores]]
-
-### 5. Performance limitations
-- [[Permeability]]
-- [[Core loss]]
-- [[Electrical resistivity]]
-- [[Voids and cracks]]
-
-## Research lineages
-[[Virginia Tech, Department of Materials Science and Engineering]]
-## Open questions
-- Why is high magnetic loading difficult to combine with printability?
-- How does the binder/feedstock affect final magnetic properties?
-- What limits permeability in printed magnetic cores?
-- When is sintering necessary?
-- What magnetic geometries actually benefit from 3D printing?

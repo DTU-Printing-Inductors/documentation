@@ -32,6 +32,3 @@ This paper basically creates an air gap inductor with castable wax resin, and th
 Why after casting was it not submerged in magnetic liquid to increase the permeability?
 
 ## Connections
-[[SLA]]
-[[casting]]
-[[PCB inductor]]

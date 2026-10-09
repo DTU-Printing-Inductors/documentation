@@ -15,7 +15,7 @@ Entry: "[[Additive_manufacturing_of_magnetic_components_for_power_electronics_in
 > [!PDF|] [[Additive_manufacturing_of_magnetic_components_for_power_electronics_integration.pdf#page=2&selection=68,0,70,5|Additive_manufacturing_of_magnetic_components_for_power_electronics_integration, p.2]]
 > > To print electrical winding of magnetic components, we tested our nanosilver paste developed for chip bonding [12], [13].
 >  
->  Proprietary and developed [[Silver paste]].
+>  Proprietary and developed Silver paste.
 > 
 
 > [!PDF|] [[Additive_manufacturing_of_magnetic_components_for_power_electronics_integration.pdf#page=2&selection=79,0,93,5|Additive_manufacturing_of_magnetic_components_for_power_electronics_integration, p.2]]
@@ -42,20 +42,9 @@ Entry: "[[Additive_manufacturing_of_magnetic_components_for_power_electronics_in
 > [!PDF|red] [[Additive_manufacturing_of_magnetic_components_for_power_electronics_integration.pdf#page=3&selection=99,0,105,61&color=red|Additive_manufacturing_of_magnetic_components_for_power_electronics_integration, p.3]]
 > > Figure 6 is a plot of the complex permeability dispersion spectra (black lines) of a Poly-Mag toroid made by the 3D printer. Also plotted in the figure, in red, is the complex permeability dispersion spectra of an injection-molded PolyMag core. The relative permeability of the printed core is 9, only 10% lower than that of the injection-molded core. Both of the cores had stable real parts of permeability beyond 30MHz.
 > 
-> [[DIW]] manufactured toroid compared to [[injection molding]] had 10% lower relative permeability.
+> DIW manufactured toroid compared to injection molding had 10% lower relative permeability.
 
 ## Ideas
-> [!PDF|note] [[Additive_manufacturing_of_magnetic_components_for_power_electronics_integration.pdf#page=3&selection=26,9,28,36&color=note|Additive_manufacturing_of_magnetic_components_for_power_electronics_integration, p.3]]
-> > Figure 5 shows the 3D-printing process to form a planar inductor, the heating profile used to harden the printed part, and a finished planar inductor
-> 
-> Planar geometry was printed, future would entail 3D complex geometries, already done by the next paper from the same group. [[yanAdditiveManufacturingToroid2017]]
 
 ## Connections
-[[DIW]]
-[[sintering]]
-[[Silver paste]]
-[[permeability]]
-[[Magnetic-core inductors]]
-[[electrical resistivity]]
-[[SEM]]
-[[Voids and cracks]]
+This paper is continued in [[yanAdditiveManufacturingToroid2017]]

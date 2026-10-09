@@ -29,12 +29,12 @@ Entry: "[[1-s2.0-S0304885317309423-main.pdf]]"
 > [!PDF|] [[1-s2.0-S0304885317309423-main.pdf#page=3&selection=4,56,7,44|1-s2.0-S0304885317309423-main, p.99]]
 > > A hysteresis loop for each core can be measured by graphing the output voltage versus the input current of a saturated core. This loop can be used to determine the efficiency of the core.
 > 
-> [[Hysteresis loop]] measurment is the methodology, but specifically as an IV curve.
+> Hysteresis loop measurment is the methodology, but specifically as an IV curve.
 
 > [!PDF|] [[1-s2.0-S0304885317309423-main.pdf#page=3&selection=15,0,34,22|1-s2.0-S0304885317309423-main, p.99]]
 > > The structural and magnetic properties of the filament material were also investigated to shed light on the properties of the printed cores. To investigate the Fe particulate shape, orientation, and dispersion within the PLA matrix, scanning electron microscopy (SEM) was used on the pre-printed filament and a post-printed object cross-section. 
 > 
-> [[SEM]] was used to investigate the Fe material properties.
+> SEM was used to investigate the Fe material properties.
 
 > [!PDF|] [[1-s2.0-S0304885317309423-main.pdf#page=3&selection=54,0,65,52|1-s2.0-S0304885317309423-main, p.99]]
 > > The printed cores generated nonsaturating hysteresis loops. The power amplifier is unable to saturate the printed transformer cores due to insufficient amplification of the current produced from the function generator.
@@ -73,7 +73,3 @@ Entry: "[[1-s2.0-S0304885317309423-main.pdf]]"
 > > Finally, the transformer geometry (diameter/radius ratio) and turn ratio could also be modified to optimize the performance.
 
 ## Connections
-[[FDM]]
-[[PLA]]
-[[Iron]]
-[[Magnetic-core inductors]]

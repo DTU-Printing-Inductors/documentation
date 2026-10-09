@@ -1,1 +1,0 @@
-DIW manufactured magnetic core had 10% less relative permeability, due to presence of voids and cracks induced in the manufacturing process.  [[yiyanAdditiveManufacturingMagnetic2016]]

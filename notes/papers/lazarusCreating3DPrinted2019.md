@@ -17,6 +17,4 @@ Entry: "[[1-s2.0-S2214860418309126-main.pdf]]"
 ## Ideas
 
 ## Connections
-[[Ferrofluid]]
-[[Silver paste]]
-[[SLA]]
+This paper was referenced in [[weiAdvances3DPrinting2022]]

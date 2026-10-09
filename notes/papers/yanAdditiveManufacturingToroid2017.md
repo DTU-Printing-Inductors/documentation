@@ -21,7 +21,7 @@ Entry: "[[Additive_Manufacturing_of_Toroid_Inductor_for_Power_Electronics_Applic
 > > This manufacturing approach gives rise to bulky discrete components and precludes the implementation of high-density high-performance integrated geometries. For example, the constant-flux magnetic component structures shown in Fig. 1(c) cannot be fabricated by current manufacturing processes [5], [6]. 
 > ![[Additive_Manufacturing_of_Toroid_Inductor_for_Power_Electronics_Applications.pdf#page=1&rect=433,502,511,548|Additive_Manufacturing_of_Toroid_Inductor_for_Power_Electronics_Applications, p.1]]
 > 
-> Constant-flux magnetic component here refers to [[Constant-flux inductor]]. 
+> Constant-flux magnetic component here refers to Constant-flux inductor. 
 
 > [!PDF|] [[Additive_Manufacturing_of_Toroid_Inductor_for_Power_Electronics_Applications.pdf#page=2&selection=52,36,55,25|Additive_Manufacturing_of_Toroid_Inductor_for_Power_Electronics_Applications, p.2]]
 > > In 2016, our research group was the first to report [[yiyanAdditiveManufacturingMagnetic2016|13]] the feasibility of fabricating magnetic components with both winding and magnetic cores by using the 3-D printer.
@@ -36,7 +36,7 @@ Entry: "[[Additive_Manufacturing_of_Toroid_Inductor_for_Power_Electronics_Applic
 > [!PDF|yellow] [[Additive_Manufacturing_of_Toroid_Inductor_for_Power_Electronics_Applications.pdf#page=2&selection=101,0,109,54&color=yellow|Additive_Manufacturing_of_Toroid_Inductor_for_Power_Electronics_Applications, p.2]]
 > > A low-temperature (<250 °C) curable magnetic paste consisting of soft magnetic fillers and a thermoset polymer called poly-mag paste was formulated by extending our prior research experience in the development of the nanosilver paste.
 > 
-> Proprietary [[Silver paste]] was used.
+> Proprietary Silver paste was used.
 
 > [!PDF|yellow] [[Additive_Manufacturing_of_Toroid_Inductor_for_Power_Electronics_Applications.pdf#page=2&selection=136,29,139,63&color=yellow|Additive_Manufacturing_of_Toroid_Inductor_for_Power_Electronics_Applications, p.2]]
 > >  Other organic components, such as dispersant and solvent to create uniform suspensions of the magnetic fillers in the organic system, were added to produce the paste with good particle dispersion, flowability, and viscosity.
@@ -44,7 +44,7 @@ Entry: "[[Additive_Manufacturing_of_Toroid_Inductor_for_Power_Electronics_Applic
 > Same thing as the previous paper
 
 > [!PDF|yellow] [[Additive_Manufacturing_of_Toroid_Inductor_for_Power_Electronics_Applications.pdf#page=3&selection=15,0,17,16&color=yellow|Additive_Manufacturing_of_Toroid_Inductor_for_Power_Electronics_Applications, p.3]]
-> > To investigate the magnetic properties of the poly-mag paste, the paste was fabricated into toroid core shapes by an [[injection molding]] process.
+> > To investigate the magnetic properties of the poly-mag paste, the paste was fabricated into toroid core shapes by an injection molding process.
 > 
 
 
@@ -83,14 +83,4 @@ Entry: "[[Additive_Manufacturing_of_Toroid_Inductor_for_Power_Electronics_Applic
 > > To effectively reduce the core-loss density, we would need to use thinner Metglas flakes and aligning them along the flux direction [24].
 
 ## Connections
-[[DIW]]
-[[Silver paste]]
-[[Magnetic-core inductors]]
-[[permeability]]
-[[inductance]]
-[[impedance]]
-[[SEM]]
-[[electrical resistivity]]
-[[sintering]]
-[[core loss]]
-
+This work built upon the work of [[yiyanAdditiveManufacturingMagnetic2016]]

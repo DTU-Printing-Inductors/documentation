@@ -17,3 +17,4 @@ Entry: "[[Guan_2018_Mater._Res._Express_5_115303.pdf]]"
 ## Ideas
 
 ## Connections
+This paper was cited from [[weiAdvances3DPrinting2022]]
