@@ -14,7 +14,7 @@ After some years, the group moved from screen printing to AM, and the primary au
 
 2017 As the sintering temperatures remained 250 for the iron filled paste and 950 for the NiCuZn there were attempts at decreasing the temperature, and they investigated material properties of molded paste at 250 still. "Design, Fabrication, and Characterization of a Low-Temperature Curable Magnetic Composite for Power Electronics Integration"
 
-2018 Then they attempted multipermeability, in "Design and additive manufacturing of multipermeability magnetic cores"
+2018 Then they attempted multipermeability [liuDesignAdditiveManufacturing2018]
 
 Eventually Yi Yan got hired by Texas instruments and then she started filing patents.
 
