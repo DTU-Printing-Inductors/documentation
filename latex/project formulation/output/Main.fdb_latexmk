@@ -1,17 +1,16 @@
 # Fdb version 4
-["bibtex output/Main"] 0 "output/Main.aux" "output/Main.bbl" "output/Main" 1791881117.90556 0
-  "c:/texlive/2026/texmf-dist/bibtex/bst/base/ieeetr.bst" 1791449412 18361 1a00e58565e7f19bf2b3e1bfb82254ae ""
+["bibtex output/Main"] 0 "output/Main.aux" "output/Main.bbl" "output/Main" 1791902288.72035 0
+  "../../../pdfs/bibliography.bib" 0 -1 0 ""
   "c:/texlive/2026/texmf-dist/bibtex/bst/base/unsrt.bst" 1791449412 18030 1376b4b231b50c66211e47e42eda2875 ""
   "output/Main.aux" 0 -1 0 "pdflatex"
-  "pdfs/bibliography.bib" 0 -1 0 ""
   (generated)
   "output/Main.bbl"
   "output/Main.blg"
   (rewritten before read)
-["pdflatex"] 1791881113.84363 "c:/Users/artfi/OneDrive - Danmarks Tekniske Universitet/Research/documentation/latex/project formulation/Main.tex" "output/Main.pdf" "Main" 1791881117.90661 0
-  "Contents/Problem_statement.tex" 1791881112 849 d9acaa56cd3938daa1de84fd1e009061 ""
-  "Main.tex" 1791881112 1876 6a1a2af1d9810a106d2a4f5a5cc03642 ""
-  "c:/Users/artfi/OneDrive - Danmarks Tekniske Universitet/Research/documentation/latex/project formulation/Main.tex" 1791881112 1876 6a1a2af1d9810a106d2a4f5a5cc03642 ""
+["pdflatex"] 1791902284.97073 "c:/Users/artfi/OneDrive - Danmarks Tekniske Universitet/Research/documentation/latex/project formulation/Main.tex" "output/Main.pdf" "Main" 1791902288.72153 0
+  "Contents/Problem_statement.tex" 1791902277 5589 964d839dfd94496803c00cd29187a5a4 ""
+  "Main.tex" 1791888833 1894 0467d297f1284de286a0d07eb51448b7 ""
+  "c:/Users/artfi/OneDrive - Danmarks Tekniske Universitet/Research/documentation/latex/project formulation/Main.tex" 1791888833 1894 0467d297f1284de286a0d07eb51448b7 ""
   "c:/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1791449843 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2026/texmf-dist/fonts/map/fontname/texfonts.map" 1791451158 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2026/texmf-dist/fonts/tfm/jknappen/ec/ecbx1095.tfm" 1791450583 3584 21b378cca2e40816b0e6d74a4dc98f04 ""
@@ -23,9 +22,11 @@
   "c:/texlive/2026/texmf-dist/fonts/tfm/jknappen/ec/ecrm1440.tfm" 1791450583 3584 3169d30142b88a27d4ab0e3468e963a2 ""
   "c:/texlive/2026/texmf-dist/fonts/tfm/jknappen/ec/ecti1095.tfm" 1791450583 3072 b73d2778cc3af44970de4de5e032d7f6 ""
   "c:/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1791449834 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
+  "c:/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb" 1791449843 154600 32e699453da826d3cdd1305e7e476670 ""
   "c:/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb" 1791449843 140176 d0f50dba675c56d445f84a32c1f93a79 ""
   "c:/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb" 1791449843 135942 aecb5af344df420d6ec421db27dedf62 ""
   "c:/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb" 1791449843 145929 5c9aebea9ba6e33fc93158c04a3bdcd8 ""
+  "c:/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb" 1791449844 196446 823e77efd89b89faab342901e22eb237 ""
   "c:/texlive/2026/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1791453018 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "c:/texlive/2026/texmf-dist/tex/generic/babel-english/english.ldf" 1791449094 7008 9ff5fdcc865b01beca2b0fe4a46231d4 ""
   "c:/texlive/2026/texmf-dist/tex/generic/babel/babel.sty" 1791449074 152279 03eaa600f6ca7c5ba1cb6e93c1142352 ""
@@ -165,8 +166,8 @@
   "c:/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1791457991 5655996 795b756740562267ad2ae16e70168a76 ""
   "c:/texlive/2026/texmf-var/web2c/pdftex/pdflatex.fmt" 1791458138 3668393 39aa4a40a0a842a61bebb22e83d75bdc ""
   "c:/texlive/2026/texmf.cnf" 1791457953 713 e69b156964470283e0530f5060668171 ""
-  "output/Main.aux" 1791881116 1365 366000849ea2905ebe001921c0084a8c "pdflatex"
-  "output/Main.bbl" 1791880322 49 0eba253fc001332e731e8aba3f23127b "bibtex output/Main"
+  "output/Main.aux" 1791902287 1676 4cf8540bf8c25f023a7682e1bcb79217 "pdflatex"
+  "output/Main.bbl" 1791888803 283 bc69817feb69314e4e80e3418d7ae709 "bibtex output/Main"
   (generated)
   "output/Main.aux"
   "output/Main.log"

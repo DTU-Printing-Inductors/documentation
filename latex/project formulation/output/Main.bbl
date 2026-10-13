@@ -1,3 +1,9 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{1}
+
+\bibitem{valchevInductorsTransformersPower2018}
+Vencislav~Cekov Valchev and prefix=den~useprefix=false family=Bossche,
+  given=Alex~Van.
+\newblock {\em Inductors and {{Transformers}} for {{Power Electronics}}}.
+\newblock CRC Press.
 
 \end{thebibliography}
