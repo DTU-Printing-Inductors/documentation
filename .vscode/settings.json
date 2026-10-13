@@ -1,0 +1,38 @@
+{
+    "latex-workshop.latex.outDir": "%DIR%/output",
+    "latex-workshop.latex.autoBuild.run": "onSave",
+    "latex-workshop.latex.recipe.default": "lastUsed",
+    "latex-workshop.latex.tools": [
+        {
+            "name": "latexmk",
+            "command": "latexmk",
+            "args": [
+                "-pdf",
+                "-interaction=nonstopmode",
+                "-synctex=1",
+                "-outdir=%OUTDIR%",
+                "%DOC%"
+            ]
+        },
+        {
+            "name": "move-pdf",
+            "command": "powershell",
+            "args": [
+                "-NoProfile",
+                "-ExecutionPolicy",
+                "Bypass",
+                "-Command",
+                "$pdf = Join-Path '%OUTDIR%' '%DOCFILE%.pdf'; if (Test-Path -LiteralPath $pdf) { Move-Item -LiteralPath $pdf -Destination (Join-Path '%DIR%' '%DOCFILE%.pdf') -Force } else { throw \"Expected PDF was not created: $pdf\" }"
+            ]
+        }
+    ],
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "latexmk -> move PDF",
+            "tools": [
+                "latexmk",
+                "move-pdf"
+            ]
+        }
+    ]
+}

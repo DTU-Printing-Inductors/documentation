@@ -19,3 +19,4 @@ Interesting paper, Chapter 8 is interesting
 
 ## Connections
 This paper cites the work from [[Chemnitz University of Technology]] group
+This paper mentions the work from [[VTT, Aino Manninen]] group

@@ -1,0 +1,73 @@
+%-----------------------------------------------------%
+%             DO NOT CHANGE THE PREAMBLE              %
+%-----------------------------------------------------%
+
+\documentclass[a4paper,11pt,english]{article}
+\setcounter{tocdepth}{2}
+\setcounter{secnumdepth}{2}
+
+% Required LaTeX packages 
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[a4paper,left=1in,right=1in,top=1in,bottom=1in,bindingoffset=0in]{geometry}
+\usepackage{graphicx}
+\usepackage{import}
+\usepackage{verbatim} 
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{titlesec}
+\usepackage{afterpage}
+\usepackage{dashrule}
+\usepackage{algorithmic}
+\usepackage[ruled,vlined]{algorithm2e}
+\usepackage{multirow}
+\usepackage{comment}
+\usepackage{array}
+\usepackage{ragged2e}
+\usepackage{type1cm}
+\usepackage{epigraph}
+\usepackage{setspace}
+\usepackage{indentfirst}
+\usepackage[super]{nth}
+\usepackage{enumitem}
+\usepackage{caption}
+\usepackage{tikz}
+\usepackage{lastpage}
+\usepackage{subfiles}
+\usepackage{fancyhdr}
+\usepackage{url}
+\usepackage{babel,csquotes,xpatch}% recommended
+\usepackage[sort&compress]{natbib}
+\usepackage{float}
+\usepackage{subcaption}
+
+\bibliographystyle{ieeetr} % Change the type based on whatever
+
+
+
+% Custom Formatting
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[R]{Page \thepage\ of \pageref{LastPage}}
+\fancyhead[L]{Thesis Formulation}
+\renewcommand{\headrulewidth}{1pt}
+
+%-----------------------------------------------------%
+%                   BEGIN DOCUMENT                    %
+%-----------------------------------------------------%
+
+\begin{document}
+
+\begin{center}
+    \textbf{\LARGE }\\[1em]
+\end{center}
+
+\input{Contents/Problem_statement}
+
+
+\newpage
+%\section{Bibliography}
+\bibliographystyle{unsrt}  % unsrt orders citations by the order they are cited
+\bibliography{pdfs/bibliography}  % Replace 'references' with the name of your .bib file
+
+\end{document}
+

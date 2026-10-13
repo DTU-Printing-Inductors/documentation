@@ -1,6 +1,9 @@
 ## Hypothesis
 Can a material extrusion produce a functionally gradient material multi-permeability? (temporary)
 
+Can a filled magnetic composite and unfilled polymer matrix ratio be adjusted to control the magnetic properties?
+
+Can a pellet-fed extrusion process blend a highly filled magnetic composite with its unfilled polymer matrix at controlled ratios during printing, producing a spatially graded soft-magnetic core that improves a relevant inductor performance metric?
 
 ## Hardware
 [[2-in-1-out extruders]]
@@ -33,3 +36,4 @@ https://www.sciencedirect.com/science/article/pii/S2468067224000099?via%3Dihub
 ## Questions
 Will the pellets truly mix, have there been people that done what I will try?
 Have there been people that mix pellets on the go like me?
+Maybe there is a downside when it comes to sintering a graded magnetic material?
