@@ -19,6 +19,7 @@ Entry: "[[Design_and_Additive_Manufacturing_of_Multipermeability_Magnetic_Cores.
 > [!PDF|yellow] [[Design_and_Additive_Manufacturing_of_Multipermeability_Magnetic_Cores.pdf#page=1&selection=120,44,123,48&color=yellow|Design_and_Additive_Manufacturing_of_Multipermeability_Magnetic_Cores, p.1]]
 > > Having uniform distribution of magnetic flux throughout an inductor core, the volume of the inductor can be reduced without sacrificing its inductance, leading to a higher power density and efficiency.
 
+
 > [!PDF|yellow] [[Design_and_Additive_Manufacturing_of_Multipermeability_Magnetic_Cores.pdf#page=1&selection=139,15,141,25&color=yellow|Design_and_Additive_Manufacturing_of_Multipermeability_Magnetic_Cores, p.1]]
 > > These intricate configurations and geometries of cores and windings are difficult to fabricate, thus posing barriers for their implementation.
 > 
@@ -41,11 +42,9 @@ There still is no real argument to why altering printing parameters would be mor
 
 This thought process lead to the hypothesis formation [[Print parameter varying multi-permeability]]
 
-Another research gap would be continously doping while printing, so like a  extruder but it has two feeding channels, and we can adjust the magnetic particle loading on the fly, but then why not just do the geometry. This naturally lead to [[Co-extruded multi-permeability]]
+Another research gap would be continously doping while printing, so like a  extruder but it has two feeding channels, and we can adjust the magnetic particle loading on the fly, but then why not just do the geometry. This naturally lead to [[Functionally gradient material multi-permeability]]
 
 
-
-The resea
 
 > [!PDF|note] [[Design_and_Additive_Manufacturing_of_Multipermeability_Magnetic_Cores.pdf#page=1&selection=126,0,129,20&color=note|Design_and_Additive_Manufacturing_of_Multipermeability_Magnetic_Cores, p.1]]
 > > In order to reduce volume and increase power density of a magnetic component, several techniques have been reported [3]–[6] to improve the uniformity of magnetic flux distribution throughout the core.
@@ -53,8 +52,9 @@ The resea
 > Potentially this has been only explored in DIW + sintering setups. And exploring this concept in FDM might be new. And then we can potentially create the argument that altering print setting in these DIW + sintering setups don't matter in the end as it gets sintered, while polymer composited retain their original geometry. Need to investigate whether this has been done in FDM and does the argument stand.
 
 ## Connections
-This work built upon the work in[[yanAdditiveManufacturingToroid2017]]
+This work built upon the work in [[yanAdditiveManufacturingToroid2017]]
 This work is part of the [[Virginia Tech, Department of Materials Science and Engineering]]
+[[multi-permeability]]
 ## Summary
 - What problem are the authors trying to solve?
     

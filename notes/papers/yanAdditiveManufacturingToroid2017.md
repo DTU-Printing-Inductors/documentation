@@ -82,5 +82,6 @@ Entry: "[[Additive_Manufacturing_of_Toroid_Inductor_for_Power_Electronics_Applic
 > [!PDF|note] [[Additive_Manufacturing_of_Toroid_Inductor_for_Power_Electronics_Applications.pdf#page=5&selection=66,11,68,19&color=note|Additive_Manufacturing_of_Toroid_Inductor_for_Power_Electronics_Applications, p.5]]
 > > To effectively reduce the core-loss density, we would need to use thinner Metglas flakes and aligning them along the flux direction [24].
 
+Why was silver paste used instead of copper paste? Purely because it's more conductive, or does it have other more desired material properties.
 ## Connections
 This work built upon the work of [[yiyanAdditiveManufacturingMagnetic2016]]

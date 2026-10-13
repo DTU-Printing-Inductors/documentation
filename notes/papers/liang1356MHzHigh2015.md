@@ -17,3 +17,13 @@ Entry: "[[1356_MHz_High_Density_DCDC_Converter_With_PCB_Inductors.pdf]]"
 ## Ideas
 
 ## Connections
+
+## Direction conclusion
+Why I pursued it 
+I kept note of this direction, as it unique attempt at making 3d inductors.
+
+Why I paused or rejected it? (technical obstacle or just haven't investigated)
+I paused this direction as it is not directly relevant to 3d printing inductors.
+
+What would make me return? (a new paper, available hardware, a promising material, or evidence that the approach has an advantage)
+I would return if I find a paper involving a pcb inductor with 3d printing.

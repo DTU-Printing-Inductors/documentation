@@ -18,3 +18,13 @@ Entry: "[[1-s2.0-S2214860418309126-main.pdf]]"
 
 ## Connections
 This paper was referenced in [[weiAdvances3DPrinting2022]]
+This paper leads to Gabriel's idea of [[Ferrofluid cooled inductors.]]
+## Direction conclusion
+Why I pursued it 
+I kept note of this direction, as it is a great example of inductor using a ferrofluid.
+
+Why I paused or rejected it? (technical obstacle or just haven't investigated)
+I paused this direction as it is not directly relevant to 3d printing magnetics.
+
+What would make me return? (a new paper, available hardware, a promising material, or evidence that the approach has an advantage)
+I would return if other directions lead to a dead end.

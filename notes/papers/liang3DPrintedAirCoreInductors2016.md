@@ -21,7 +21,7 @@ Entry: "[[3-D-Printed_Air-Core_Inductors_for_High-Frequency_Power_Converters.pdf
 ![[3-D-Printed_Air-Core_Inductors_for_High-Frequency_Power_Converters.pdf#page=2&rect=38,623,290,727&color=yellow|3-D-Printed_Air-Core_Inductors_for_High-Frequency_Power_Converters, p.2]]  Unique way of designing toroidal inductors.
 
 > [!PDF|] [[3-D-Printed_Air-Core_Inductors_for_High-Frequency_Power_Converters.pdf#page=2&selection=46,0,48,25|3-D-Printed_Air-Core_Inductors_for_High-Frequency_Power_Converters, p.2]]
-> > Another leading fabrication technique capable of realizing very complicated circuits and components is called [[Nuvotronics Polystrata]] [31]–[36].
+> > Another leading fabrication technique capable of realizing very complicated circuits and components is called Nuvotronics Polystrata [31]–[36].
 > 
 > 
 
@@ -30,5 +30,16 @@ Entry: "[[3-D-Printed_Air-Core_Inductors_for_High-Frequency_Power_Converters.pdf
 This paper basically creates an air gap inductor with castable wax resin, and then they cast the shape in sterling silver. They mention that PCB inductors exist but they are limited by straight vertical connections. 
 ## Ideas
 Why after casting was it not submerged in magnetic liquid to increase the permeability?
-
+Potential direction here worth investigating would be printing a winding, and then pressing around the magnetic core, or potting it.
 ## Connections
+This leads to a potential research direction involving pressing the magnetic material surrounding it or potting it. [[Traditional magnetic core embedded 3D printed winding ]]
+
+## Direction conclusion
+Why I pursued it 
+I kept note of this direction, as it is a unique way of manufacturing a 3d inductor.
+
+Why I paused or rejected it? (technical obstacle or just haven't investigated)
+I paused this direction as it does not involve printing a magnetic material.
+
+What would make me return? (a new paper, available hardware, a promising material, or evidence that the approach has an advantage)
+I would return if other directions lead to a dead end.

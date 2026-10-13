@@ -1,0 +1,1 @@
+This direction is about using a 3D printed winding, for example with PBF, and then potting it or pressing the outer magnetic particles to form the inductor. It is highly likely that this exists already, but potentially there could be improvements to this.
