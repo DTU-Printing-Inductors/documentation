@@ -11,10 +11,6 @@ Cite Key: "[@liuDesignAdditiveManufacturing2018]"
 Entry: "[[Design_and_Additive_Manufacturing_of_Multipermeability_Magnetic_Cores.pdf]]"
 ---
 ## Source 
-> [!PDF|yellow] [[Design_and_Additive_Manufacturing_of_Multipermeability_Magnetic_Cores.pdf#page=1&selection=110,0,114,48&color=yellow|Design_and_Additive_Manufacturing_of_Multipermeability_Magnetic_Cores, p.1]]
-> > AS MAGNETIC components typically take up a significant portion of size and weight of a power converter, innovations leading to compact designs of magnetic components can greatly improve power density of the system [1].
-> 
-> This is the main reason for multipermeability cores.
 
 > [!PDF|yellow] [[Design_and_Additive_Manufacturing_of_Multipermeability_Magnetic_Cores.pdf#page=1&selection=120,44,123,48&color=yellow|Design_and_Additive_Manufacturing_of_Multipermeability_Magnetic_Cores, p.1]]
 > > Having uniform distribution of magnetic flux throughout an inductor core, the volume of the inductor can be reduced without sacrificing its inductance, leading to a higher power density and efficiency.
@@ -25,8 +21,15 @@ Entry: "[[Design_and_Additive_Manufacturing_of_Multipermeability_Magnetic_Cores.
 > 
 > This is one of the papers main arguments 
 ## Interpretation
+> [!PDF|red] [[Design_and_Additive_Manufacturing_of_Multipermeability_Magnetic_Cores.pdf#page=1&selection=110,0,114,48&color=red|Design_and_Additive_Manufacturing_of_Multipermeability_Magnetic_Cores, p.1]]
+> > AS MAGNETIC components typically take up a significant portion of size and weight of a power converter, innovations leading to compact designs of magnetic components can greatly improve power density of the system [1].
+> 
+> [[sullivanInvitedPassiveComponent2011]]
 
-
+> [!PDF|red] [[Design_and_Additive_Manufacturing_of_Multipermeability_Magnetic_Cores.pdf#page=1&selection=120,43,125,22&color=red|Design_and_Additive_Manufacturing_of_Multipermeability_Magnetic_Cores, p.1]]
+> >  Having uniform distribution of magnetic flux throughout an inductor core, the volume of the inductor can be reduced without sacrificing its inductance, leading to a higher power density and efficiency. A further benefit of core volume reduction is the lower winding loss from reduced winding length
+> 
+> Having uniform distribution of magnetic flux throughout an inductor core, leads to the reduction in volume of the inductor without sacrificing its inductance. Furthermore, decreasing the core volume leads to lower winding loss due to reduced winding lenght. 
 ## Ideas
 I could argue that with most of these CFI apporaches, they have a discrete inductance, aka how many materials with different permeabilities you have, that's what you get. But by tuning printing parameters you can get continous permeability or in other words you can get a gradient, I need to look into why and how can this discrete behaviour be beneficial.
 

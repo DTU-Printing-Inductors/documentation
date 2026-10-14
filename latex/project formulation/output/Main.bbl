@@ -1,9 +1,33 @@
 \begin{thebibliography}{1}
 
 \bibitem{valchevInductorsTransformersPower2018}
-Vencislav~Cekov Valchev and prefix=den~useprefix=false family=Bossche,
-  given=Alex~Van.
+Vencislav~Cekov Valchev and Alex~Van van~den Bossche.
 \newblock {\em Inductors and {{Transformers}} for {{Power Electronics}}}.
-\newblock CRC Press.
+\newblock CRC Press, 2018.
+
+\bibitem{sullivanInvitedPassiveComponent2011}
+Charles~R. Sullivan, Di~Yao, Garet Gamache, Alexander Latham, and Jizheng Qiu.
+\newblock Passive {{Component Technologies}} for {{Advanced Power Conversion Enabled}} by {{Wide-Band-Gap Power Devices}}.
+\newblock 41(8):315--330.
+
+\bibitem{aghebModificationEmpiricalCore2013}
+Edris Agheb and Hans~Kristian Høidalen.
+\newblock Modification of empirical core loss calculation methods including flux distribution.
+\newblock 7(5):381--390.
+
+\bibitem{umetaniImprovementSaturationProperty2013}
+Kazuhiro Umetani.
+\newblock Improvement of saturation property of iron powder core by flux homogenizing structure.
+\newblock 8(6):640--648.
+
+\bibitem{liuDesignAdditiveManufacturing2018}
+Lanbing Liu, Chao Ding, Shengchang Lu, Ting Ge, Yi~Yan, Yunhui Mei, Khai D.~T. Ngo, and Guo-Quan Lu.
+\newblock Design and {{Additive Manufacturing}} of {{Multipermeability Magnetic Cores}}.
+\newblock 54(4):3541--3547.
+
+\bibitem{wangMultipermeabilityInductorsIncreasing2013}
+Laili Wang, Zhiyuan Hu, Yan-Fei Liu, Yunqing Pei, and Xu~Yang.
+\newblock Multipermeability {{Inductors}} for {{Increasing}} the {{Inductance}} and {{Improving}} the {{Efficiency}} of {{High-Frequency DC}}/{{DC Converters}}.
+\newblock 28(9):4402--4413.
 
 \end{thebibliography}

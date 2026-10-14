@@ -8,6 +8,8 @@
             "command": "latexmk",
             "args": [
                 "-pdf",
+                "-gg",
+                "-bibtex",
                 "-interaction=nonstopmode",
                 "-synctex=1",
                 "-outdir=%OUTDIR%",

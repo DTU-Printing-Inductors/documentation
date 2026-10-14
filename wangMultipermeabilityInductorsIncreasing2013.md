@@ -15,7 +15,7 @@ Entry: "[[2013_09_TPEL_L_Wang_Multi Perm Inductor.pdf]]"
 > [!PDF|red] [[2013_09_TPEL_L_Wang_Multi Perm Inductor.pdf#page=8&selection=77,44,80,6&color=red|2013_09_TPEL_L_Wang_Multi Perm Inductor, p.8]]
 > >  Considering the inductance value gain and complexity of the manufacturing process, it is suggested that three to ten layers are used for general design
 > 
-> It has been shown that 3-10 layers are the most optimum.
+> It has been shown that 3-10 layers are the most optimum amount of permeability layers
 ## Ideas
 
 ## Connections
