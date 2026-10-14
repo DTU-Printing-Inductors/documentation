@@ -1,16 +1,16 @@
 # Fdb version 4
-["bibtex output/Main"] 1791969711.14377 "output/Main.aux" "output/Main.bbl" "output/Main" 1791969715.00156 0
+["bibtex output/Main"] 1791990060.78561 "output/Main.aux" "output/Main.bbl" "output/Main" 1791990064.62492 0
   "../../../pdfs/bibliography.bib" 0 -1 0 ""
   "c:/texlive/2026/texmf-dist/bibtex/bst/base/unsrt.bst" 1791449412 18030 1376b4b231b50c66211e47e42eda2875 ""
-  "output/Main.aux" 1791969713 2086 b69f86eada1890892fd6f2d6d23ad104 "pdflatex"
+  "output/Main.aux" 1791990063 3198 c44a844898a87524061b9c44517789ef "pdflatex"
   (generated)
   "output/Main.bbl"
   "output/Main.blg"
   (rewritten before read)
-["pdflatex"] 1791969711.81355 "c:/Users/artfi/OneDrive - Danmarks Tekniske Universitet/Research/documentation/latex/project formulation/Main.tex" "output/Main.pdf" "Main" 1791969715.00266 0
-  "Contents/Problem_statement.tex" 1791969702 6125 be984a16d40511ced6f70962aff7cd39 ""
-  "Main.tex" 1791969560 1894 0467d297f1284de286a0d07eb51448b7 ""
-  "c:/Users/artfi/OneDrive - Danmarks Tekniske Universitet/Research/documentation/latex/project formulation/Main.tex" 1791969560 1894 0467d297f1284de286a0d07eb51448b7 ""
+["pdflatex"] 1791990061.39158 "c:/Users/artfi/OneDrive - Danmarks Tekniske Universitet/Research/documentation/latex/project formulation/Main.tex" "output/Main.pdf" "Main" 1791990064.6259 0
+  "Contents/Problem_statement.tex" 1791990051 7364 7b1036a917ce288e01bd4e48d508fd16 ""
+  "Main.tex" 1791980295 1894 0467d297f1284de286a0d07eb51448b7 ""
+  "c:/Users/artfi/OneDrive - Danmarks Tekniske Universitet/Research/documentation/latex/project formulation/Main.tex" 1791980295 1894 0467d297f1284de286a0d07eb51448b7 ""
   "c:/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1791449843 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2026/texmf-dist/fonts/map/fontname/texfonts.map" 1791451158 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2026/texmf-dist/fonts/tfm/jknappen/ec/ecbx1095.tfm" 1791450583 3584 21b378cca2e40816b0e6d74a4dc98f04 ""
@@ -21,7 +21,23 @@
   "c:/texlive/2026/texmf-dist/fonts/tfm/jknappen/ec/ecrm1200.tfm" 1791450583 3584 f80ddd985bd00e29e9a6047ebd9d4781 ""
   "c:/texlive/2026/texmf-dist/fonts/tfm/jknappen/ec/ecrm1440.tfm" 1791450583 3584 3169d30142b88a27d4ab0e3468e963a2 ""
   "c:/texlive/2026/texmf-dist/fonts/tfm/jknappen/ec/ecti1095.tfm" 1791450583 3072 b73d2778cc3af44970de4de5e032d7f6 ""
+  "c:/texlive/2026/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1791448875 916 f87d7c45f9c908e672703b83b72241a3 ""
+  "c:/texlive/2026/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm" 1791448875 924 9904cf1d39e9767e7a3622f2a125a565 ""
+  "c:/texlive/2026/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm" 1791448875 928 2dc8d444221b7a635bb58038579b861a ""
+  "c:/texlive/2026/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm" 1791448875 908 2921f8a10601f252058503cc6570e581 ""
+  "c:/texlive/2026/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm" 1791448875 940 75ac932a52f80982a9f8ea75d03a34cf ""
+  "c:/texlive/2026/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm" 1791448875 940 228d6584342e91276bf566bcf9716b83 ""
+  "c:/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmex10.tfm" 1791449834 992 662f679a0b3d2d53c1b94050fdaa3f50 ""
+  "c:/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1791449834 1528 abec98dbc43e172678c11b3b9031252a ""
+  "c:/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm" 1791449834 1512 f21f83efb36853c0b70002322c1ab3ad ""
+  "c:/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm" 1791449834 1520 eccf95517727cb11801f4f1aee3a21b4 ""
   "c:/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1791449834 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
+  "c:/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmr6.tfm" 1791449834 1300 b62933e007d01cfd073f79b963c01526 ""
+  "c:/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmr8.tfm" 1791449834 1292 21c1c5bfeaebccffdb478fd231a0997d ""
+  "c:/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm" 1791449834 1124 6c73e740cf17375f03eec0ee63599741 ""
+  "c:/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm" 1791449834 1116 933a60c408fc0a863a92debe84b2d294 ""
+  "c:/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1791449834 1120 8b7d695260f3cff42e636090a8002094 ""
+  "c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb" 1791448875 32626 5abc8bb2f28aa647d4c70f8ea38cc0d3 ""
   "c:/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb" 1791449843 140176 d0f50dba675c56d445f84a32c1f93a79 ""
   "c:/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb" 1791449843 135942 aecb5af344df420d6ec421db27dedf62 ""
   "c:/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb" 1791449843 145929 5c9aebea9ba6e33fc93158c04a3bdcd8 ""
@@ -165,8 +181,8 @@
   "c:/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1791457991 5655996 795b756740562267ad2ae16e70168a76 ""
   "c:/texlive/2026/texmf-var/web2c/pdftex/pdflatex.fmt" 1791458138 3668393 39aa4a40a0a842a61bebb22e83d75bdc ""
   "c:/texlive/2026/texmf.cnf" 1791457953 713 e69b156964470283e0530f5060668171 ""
-  "output/Main.aux" 1791969713 2086 b69f86eada1890892fd6f2d6d23ad104 "pdflatex"
-  "output/Main.bbl" 1791969711 1500 eeaadde54748724c12090910c4165ba8 "bibtex output/Main"
+  "output/Main.aux" 1791990063 3198 c44a844898a87524061b9c44517789ef "pdflatex"
+  "output/Main.bbl" 1791990061 3890 c4513d79808afbf82aa9f7fa6d76f744 "bibtex output/Main"
   (generated)
   "output/Main.aux"
   "output/Main.log"

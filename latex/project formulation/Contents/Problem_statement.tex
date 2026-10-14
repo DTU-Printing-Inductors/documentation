@@ -1,68 +1,20 @@
 
 \section{Background}
+Soft magnetic cores are important components in many inductors and transformers, where they provide a path for magnetic flux and influence electromagnetic performance~\cite{valchevInductorsTransformersPower2018}. In power converters, inductors and transformers can occupy a substantial fraction of the system volume, motivating research into more compact designs~\cite{sullivanInvitedPassiveComponent2011}. However, flux density is not always distributed uniformly within a magnetic core. Depending on the core geometry, material properties and operating conditions, this nonuniformity can lead to uneven core losses and localised heating~\cite{aghebModificationEmpiricalCore2013}. In some inductor designs, regions near the conductor may approach saturation while other regions remain underutilised~\cite{wangMultipermeabilityInductorsIncreasing2013}.
 
-Discuss the importance of magnetic flux distribution and how it affects the performance of these devices. Highlight the challenges associated with achieving uniform magnetic flux distribution and the potential benefits of using multipermeability cores.
+Flux distribution can be controlled through the core geometry and winding arrangement. For example, Cui et al. designed an inductor with an improved flux distribution by shaping the core and distributing the winding turns~\cite{cuiInductorGeometryImproved2014}. Another approach is to vary permeability spatially within the core, using regions with different magnetic properties to tailor the flux distribution~\cite{liuDesignAdditiveManufacturing2018,wangMultipermeabilityInductorsIncreasing2013}. Wang et al. experimentally demonstrated that a three-permeability inductor achieved higher inductance than a single-permeability counterpart across the tested load range and improved the efficiency of the tested high-frequency DC/DC converter~\cite{wangMultipermeabilityInductorsIncreasing2013}. Liu et al. also reported a smaller core volume at the same inductance for a three-permeability design compared with a single-permeability core~\cite{liuDesignAdditiveManufacturing2018}. These studies demonstrate the potential benefits of spatial permeability variation for particular designs, rather than establishing that it is always preferable to geometry optimisation.
 
+Manufacturing cores with spatially varying permeability requires control over the distribution of magnetic material properties. Additive manufacturing offers one approach because different material formulations can be deposited in selected regions of a component. Liu et al. demonstrated this using a multi-extruder paste-extrusion 3D printer to fabricate toroidal cores with three distinct permeability regions~\cite{liuDesignAdditiveManufacturing2018}. Continuous radial permeability variation has also been demonstrated by imposing a temperature gradient during sintering~\cite{liuContinuouslyVariableMultiPermeability2020}. More recently, Lu et al. produced discrete permeability regions by varying compaction pressure during core formation, illustrating that several manufacturing approaches to multipermeability cores are possible~\cite{luDesignPreparationLowtemperature2026}.
 
-Soft magnetic cores are a cruical part in many inductors and transformers, guiding magnetic flux and influence their electromagnetic performance~\cite{valchevInductorsTransformersPower2018}. Magnetic components typically take up a notable portion of size and weight of a power converter. More compact designs of magnetic components greatly improve power density of the system, although are constrained by fabrication and design constraints~\cite{sullivanInvitedPassiveComponent2011}. Therefore, there is ongoing research in optimizing The performance of these devices is heavily influenced by the distribution of magnetic flux within the core material. A nonuniform magnetic flux distribution lead to higher core losses~\cite{aghebModificationEmpiricalCore2013} and lower localized saturation~\cite{umetaniImprovementSaturationProperty2013}. Having uniform distribution of magnetic flux throughout an inductor core, leads to the reduction in volume of the inductor without sacrificing its inductance~\cite{liuDesignAdditiveManufacturing2018}. Furthermore, decreasing the core volume leads to lower winding loss due to reduced winding lenght. Therefore, uniform magnetic flux distribution is desired. 
+The choice of feedstock for material extrusion involves a trade-off between magnetic performance and manufacturability. Producing filament-based composites with high magnetic-particle loading while retaining suitable processability can be challenging \cite{taylorFully3DPrintedMonolithic2019}. In their review of soft magnetic feedstocks, Cañada et al. report that filament-based cores in the studies they surveyed generally exhibited relative permeabilities below 10. Paste-based feedstocks can achieve higher permeabilities, but their rheology can complicate dimensional accuracy, and some ferrite formulations require high-temperature sintering. For example, the ferrite paste investigated by Liu et al. required sintering above 900~$^\circ$C, whereas their powdered-iron paste could be cured below 250~$^\circ$C~\cite{liuDesignAdditiveManufacturing2018}. In comparison, Cañada et al. demonstrated pellet-extruded nylon-12/FeSiAl composite cores with a relative permeability of 42 without high-temperature post-processing~\cite{canadaMagneticFluxGuides2026}. These values come from different material systems and studies, so they should not be interpreted as a direct, controlled comparison of the three feedstock types.
 
-One way of achieving uniform magnetic flux distribution is 
+The composition of a polymer-based magnetic composite is another factor that can influence its magnetic properties. Hu et al. experimentally investigated the permeability of polymer composites containing different magnetic inclusions, although their matrix material differed from the nylon-12 composites considered here~\cite{huExperimentalStudyMagnetic2022}. Huber et al. demonstrated that magnetic composition could be varied during filament-based printing by blending NdFeB-filled PA12 filament with unfilled PA12 filament. Their method controlled the remanent magnetisation distribution of permanent magnets to produce a predefined stray field, rather than controlling the effective permeability of a soft-magnetic core~\cite{huber3DPrintingPolymerBonded2017}.
 
-It has been shown that 3-10 multipermeability layers are optimal, as larger amount exponentially comes closer to continuous permeability~\cite{wangMultipermeabilityInductorsIncreasing2013}.
+Composition transitions have also been demonstrated using pellet-fed extrusion in non-magnetic material systems. Brackett et al. studied in-situ blending of neat and carbon-fibre-filled ABS pellets and found that material transitions occupied a finite distance and depended on the transition direction~\cite{brackettCharacterizingMaterialTransitions2021}. Elsersawy et al. further showed that the mixing geometry within a pellet extruder affected the uniformity of blended PLA materials~\cite{elsersawyDesignPerformanceAssessment2025}. These studies identify process considerations relevant to composition-controlled extrusion, but do not establish how pellet blend ratio affects the effective permeability of a soft-magnetic composite.
 
-Why do magnetic cores need multipermeability?
-Establish the engineering problem.
-- How does a nonuniform flux distribution constrain core size, inductance, saturation and power density?
-- How does spatially varying permeability redistribute magnetic flux?
-- Under what operating conditions does a multipermeability core outperform a uniform-permeability core?
-
-How have researchers manufactured multipermeability cores?
-Establish the state of the art and its limitations.
-- How did Liu et al. create their different permeability regions?
-- What other methods have been used: separate magnetic materials, geometric changes, composition gradients or process-induced material changes?
-- Are existing approaches limited to discrete regions, or have continuous gradients been demonstrated?
-- What manufacturing complexity, material compatibility or geometric constraints do these approaches introduce?
-- What remains difficult to manufacture, even if the electromagnetic design is understood?
+The literature reviewed here therefore establishes that pellet-based material extrusion can produce soft-magnetic cores, that magnetic composition can be varied during filament-based printing of permanent magnets, and that pellet-fed systems can blend materials and produce finite composition transitions. However, it remains to be established whether blending magnetic-filled pellets with unfilled pellets of a compatible polymer matrix provides a predictable and reproducible way to control the effective permeability of a pellet-extruded soft-magnetic composite. This project will first investigate the relationship between pellet blend ratio and the effective permeability of the printed material. If this relationship is sufficiently controllable, subsequent work can investigate changing the feed ratio during printing to produce distinct permeability regions in a core.
 
 
-Why pellet extrusion for magnetic composites?
-Justify your manufacturing method rather than assuming it is better.
-- What magnetic composites have already been processed using pellet-fed material extrusion?
-- Why use pellets instead of filament: feedstock preparation, achievable particle loading, material cost or processing flexibility?
-- Can the magnetic composite be diluted with pellets of its unfilled polymer matrix?
-- How do particle loading, viscosity, nozzle size and printability constrain the material?
-- What advantages does pellet extrusion offer over existing filament-based or paste-extrusion approaches for this application?
-
-
-
-Can pellet extrusion produce a controlled permeability gradient?
-This is the key technical bridge in your argument.
-- Has anyone independently metered magnetic-composite and unfilled pellets during a single print?
-- Can their mixing ratio be varied continuously, and how quickly does the extrudate respond to a change in feed ratio?
-- Does the screw provide sufficient distributive mixing, or are additional mixing features required?
-- How uniform is the magnetic-particle distribution within the extrudate?
-- How does pellet feed ratio translate into actual particle concentration and effective permeability?
-- What are the minimum achievable gradient length, transition width and repeatability?
-
-
-
-Why vary composition instead of geometry?
-Your most important justification question.
-- Can a continuous composition gradient achieve a magnetic response that is difficult to approximate using discrete geometric regions?
-- Is the desired gradient finer than the spatial resolution of the printing process?
-- Can composition grading avoid adding multiple magnetic materials or complex internal geometries?
-- Does changing composition provide a useful degree of freedom beyond geometry, or can geometry achieve the same performance with less complexity?
-- Under equal volume, material and operating constraints, which approach produces the best core performance?
-
-
-
-What is actually missing from the literature?
-Define a defensible research gap.
-- Has pellet extrusion already been used to produce spatially graded magnetic composites?
-- Has the local permeability of such a printed gradient been measured?
-- Has a graded pellet-extruded core been tested as an inductor?
-- Has its performance been compared against a uniform core and a geometry-optimised core?
-- If these demonstrations are missing, is the missing contribution the manufacturing process, the magnetic characterisation, the core design or the device-level performance?
 
 \section{Problem Statement}
 

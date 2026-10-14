@@ -13,7 +13,10 @@ Entry: "[[Inductor_Geometry_With_Improved_Energy_Density.pdf]]"
 ## Source 
 
 ## Interpretation
-
+> [!PDF|red] [[Inductor_Geometry_With_Improved_Energy_Density.pdf#page=1&selection=155,1,160,27&color=red|Inductor_Geometry_With_Improved_Energy_Density, p.1]]
+> > ig. 1. (a) Conventional toroidal inductor with region storing no energy; (b) unevenly distributed flux density inside a toroidal core; (c) CFI with core enclosed by winding; and (d) more uniform flux density distribution demonstrating improved space utilization.
+> 
+> Cui et al. designed an inductor with a more uniform flux distribution by shaping the core and distributing the winding turns.
 ## Ideas
 
 ## Connections

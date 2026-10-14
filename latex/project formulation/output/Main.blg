@@ -3,55 +3,72 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: Main.aux
 The style file: unsrt.bst
 Database file #1: ../../../pdfs/bibliography.bib
+Warning--empty year in valchevInductorsTransformersPower2018
 Warning--empty journal in sullivanInvitedPassiveComponent2011
 Warning--empty year in sullivanInvitedPassiveComponent2011
 Warning--empty journal in aghebModificationEmpiricalCore2013
 Warning--empty year in aghebModificationEmpiricalCore2013
-Warning--empty journal in umetaniImprovementSaturationProperty2013
-Warning--empty year in umetaniImprovementSaturationProperty2013
-Warning--empty journal in liuDesignAdditiveManufacturing2018
-Warning--empty year in liuDesignAdditiveManufacturing2018
 Warning--empty journal in wangMultipermeabilityInductorsIncreasing2013
 Warning--empty year in wangMultipermeabilityInductorsIncreasing2013
-You've used 6 entries,
+Warning--empty journal in cuiInductorGeometryImproved2014
+Warning--empty year in cuiInductorGeometryImproved2014
+Warning--empty journal in liuDesignAdditiveManufacturing2018
+Warning--empty year in liuDesignAdditiveManufacturing2018
+Warning--empty journal in liuContinuouslyVariableMultiPermeability2020
+Warning--empty year in liuContinuouslyVariableMultiPermeability2020
+Warning--empty journal in luDesignPreparationLowtemperature2026
+Warning--empty year in luDesignPreparationLowtemperature2026
+Warning--empty journal in taylorFully3DPrintedMonolithic2019
+Warning--empty year in taylorFully3DPrintedMonolithic2019
+Warning--empty journal in canadaMagneticFluxGuides2026
+Warning--empty year in canadaMagneticFluxGuides2026
+Warning--empty journal in huExperimentalStudyMagnetic2022
+Warning--empty year in huExperimentalStudyMagnetic2022
+Warning--empty journal in huber3DPrintingPolymerBonded2017
+Warning--empty year in huber3DPrintingPolymerBonded2017
+Warning--empty journal in brackettCharacterizingMaterialTransitions2021
+Warning--empty year in brackettCharacterizingMaterialTransitions2021
+Warning--empty journal in elsersawyDesignPerformanceAssessment2025
+Warning--empty year in elsersawyDesignPerformanceAssessment2025
+You've used 14 entries,
             1791 wiz_defined-function locations,
-            485 strings with 5010 characters,
-and the built_in function-call counts, 1558 in all, are:
-= -- 126
-> -- 80
-< -- 0
-+ -- 29
-- -- 23
-* -- 141
-:= -- 247
-add.period$ -- 18
-call.type$ -- 6
-change.case$ -- 5
+            531 strings with 7501 characters,
+and the built_in function-call counts, 3835 in all, are:
+= -- 277
+> -- 252
+< -- 1
++ -- 89
+- -- 75
+* -- 368
+:= -- 625
+add.period$ -- 42
+call.type$ -- 14
+change.case$ -- 13
 chr.to.int$ -- 0
-cite$ -- 16
-duplicate$ -- 55
-empty$ -- 144
-format.name$ -- 23
-if$ -- 318
+cite$ -- 41
+duplicate$ -- 132
+empty$ -- 327
+format.name$ -- 75
+if$ -- 774
 int.to.chr$ -- 0
-int.to.str$ -- 6
-missing$ -- 7
-newline$ -- 33
-num.names$ -- 6
-pop$ -- 27
+int.to.str$ -- 14
+missing$ -- 15
+newline$ -- 73
+num.names$ -- 14
+pop$ -- 62
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 19
+skip$ -- 47
 stack$ -- 0
-substring$ -- 137
-swap$ -- 1
-text.length$ -- 0
+substring$ -- 290
+swap$ -- 6
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 10
-while$ -- 16
-width$ -- 7
-write$ -- 57
-(There were 10 warnings)
+warning$ -- 27
+while$ -- 36
+width$ -- 16
+write$ -- 128
+(There were 27 warnings)

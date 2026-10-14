@@ -4,107 +4,72 @@
     "type": "split",
     "children": [
       {
-        "id": "44205e0d0496bb54",
+        "id": "9f40240c4870c4c9",
         "type": "tabs",
         "children": [
           {
-            "id": "cec25bab55531227",
+            "id": "22f43b45eaa83829",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "pdfs/s40145_022_0567_5_annotated.pdf",
-                "page": 1,
-                "left": 25,
-                "top": 738,
-                "zoom": 1.1
+                "file": "pdfs/Advanced Science - 2025 - Cañada - Magnetic Flux Guides by Material Extrusion.pdf",
+                "page": 5,
+                "left": -17,
+                "top": 588,
+                "zoom": 0.8945430354994995
               },
               "icon": "lucide-file-text",
-              "title": "s40145_022_0567_5_annotated"
+              "title": "Advanced Science - 2025 - Cañada - Magnetic Flux Guides by Material Extrusion"
             }
           },
           {
-            "id": "882f479b5d511181",
+            "id": "e4ac47f2037b1d73",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "pdfs/1-s2.0-S2214860420311222-main.pdf",
+                "page": 1,
+                "left": 142,
+                "top": 692,
+                "zoom": 1.3
+              },
+              "icon": "lucide-file-text",
+              "title": "1-s2.0-S2214860420311222-main"
+            }
+          },
+          {
+            "id": "4bb32635e6511023",
             "type": "leaf",
             "dimension": 50,
             "state": {
               "type": "pdf",
               "state": {
-                "file": "pdfs/Design_and_Preparation_of_Low-temperature_Curable_Multi-permeability_Inductor_with_Low_Power_Loss_for_High_Frequency_Applications.pdf",
+                "file": "pdfs/1-s2.0-S0142941821003731-main.pdf",
                 "page": 1,
-                "left": -17,
-                "top": 712,
-                "zoom": 0.9019607843137255
+                "left": 166,
+                "top": 669,
+                "zoom": 1.3
               },
               "icon": "lucide-file-text",
-              "title": "Design_and_Preparation_of_Low-temperature_Curable_Multi-permeability_Inductor_with_Low_Power_Loss_for_High_Frequency_Applications"
-            }
-          },
-          {
-            "id": "e25ca24753fea175",
-            "type": "leaf",
-            "dimension": 33.333333333333336,
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "pdfs/Design_and_Additive_Manufacturing_of_Multipermeability_Magnetic_Cores.pdf",
-                "page": 5,
-                "left": -16,
-                "top": 114,
-                "zoom": 0.9292929292929293
-              },
-              "icon": "lucide-file-text",
-              "title": "Design_and_Additive_Manufacturing_of_Multipermeability_Magnetic_Cores"
-            }
-          },
-          {
-            "id": "eaea68017db751aa",
-            "type": "leaf",
-            "dimension": 33.333333333333336,
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "pdfs/1-s2.0-S0925838824010739-main.pdf",
-                "page": 1,
-                "left": -4,
-                "top": 722,
-                "zoom": 1
-              },
-              "icon": "lucide-file-text",
-              "title": "1-s2.0-S0925838824010739-main"
-            }
-          },
-          {
-            "id": "5649c068a413406d",
-            "type": "leaf",
-            "dimension": 25,
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "pdfs/1-s2.0-S0079642520300529-main.pdf",
-                "page": 1,
-                "left": -16,
-                "top": 746,
-                "zoom": 1.0142360524168952
-              },
-              "icon": "lucide-file-text",
-              "title": "1-s2.0-S0079642520300529-main"
+              "title": "1-s2.0-S0142941821003731-main"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "fac35d1897d1ed3d",
         "type": "tabs",
         "children": [
           {
-            "id": "942a36878bf40458",
+            "id": "8532f5903713aeb0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wangMultipermeabilityInductorsIncreasing2013.md",
+                "file": "notes/papers/wangMultipermeabilityInductorsIncreasing2013.md",
                 "mode": "source",
                 "source": false
               },
@@ -113,35 +78,49 @@
             }
           },
           {
-            "id": "0cfdb6e1e63f9b19",
+            "id": "ab7102b6e69b1287",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sullivanInvitedPassiveComponent2011.md",
+                "file": "notes/papers/huber3DPrintingPolymerBonded2017.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "sullivanInvitedPassiveComponent2011"
+              "title": "huber3DPrintingPolymerBonded2017"
             }
           },
           {
-            "id": "221f1060c06db3de",
+            "id": "071ca52bf6084788",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/papers/yiyanAdditiveManufacturingMagnetic2016.md",
+                "file": "notes/papers/donascimentoMultiobjectiveOptimizationParadigm2021.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "yiyanAdditiveManufacturingMagnetic2016"
+              "title": "donascimentoMultiobjectiveOptimizationParadigm2021"
+            }
+          },
+          {
+            "id": "0affe85e23442924",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/papers/brackettCharacterizingMaterialTransitions2021.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "brackettCharacterizingMaterialTransitions2021"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -203,7 +182,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 352.5
   },
   "right": {
     "id": "99df83c926c4e567",
@@ -337,28 +316,39 @@
       "literature-graph:Open literature graph": false
     }
   },
-  "active": "882f479b5d511181",
+  "active": "4bb32635e6511023",
   "lastOpenFiles": [
-    "pdfs/s40145_022_0567_5_annotated.pdf",
-    "notes/papers/yiyanAdditiveManufacturingMagnetic2016.md",
-    "pdfs/1-s2.0-S0079642520300529-main.pdf",
-    "pdfs/Design_and_Preparation_of_Low-temperature_Curable_Multi-permeability_Inductor_with_Low_Power_Loss_for_High_Frequency_Applications.pdf",
-    "pdfs/Sullivan_2011_ECS_Trans._41_315.pdf",
-    "pdfs/Additive_manufacturing_of_magnetic_components_for_power_electronics_integration.pdf",
-    "notes/research groups/Virginia Tech, Department of Materials Science and Engineering.md",
-    "pdfs/2013_09_TPEL_L_Wang_Multi Perm Inductor.pdf",
-    "wangMultipermeabilityInductorsIncreasing2013.md",
-    "notes/papers/liuDesignAdditiveManufacturing2018.md",
     "latex/project formulation/output/Main.synctex(busy)",
-    "latex/project formulation/output/pdflatex28936.fls",
-    "latex/project formulation/output/pdflatex2692.fls",
+    "latex/project formulation/output/pdflatex28076.fls",
+    "latex/project formulation/output/pdflatex11708.fls",
     "latex/project formulation/output/Main.bbl",
-    "sullivanInvitedPassiveComponent2011.md",
-    "umetaniImprovementSaturationProperty2013.md",
-    "aghebModificationEmpiricalCore2013.md",
+    "latex/project formulation/output/Main.blg",
+    "latex/project formulation/output/Main.synctex.gz",
+    "latex/project formulation/output/Main.pdf",
+    "latex/project formulation/output/Main.log",
+    "latex/project formulation/output/Main.fls",
+    "latex/project formulation/output/pdflatex30076.fls",
+    "huExperimentalStudyMagnetic2022.md",
+    "latex/project formulation/output/pdflatex26496.fls",
+    "notes/papers/donascimentoMultiobjectiveOptimizationParadigm2021.md",
+    "notes/papers/taylorFully3DPrintedMonolithic2019.md",
+    "notes/papers/canadaMagneticFluxGuides2026.md",
+    "notes/papers/elsersawyDesignPerformanceAssessment2025.md",
+    "notes/papers/brackettCharacterizingMaterialTransitions2021.md",
+    "notes/papers/huber3DPrintingPolymerBonded2017.md",
+    "notes/papers/wangMultipermeabilityInductorsIncreasing2013.md",
+    "notes/papers/cuiInductorGeometryImproved2014.md",
+    "notes/papers/liuDesignAdditiveManufacturing2018.md",
+    "notes/papers/aghebModificationEmpiricalCore2013.md",
+    "notes/research groups/MIT, Luis Fernando Velásquez-García.md",
+    "notes/papers/liuContinuouslyVariableMultiPermeability2020.md",
+    "notes/papers/luDesignPreparationLowtemperature2026.md",
+    "notes/research groups/Virginia Tech, Department of Materials Science and Engineering.md",
+    "notes/papers/yiyanAdditiveManufacturingMagnetic2016.md",
+    "notes/papers/sullivanInvitedPassiveComponent2011.md",
+    "notes/papers/umetaniImprovementSaturationProperty2013.md",
     "notes/papers/wang3DPrintingSoft2024.md",
     "notes/papers/chaudharyAdditiveManufacturingMagnetic2020.md",
-    "notes/papers/luDesignPreparationLowtemperature2026.md",
     "notes/papers/weiAdvances3DPrinting2022.md",
     "notes/research directions/Functionally gradient material multi-permeability.md",
     "latex/project formulation/Report_Figures/V1_resistance_over_time.PNG",
@@ -367,16 +357,6 @@
     "notes/hardware/pellet extruding system.md",
     "notes/research groups/Chemnitz University of Technology.md",
     "notes/research groups/VTT, Aino Manninen.md",
-    "notes/papers/kennedyPrintingPolymerBlends2020.md",
-    "notes/hardware/2-in-1-out extruders.md",
-    "notes/papers/garlandDesignManufacturingFunctionally2015.md",
-    "notes/research groups/MIT, Luis Fernando Velásquez-García.md",
-    "notes/topic/multi-permeability.md",
-    "notes/papers/sqalliInherentImpactFDM2026.md",
-    "notes/research directions/Print parameter varying multi-permeability.md",
-    "notes/papers/zarybnickaEffectTopologyParameters2023.md",
-    "notes/papers/bolligEffects3DPrinted2017.md",
-    "notes/papers/bollig3DPrintedMagnetic2017.md",
     "latex/presentations/1__08_10_2026/images/types_of_AM_magnetic_methods.png",
     "latex/presentations/1__08_10_2026/images/AM_methods_and_applications.png",
     "latex/presentations/1__08_10_2026/images/am_magnetic_cores.png",
