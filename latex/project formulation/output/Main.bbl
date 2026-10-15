@@ -1,14 +1,14 @@
 \begin{thebibliography}{10}
 
-\bibitem{valchevInductorsTransformersPower2018}
-Vencislav~Cekov Valchev.
-\newblock {\em Inductors and {{Transformers}} for {{Power Electronics}}}.
-\newblock CRC Press.
-
 \bibitem{sullivanInvitedPassiveComponent2011}
 Charles~R. Sullivan, Di~Yao, Garet Gamache, Alexander Latham, and Jizheng Qiu.
 \newblock Passive {{Component Technologies}} for {{Advanced Power Conversion Enabled}} by {{Wide-Band-Gap Power Devices}}.
 \newblock 41(8):315--330.
+
+\bibitem{valchevInductorsTransformersPower2018}
+Vencislav~Cekov Valchev.
+\newblock {\em Inductors and {{Transformers}} for {{Power Electronics}}}.
+\newblock CRC Press.
 
 \bibitem{aghebModificationEmpiricalCore2013}
 Edris Agheb and Hans~Kristian Høidalen.
@@ -20,6 +20,11 @@ Laili Wang, Zhiyuan Hu, Yan-Fei Liu, Yunqing Pei, and Xu~Yang.
 \newblock Multipermeability {{Inductors}} for {{Increasing}} the {{Inductance}} and {{Improving}} the {{Efficiency}} of {{High-Frequency DC}}/{{DC Converters}}.
 \newblock 28(9):4402--4413.
 
+\bibitem{umetaniImprovementSaturationProperty2013}
+Kazuhiro Umetani.
+\newblock Improvement of saturation property of iron powder core by flux homogenizing structure.
+\newblock 8(6):640--648.
+
 \bibitem{cuiInductorGeometryImproved2014}
 Han Cui, Khai D.~T. Ngo, Jim Moss, Michele Hui~Fern Lim, and Ernesto Rey.
 \newblock Inductor {{Geometry With Improved Energy Density}}.
@@ -30,15 +35,35 @@ Lanbing Liu, Chao Ding, Shengchang Lu, Ting Ge, Yi~Yan, Yunhui Mei, Khai D.~T. N
 \newblock Design and {{Additive Manufacturing}} of {{Multipermeability Magnetic Cores}}.
 \newblock 54(4):3541--3547.
 
-\bibitem{liuContinuouslyVariableMultiPermeability2020}
-Junchang Liu, Yunhui Mei, Shengchang Lu, Xin Li, and Guo-Quan Lu.
-\newblock Continuously {{Variable Multi-Permeability Inductor}} for {{Improving}} the {{Efficiency}} of {{High-Frequency DC}}–{{DC Converter}}.
-\newblock 35(1):826--834.
+\bibitem{donascimentoMultiobjectiveOptimizationParadigm2021}
+Vinicius~Cabral Do~Nascimento, Seung-Ryul Moon, Kevin Byerly, Scott~D. Sudhoff, and Paul~R. Ohodnicki.
+\newblock Multiobjective {{Optimization Paradigm}} for {{Toroidal Inductors With Spatially Tuned Permeability}}.
+\newblock 36(3):2510--2521.
 
 \bibitem{luDesignPreparationLowtemperature2026}
 Panpan Lu, Rongzhi Zhao, and Yunhui Mei.
 \newblock Design and {{Preparation}} of {{Low}}-temperature {{Curable Multi}}-permeability {{Inductor}} with {{Low Power Loss}} for {{High Frequency Applications}}.
 \newblock pages 1--1.
+
+\bibitem{liuContinuouslyVariableMultiPermeability2020}
+Junchang Liu, Yunhui Mei, Shengchang Lu, Xin Li, and Guo-Quan Lu.
+\newblock Continuously {{Variable Multi-Permeability Inductor}} for {{Improving}} the {{Efficiency}} of {{High-Frequency DC}}–{{DC Converter}}.
+\newblock 35(1):826--834.
+
+\bibitem{wang3DPrintingSoft2024}
+Feng-Hui Wang, Cai-Yin You, Na~Tian, He-Guang Liu, Jing Zhang, and Xiao-Pei Zhu.
+\newblock {{3D}} printing of soft magnetic materials: {{From}} printing to applications.
+\newblock 990:174486.
+
+\bibitem{weiAdvances3DPrinting2022}
+Xiangxia Wei, Ming-Liang Jin, Haiqiang Yang, Xiao-Xiong Wang, Yun-Ze Long, and Zhangwei Chen.
+\newblock Advances in {{3D}} printing of magnetic materials: {{Fabrication}}, properties, and their applications.
+\newblock 11(5):665--701.
+
+\bibitem{sadafAdvancementsMetalAdditive2024}
+Mahrukh Sadaf, Mario Bragaglia, Lidija Slemenik~Perše, and Francesca Nanni.
+\newblock Advancements in {{Metal Additive Manufacturing}}: {{A Comprehensive Review}} of {{Material Extrusion}} with {{Highly Filled Polymers}}.
+\newblock 8(1):14.
 
 \bibitem{taylorFully3DPrintedMonolithic2019}
 Anthony~P. Taylor, Camilo Velez~Cuervo, David~P. Arnold, and Luis~Fernando Velasquez-Garcia.

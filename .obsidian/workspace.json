@@ -16,7 +16,7 @@
                 "file": "pdfs/Advanced Science - 2025 - Cañada - Magnetic Flux Guides by Material Extrusion.pdf",
                 "page": 5,
                 "left": -17,
-                "top": 588,
+                "top": 756,
                 "zoom": 0.8945430354994995
               },
               "icon": "lucide-file-text",
@@ -40,24 +40,92 @@
             }
           },
           {
-            "id": "4bb32635e6511023",
+            "id": "4ca1f2cf674456c0",
             "type": "leaf",
             "dimension": 50,
             "state": {
               "type": "pdf",
               "state": {
-                "file": "pdfs/1-s2.0-S0142941821003731-main.pdf",
-                "page": 1,
-                "left": 166,
-                "top": 669,
-                "zoom": 1.3
+                "file": "pdfs/Design_and_Preparation_of_Low-temperature_Curable_Multi-permeability_Inductor_with_Low_Power_Loss_for_High_Frequency_Applications.pdf",
+                "page": 4,
+                "left": -17,
+                "top": 263,
+                "zoom": 0.8700980392156863
               },
               "icon": "lucide-file-text",
-              "title": "1-s2.0-S0142941821003731-main"
+              "title": "Design_and_Preparation_of_Low-temperature_Curable_Multi-permeability_Inductor_with_Low_Power_Loss_for_High_Frequency_Applications"
+            }
+          },
+          {
+            "id": "f55f6ecb5164bc6d",
+            "type": "leaf",
+            "dimension": 33.333333333333336,
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "pdfs/Continuously_Variable_Multi-Permeability_Inductor_for_Improving_the_Efficiency_of_High-Frequency_DCDC_Converter.pdf",
+                "page": 6,
+                "left": 292,
+                "top": 390,
+                "zoom": 2.1
+              },
+              "icon": "lucide-file-text",
+              "title": "Continuously_Variable_Multi-Permeability_Inductor_for_Improving_the_Efficiency_of_High-Frequency_DCDC_Converter"
+            }
+          },
+          {
+            "id": "4fbe00726c87aee7",
+            "type": "leaf",
+            "dimension": 20,
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "pdfs/s40145_022_0567_5_annotated.pdf",
+                "page": 6,
+                "left": -17,
+                "top": 368,
+                "zoom": 0.8946271966667787
+              },
+              "icon": "lucide-file-text",
+              "title": "s40145_022_0567_5_annotated"
+            }
+          },
+          {
+            "id": "3b9253202584e223",
+            "type": "leaf",
+            "dimension": 20,
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "pdfs/1-s2.0-S0925838824010739-main.pdf",
+                "page": 1,
+                "left": -17,
+                "top": 797,
+                "zoom": 0.8945430339967629
+              },
+              "icon": "lucide-file-text",
+              "title": "1-s2.0-S0925838824010739-main"
+            }
+          },
+          {
+            "id": "7cc34577e59ffb04",
+            "type": "leaf",
+            "dimension": 16.666666666666668,
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "pdfs/jmmp-08-00014-v2.pdf",
+                "page": 1,
+                "left": -17,
+                "top": 510,
+                "zoom": 0.8945430354994995
+              },
+              "icon": "lucide-file-text",
+              "title": "jmmp-08-00014-v2"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 6
       },
       {
         "id": "fac35d1897d1ed3d",
@@ -106,21 +174,49 @@
             }
           },
           {
-            "id": "0affe85e23442924",
+            "id": "dd93533e8695bfd3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/papers/brackettCharacterizingMaterialTransitions2021.md",
+                "file": "notes/papers/weiAdvances3DPrinting2022.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "brackettCharacterizingMaterialTransitions2021"
+              "title": "weiAdvances3DPrinting2022"
+            }
+          },
+          {
+            "id": "d8bbb05800335917",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/papers/canadaMagneticFluxGuides2026.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "canadaMagneticFluxGuides2026"
+            }
+          },
+          {
+            "id": "82ce07465fb01394",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "sadafAdvancementsMetalAdditive2024.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "sadafAdvancementsMetalAdditive2024"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -154,7 +250,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:material/",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -316,23 +412,29 @@
       "literature-graph:Open literature graph": false
     }
   },
-  "active": "4bb32635e6511023",
+  "active": "82ce07465fb01394",
   "lastOpenFiles": [
-    "latex/project formulation/output/Main.synctex(busy)",
-    "latex/project formulation/output/pdflatex28076.fls",
-    "latex/project formulation/output/pdflatex11708.fls",
-    "latex/project formulation/output/Main.bbl",
-    "latex/project formulation/output/Main.blg",
-    "latex/project formulation/output/Main.synctex.gz",
-    "latex/project formulation/output/Main.pdf",
-    "latex/project formulation/output/Main.log",
-    "latex/project formulation/output/Main.fls",
-    "latex/project formulation/output/pdflatex30076.fls",
-    "huExperimentalStudyMagnetic2022.md",
-    "latex/project formulation/output/pdflatex26496.fls",
-    "notes/papers/donascimentoMultiobjectiveOptimizationParadigm2021.md",
-    "notes/papers/taylorFully3DPrintedMonolithic2019.md",
+    "pdfs/jmmp-08-00014-v2.pdf",
+    "sadafAdvancementsMetalAdditive2024.md",
+    "notes/papers/weiAdvances3DPrinting2022.md",
+    "notes/papers/wang3DPrintingSoft2024.md",
     "notes/papers/canadaMagneticFluxGuides2026.md",
+    "pdfs/1-s2.0-S0925838824010739-main.pdf",
+    "pdfs/s40145_022_0567_5_annotated.pdf",
+    "notes/papers/taylorFully3DPrintedMonolithic2019.md",
+    "latex/project formulation/output/pdflatex12528.fls",
+    "latex/project formulation/output/pdflatex29420.fls",
+    "latex/project formulation/output/Main.pdf",
+    "latex/project formulation/output/Main.synctex(busy)",
+    "latex/project formulation/output/pdflatex30616.fls",
+    "notes/papers/canada3DPrintedSoftMagnetic2024.md",
+    "pdfs/1-s2.0-S0079642520300529-main.pdf",
+    "notes/papers/chaudharyAdditiveManufacturingMagnetic2020.md",
+    "notes/papers/liuContinuouslyVariableMultiPermeability2020.md",
+    "pdfs/Continuously_Variable_Multi-Permeability_Inductor_for_Improving_the_Efficiency_of_High-Frequency_DCDC_Converter.pdf",
+    "notes/papers/luDesignPreparationLowtemperature2026.md",
+    "notes/papers/huExperimentalStudyMagnetic2022.md",
+    "notes/papers/donascimentoMultiobjectiveOptimizationParadigm2021.md",
     "notes/papers/elsersawyDesignPerformanceAssessment2025.md",
     "notes/papers/brackettCharacterizingMaterialTransitions2021.md",
     "notes/papers/huber3DPrintingPolymerBonded2017.md",
@@ -341,22 +443,15 @@
     "notes/papers/liuDesignAdditiveManufacturing2018.md",
     "notes/papers/aghebModificationEmpiricalCore2013.md",
     "notes/research groups/MIT, Luis Fernando Velásquez-García.md",
-    "notes/papers/liuContinuouslyVariableMultiPermeability2020.md",
-    "notes/papers/luDesignPreparationLowtemperature2026.md",
     "notes/research groups/Virginia Tech, Department of Materials Science and Engineering.md",
     "notes/papers/yiyanAdditiveManufacturingMagnetic2016.md",
     "notes/papers/sullivanInvitedPassiveComponent2011.md",
     "notes/papers/umetaniImprovementSaturationProperty2013.md",
-    "notes/papers/wang3DPrintingSoft2024.md",
-    "notes/papers/chaudharyAdditiveManufacturingMagnetic2020.md",
-    "notes/papers/weiAdvances3DPrinting2022.md",
     "notes/research directions/Functionally gradient material multi-permeability.md",
     "latex/project formulation/Report_Figures/V1_resistance_over_time.PNG",
     "latex/project formulation/Report_Figures/original_endstop.PNG",
     "latex/project formulation/Report_Figures/adapted_endstop.PNG",
     "notes/hardware/pellet extruding system.md",
-    "notes/research groups/Chemnitz University of Technology.md",
-    "notes/research groups/VTT, Aino Manninen.md",
     "latex/presentations/1__08_10_2026/images/types_of_AM_magnetic_methods.png",
     "latex/presentations/1__08_10_2026/images/AM_methods_and_applications.png",
     "latex/presentations/1__08_10_2026/images/am_magnetic_cores.png",

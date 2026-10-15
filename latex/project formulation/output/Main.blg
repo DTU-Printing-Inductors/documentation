@@ -3,21 +3,31 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: Main.aux
 The style file: unsrt.bst
 Database file #1: ../../../pdfs/bibliography.bib
-Warning--empty year in valchevInductorsTransformersPower2018
 Warning--empty journal in sullivanInvitedPassiveComponent2011
 Warning--empty year in sullivanInvitedPassiveComponent2011
+Warning--empty year in valchevInductorsTransformersPower2018
 Warning--empty journal in aghebModificationEmpiricalCore2013
 Warning--empty year in aghebModificationEmpiricalCore2013
 Warning--empty journal in wangMultipermeabilityInductorsIncreasing2013
 Warning--empty year in wangMultipermeabilityInductorsIncreasing2013
+Warning--empty journal in umetaniImprovementSaturationProperty2013
+Warning--empty year in umetaniImprovementSaturationProperty2013
 Warning--empty journal in cuiInductorGeometryImproved2014
 Warning--empty year in cuiInductorGeometryImproved2014
 Warning--empty journal in liuDesignAdditiveManufacturing2018
 Warning--empty year in liuDesignAdditiveManufacturing2018
-Warning--empty journal in liuContinuouslyVariableMultiPermeability2020
-Warning--empty year in liuContinuouslyVariableMultiPermeability2020
+Warning--empty journal in donascimentoMultiobjectiveOptimizationParadigm2021
+Warning--empty year in donascimentoMultiobjectiveOptimizationParadigm2021
 Warning--empty journal in luDesignPreparationLowtemperature2026
 Warning--empty year in luDesignPreparationLowtemperature2026
+Warning--empty journal in liuContinuouslyVariableMultiPermeability2020
+Warning--empty year in liuContinuouslyVariableMultiPermeability2020
+Warning--empty journal in wang3DPrintingSoft2024
+Warning--empty year in wang3DPrintingSoft2024
+Warning--empty journal in weiAdvances3DPrinting2022
+Warning--empty year in weiAdvances3DPrinting2022
+Warning--empty journal in sadafAdvancementsMetalAdditive2024
+Warning--empty year in sadafAdvancementsMetalAdditive2024
 Warning--empty journal in taylorFully3DPrintedMonolithic2019
 Warning--empty year in taylorFully3DPrintedMonolithic2019
 Warning--empty journal in canadaMagneticFluxGuides2026
@@ -30,45 +40,45 @@ Warning--empty journal in brackettCharacterizingMaterialTransitions2021
 Warning--empty year in brackettCharacterizingMaterialTransitions2021
 Warning--empty journal in elsersawyDesignPerformanceAssessment2025
 Warning--empty year in elsersawyDesignPerformanceAssessment2025
-You've used 14 entries,
+You've used 19 entries,
             1791 wiz_defined-function locations,
-            531 strings with 7501 characters,
-and the built_in function-call counts, 3835 in all, are:
-= -- 277
-> -- 252
+            560 strings with 8804 characters,
+and the built_in function-call counts, 5119 in all, are:
+= -- 374
+> -- 327
 < -- 1
-+ -- 89
-- -- 75
-* -- 368
-:= -- 625
-add.period$ -- 42
-call.type$ -- 14
-change.case$ -- 13
++ -- 116
+- -- 97
+* -- 492
+:= -- 830
+add.period$ -- 57
+call.type$ -- 19
+change.case$ -- 18
 chr.to.int$ -- 0
-cite$ -- 41
-duplicate$ -- 132
-empty$ -- 327
-format.name$ -- 75
-if$ -- 774
+cite$ -- 56
+duplicate$ -- 177
+empty$ -- 442
+format.name$ -- 97
+if$ -- 1033
 int.to.chr$ -- 0
-int.to.str$ -- 14
-missing$ -- 15
-newline$ -- 73
-num.names$ -- 14
-pop$ -- 62
+int.to.str$ -- 19
+missing$ -- 20
+newline$ -- 98
+num.names$ -- 19
+pop$ -- 82
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 47
+skip$ -- 62
 stack$ -- 0
-substring$ -- 290
+substring$ -- 395
 swap$ -- 6
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 27
-while$ -- 36
-width$ -- 16
-write$ -- 128
-(There were 27 warnings)
+warning$ -- 37
+while$ -- 49
+width$ -- 21
+write$ -- 173
+(There were 37 warnings)
