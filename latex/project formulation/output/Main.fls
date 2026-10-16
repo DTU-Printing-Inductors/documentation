@@ -385,5 +385,6 @@ INPUT output/Main.aux
 INPUT c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
 INPUT c:/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb
 INPUT c:/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb
+INPUT c:/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb
 INPUT c:/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb
 INPUT c:/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb

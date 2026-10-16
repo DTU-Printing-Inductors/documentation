@@ -30,10 +30,10 @@
               "type": "pdf",
               "state": {
                 "file": "pdfs/1-s2.0-S2214860420311222-main.pdf",
-                "page": 1,
-                "left": 142,
-                "top": 692,
-                "zoom": 1.3
+                "page": 4,
+                "left": -15,
+                "top": 743,
+                "zoom": 0.9
               },
               "icon": "lucide-file-text",
               "title": "1-s2.0-S2214860420311222-main"
@@ -44,88 +44,65 @@
             "type": "leaf",
             "dimension": 50,
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "pdfs/Design_and_Preparation_of_Low-temperature_Curable_Multi-permeability_Inductor_with_Low_Power_Loss_for_High_Frequency_Applications.pdf",
-                "page": 4,
-                "left": -17,
-                "top": 263,
-                "zoom": 0.8700980392156863
+                "file": "notes/papers/elsersawyDesignPerformanceAssessment2025.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Design_and_Preparation_of_Low-temperature_Curable_Multi-permeability_Inductor_with_Low_Power_Loss_for_High_Frequency_Applications"
+              "icon": "lucide-file",
+              "title": "elsersawyDesignPerformanceAssessment2025"
             }
           },
           {
-            "id": "f55f6ecb5164bc6d",
+            "id": "b893f996d0c9ef3d",
             "type": "leaf",
             "dimension": 33.333333333333336,
             "state": {
               "type": "pdf",
               "state": {
-                "file": "pdfs/Continuously_Variable_Multi-Permeability_Inductor_for_Improving_the_Efficiency_of_High-Frequency_DCDC_Converter.pdf",
-                "page": 6,
-                "left": 292,
-                "top": 390,
-                "zoom": 2.1
-              },
-              "icon": "lucide-file-text",
-              "title": "Continuously_Variable_Multi-Permeability_Inductor_for_Improving_the_Efficiency_of_High-Frequency_DCDC_Converter"
-            }
-          },
-          {
-            "id": "4fbe00726c87aee7",
-            "type": "leaf",
-            "dimension": 20,
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "pdfs/s40145_022_0567_5_annotated.pdf",
-                "page": 6,
+                "file": "pdfs/s41598-025-19740-x-3.pdf",
+                "page": 5,
                 "left": -17,
-                "top": 368,
-                "zoom": 0.8946271966667787
-              },
-              "icon": "lucide-file-text",
-              "title": "s40145_022_0567_5_annotated"
-            }
-          },
-          {
-            "id": "3b9253202584e223",
-            "type": "leaf",
-            "dimension": 20,
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "pdfs/1-s2.0-S0925838824010739-main.pdf",
-                "page": 1,
-                "left": -17,
-                "top": 797,
-                "zoom": 0.8945430339967629
-              },
-              "icon": "lucide-file-text",
-              "title": "1-s2.0-S0925838824010739-main"
-            }
-          },
-          {
-            "id": "7cc34577e59ffb04",
-            "type": "leaf",
-            "dimension": 16.666666666666668,
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "pdfs/jmmp-08-00014-v2.pdf",
-                "page": 1,
-                "left": -17,
-                "top": 510,
+                "top": 169,
                 "zoom": 0.8945430354994995
               },
               "icon": "lucide-file-text",
-              "title": "jmmp-08-00014-v2"
+              "title": "s41598-025-19740-x-3"
+            }
+          },
+          {
+            "id": "5cd4b51335b8979a",
+            "type": "leaf",
+            "dimension": 25,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/papers/liuDesignAdditiveManufacturing2018.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "liuDesignAdditiveManufacturing2018"
+            }
+          },
+          {
+            "id": "a1015637d3c38369",
+            "type": "leaf",
+            "dimension": 20,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/papers/liuContinuouslyVariableMultiPermeability2020.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "liuContinuouslyVariableMultiPermeability2020"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       },
       {
         "id": "fac35d1897d1ed3d",
@@ -207,16 +184,63 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sadafAdvancementsMetalAdditive2024.md",
+                "file": "notes/papers/canada3DPrintedSoftMagnetic2024.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "sadafAdvancementsMetalAdditive2024"
+              "title": "canada3DPrintedSoftMagnetic2024"
+            }
+          },
+          {
+            "id": "4a718c06746c9ce0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/papers/liuContinuouslyVariableMultiPermeability2020.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "liuContinuouslyVariableMultiPermeability2020"
+            }
+          },
+          {
+            "id": "8d559c218c155591",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "pdfs/Continuously_Variable_Multi-Permeability_Inductor_for_Improving_the_Efficiency_of_High-Frequency_DCDC_Converter.pdf",
+                "page": 7,
+                "left": 44,
+                "top": 620,
+                "zoom": 1.1
+              },
+              "icon": "lucide-file-text",
+              "title": "Continuously_Variable_Multi-Permeability_Inductor_for_Improving_the_Efficiency_of_High-Frequency_DCDC_Converter"
+            }
+          },
+          {
+            "id": "ec2f0b1e16ff6094",
+            "type": "leaf",
+            "dimension": 12.5,
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "pdfs/3D-Printed_Soft_Magnetic_Cores_For_Compact_Electromechanical_Devices_Via_Material_Extrusion.pdf",
+                "page": 2,
+                "left": -17,
+                "top": 752,
+                "zoom": 0.8944769199758114
+              },
+              "icon": "lucide-file-text",
+              "title": "3D-Printed_Soft_Magnetic_Cores_For_Compact_Electromechanical_Devices_Via_Material_Extrusion"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -412,38 +436,39 @@
       "literature-graph:Open literature graph": false
     }
   },
-  "active": "82ce07465fb01394",
+  "active": "8d559c218c155591",
   "lastOpenFiles": [
-    "pdfs/jmmp-08-00014-v2.pdf",
+    "latex/project formulation/project_formulation_16_10_2026.pdf",
+    "latex/project formulation/project_formulation.pdf",
+    "latex/project formulation/output/pdflatex23780.fls",
+    "latex/project formulation/output/pdflatex23836.fls",
+    "latex/project formulation/output/project_formulation.bbl",
+    "latex/project formulation/output/project_formulation.blg",
+    "latex/project formulation/output/project_formulation.synctex.gz",
+    "latex/project formulation/output/project_formulation.pdf",
+    "latex/project formulation/output/project_formulation.synctex(busy)",
+    "latex/project formulation/output/project_formulation.log",
+    "latex/project formulation/output/project_formulation.fls",
+    "notes/papers/liuContinuouslyVariableMultiPermeability2020.md",
+    "notes/research groups/Virginia Tech, Department of Materials Science and Engineering.md",
+    "notes/papers/canada3DPrintedSoftMagnetic2024.md",
+    "notes/papers/liuDesignAdditiveManufacturing2018.md",
+    "notes/papers/elsersawyDesignPerformanceAssessment2025.md",
+    "notes/papers/brackettCharacterizingMaterialTransitions2021.md",
     "sadafAdvancementsMetalAdditive2024.md",
     "notes/papers/weiAdvances3DPrinting2022.md",
     "notes/papers/wang3DPrintingSoft2024.md",
     "notes/papers/canadaMagneticFluxGuides2026.md",
-    "pdfs/1-s2.0-S0925838824010739-main.pdf",
-    "pdfs/s40145_022_0567_5_annotated.pdf",
     "notes/papers/taylorFully3DPrintedMonolithic2019.md",
-    "latex/project formulation/output/pdflatex12528.fls",
-    "latex/project formulation/output/pdflatex29420.fls",
-    "latex/project formulation/output/Main.pdf",
-    "latex/project formulation/output/Main.synctex(busy)",
-    "latex/project formulation/output/pdflatex30616.fls",
-    "notes/papers/canada3DPrintedSoftMagnetic2024.md",
-    "pdfs/1-s2.0-S0079642520300529-main.pdf",
     "notes/papers/chaudharyAdditiveManufacturingMagnetic2020.md",
-    "notes/papers/liuContinuouslyVariableMultiPermeability2020.md",
-    "pdfs/Continuously_Variable_Multi-Permeability_Inductor_for_Improving_the_Efficiency_of_High-Frequency_DCDC_Converter.pdf",
     "notes/papers/luDesignPreparationLowtemperature2026.md",
     "notes/papers/huExperimentalStudyMagnetic2022.md",
     "notes/papers/donascimentoMultiobjectiveOptimizationParadigm2021.md",
-    "notes/papers/elsersawyDesignPerformanceAssessment2025.md",
-    "notes/papers/brackettCharacterizingMaterialTransitions2021.md",
     "notes/papers/huber3DPrintingPolymerBonded2017.md",
     "notes/papers/wangMultipermeabilityInductorsIncreasing2013.md",
     "notes/papers/cuiInductorGeometryImproved2014.md",
-    "notes/papers/liuDesignAdditiveManufacturing2018.md",
     "notes/papers/aghebModificationEmpiricalCore2013.md",
     "notes/research groups/MIT, Luis Fernando Velásquez-García.md",
-    "notes/research groups/Virginia Tech, Department of Materials Science and Engineering.md",
     "notes/papers/yiyanAdditiveManufacturingMagnetic2016.md",
     "notes/papers/sullivanInvitedPassiveComponent2011.md",
     "notes/papers/umetaniImprovementSaturationProperty2013.md",

@@ -1,16 +1,16 @@
 # Fdb version 4
-["bibtex output/Main"] 1792073679.28293 "output/Main.aux" "output/Main.bbl" "output/Main" 1792073683.08962 0
+["bibtex output/Main"] 1792155460.33549 "output/Main.aux" "output/Main.bbl" "output/Main" 1792155464.32729 0
   "../../../pdfs/bibliography.bib" 0 -1 0 ""
   "c:/texlive/2026/texmf-dist/bibtex/bst/base/unsrt.bst" 1791449412 18030 1376b4b231b50c66211e47e42eda2875 ""
-  "output/Main.aux" 1792073681 3446 b4ef9f0ee44643f790c0aa4562ba4b60 "pdflatex"
+  "output/Main.aux" 1792155463 3347 54d4776d49622700b9c294ed309f6d17 "pdflatex"
   (generated)
   "output/Main.bbl"
   "output/Main.blg"
   (rewritten before read)
-["pdflatex"] 1792073679.84079 "c:/Users/artfi/OneDrive - Danmarks Tekniske Universitet/Research/documentation/latex/project formulation/Main.tex" "output/Main.pdf" "Main" 1792073683.09044 0
-  "Contents/Problem_statement.tex" 1792073669 11524 37bc36f3b94491cf4aaf52916f2b34c1 ""
-  "Main.tex" 1791980295 1894 0467d297f1284de286a0d07eb51448b7 ""
-  "c:/Users/artfi/OneDrive - Danmarks Tekniske Universitet/Research/documentation/latex/project formulation/Main.tex" 1791980295 1894 0467d297f1284de286a0d07eb51448b7 ""
+["pdflatex"] 1792155460.92395 "c:/Users/artfi/OneDrive - Danmarks Tekniske Universitet/Research/documentation/latex/project formulation/Main.tex" "output/Main.pdf" "Main" 1792155464.32824 0
+  "Contents/Problem_statement.tex" 1792155451 14588 f692960dcf8a5e7947b1bf5594b2379f ""
+  "Main.tex" 1792151193 1975 ddc6bd43df6be7086cc144ac5fdf9c8e ""
+  "c:/Users/artfi/OneDrive - Danmarks Tekniske Universitet/Research/documentation/latex/project formulation/Main.tex" 1792151193 1975 ddc6bd43df6be7086cc144ac5fdf9c8e ""
   "c:/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1791449843 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1791449843 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2026/texmf-dist/fonts/map/fontname/texfonts.map" 1791451158 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -42,6 +42,7 @@
   "c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb" 1791448875 32626 5abc8bb2f28aa647d4c70f8ea38cc0d3 ""
   "c:/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb" 1791449843 140176 d0f50dba675c56d445f84a32c1f93a79 ""
   "c:/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb" 1791449843 135942 aecb5af344df420d6ec421db27dedf62 ""
+  "c:/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb" 1791449843 139826 3796482349bae544f13f54da58f9706d ""
   "c:/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb" 1791449843 145929 5c9aebea9ba6e33fc93158c04a3bdcd8 ""
   "c:/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb" 1791449844 196446 823e77efd89b89faab342901e22eb237 ""
   "c:/texlive/2026/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1791453018 71627 94eb9990bed73c364d7f53f960cc8c5b ""
@@ -183,8 +184,8 @@
   "c:/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1791457991 5655996 795b756740562267ad2ae16e70168a76 ""
   "c:/texlive/2026/texmf-var/web2c/pdftex/pdflatex.fmt" 1791458138 3668393 39aa4a40a0a842a61bebb22e83d75bdc ""
   "c:/texlive/2026/texmf.cnf" 1791457953 713 e69b156964470283e0530f5060668171 ""
-  "output/Main.aux" 1792073681 3446 b4ef9f0ee44643f790c0aa4562ba4b60 "pdflatex"
-  "output/Main.bbl" 1792073679 5173 02b0bb652ce2f33f347ca2ad7b0b1fd8 "bibtex output/Main"
+  "output/Main.aux" 1792155463 3347 54d4776d49622700b9c294ed309f6d17 "pdflatex"
+  "output/Main.bbl" 1792155460 5173 02b0bb652ce2f33f347ca2ad7b0b1fd8 "bibtex output/Main"
   (generated)
   "output/Main.aux"
   "output/Main.log"

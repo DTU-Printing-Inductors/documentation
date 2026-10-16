@@ -1,0 +1,98 @@
+\begin{thebibliography}{10}
+
+\bibitem{sullivanInvitedPassiveComponent2011}
+Charles~R. Sullivan, Di~Yao, Garet Gamache, Alexander Latham, and Jizheng Qiu.
+\newblock Passive {{Component Technologies}} for {{Advanced Power Conversion Enabled}} by {{Wide-Band-Gap Power Devices}}.
+\newblock 41(8):315--330.
+
+\bibitem{valchevInductorsTransformersPower2018}
+Vencislav~Cekov Valchev.
+\newblock {\em Inductors and {{Transformers}} for {{Power Electronics}}}.
+\newblock CRC Press.
+
+\bibitem{aghebModificationEmpiricalCore2013}
+Edris Agheb and Hans~Kristian Høidalen.
+\newblock Modification of empirical core loss calculation methods including flux distribution.
+\newblock 7(5):381--390.
+
+\bibitem{wangMultipermeabilityInductorsIncreasing2013}
+Laili Wang, Zhiyuan Hu, Yan-Fei Liu, Yunqing Pei, and Xu~Yang.
+\newblock Multipermeability {{Inductors}} for {{Increasing}} the {{Inductance}} and {{Improving}} the {{Efficiency}} of {{High-Frequency DC}}/{{DC Converters}}.
+\newblock 28(9):4402--4413.
+
+\bibitem{umetaniImprovementSaturationProperty2013}
+Kazuhiro Umetani.
+\newblock Improvement of saturation property of iron powder core by flux homogenizing structure.
+\newblock 8(6):640--648.
+
+\bibitem{cuiInductorGeometryImproved2014}
+Han Cui, Khai D.~T. Ngo, Jim Moss, Michele Hui~Fern Lim, and Ernesto Rey.
+\newblock Inductor {{Geometry With Improved Energy Density}}.
+\newblock 29(10):5446--5453.
+
+\bibitem{liuDesignAdditiveManufacturing2018}
+Lanbing Liu, Chao Ding, Shengchang Lu, Ting Ge, Yi~Yan, Yunhui Mei, Khai D.~T. Ngo, and Guo-Quan Lu.
+\newblock Design and {{Additive Manufacturing}} of {{Multipermeability Magnetic Cores}}.
+\newblock 54(4):3541--3547.
+
+\bibitem{donascimentoMultiobjectiveOptimizationParadigm2021}
+Vinicius~Cabral Do~Nascimento, Seung-Ryul Moon, Kevin Byerly, Scott~D. Sudhoff, and Paul~R. Ohodnicki.
+\newblock Multiobjective {{Optimization Paradigm}} for {{Toroidal Inductors With Spatially Tuned Permeability}}.
+\newblock 36(3):2510--2521.
+
+\bibitem{luDesignPreparationLowtemperature2026}
+Panpan Lu, Rongzhi Zhao, and Yunhui Mei.
+\newblock Design and {{Preparation}} of {{Low}}-temperature {{Curable Multi}}-permeability {{Inductor}} with {{Low Power Loss}} for {{High Frequency Applications}}.
+\newblock pages 1--1.
+
+\bibitem{liuContinuouslyVariableMultiPermeability2020}
+Junchang Liu, Yunhui Mei, Shengchang Lu, Xin Li, and Guo-Quan Lu.
+\newblock Continuously {{Variable Multi-Permeability Inductor}} for {{Improving}} the {{Efficiency}} of {{High-Frequency DC}}–{{DC Converter}}.
+\newblock 35(1):826--834.
+
+\bibitem{wang3DPrintingSoft2024}
+Feng-Hui Wang, Cai-Yin You, Na~Tian, He-Guang Liu, Jing Zhang, and Xiao-Pei Zhu.
+\newblock {{3D}} printing of soft magnetic materials: {{From}} printing to applications.
+\newblock 990:174486.
+
+\bibitem{weiAdvances3DPrinting2022}
+Xiangxia Wei, Ming-Liang Jin, Haiqiang Yang, Xiao-Xiong Wang, Yun-Ze Long, and Zhangwei Chen.
+\newblock Advances in {{3D}} printing of magnetic materials: {{Fabrication}}, properties, and their applications.
+\newblock 11(5):665--701.
+
+\bibitem{sadafAdvancementsMetalAdditive2024}
+Mahrukh Sadaf, Mario Bragaglia, Lidija Slemenik~Perše, and Francesca Nanni.
+\newblock Advancements in {{Metal Additive Manufacturing}}: {{A Comprehensive Review}} of {{Material Extrusion}} with {{Highly Filled Polymers}}.
+\newblock 8(1):14.
+
+\bibitem{taylorFully3DPrintedMonolithic2019}
+Anthony~P. Taylor, Camilo Velez~Cuervo, David~P. Arnold, and Luis~Fernando Velasquez-Garcia.
+\newblock Fully {{3D-Printed}}, {{Monolithic}}, {{Mini Magnetic Actuators}} for {{Low-Cost}}, {{Compact Systems}}.
+\newblock 28(3):481--493.
+
+\bibitem{canadaMagneticFluxGuides2026}
+Jorge Cañada, Steven~W. Wright, Michail~E. Kiziroglou, Eric~M. Yeatman, and Luis~F. Velásquez‐García.
+\newblock Magnetic {{Flux Guides}} by {{Material Extrusion}}.
+\newblock 13(12):e17310.
+
+\bibitem{huExperimentalStudyMagnetic2022}
+Xiaocheng Hu, Zipeng Liang, Qiyang Li, Sideng Hu, and Shaoxing Qu.
+\newblock Experimental study on the magnetic permeability of inclusion filled soft polymeric composite for soft-core transformer applications.
+\newblock 106:107430.
+
+\bibitem{huber3DPrintingPolymerBonded2017}
+Christian Huber, Claas Abert, Florian Bruckner, Martin Groenefeld, Stephan Schuschnigg, Iulian Teliban, Christoph Vogler, Gregor Wautischer, Roman Windl, and Dieter Suess.
+\newblock {{3D Printing}} of {{Polymer-Bonded Rare-Earth Magnets With}} a {{Variable Magnetic Compound Fraction}} for a {{Predefined Stray Field}}.
+\newblock 7(1):9419.
+
+\bibitem{brackettCharacterizingMaterialTransitions2021}
+James Brackett, Yongzhe Yan, Dakota Cauthen, Vidya Kishore, John Lindahl, Tyler Smith, Zeke Sudbury, Haibin Ning, Vlastimil Kunc, and Chad Duty.
+\newblock Characterizing material transitions in large-scale {{Additive Manufacturing}}.
+\newblock 38:101750.
+
+\bibitem{elsersawyDesignPerformanceAssessment2025}
+Rawan Elsersawy, Andrew Rowe, Chance Smith, Dawson Halstead, Erik DeRosier, Mainul Hossain, and Mohammad Abu~Hasan Khondoker.
+\newblock Design and performance assessment of custom static intermixers in extrusion {{3D}} printing using machine learning–driven image analysis.
+\newblock 15(1):36557.
+
+\end{thebibliography}
