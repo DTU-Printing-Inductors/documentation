@@ -2,3 +2,10 @@ They use a pellet extruder as it can reach higher permeabilities (30) compared t
 [[canada3DPrintedSoftMagnetic2024]]
 
 They print an inductor with the pellet system [[canadaMagneticFluxGuides2026]]
+
+From the two following papers, it doesn't seem like they oriented the soft magnetic flakes. Potentially due to it not being important for soft magnets.
+
+Questions:
+ - Why was powder material extrusion not considered? ()
+ - What are some recommendations when replicating 
+ - Why was specifically the pellets chosen?
