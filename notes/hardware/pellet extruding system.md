@@ -2,11 +2,6 @@
 Custom
 https://link.springer.com/article/10.1007/s40964-024-00926-0
 
-Mahor V5 - Professional - 1200 eur
-https://filament2print.com/en/extruders/3089-19279-pellet-extruder-mahor-v5-m8.html#/2542-version-professional
-
-Mahor V4 - 640 eur
-
 I ignored large extruders.
 
 | Extruder             | Type     | Price    | Nozzle                     | Screw type  | Notes                                               | Link                                                                                                           |
@@ -20,4 +15,13 @@ I ignored large extruders.
 | Wasp HDP             | Extruder | quote    | V6                         | n/a         |                                                     | https://www.3dwasp.com/en/robot-pellet-extruder-hdp/                                                           |
 | Dyze Pulsar Atom     | Extruder | quote    | Proprietary                | n/a         |                                                     | https://dyzedesign.com/pulsar-atom-pellet-extruder/                                                            |
 A review paper choses Mahor, see [[shaikScientificReviewVarious2021]]
+
+## If the blend ratios do not work
+What I can do is take two pellet extruders and combine them, and have them coextrude, similar how the filament extruders do it, and then i can design a mixer inside the heater block for them to mix. This solution is good, in the case where pellet feeding might be hard to achieve with the specific ratios, controlling steppers is easier. There is another case, where two hoppers might exist, that are controlled with stepper motors to precisely dose, but then we have 3 steppers, instead of the two
+
+Another approach could be using direct powder extrusion.
 ## Pellet feeding
+For now I don't think about this until the blend ratios are proven.
+
+## Connections
+[[Soft magnetic pellets]]

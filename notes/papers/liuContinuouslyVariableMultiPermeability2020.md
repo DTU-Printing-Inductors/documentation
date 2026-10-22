@@ -24,3 +24,4 @@ Entry: "[[Continuously_Variable_Multi-Permeability_Inductor_for_Improving_the_Ef
 ## Ideas
 
 ## Connections
+[[multi-permeability]]

@@ -21,12 +21,3 @@ Entry: "[[Inductor_Geometry_With_Improved_Energy_Density.pdf]]"
 
 ## Connections
 This directly covers [[multi-permeability]]
-## Direction conclusion
-Why I pursued it 
-I kept note of this direction, as it demonstrated that CFI have been attempted.
-
-Why I paused or rejected it? (technical obstacle or just haven't investigated)
-I paused this direction as I am still mapping out the topic of CFI and multi permeability cores
-
-What would make me return? (a new paper, available hardware, a promising material, or evidence that the approach has an advantage)
-I would return when I need to look deeper in CFI.

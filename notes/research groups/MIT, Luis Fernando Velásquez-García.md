@@ -8,4 +8,4 @@ From the two following papers, it doesn't seem like they oriented the soft magne
 Questions:
  - Why was powder material extrusion not considered? ()
  - What are some recommendations when replicating 
- - Why was specifically the pellets chosen?
+ - Why was specifically the pellets chosen? Was creating your own outside the scope?

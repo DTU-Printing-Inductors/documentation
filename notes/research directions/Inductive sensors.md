@@ -1,1 +1,0 @@
-Inductive sensors, and then we can use a complex geometry such as a lattice to then sense things. And the cool thing is that these magnet composites could have a polymer matrix suited for a specific application, flexible for flexible inductors, solvent resistive to submerge in potential chemical applications or something.

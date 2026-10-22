@@ -66,7 +66,6 @@ Entry: "[[1-s2.0-S0304885317309423-main.pdf]]"
 > [!PDF|note] [[1-s2.0-S0304885317309423-main.pdf#page=4&selection=24,42,25,66&color=note|1-s2.0-S0304885317309423-main, p.100]]
 > > Second, higher Fe contents are needed; however, as one increases the percentage of Fe particulate, the extrusion processing of the composite material becomes more complicated.
 > 
-> To mitigate the complications of FDM printing of higher magnetic fill factor, one could attempt using a pellet extuder. See [[canada3DPrintedSoftMagnetic2024]]
 
 > [!PDF|note] [[1-s2.0-S0304885317309423-main.pdf#page=5&selection=1,18,3,37&color=note|1-s2.0-S0304885317309423-main, p.101]]
 > > Third, a more magnetically responsive particulate with lower coercivity and susceptibility would also increase the performance of the printed cores.
