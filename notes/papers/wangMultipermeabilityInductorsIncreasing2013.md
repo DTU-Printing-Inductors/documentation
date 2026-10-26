@@ -24,3 +24,4 @@ Entry: "[[2013_09_TPEL_L_Wang_Multi Perm Inductor.pdf]]"
 ## Ideas
 
 ## Connections
+[[multi-permeability]]

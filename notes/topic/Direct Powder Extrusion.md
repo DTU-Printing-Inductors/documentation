@@ -4,6 +4,8 @@ The products seem to be tailored towards pharma and biotech, so the extruders mi
 
 ## Papers
 [[aguilar-de-leyva3DPrintingDirect2024]] Good review paper from 2024 listing out the topologies in the pharma application
+[[miaoDesignTestingApplication2024]] Paper showing an open source design, arguing that a feeding hopper is better than direct extrusion.
+[[boyle3DPrintingUsing2019]] Fundamental paper showing powder melt extrusion
 ## Products/Companies
 [[Fabrx direct powder extrusion toolhead]]
 [[Mahor PMEX]]

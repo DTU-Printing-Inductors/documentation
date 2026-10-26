@@ -19,3 +19,4 @@ Entry: "[[1-s2.0-S2214860420311222-main.pdf]]"
 ## Ideas
 
 ## Connections
+[[Functionally gradient material]]

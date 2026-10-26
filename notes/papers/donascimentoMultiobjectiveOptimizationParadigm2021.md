@@ -19,3 +19,5 @@ Entry: "[[Multiobjective_Optimization_Paradigm_for_Toroidal_Inductors_With_Spati
 ## Ideas
 
 ## Connections
+[[geometrical CFI]]
+[[multi-permeability]]

@@ -4,46 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "9f40240c4870c4c9",
+        "id": "dab60dec8bc579fc",
         "type": "tabs",
         "children": [
           {
-            "id": "14252bbf2a07d5e6",
-            "type": "leaf",
-            "dimension": 14.285714285714286,
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
-            "id": "b9942c93b09ea9d7",
+            "id": "d1cd55e968dd9904",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/topic/multi-permeability.md",
+                "file": "notes/hardware/Fabrx direct powder extrusion toolhead.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "multi-permeability"
-            }
-          },
-          {
-            "id": "d015da1fb0ddade6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "aguilar-de-leyva3DPrintingDirect2024.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "aguilar-de-leyva3DPrintingDirect2024"
+              "title": "Fabrx direct powder extrusion toolhead"
             }
           }
         ]
@@ -242,44 +217,45 @@
       "literature-graph:Open literature graph": false
     }
   },
-  "active": "14252bbf2a07d5e6",
+  "active": "d1cd55e968dd9904",
   "lastOpenFiles": [
-    "notes/papers/cuiInductorGeometryImproved2014.md",
-    "notes/topic/multi-permeability.md",
-    "notes/papers/bollig3DPrintedMagnetic2017.md",
-    "notes/papers/canada3DPrintedSoftMagnetic2024.md",
-    "notes/research directions/Functionally gradient material.md",
-    "notes/hardware/Direct Powder Extrusion.md",
-    "notes/papers/shaikScientificReviewVarious2021.md",
-    "notes/papers/liuDesignAdditiveManufacturing2018.md",
-    "notes/hardware/pellet extruding system.md",
-    "notes/research directions/Print parameter varying multi-permeability.md",
-    "latex/presentations/1__08_10_2026/Notes for 08-10-2026.md",
-    "notes/research directions/Inductive sensors.md",
-    "notes/companies/HYMAG’IN.md",
-    "Soft magnetic pellets.md",
-    "notes/companies/TODA KOGYO.md",
-    "notes/companies/Maglastic.md",
-    "aguilar-de-leyva3DPrintingDirect2024.md",
-    "pdfs/pharmaceutics-16-00437.pdf",
     "notes/hardware/Fabrx direct powder extrusion toolhead.md",
-    "notes/papers/canadaMagneticFluxGuides2026.md",
-    "notes/papers/liuContinuouslyVariableMultiPermeability2020.md",
-    "pdfs/Design_and_Preparation_of_Low-temperature_Curable_Multi-permeability_Inductor_with_Low_Power_Loss_for_High_Frequency_Applications.pdf",
     "notes/hardware/Mahor PMEX.md",
-    "Untitled 1.md",
-    "pdfs/Design_and_Additive_Manufacturing_of_Multipermeability_Magnetic_Cores.pdf",
+    "notes/hardware/Twin screw extruders.md",
+    "notes/topic/Fused Granulate Fabrication.md",
+    "notes/hardware/single screw FGF extruders.md",
+    "notes/hardware/twin screw FGF extruders.md",
+    "notes/hardware/2-in-1-out FDM extruders.md",
+    "notes/papers/liuContinuouslyVariableMultiPermeability2020.md",
     "latex/presentations/2__27_10_2026/~$brainstorming_27_10_2026.potx.tmp",
-    "latex/presentations/2__27_10_2026/brainstorming_27_10_2026.potx.pptx",
-    "notes/papers/wangMultipermeabilityInductorsIncreasing2013.md",
+    "notes/papers/liuDesignAdditiveManufacturing2018.md",
     "pdfs/2013_09_TPEL_L_Wang_Multi Perm Inductor.pdf",
-    "notes/papers/garlandDesignManufacturingFunctionally2015.md",
-    "notes/papers/huber3DPrintingPolymerBonded2017.md",
-    "pdfs/s41598-017-09864-0.pdf",
-    "pdfs/Continuously_Variable_Multi-Permeability_Inductor_for_Improving_the_Efficiency_of_High-Frequency_DCDC_Converter.pdf",
-    "notes/papers/kennedyPrintingPolymerBlends2020.md",
-    "pdfs/1-s2.0-S2214860420306059-main.pdf",
-    "pdfs/md_137_11_111407.pdf",
+    "pdfs/IET Electric Power Appl - 2013 - Agheb - Modification of empirical core loss calculation methods including flux.pdf",
+    "pdfs/1-s2.0-S2214860420311222-main.pdf",
+    "pdfs/1-s2.0-S0142941821003731-main.pdf",
+    "notes/companies/ADDDiX.md",
+    "Untitled.canvas",
+    "pdfs/Design_and_Additive_Manufacturing_of_Multipermeability_Magnetic_Cores.pdf",
+    "notes/companies/Sintex.md",
+    "notes/companies/Resinex.md",
+    "latex/project formulation/project_formulation.pdf",
+    "latex/project formulation/output/project_formulation.synctex(busy)",
+    "latex/project formulation/output/pdflatex22708.fls",
+    "latex/project formulation/output/pdflatex2712.fls",
+    "notes/companies/Hawa (MATE Co EU distributor).md",
+    "notes/topic/Soft magnetic pellets.md",
+    "notes/companies/Neosid.md",
+    "notes/research directions/Functionally gradient material.md",
+    "notes/topic/Direct Powder Extrusion.md",
+    "notes/papers/boyle3DPrintingUsing2019.md",
+    "notes/papers/miaoDesignTestingApplication2024.md",
+    "notes/research groups/MIT, Luis Fernando Velásquez-García.md",
+    "latex/presentations/1__08_10_2026/Notes for 08-10-2026.md",
+    "Presentation prep for brainstorming meeting.md",
+    "notes/research directions/Traditional magnetic core embedded 3D printed winding.md",
+    "notes/papers/elsersawyDesignPerformanceAssessment2025.md",
+    "notes/papers/umetaniImprovementSaturationProperty2013.md",
+    "notes/papers/sadafAdvancementsMetalAdditive2024.md",
     "latex/project formulation/Report_Figures/V1_resistance_over_time.PNG",
     "latex/project formulation/Report_Figures/original_endstop.PNG",
     "latex/project formulation/Report_Figures/adapted_endstop.PNG",
@@ -289,7 +265,6 @@
     "latex/presentations/1__08_10_2026/images/different_infils.png",
     "latex/presentations/1__08_10_2026/images/inductors_yi_yan.png",
     "latex/presentations/1__08_10_2026/images/machine_yi_yan.png",
-    "images/machine_yi_yan.png",
-    "Untitled.canvas"
+    "images/machine_yi_yan.png"
   ]
 }

@@ -1,1 +1,0 @@
-Explain what I've done before in my Bachelor thesis and Master thesis. Explain the limitations, and current things I am doing.

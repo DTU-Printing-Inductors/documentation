@@ -19,3 +19,4 @@ Entry: "[[1-s2.0-S0142941821003731-main.pdf]]"
 ## Ideas
 
 ## Connections
+[[multi-permeability]]

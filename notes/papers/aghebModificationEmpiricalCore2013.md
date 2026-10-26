@@ -20,3 +20,4 @@ Entry: "[[IET Electric Power Appl - 2013 - Agheb - Modification of empirical cor
 ## Ideas
 
 ## Connections
+[[constant flux inductor]]

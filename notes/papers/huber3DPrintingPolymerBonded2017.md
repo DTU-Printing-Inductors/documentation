@@ -25,3 +25,4 @@ Entry: "[[s41598-017-09864-0.pdf]]"
 ## Ideas
 
 ## Connections
+[[Functionally gradient material]]

@@ -1,22 +1,44 @@
 {
-  "collapse-filter": true,
+  "collapse-filter": false,
   "search": "",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
-  "colorGroups": [],
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:notes/papers  ",
+      "color": {
+        "a": 1,
+        "rgb": 15830670
+      }
+    },
+    {
+      "query": "path:notes/topic  ",
+      "color": {
+        "a": 1,
+        "rgb": 15774781
+      }
+    },
+    {
+      "query": "path:\"notes/research directions\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 9601008
+      }
+    }
+  ],
   "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 1,
+  "nodeSizeMultiplier": 0.992039024390244,
+  "lineSizeMultiplier": 0.992039024390244,
   "collapse-forces": false,
   "centerStrength": 0,
   "repelStrength": 20,
   "linkStrength": 1,
-  "linkDistance": 272,
-  "scale": 0.18462326225856857,
+  "linkDistance": 157,
+  "scale": 0.1846232622585665,
   "close": false
 }

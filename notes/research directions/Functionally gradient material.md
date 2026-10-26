@@ -6,8 +6,8 @@ Can a filled magnetic composite and unfilled polymer matrix ratio be adjusted to
 Can a pellet-fed extrusion process blend a highly filled magnetic composite with its unfilled polymer matrix at controlled ratios during printing, producing a spatially graded soft-magnetic core that improves a relevant inductor performance metric?
 
 ## Hardware
-[[2-in-1-out extruders]]
-[[pellet extruding system]]
+[[2-in-1-out FDM extruders]]
+[[Fused Granulate Fabrication]]
 ## Connections
 [[multi-permeability]]
 ## Sources to look into

@@ -6,6 +6,5 @@ They print an inductor with the pellet system [[canadaMagneticFluxGuides2026]]
 From the two following papers, it doesn't seem like they oriented the soft magnetic flakes. Potentially due to it not being important for soft magnets.
 
 Questions:
- - Why was powder material extrusion not considered? ()
  - What are some recommendations when replicating 
- - Why was specifically the pellets chosen? Was creating your own outside the scope?
+ - Why was specifically the MATE Co pellets chosen? Why not Neosid PFS9 for example. Was creating your own outside the scope?

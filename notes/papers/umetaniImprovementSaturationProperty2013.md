@@ -20,3 +20,4 @@ Entry: "[[IEEJ Transactions Elec Engng - 2013 - Umetani - Improvement of saturat
 ## Ideas
 
 ## Connections
+[[constant flux inductor]]

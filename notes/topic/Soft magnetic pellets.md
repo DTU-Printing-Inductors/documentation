@@ -4,3 +4,6 @@
 [[HYMAG’IN]]
 [[Maglastic]]
 [[TODA KOGYO]]
+[[Neosid]]
+
+Danish soft magnet composite powder [[Sintex]]

@@ -20,3 +20,4 @@ Entry: "[[s41598-025-19740-x-3.pdf]]"
 ## Ideas
 
 ## Connections
+[[Functionally gradient material]]
