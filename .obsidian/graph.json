@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "",
+  "search": "-tag:#task",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -34,11 +34,11 @@
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 0.992039024390244,
   "lineSizeMultiplier": 0.992039024390244,
-  "collapse-forces": false,
+  "collapse-forces": true,
   "centerStrength": 0,
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 157,
-  "scale": 0.1846232622585665,
+  "scale": 0.18462326225856587,
   "close": false
 }
