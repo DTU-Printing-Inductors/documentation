@@ -10,10 +10,16 @@
     "highTextContrast": false
   },
   "knownTags": {
+    "admin": 7,
+    "email": 10,
     "not-read": 6,
     "paper": 1,
+    "planning": 8,
+    "presentation": 11,
     "read": 4,
-    "skimmed": 5
+    "report": 12,
+    "skimmed": 5,
+    "task": 9
   },
   "tagColors": {},
   "_version": 4
