@@ -13,6 +13,7 @@
     "admin": 7,
     "email": 10,
     "learnmore": 13,
+    "nested": 14,
     "not-read": 6,
     "paper": 1,
     "planning": 8,
@@ -20,7 +21,8 @@
     "read": 4,
     "report": 12,
     "skimmed": 5,
-    "task": 9
+    "task": 9,
+    "nested/tag": 1
   },
   "tagColors": {},
   "_version": 4

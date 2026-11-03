@@ -24,14 +24,13 @@
             "id": "ca1fefdd2a58cb7d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "notes/hardware/materials/electrically conductive/Lati3Dlab LATAMID 12 AM H2 K30.md",
-                "mode": "source",
-                "source": false
+                "file": "notes/hardware/All materials.base",
+                "viewName": "View"
               },
-              "icon": "lucide-file",
-              "title": "Lati3Dlab LATAMID 12 AM H2 K30"
+              "icon": "lucide-table",
+              "title": "All materials"
             }
           },
           {
@@ -220,14 +219,23 @@
               "icon": "network",
               "title": "Local literature graph"
             }
+          },
+          {
+            "id": "001fca105b00e41f",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-agent-chat-view",
+              "state": {},
+              "icon": "copilot-agent",
+              "title": "Copilot Agent Chat"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 592.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -250,47 +258,47 @@
       "tasknotes:Open Kanban board": false,
       "tasknotes:Open Pomodoro timer": true,
       "tasknotes:Open Pomodoro statistics": true,
-      "tasknotes:Create new task": false
+      "tasknotes:Create new task": false,
+      "copilot:Open Copilot Agent Chat": false
     }
   },
   "active": "ca1fefdd2a58cb7d",
   "lastOpenFiles": [
+    "notes/hardware/materials/test",
+    "notes/companies/Dismissed.md",
+    "notes/hardware/All materials.base",
+    "notes/hardware/materials/pellets/Neosid PF1is.md",
+    "notes/hardware/materials/pellets/Lati3Dlab LATAMID 12 AM H2 K30.md",
+    "notes/hardware/materials/pellets",
+    "copilot/skills/obsidian-bases/SKILL.md",
+    "copilot/skills/obsidian-bases/LICENSE",
+    "copilot/skills/obsidian-bases/references/EXAMPLES.md",
+    "copilot/skills/obsidian-bases/references/FUNCTIONS_REFERENCE.md",
+    "copilot/skills/obsidian-bases/references",
+    "copilot/skills/obsidian-bases",
+    "copilot/skills/obsidian-markdown/SKILL.md",
+    "copilot/skills/obsidian-markdown/LICENSE",
+    "copilot/skills/obsidian-markdown/references/PROPERTIES.md",
+    "copilot/skills/obsidian-markdown/references/EMBEDS.md",
+    "copilot/skills/obsidian-markdown/references/CALLOUTS.md",
+    "copilot/skills/obsidian-markdown/references",
+    "copilot/skills/obsidian-markdown",
+    "copilot/skills/copilot-fetch-x/SKILL.md",
+    "copilot/skills/copilot-fetch-x/fetch-x.ps1",
+    "copilot/skills/copilot-youtube-transcript/SKILL.md",
     "notes/companies/active/ALBIS NORDICS & BALTICS AB.md",
-    "notes/hardware/materials/unfilled/Arkema Rilsamid AESNO MED.md",
-    "notes/hardware/materials/datasheets/Arkema_Rilsamid_AESNO_MED.pdf",
-    "notes/hardware/materials/unfilled/Arkema Rilsamid AMNO MED.md",
-    "notes/hardware/materials/unfilled/Arkema Rilsamid AMNO TLD.md",
-    "notes/hardware/materials/datasheets/Arkema_Rilsamid_AMNO_MED.pdf",
+    "notes/hardware/materials/pellets/Arkema Rilsamid AESNO MED.md",
+    "notes/hardware/materials/pellets/Arkema Rilsamid AMNO MED.md",
+    "notes/hardware/materials/pellets/unfilled/Arkema Rilsamid AMNO TLD.md",
     "notes/companies/active/Neosid.md",
     "Resinex]], [[Albis.md",
-    "notes/hardware/materials/Dismissed.md",
     "notes/companies/future/UltraPolymers.md",
-    "notes/hardware/materials/soft magnetic/Neosid PF1is.md",
     "notes/companies/closed/Resinex.md",
-    "notes/hardware/All materials.base",
-    "notes/hardware/materials/datasheets/Arkema_Rilsamid_ASR_13.pdf",
-    "notes/hardware/materials/electrically conductive/datasheets",
-    "notes/hardware/materials/soft magnetic/Neosid PFS3.md",
-    "notes/hardware/materials/soft magnetic/Neosid PFS4.md",
-    "notes/hardware/materials/thermally conductive/Lati3Dlab LATICONTHER SP4 AM CP130.md",
-    "notes/hardware/materials/soft magnetic",
-    "notes/hardware/materials/thermally conductive",
-    "notes/hardware/materials/electrically conductive/Lati3Dlab LATAMID 12 AM H2 K30.md",
-    "notes/hardware/materials/unfilled",
-    "notes/hardware/materials/electrically conductive/Arkema Rilsamid ASR 13.md",
-    "notes/hardware/materials/electrically conductive",
-    "notes/hardware/materials/datasheets/Arkema_Rilsamid_AMNO_TLD.pdf",
+    "notes/hardware/materials/pellets/Neosid PFS3.md",
+    "notes/hardware/materials/pellets/Neosid PFS4.md",
+    "notes/hardware/materials/pellets/Lati3Dlab LATICONTHER SP4 AM CP130.md",
+    "notes/hardware/materials/pellets/Arkema Rilsamid ASR 13.md",
     "Arkema Rilsamid ASR 13 Black.md",
-    "TaskNotes/Tasks/Look into Pollen AM, they mention a material catalgue, we could request that and also look into whether they do mixing. httpswww.pollen.ampam_o2_mc.md",
-    "notes/hardware/materials/soft magnetic/Neosid PFS9.md",
-    "notes/companies/active/Lati3Dlab.md",
-    "notes/companies/active/TODA KOGYO.md",
-    "notes/companies/active/Maglastic.md",
-    "notes/companies/active/Studio3e8.md",
-    "notes/papers/yiyanAdditiveManufacturingMagnetic2016.md",
-    "Lati3Dlab LATAMID 12 AM H2 K30.md",
-    "Metal Injection Molding.md",
-    "LATAMID 12 AM H2 K30.md",
     "Untitled.canvas",
     "latex/presentations/1__08_10_2026_follow_up/images/types_of_AM_magnetic_methods.png",
     "latex/presentations/1__08_10_2026_follow_up/images/machine_yi_yan.png",
