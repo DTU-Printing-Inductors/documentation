@@ -1,7 +1,9 @@
 ---
 Grade: Rilsamid AMNO TLD
 Manufacturer: Arkema
-Supplier: "[[Resinex]]"
+Supplier:
+  - "[[Resinex]]"
+  - "[[ALBIS NORDICS & BALTICS AB]]"
 Type: Unfilled
 Matrix: PA12
 Filler: none
@@ -15,3 +17,4 @@ Last update: 13:23 03/11/2026
 Lead time: December
 Processing instructions: n/a
 ---
+## 
