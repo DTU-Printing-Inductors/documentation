@@ -1,0 +1,26 @@
+views:
+  - type: table
+    name: View
+    filters:
+      and:
+        - file.inFolder("notes/hardware/materials")
+        - '!file.inFolder("notes/hardware/materials/datasheets")'
+    order:
+      - Manufacturer
+      - Grade
+      - Filler
+      - Filler loading
+      - Matrix
+      - MOQ
+      - Permeability
+      - Resistivity
+      - Price
+      - Lead time
+      - Supplier
+      - Status
+      - Datasheet
+      - Processing instructions
+      - Last update
+    sort: []
+    columnSize:
+      note.Status: 97

@@ -2,11 +2,10 @@
 status: open
 priority: normal
 dateCreated: 2026-10-28T14:35:38.053+01:00
-dateModified: 2026-10-30T09:17:18.404+01:00
+dateModified: 2026-11-02T15:40:11.507+01:00
 tags:
   - task
   - report
-scheduled: 2026-10-30
 ---
 
 talk about how parameters during printing can also affect the permeability, basically mention other ways how permeability can be adjusted.
