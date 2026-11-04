@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/companies/active/Maglastic.md",
+                "file": "notes/companies/closed/ADDDiX.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Maglastic"
+              "title": "ADDDiX"
+            }
+          },
+          {
+            "id": "0f9521bcbac82e15",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/companies/future/UltraPolymers.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "UltraPolymers"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -235,27 +250,33 @@
       "copilot:Open Copilot Agent Chat": false
     }
   },
-  "active": "84670983a343ff77",
+  "active": "0f9521bcbac82e15",
   "lastOpenFiles": [
+    "notes/companies/future/Sintex.md",
+    "notes/companies/future/Iro3D.md",
+    "notes/companies/closed/Resinex.md",
+    "notes/companies/closed/HYMAG’IN.md",
+    "HYMAG'IN - website contact.msg",
+    "RE_ HYMAG'IN - website contact.msg",
+    "notes/companies/closed/ADDDiX.md",
+    "TaskNotes/Views/tasks-default.base",
+    "notes/companies/future/UltraPolymers.md",
+    "notes/companies/active/Toda Kogyo.md",
+    "notes/companies/active/Studio3e8.md",
+    "notes/companies/active/Neosid.md",
+    "notes/companies/active/MATE Co.md",
     "notes/companies/active/Mahor.md",
+    "notes/companies/active/Maglastic.md",
+    "notes/companies/active/Lati3Dlab.md",
+    "notes/companies/active/Direct3D.md",
+    "notes/companies/active/ALBIS NORDICS & BALTICS AB.md",
     "Re_ Consulta sobre la extrusora de polvo Mahor PMEX 3.msg",
     "Re_ Consulta sobre la extrusora de polvo Mahor PMEX 2.msg",
     "RE_ Consulta sobre la extrusora de polvo Mahor PMEX 1.msg",
     "RE_ Consulta sobre la extrusora de polvo Mahor PMEX.msg",
     "Consulta sobre la extrusora de polvo Mahor PMEX.msg",
-    "notes/companies/active/Studio3e8.md",
     "Re_ Research collaboration enquiry 1.msg",
     "Research collaboration enquiry.msg",
-    "RE_ Research collaboration enquiry.msg",
-    "notes/companies/active/MATE Co.md",
-    "RE_ Technical University of Denmark _ Inquiry via HAWA Website _EN_ _ Inquiry about Nylon-12_FeSiAl pellets for research.msg",
-    "notes/companies/active/Toda Kogyo.md",
-    "notes/companies/active/Neosid.md",
-    "notes/companies/active/Maglastic.md",
-    "notes/companies/active/Lati3Dlab.md",
-    "notes/companies/active/Direct3D.md",
-    "notes/companies/active/ALBIS NORDICS & BALTICS AB.md",
-    "notes/hardware/All materials.base",
     "notes/hardware/materials/manual/MATE Co TS-6S50.md",
     "notes/hardware/materials/manual/MATE Co TS-2J50C.md",
     "notes/hardware/materials/manual/MATE Co TS-3S50.md",
@@ -265,13 +286,7 @@
     "Toda_Kogyo_TS-1S50.pdf.md",
     "copilot/copilot-conversations/agent__Here's_the_file,_can_you_fill_it_out,_similary_how@20261104_141009.md",
     "notes/hardware/materials/manual/Lati3Dlab LATAMID 12 AM H2 K30.md",
-    "notes/companies/closed/Resinex.md",
     "notes/hardware/materials/manual/Toda Kogyo MSP-A325.md",
-    "notes/hardware/materials/manual/Toda Kogyo SP-L336.md",
-    "notes/hardware/materials/manual/Toda Kogyo MSP-A524.md",
-    "notes/hardware/materials/manual/Toda Kogyo SP-M535.md",
-    "notes/hardware/materials/manual/Toda Kogyo SP-M530.md",
-    "notes/hardware/materials/manual/Toda Kogyo SP-N736.md",
     "Untitled.canvas",
     "latex/presentations/1__08_10_2026_follow_up/images/types_of_AM_magnetic_methods.png",
     "latex/presentations/1__08_10_2026_follow_up/images/machine_yi_yan.png",

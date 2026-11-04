@@ -6,7 +6,7 @@ sessionId: "1970f75e-7002-453a-86c3-7ae43e8a4792"
 topic: "Here's the file, can you fill it out, similary how i did oth…"
 tags:
   - copilot-conversation
-usage: '{"usedTokens":61626,"contextWindow":1000000,"inputTokens":2,"outputTokens":578,"cacheReadTokens":59082,"cacheWriteTokens":1964,"updatedAt":1793801651826}'
+usage: '{"usedTokens":68150,"contextWindow":1000000,"inputTokens":2,"outputTokens":458,"cacheReadTokens":66328,"cacheWriteTokens":1362,"updatedAt":1793802217354}'
 ---
 
 **user**: Here's the file, can you fill it out, similary how i did other company files, here's the email conversation "Thanks for providing the details. If I run into issues, I’ll let you know.
@@ -881,3 +881,153 @@ Things to check:
 - **No V5 note exists** in the vault, so "Mahor V5 Professional" is plain text, not a link.
 - **There are no `.msg` files** for this thread in the vault, so the Email link column just says "Email".
 [Timestamp: 2026/11/04 15:13:40]
+
+**user**: Same for adddix, here's the email convo "Hi Artis,
+
+Sorry, but we are not using PA12 at that moment. 
+
+If you have any question do not hesitate to contact me.
+
+BR,
+Payam
+
+
+________________________________________
+Von: adddy <ai@adddix.de>
+Gesendet: Montag, 26. Oktober 2026 10:00
+An: Pajam Daneschwar <pd@adddix.de>; Thomas Manzei <tmjr@adddix.de>
+Betreff: [adddix] [EN] Materialmuster anfordern – Artis 
+ 
+NEUE ANFRAGE
+Materialmuster anfordern
+Eingegangen am 26.10.2026 um 10:00 Uhr · Ref. 20261026-100008-e1efdf
+SPRACHE	ENGLISCH (Anfrage von adddix.de/en/) – bitte auf Englisch antworten
+ANLIEGEN	Materialmuster anfordern
+MATERIALIEN	Granulat (FGF)
+BESCHREIBUNG	Dear ADDDiX Team,
+
+I am a research assistant at the Technical University of Denmark (DTU), exploring pellet-based additive manufacturing for soft-magnetic composite components.
+
+I am interested in obtaining samples of unfilled PA12 and PA12-CF pellets. Could you please provide the following information? 
+1. Available material grades and their technical datasheets.
+2. Available sample quantities and associated costs.
+3. Estimated lead time and shipping time to Denmark.
+
+Thank you for your assistance. I look forward to hearing from you.
+
+Sincerely,
+Artis Fils
+NAME	Artis
+E-MAIL	artfi@dtu.dk
+TELEFON	+4555255583
+FIRMA	Technical University of Denmark
+HERKUNFT	Angabe: Google-Suche
+Kanal: Direkt
+Einstieg: /en/contact
+Diese Anfrage wurde über das Kontaktformular auf adddix.de gesendet.
+Antworten Sie direkt auf diese E-Mail, um mit dem Absender Kontakt aufzunehmen.
+"
+[Timestamp: 2026/11/04 15:20:05]
+
+**ai**: I filled out [[ADDDiX]] in the same layout:
+
+- **Company information:** Payam Daneschwar and Thomas Manzei as contacts, plus the website from the contact form.
+- **Investigation:** one row saying you found them through a Google search (from the form's "Herkunft" field) and asked for PA12 and PA12-CF samples.
+- **Key information:** they don't use PA12 at the moment.
+- **Communication table:** your website inquiry, then Payam's reply, marked **Closed**.
+- **Initial email:** I used the version from the contact form. It's numbered 1–3 and ends with "Sincerely", where your old copy said "Kind regards".
+
+Things to check:
+- **Payam's reply has no timestamp** in what you pasted. I used 26/10/2026, the date from your original note.
+- **Name spelling:** the email header says "Pajam" but he signs "Payam", so I used Payam.
+- **The location (Germany)** is a guess from the `.de` domain and the German form text.
+[Timestamp: 2026/11/04 15:20:05]
+
+**user**: Same for hymagin "Dear Camille,
+
+Thank you for the detailed response and for clarifying the available materials and their limitations. We will keep your materials in mind if our research scope expands.
+
+Best regards,
+Artis Fils
+
+From: Camille Crouzet <camille.crouzet@hymagin.com> 
+Sent: Tuesday, 20 October 2026 09.39
+To: Artis Fils <artfi@dtu.dk>
+Subject: HYMAG'IN - website contact
+
+Dear Artis,
+
+Thank you for reaching us out.
+As you saw on our website, HYMAG’IN is a provider of material solutions based on ferrite composite for high frequency applications (GHz). To be honest, we did not investigate that much lower frequency applications due to the properties of soft magnetic composites at these frequencies (low permeability expected + important losses). Here is a short list of solutions I identified :
+
+-	FILAMAG : iron oxide (Fe3O4) composite available as filaments or pellets in TPE and PA6 matrix. We have no data at low frequency. These materials are available off the shelf, MoQ is 1 kg.
+-	NiZn filament for 3D printing + sintering as a service : we are working at R&D level on this solution. As the TRL is a bit low for now, we mostly proposed services to print small prototypes. Find enclosed the data we have right now. Note that we propose this solution as tailor-made services.
+-	Nanomag-MnZn : MnZn powders you can use to prepare your composite on your own. These materials are available on demand and MoQ is 1 kg. We could offer to develop a tailor-made MnZn pellets as a service but MoQ is 20 kg. 
+
+Best regards,
+Camille
+
+
+Camille Crouzet
+CEO HYMAG’IN
+
++33 (0)6 70 40 47 21
+camille.crouzet@hymagin.com
+www.hymagin.com
+CHANGEMENT D'ADRESSE !
+103 Rue Hilaire de Chardonnet, 
+38100 Grenoble	
+ 
+	
+	
+
+
+
+
+
+
+
+-------------------------------------
+
+Name: Artis Fils
+
+Phone Number: +4555255583
+
+E-mail: artfi@dtu.dk
+
+Message: Dear HYMAG’IN team,
+
+I am a research assistant at the Technical University of Denmark (DTU), working on additive manufacturing of soft-magnetic composite cores using pellet extrusion.
+
+We came across your MnZn and iron oxide pellets and would be interested in exploring their potential for magnetic-core applications.
+
+Could you please share the relevant datasheets and product catalogue, particularly information on permeability and magnetic losses at lower frequencies (kHz–MHz)? We would also be interested in obtaining small samples to evaluate their printability and magnetic properties.
+
+Thank you for your time. I look forward to hearing from you.
+
+Best regards,
+Artis Fils
+Technical University of Denmark (DTU)
+
+This visitor has accepted the Privacy Policy. Date/Time: 2026-10-19 11:07:52 CEST
+
+"
+[Timestamp: 2026/11/04 15:23:14]
+
+**ai**: I filled out [[HYMAG’IN]] in the same layout:
+
+- **Company information:** Camille Crouzet (CEO) as the contact, with phone number, website, and their new Grenoble address from the email signature.
+- **Investigation:** one row each for 19/10 and 20/10, based on your original notes and the email details.
+- **Materials:** a section listing the three options Camille offered:
+  - **FILAMAG:** iron oxide pellets or filament in TPE or PA6, MOQ 1 kg.
+  - **NiZn filament with sintering as a service:** still at the R&D stage.
+  - **Nanomag-MnZn:** powders with an MOQ of 1 kg, or custom pellets with an MOQ of 20 kg.
+- **Communication table:** your website inquiry, Camille's reply, and your closing email, marked **Closed**.
+- **Initial email:** your website inquiry.
+
+Things to check:
+- **Your closing reply has no date** in what you pasted, so that timestamp is blank.
+- **Attachment:** Camille attached data for the NiZn filament. It isn't in the vault, so there's nothing to link.
+- **No material notes exist** for FILAMAG or Nanomag-MnZn, so they're plain text, not `[[links]]`.
+- **There are no `.msg` files** for this thread in the vault, so the Email link column just says "Email".
+[Timestamp: 2026/11/04 15:23:14]
