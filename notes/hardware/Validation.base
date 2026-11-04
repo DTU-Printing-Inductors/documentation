@@ -1,0 +1,35 @@
+views:
+  - type: table
+    name: View
+    filters:
+      and:
+        - file.inFolder("notes/hardware/materials/validate")
+        - '!file.inFolder("notes/hardware/materials/datasheets")'
+    order:
+      - Manufacturer
+      - Grade
+      - Functionality
+      - Filler
+      - Filler loading
+      - Matrix
+      - MOQ
+      - Permeability
+      - Surface resistivity (Ω/sq)
+      - Surface resistance (Ω)
+      - Volume resistivity (Ω·m)
+      - Thermal conductivity integral (W/m·K)
+      - Thermal conductivity in-plane (W/m·K)
+      - Thermal conductivity through-plane (W/m·K)
+      - Price
+      - Lead time
+      - Supplier
+      - Status
+      - Datasheet
+      - Processing instructions
+      - Last update
+    sort:
+      - property: Surface resistance standard
+        direction: ASC
+    columnSize:
+      note.Supplier: 180
+      note.Status: 97

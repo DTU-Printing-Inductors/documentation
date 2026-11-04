@@ -1,10 +1,10 @@
 ---
 name: obsidian-markdown
-description: Create and edit Obsidian-specific Markdown syntax, including wikilinks, embeds, block references and block IDs, callouts, properties, tags, aliases, and comments. Load before adding or changing any of these in a note.
+description: Create and edit Obsidian-specific Markdown in .md notes, including wikilinks, block IDs (^id) with block and list embeds, heading embeds, callouts, properties and frontmatter, tags, aliases, and comments. Load before adding or changing any of these in a note, such as linking or embedding a paragraph, list or section, or setting a note's properties.
 license: MIT
 metadata:
   copilot-enabled-agents: opencode, codex
-  copilot-builtin-version: "3"
+  copilot-builtin-version: "4"
   copilot-upstream-revision: "a1dc48e68138490d522c04cbf5822214c6eb1202"
 ---
 

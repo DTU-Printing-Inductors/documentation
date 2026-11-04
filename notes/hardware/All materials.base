@@ -8,12 +8,18 @@ views:
     order:
       - Manufacturer
       - Grade
+      - Functionality
       - Filler
       - Filler loading
       - Matrix
       - MOQ
       - Permeability
-      - Resistivity
+      - Surface resistivity (Ω/sq)
+      - Surface resistance (Ω)
+      - Volume resistivity (Ω·m)
+      - Thermal conductivity integral (W/m·K)
+      - Thermal conductivity in-plane (W/m·K)
+      - Thermal conductivity through-plane (W/m·K)
       - Price
       - Lead time
       - Supplier
@@ -21,6 +27,9 @@ views:
       - Datasheet
       - Processing instructions
       - Last update
-    sort: []
+    sort:
+      - property: Surface resistance standard
+        direction: ASC
     columnSize:
+      note.Supplier: 180
       note.Status: 97

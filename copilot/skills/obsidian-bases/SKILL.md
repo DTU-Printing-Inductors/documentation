@@ -1,10 +1,10 @@
 ---
 name: obsidian-bases
-description: Create and edit Obsidian Bases (.base files) with valid YAML schemas, filters, formulas, properties, summaries, and views. Use for database-like Obsidian views or when the user mentions Bases, .base files, table/card/list views, filters, formulas, or summaries.
+description: Create and edit Obsidian Bases (.base files) with valid YAML filters, formulas, properties, summaries, and table/cards/list views, including the columns a view shows (order) and its row sorting (sort). Load before writing or changing any .base file or embedding a base view, or when the user mentions Bases, database-like views, filters, formulas, sorting, grouping, or summaries.
 license: MIT
 metadata:
   copilot-enabled-agents: opencode, codex
-  copilot-builtin-version: "2"
+  copilot-builtin-version: "3"
   copilot-upstream-revision: "a1dc48e68138490d522c04cbf5822214c6eb1202"
 ---
 

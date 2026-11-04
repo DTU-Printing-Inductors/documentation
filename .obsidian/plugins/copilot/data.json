@@ -99,17 +99,16 @@
   "convertedDocOutputFolder": "",
   "agentMode": {
     "byok": {},
-    "activeBackend": "codex",
+    "activeBackend": "claude",
     "backends": {
       "codex": {
-        "defaultMode": "plan"
+        "defaultMode": "default"
       }
     },
     "debugFullFrames": true,
     "offerFeedbackCards": true,
     "notificationSound": true,
     "notificationSoundId": "piano",
-    "welcomeDismissed": true,
     "skills": {
       "folder": "copilot/skills",
       "builtinPreferences": {
@@ -134,17 +133,12 @@
             "claude",
             "codex"
           ]
-        },
-        "obsidian-cli": {
-          "disabledAgents": [
-            "claude",
-            "codex"
-          ]
         }
       }
     },
     "deviceProfiles": {
       "21fc68b0-b4cb-4239-9c21-8602b1bb525f": {
+        "claudeCliPath": "C:\\Users\\artfi\\.local\\bin\\claude.exe",
         "codex": {
           "binaryPath": "C:\\Users\\artfi\\.obsidian-copilot\\codex\\2.2.2\\codex-acp.exe",
           "binaryVersion": "2.2.2",
@@ -153,9 +147,474 @@
       }
     }
   },
-  "providers": {},
-  "configuredModels": [],
-  "backends": {},
+  "providers": {
+    "498fbec4-c31a-4990-877b-14e47c204147": {
+      "providerType": "openai-compatible",
+      "displayName": "Codex",
+      "origin": {
+        "kind": "agent",
+        "agentType": "codex"
+      },
+      "requiresApiKey": false,
+      "providerId": "498fbec4-c31a-4990-877b-14e47c204147",
+      "addedAt": 1793789481006,
+      "apiKeyKeychainId": null
+    },
+    "312b1a04-79af-4fba-91e2-86d5e68547a7": {
+      "providerType": "anthropic",
+      "displayName": "Claude",
+      "origin": {
+        "kind": "agent",
+        "agentType": "claude"
+      },
+      "requiresApiKey": false,
+      "providerId": "312b1a04-79af-4fba-91e2-86d5e68547a7",
+      "addedAt": 1793789906021,
+      "apiKeyKeychainId": null
+    }
+  },
+  "configuredModels": [
+    {
+      "providerId": "498fbec4-c31a-4990-877b-14e47c204147",
+      "info": {
+        "id": "gpt-6-luna",
+        "displayName": "6 Luna",
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1050000,
+          "output": 128000,
+          "input": 922000
+        },
+        "reasoning": true,
+        "toolCall": true,
+        "releaseDate": "2026-09-22",
+        "cost": {
+          "input": 0.1,
+          "output": 0.5,
+          "cacheRead": 0.01,
+          "cacheWrite": 0.125
+        },
+        "description": "Fast and affordable model for easier tasks."
+      },
+      "configuredModelId": "4fdab0c6-632e-4ab0-9fa4-33def9622bc3",
+      "configuredAt": 1793789482856
+    },
+    {
+      "providerId": "498fbec4-c31a-4990-877b-14e47c204147",
+      "info": {
+        "id": "gpt-5.6-terra",
+        "displayName": "5.6 Terra",
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1050000,
+          "output": 128000,
+          "input": 922000
+        },
+        "reasoning": true,
+        "toolCall": true,
+        "releaseDate": "2026-07-09",
+        "cost": {
+          "input": 2,
+          "output": 12,
+          "cacheRead": 0.2
+        },
+        "description": "Older balanced model for straightforward work."
+      },
+      "configuredModelId": "f6ec0120-ecf5-4e61-8aee-c8bb37986b6c",
+      "configuredAt": 1793789482858
+    },
+    {
+      "providerId": "498fbec4-c31a-4990-877b-14e47c204147",
+      "info": {
+        "id": "gpt-5.6-luna",
+        "displayName": "5.6 Luna",
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1050000,
+          "output": 128000,
+          "input": 922000
+        },
+        "reasoning": true,
+        "toolCall": true,
+        "releaseDate": "2026-07-09",
+        "cost": {
+          "input": 0.2,
+          "output": 1.2,
+          "cacheRead": 0.02
+        },
+        "description": "Older fast and efficient model."
+      },
+      "configuredModelId": "794b16a4-075b-4708-96ce-0ddb7fa6ad6f",
+      "configuredAt": 1793789482858
+    },
+    {
+      "providerId": "312b1a04-79af-4fba-91e2-86d5e68547a7",
+      "info": {
+        "id": "default",
+        "displayName": "Default (recommended)",
+        "description": "Opus 5.5 · Best for everyday, complex tasks"
+      },
+      "configuredModelId": "2148be27-1038-446a-afdd-270e8117d49d",
+      "configuredAt": 1793789906117
+    },
+    {
+      "providerId": "312b1a04-79af-4fba-91e2-86d5e68547a7",
+      "info": {
+        "id": "opus",
+        "displayName": "Opus 5.5",
+        "description": "For complex work and everyday tasks"
+      },
+      "configuredModelId": "b0eb552a-cb3e-4d64-bac7-c92aaf17094b",
+      "configuredAt": 1793789906118
+    },
+    {
+      "providerId": "312b1a04-79af-4fba-91e2-86d5e68547a7",
+      "info": {
+        "id": "sonnet",
+        "displayName": "Sonnet 5.5",
+        "description": "Most efficient for simpler tasks"
+      },
+      "configuredModelId": "11c0a0ac-447b-4a3c-af98-d7691c0a28bf",
+      "configuredAt": 1793789906118
+    },
+    {
+      "providerId": "312b1a04-79af-4fba-91e2-86d5e68547a7",
+      "info": {
+        "id": "fable",
+        "displayName": "Fable 5.1",
+        "description": "For your toughest challenges"
+      },
+      "configuredModelId": "4c5de7e1-289c-409e-8117-acccede6e08c",
+      "configuredAt": 1793789906119
+    },
+    {
+      "providerId": "312b1a04-79af-4fba-91e2-86d5e68547a7",
+      "info": {
+        "id": "haiku",
+        "displayName": "Haiku 5.5",
+        "description": "Fastest for quick answers"
+      },
+      "configuredModelId": "d6478b8e-160e-4822-8cf3-45b030d0861b",
+      "configuredAt": 1793789906120
+    },
+    {
+      "providerId": "312b1a04-79af-4fba-91e2-86d5e68547a7",
+      "info": {
+        "id": "claude-haiku-4-5-20251001",
+        "displayName": "Haiku 4.5",
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 200000,
+          "output": 64000
+        },
+        "reasoning": true,
+        "toolCall": true,
+        "releaseDate": "2025-10-15",
+        "cost": {
+          "input": 1,
+          "output": 5,
+          "cacheRead": 0.1,
+          "cacheWrite": 1.25
+        },
+        "description": "Fastest for quick answers"
+      },
+      "configuredModelId": "36d8e6e8-ae04-41c5-b262-9d1bf27bb0a0",
+      "configuredAt": 1793789906121
+    },
+    {
+      "providerId": "312b1a04-79af-4fba-91e2-86d5e68547a7",
+      "info": {
+        "id": "claude-sonnet-5",
+        "displayName": "Sonnet 5",
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1000000,
+          "output": 128000
+        },
+        "reasoning": true,
+        "toolCall": true,
+        "releaseDate": "2026-06-29",
+        "cost": {
+          "input": 2,
+          "output": 10,
+          "cacheRead": 0.2,
+          "cacheWrite": 2.5
+        },
+        "description": "Efficient for routine tasks"
+      },
+      "configuredModelId": "696c4012-f225-4438-ae5f-b8dff94ea8af",
+      "configuredAt": 1793789906123
+    },
+    {
+      "providerId": "312b1a04-79af-4fba-91e2-86d5e68547a7",
+      "info": {
+        "id": "claude-opus-5",
+        "displayName": "Opus 5",
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1000000,
+          "output": 128000
+        },
+        "reasoning": true,
+        "toolCall": true,
+        "releaseDate": "2026-07-24",
+        "cost": {
+          "input": 5,
+          "output": 25,
+          "cacheRead": 0.5,
+          "cacheWrite": 6.25
+        },
+        "description": "Best for everyday, complex tasks"
+      },
+      "configuredModelId": "5416f3e2-b47b-4636-a93b-e80810ae7cae",
+      "configuredAt": 1793789906124
+    },
+    {
+      "providerId": "312b1a04-79af-4fba-91e2-86d5e68547a7",
+      "info": {
+        "id": "claude-fable-5",
+        "displayName": "Fable 5",
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1000000,
+          "output": 128000
+        },
+        "reasoning": true,
+        "toolCall": true,
+        "releaseDate": "2026-06-07",
+        "cost": {
+          "input": 10,
+          "output": 50,
+          "cacheRead": 1,
+          "cacheWrite": 12.5
+        },
+        "description": "Most capable for your hardest and longest-running tasks"
+      },
+      "configuredModelId": "a1fdec36-346b-4580-b7cd-9fb1e3946899",
+      "configuredAt": 1793789906124
+    },
+    {
+      "providerId": "312b1a04-79af-4fba-91e2-86d5e68547a7",
+      "info": {
+        "id": "claude-opus-4-8",
+        "displayName": "Opus 4.8",
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1000000,
+          "output": 128000
+        },
+        "reasoning": true,
+        "toolCall": true,
+        "releaseDate": "2026-05-28",
+        "cost": {
+          "input": 5,
+          "output": 25,
+          "cacheRead": 0.5,
+          "cacheWrite": 6.25
+        },
+        "description": "Best for everyday, complex tasks"
+      },
+      "configuredModelId": "444244a1-180c-4e70-aa11-cadf80d714f5",
+      "configuredAt": 1793789906125
+    },
+    {
+      "providerId": "312b1a04-79af-4fba-91e2-86d5e68547a7",
+      "info": {
+        "id": "claude-opus-4-7",
+        "displayName": "Opus 4.7",
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1000000,
+          "output": 128000
+        },
+        "reasoning": true,
+        "toolCall": true,
+        "releaseDate": "2026-04-14",
+        "cost": {
+          "input": 5,
+          "output": 25,
+          "cacheRead": 0.5,
+          "cacheWrite": 6.25
+        },
+        "description": "Best for everyday, complex tasks"
+      },
+      "configuredModelId": "7e76fbf4-7526-4ab7-b86c-5885777b8b6e",
+      "configuredAt": 1793789906125
+    },
+    {
+      "providerId": "312b1a04-79af-4fba-91e2-86d5e68547a7",
+      "info": {
+        "id": "claude-opus-4-6",
+        "displayName": "Opus 4.6",
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1000000,
+          "output": 128000
+        },
+        "reasoning": true,
+        "toolCall": true,
+        "releaseDate": "2026-02-04",
+        "cost": {
+          "input": 5,
+          "output": 25,
+          "cacheRead": 0.5,
+          "cacheWrite": 6.25
+        },
+        "description": "Best for everyday, complex tasks"
+      },
+      "configuredModelId": "19da287b-254c-4108-b8cb-81d128474a22",
+      "configuredAt": 1793789906126
+    },
+    {
+      "providerId": "312b1a04-79af-4fba-91e2-86d5e68547a7",
+      "info": {
+        "id": "claude-sonnet-4-6",
+        "displayName": "Sonnet 4.6",
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1000000,
+          "output": 128000
+        },
+        "reasoning": true,
+        "toolCall": true,
+        "releaseDate": "2026-02-17",
+        "cost": {
+          "input": 3,
+          "output": 15,
+          "cacheRead": 0.3,
+          "cacheWrite": 3.75
+        },
+        "description": "Efficient for routine tasks"
+      },
+      "configuredModelId": "c5720212-8588-4ca7-9f19-68d5611a6b68",
+      "configuredAt": 1793789906126
+    }
+  ],
+  "backends": {
+    "codex": {
+      "enabledModels": [
+        "4fdab0c6-632e-4ab0-9fa4-33def9622bc3",
+        "f6ec0120-ecf5-4e61-8aee-c8bb37986b6c",
+        "794b16a4-075b-4708-96ce-0ddb7fa6ad6f"
+      ]
+    },
+    "claude": {
+      "enabledModels": [
+        "2148be27-1038-446a-afdd-270e8117d49d",
+        "b0eb552a-cb3e-4d64-bac7-c92aaf17094b",
+        "11c0a0ac-447b-4a3c-af98-d7691c0a28bf",
+        "4c5de7e1-289c-409e-8117-acccede6e08c",
+        "d6478b8e-160e-4822-8cf3-45b030d0861b",
+        "36d8e6e8-ae04-41c5-b262-9d1bf27bb0a0",
+        "696c4012-f225-4438-ae5f-b8dff94ea8af",
+        "5416f3e2-b47b-4636-a93b-e80810ae7cae",
+        "a1fdec36-346b-4580-b7cd-9fb1e3946899",
+        "444244a1-180c-4e70-aa11-cadf80d714f5",
+        "7e76fbf4-7526-4ab7-b86c-5885777b8b6e",
+        "19da287b-254c-4108-b8cb-81d128474a22",
+        "c5720212-8588-4ca7-9f19-68d5611a6b68"
+      ]
+    }
+  },
   "copilotPlusCatalog": {
     "models": [
       {

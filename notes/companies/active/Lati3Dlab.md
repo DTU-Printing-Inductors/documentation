@@ -1,7 +1,7 @@
 ## Company information
 
 Website: https://www.lati3dlab.com
-Contact: n/a
+Contact: Francesco Manarini fmanarini@it.lati.com
 Location: Italy
 Company type: Manufacturer
 ## Investigations
@@ -13,10 +13,12 @@ Company type: Manufacturer
 [[Lati3Dlab LATAMID 12 AM H2 K30]]
 [[Lati3Dlab LATICONTHER SP4 AM CP130]]
 ## Conversation
-| Timestamp        | Status   | Who? | Type               | Summary                                                                                                                                                                            | Email link         |
-| ---------------- | -------- | ---- | ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------ |
-| 11:43 03/11/2026 | Rejected | Me   | Initial phone call | Didn't speak english.                                                                                                                                                              | Initial phone call |
-| 12:01 03/11/2026 | Recieved | Me   | Initial inquiry    | Requesting a data sheet for [[Lati3Dlab LATAMID 12 AM H2 K30]], [[Lati3Dlab LATICONTHER SP4 AM CP130]] and regular PA12. Asking for MOQ, price, availability, size of the pellets. | Initial inquiry    |
+| Timestamp        | Status   | Who? | Type               | Summary                                                                                                                                                                            | Email link                                   |
+| ---------------- | -------- | ---- | ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |
+| 11:43 03/11/2026 | Rejected | Me   | Initial phone call | Didn't speak english.                                                                                                                                                              | Initial phone call                           |
+| 12:01 03/11/2026 | Recieved | Me   | Initial inquiry    | Requesting a data sheet for [[Lati3Dlab LATAMID 12 AM H2 K30]], [[Lati3Dlab LATICONTHER SP4 AM CP130]] and regular PA12. Asking for MOQ, price, availability, size of the pellets. | Initial inquiry                              |
+| 17:16 03/11/2026 | Answered | Them | Answer             | Gave the datasheets, PA12 can be supplied but is hard to 3D print. Offered other CNT based pellets.                                                                                | ![[Pellet-based additive manufacturing.msg]] |
+| 09:00 04/11/2026 | Awaiting | Me   | Reponse            | The [[Lati3Dlab LATAMID 12 AM H2 K30]] datasheet doesn't mention electrical conductivity. Found a bigger database, asking if those correlate.                                      |                                              |
 ## Initial inquiry
 "Dear Lati3Dlab Team,
 
