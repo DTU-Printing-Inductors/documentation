@@ -20,4 +20,7 @@ Last update: 08:45 04/11/2026
 Lead time: n/a
 Processing instructions: n/a
 Functionality: Electrically conductive
+Volume resistivity (Ω·m): 0.5*
 ---
+## Resistivity measurement
+The resistivity is roughly estimated in the email. ![[R_ Pellet-based additive manufacturing.msg]]

@@ -1,9 +1,9 @@
 
 ## Companies
-[[Hawa (MATE Co EU distributor)]]
+[[MATE Co]]
 [[HYMAG’IN]]
 [[Maglastic]]
-[[TODA KOGYO]]
+[[Toda Kogyo]]
 [[Neosid]]
 
 Danish soft magnet composite powder [[Sintex]]

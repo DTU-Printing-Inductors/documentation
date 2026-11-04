@@ -6,9 +6,9 @@ Location: Germany
 Company type: Distributor
 
 ## Investigation
-| Time       | Action                                                                                                                                                               |
-| ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 03/1 Looked into regular PA12 (Found), PA12-CF (None), looked into the specialty fillers (Nothing of interest), there are a lot of electrically conducting polymers,  ,  ,  ,  ,  |
+| Time                                                                                                                                                                | Action |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
+| 03/1 Looked into regular PA12 (Found), PA12-CF (None), looked into the specialty fillers (Nothing of interest), there are a lot of electrically conducting polymers |        |
 ## Products
 - [[Arkema Rilsamid AMNO MED]]
 - [[Arkema Rilsamid AESNO MED]]

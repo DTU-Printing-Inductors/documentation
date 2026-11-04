@@ -31,5 +31,8 @@ views:
       - property: Surface resistance standard
         direction: ASC
     columnSize:
+      note.Filler: 89
+      note.Filler loading: 103
+      note.Surface resistivity (Ω/sq): 25
       note.Supplier: 180
       note.Status: 97

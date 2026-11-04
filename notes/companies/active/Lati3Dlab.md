@@ -1,9 +1,12 @@
 ## Company information
 
 Website: https://www.lati3dlab.com
-Contact: Francesco Manarini fmanarini@it.lati.com
+Contact: General - Francesco Manarini fmanarini@it.lati.com
+Sales - Henrik Orwén horwen@se.lati.com
 Location: Italy
 Company type: Manufacturer
+
+Potentially a sister company of Lati, that focusses on 3D printing.
 ## Investigations
 
 | Time             | Action                                                                                                                                                      |
@@ -13,12 +16,15 @@ Company type: Manufacturer
 [[Lati3Dlab LATAMID 12 AM H2 K30]]
 [[Lati3Dlab LATICONTHER SP4 AM CP130]]
 ## Conversation
-| Timestamp        | Status   | Who? | Type               | Summary                                                                                                                                                                            | Email link                                   |
-| ---------------- | -------- | ---- | ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |
-| 11:43 03/11/2026 | Rejected | Me   | Initial phone call | Didn't speak english.                                                                                                                                                              | Initial phone call                           |
-| 12:01 03/11/2026 | Recieved | Me   | Initial inquiry    | Requesting a data sheet for [[Lati3Dlab LATAMID 12 AM H2 K30]], [[Lati3Dlab LATICONTHER SP4 AM CP130]] and regular PA12. Asking for MOQ, price, availability, size of the pellets. | Initial inquiry                              |
-| 17:16 03/11/2026 | Answered | Them | Answer             | Gave the datasheets, PA12 can be supplied but is hard to 3D print. Offered other CNT based pellets.                                                                                | ![[Pellet-based additive manufacturing.msg]] |
-| 09:00 04/11/2026 | Awaiting | Me   | Reponse            | The [[Lati3Dlab LATAMID 12 AM H2 K30]] datasheet doesn't mention electrical conductivity. Found a bigger database, asking if those correlate.                                      |                                              |
+| Timestamp        | Status    | Who? | Type               | Summary                                                                                                                                                                            | Email link                                             |
+| ---------------- | --------- | ---- | ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------ |
+| 11:43 03/11/2026 | Rejected  | Me   | Initial phone call | Didn't speak english.                                                                                                                                                              | Initial phone call                                     |
+| 12:01 03/11/2026 | Recieved  | Me   | Initial inquiry    | Requesting a data sheet for [[Lati3Dlab LATAMID 12 AM H2 K30]], [[Lati3Dlab LATICONTHER SP4 AM CP130]] and regular PA12. Asking for MOQ, price, availability, size of the pellets. | Initial inquiry                                        |
+| 17:16 03/11/2026 | Responded | Them | Answer             | Gave the datasheets, PA12 can be supplied but is hard to 3D print. Offered other CNT based pellets.                                                                                | ![[Pellet-based additive manufacturing.msg]]           |
+| 09:00 04/11/2026 | Answered  | Me   | Reponse            | The [[Lati3Dlab LATAMID 12 AM H2 K30]] datasheet doesn't mention electrical conductivity. Found a bigger database, asking if those correlate.                                      | ![[RE_ Pellet-based additive manufacturing.msg]]       |
+| 13:03 04/11/2026 | Awaiting  | Me   | Response           | Reached out to Henrik, who is the sales, for a quotation and samples.                                                                                                              | ![[Quotation and Sample Request – PA12 Materials.msg]] |
+| 13:45 04/11/2026 | Responded | Them | Answer             | Gave an resistivity estimate, and emphasized that it is subject to change.                                                                                                         | ![[R_ Pellet-based additive manufacturing 1.msg]]      |
+| 14:00 04/11/2026 | Closing   | Me   | Closing            | Thank you, and closing and proceeding with Henrik.                                                                                                                                 | ![[RE_ Pellet-based additive manufacturing 1.msg]]     |
 ## Initial inquiry
 "Dear Lati3Dlab Team,
 

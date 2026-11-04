@@ -3,6 +3,7 @@
     "aliases": "aliases",
     "cssclasses": "multitext",
     "tags": "tags",
-    "Supplier": "multitext"
+    "Supplier": "multitext",
+    "Volume resistivity (Ω·m)": "text"
   }
 }
