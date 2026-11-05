@@ -1,0 +1,40 @@
+formulas:
+  last_update: file.mtime.format("DD/MM/YYYY HH:mm")
+properties:
+  formula.last_update:
+    displayName: Last update
+views:
+  - type: table
+    name: View
+    filters:
+      and:
+        - file.inFolder("notes/hardware/materials")
+        - '!file.inFolder("notes/hardware/materials/datasheets")'
+        - '!file.inFolder("notes/hardware/materials/info/raw")'
+        - Functionality == "Soft magnetic"
+    order:
+      - Manufacturer
+      - Grade
+      - Functionality
+      - Filler
+      - Filler loading
+      - Matrix
+      - MOQ
+      - Permeability
+      - Price
+      - Lead time
+      - Supplier
+      - Status
+      - Datasheet
+      - Processing instructions
+      - formula.last_update
+    sort:
+      - property: Surface resistivity (Ω/sq)
+        direction: DESC
+      - property: Surface resistance standard
+        direction: ASC
+    columnSize:
+      note.Filler: 89
+      note.Filler loading: 103
+      note.Surface resistivity (Ω/sq): 129
+      note.Supplier: 180

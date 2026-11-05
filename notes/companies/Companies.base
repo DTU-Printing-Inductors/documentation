@@ -1,0 +1,146 @@
+filters:
+  and:
+    - file.hasTag("company")
+    - file.inFolder("notes/companies")
+formulas:
+  stage: if(file.inFolder("notes/companies/active"), "Active", if(file.inFolder("notes/companies/closed"), "Closed", if(file.inFolder("notes/companies/future"), "Future", if(file.inFolder("notes/companies/skipped"), "Skipped", "Other"))))
+  materials: file.backlinks.filter(value.asFile().inFolder("notes/hardware/materials"))
+  material_count: formula.materials.length
+  needs: if(note["Group"] == "Polymer supplier", ["PA12", "PA12-CF", "Thermally conductive", "Electrically conductive"], if(note["Group"] == "Magnetic compound supplier", ["Soft magnetic pellets", "Soft magnetic powder"], if(note["Group"] == "Machine maker", ["Powder extruder", "SPD machine"], [])))
+  not_checked: formula.needs.filter(!list(note["Found"]).contains(value) && !list(note["Not found"]).contains(value))
+  found_count: list(note["Found"]).filter(value).length
+properties:
+  file.name:
+    displayName: Company
+  formula.stage:
+    displayName: Stage
+  formula.materials:
+    displayName: Material notes
+  formula.material_count:
+    displayName: "# Materials"
+  formula.not_checked:
+    displayName: Not checked yet
+views:
+  - type: table
+    name: Overview
+    groupBy:
+      property: formula.stage
+      direction: ASC
+    order:
+      - file.name
+      - Group
+      - Location
+      - Found
+      - Not found
+      - formula.not_checked
+      - Research depth
+      - Scraped
+      - formula.material_count
+      - Engagement depth
+      - Contacts
+    sort:
+      - property: Research depth
+        direction: ASC
+      - property: Engagement depth
+        direction: DESC
+      - property: file.name
+        direction: ASC
+    columnSize:
+      file.name: 170
+      note.Found: 220
+      note.Not found: 180
+      formula.not_checked: 220
+      note.Contacts: 360
+  - type: table
+    name: To check
+    filters:
+      and:
+        - formula.not_checked.length > 0
+        - '!file.inFolder("notes/companies/skipped")'
+    groupBy:
+      property: Group
+      direction: ASC
+    order:
+      - file.name
+      - formula.stage
+      - formula.not_checked
+      - Found
+      - Not found
+      - Research depth
+    sort:
+      - property: Research depth
+        direction: ASC
+    columnSize:
+      file.name: 170
+      formula.not_checked: 260
+  - type: table
+    name: Scrape backlog
+    filters:
+      and:
+        - formula.found_count > 0
+        - note["Scraped"] != true
+        - '!file.inFolder("notes/companies/skipped")'
+    order:
+      - file.name
+      - formula.stage
+      - Group
+      - Found
+      - Research depth
+    columnSize:
+      file.name: 170
+      note.Found: 260
+  - type: table
+    name: Active conversations
+    filters:
+      and:
+        - file.inFolder("notes/companies/active")
+        - note["Engagement depth"] != "0 - Not contacted"
+    order:
+      - file.name
+      - Engagement depth
+      - Group
+      - Found
+      - Scraped
+      - formula.material_count
+      - Contacts
+    sort:
+      - property: Engagement depth
+        direction: DESC
+    columnSize:
+      file.name: 170
+      note.Contacts: 360
+  - type: table
+    name: Not contacted
+    filters:
+      and:
+        - note["Engagement depth"] == "0 - Not contacted"
+        - '!file.inFolder("notes/companies/skipped")'
+    order:
+      - file.name
+      - formula.stage
+      - Group
+      - Found
+      - Research depth
+      - Scraped
+      - formula.material_count
+    sort:
+      - property: Research depth
+        direction: DESC
+    columnSize:
+      file.name: 170
+  - type: table
+    name: Engagement
+    groupBy:
+      property: Engagement depth
+      direction: DESC
+    order:
+      - file.name
+      - formula.stage
+      - Group
+      - Research depth
+      - Found
+    sort:
+      - property: Research depth
+        direction: DESC
+    columnSize:
+      file.name: 170

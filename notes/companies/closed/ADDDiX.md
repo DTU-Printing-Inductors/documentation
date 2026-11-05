@@ -1,10 +1,21 @@
-## Company information
-
-Website: https://adddix.de/en/
-Contact: Payam Daneschwar pd@adddix.de, Thomas Manzei tmjr@adddix.de
-Location: Germany
+---
+tags:
+  - company
 Company type: Manufacturer
-
+Location: Germany
+Website: https://adddix.de/en/
+Group: Polymer supplier
+Found:
+Not found:
+  - PA12
+  - PA12-CF
+Research depth: 1 - Website skimmed
+Scraped: false
+Engagement depth: 6 - Closed
+Contacts:
+  - Payam Daneschwar - pd@adddix.de
+  - Thomas Manzei - tmjr@adddix.de
+---
 Company offering AM services, mentioning they also have pellets.
 ## Investigation
 | Time       | Action                                                                                                                                   |

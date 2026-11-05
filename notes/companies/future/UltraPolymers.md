@@ -1,10 +1,17 @@
-## Company information
-
-Website: https://ultrapolymers.com/
-Contact: 
+---
+tags:
+  - company
+Company type: Distributor (Database)
 Location: UK
-Company type: Database
-
+Website: https://ultrapolymers.com/
+Group: Polymer supplier
+Found:
+Not found:
+Research depth: 1 - Website skimmed
+Scraped: false
+Engagement depth: 0 - Not contacted
+Contacts:
+---
 ## Investigation
 | Time       | Action                                                                                                     |
 | ---------- | ---------------------------------------------------------------------------------------------------------- |

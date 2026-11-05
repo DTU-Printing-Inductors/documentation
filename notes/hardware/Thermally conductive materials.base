@@ -1,0 +1,44 @@
+formulas:
+  last_update: file.mtime.format("DD/MM/YYYY HH:mm")
+properties:
+  formula.last_update:
+    displayName: Last update
+views:
+  - type: table
+    name: View
+    filters:
+      and:
+        - file.inFolder("notes/hardware/materials")
+        - '!file.inFolder("notes/hardware/materials/datasheets")'
+        - '!file.inFolder("notes/hardware/materials/info/raw")'
+        - Functionality == "Thermally conductive"
+    order:
+      - Manufacturer
+      - Grade
+      - Functionality
+      - Filler
+      - Filler loading
+      - Matrix
+      - MOQ
+      - Surface resistance (Ω)
+      - Volume resistivity (Ω·m)
+      - Dielectric properties
+      - Thermal conductivity integral (W/m·K)
+      - Thermal conductivity in-plane (W/m·K)
+      - Thermal conductivity through-plane (W/m·K)
+      - Price
+      - Lead time
+      - Supplier
+      - status
+      - Datasheet
+      - Processing instructions
+      - formula.last_update
+    sort:
+      - property: Surface resistance standard
+        direction: ASC
+    columnSize:
+      note.Grade: 62
+      note.Functionality: 61
+      note.Filler: 89
+      note.Filler loading: 103
+      note.Supplier: 180

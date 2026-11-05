@@ -103,6 +103,9 @@
     "backends": {
       "codex": {
         "defaultMode": "default"
+      },
+      "claude": {
+        "defaultMode": "plan"
       }
     },
     "debugFullFrames": true,

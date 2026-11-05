@@ -1,10 +1,20 @@
-## Company information
-
-Website: https://resinex.com/en-GB
-Contact: Bo Bukrinsky Bo.Bukrinsky@resinex.com
+---
+tags:
+  - company
+Company type: Distributor (Arkema)
 Location: Denmark
-Company type: Distributor of Arkema
-
+Website: https://resinex.com/en-GB
+Group: Polymer supplier
+Found:
+  - PA12
+Not found:
+  - PA12-CF
+Research depth: 2 - Products searched
+Scraped: true
+Engagement depth: 6 - Closed
+Contacts:
+  - Bo Bukrinsky - Bo.Bukrinsky@resinex.com
+---
 ## Investigation
 | Time       | Action                                                       |
 | ---------- | ------------------------------------------------------------ |

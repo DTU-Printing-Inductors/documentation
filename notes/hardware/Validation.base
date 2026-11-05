@@ -1,9 +1,14 @@
+formulas:
+  last_update: file.mtime.format("DD/MM/YYYY HH:mm")
+properties:
+  formula.last_update:
+    displayName: Last update
 views:
   - type: table
     name: View
     filters:
       and:
-        - file.inFolder("notes/hardware/materials/validate")
+        - file.inFolder("notes/hardware/materials/info/validate")
         - '!file.inFolder("notes/hardware/materials/datasheets")'
     order:
       - Manufacturer
@@ -26,7 +31,8 @@ views:
       - Status
       - Datasheet
       - Processing instructions
-      - Last update
+      - formula.last_update
+      - Dielectric properties
     sort:
       - property: Surface resistance standard
         direction: ASC

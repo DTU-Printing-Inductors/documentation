@@ -1,10 +1,21 @@
-## Company information
-
-Website: https://www.hymagin.com
-Contact: Camille Crouzet (CEO) camille.crouzet@hymagin.com, +33 (0)6 70 40 47 21
-Location: 103 Rue Hilaire de Chardonnet, 38100 Grenoble, France
+---
+tags:
+  - company
 Company type: Manufacturer
-
+Location: France
+Website: https://www.hymagin.com
+Group: Magnetic compound supplier
+Found:
+  - Soft magnetic pellets
+  - Soft magnetic powder
+Not found:
+Research depth: 2 - Products searched
+Scraped: false
+Engagement depth: 6 - Closed
+Address: 103 Rue Hilaire de Chardonnet, 38100 Grenoble, France
+Contacts:
+  - Camille Crouzet (CEO) - camille.crouzet@hymagin.com, +33 (0)6 70 40 47 21
+---
 Provider of ferrite composite material solutions for high-frequency (GHz) applications. Two types of pellets, have some info but not about magnetics.
 ## Investigation
 | Time       | Action                                                                                                                                                      |

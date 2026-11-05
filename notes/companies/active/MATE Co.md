@@ -1,11 +1,22 @@
-## Company information
-
-Website: https://www.magnetische-compounds.com (HAWA, EU distributor)
-Contact: Martina Hansmann verkauf@magnetische-compounds.com, +49-2173-1658-208 (HAWA, new customer inquiries)
-CC: Kai Wanner khw@magnetische-compounds.com (HAWA)
-Location: Japan (MATE Co), distributor HAWA in Niederstrasse 18, 40789 Monheim, Germany
-Company type: Manufacturer (via distributor)
-
+---
+tags:
+  - company
+Company type: Manufacturer (via HAWA)
+Location: Japan / Germany
+Website: https://www.magnetische-compounds.com
+Group: Magnetic compound supplier
+Found:
+  - Soft magnetic pellets
+  - Soft magnetic powder
+Not found:
+Research depth: 2 - Products searched
+Scraped: true
+Engagement depth: 5 - Ordering / collaborating
+Address: HAWA, Niederstrasse 18, 40789 Monheim, Germany
+Contacts:
+  - Martina Hansmann (HAWA, new customer inquiries) - verkauf@magnetische-compounds.com, +49-2173-1658-208
+  - Kai Wanner (HAWA, CC) - khw@magnetische-compounds.com
+---
 Japanese company producing the 86 wt% FeSiAl PA12 pellets Jorge Canada used, distributed in Europe by HAWA (Magnetische und leitfähige Werkstoffe, Germany).
 ## Investigation
 | Time       | Action                                                                                                                                                                                                                                                                     |

@@ -1,10 +1,20 @@
-## Company information
-
-Website: https://www.maglastic.com/
-Contact: Sales team - sales@maglastic.com; Bonded Soft magnetic compound program:  Mr. Zhou [kai.zhou@maglastic.com](mailto:kai.zhou@maglastic.com)
-Location: China
+---
+tags:
+  - company
 Company type: Manufacturer
-
+Location: China
+Website: https://www.maglastic.com/
+Group: Magnetic compound supplier
+Found:
+  - Soft magnetic pellets
+Not found:
+Research depth: 2 - Products searched
+Scraped: false
+Engagement depth: 1 - Inquiry sent
+Contacts:
+  - Sales team - sales@maglastic.com
+  - Mr. Zhou (Bonded soft magnetic compound program) - kai.zhou@maglastic.com
+---
 ## Investigation
 | Time       | Action                            |
 | ---------- | --------------------------------- |

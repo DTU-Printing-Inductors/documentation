@@ -1,10 +1,19 @@
-## Company information
-
-Website: https://mahor.xyz
-Contact: Mahor Muñiz Cadenas mahormuniz@gmail.com
-Location: Spain
+---
+tags:
+  - company
 Company type: Manufacturer
-
+Location: Spain
+Website: https://mahor.xyz
+Group: Machine maker
+Found:
+  - Powder extruder
+Not found:
+Research depth: 2 - Products searched
+Scraped: true
+Engagement depth: 3 - In discussion
+Contacts:
+  - Mahor Muñiz Cadenas - mahormuniz@gmail.com
+---
 They make pellet extruders (MAHOR·XYZ, "Pellet Thinking"). We bought their V5 Professional through Filament2Print.
 ## Investigation
 | Time       | Action                                                                                                                         |
@@ -21,7 +30,9 @@ They make pellet extruders (MAHOR·XYZ, "Pellet Thinking"). We bought their V5 P
 | 08:05 27/10/2026 | Responded | Them | Email           | PMEX is based on the V5 and can print powder directly with a cooled hopper and a stirrer. Focus is on automatic feeding. Sent the alumina demo video. No launch planned yet.                                       | ![[Re_ Consulta sobre la extrusora de polvo Mahor PMEX 2.msg]] |
 | 15:42 28/10/2026 | Answered  | Me   | Email           | Explained the plan to mix filled and unfilled pellets with the V5 and concerns about homogeneity. Asked if they've tested pellet blends and whether they've considered multi-material feeding.                     | ![[RE_ Consulta sobre la extrusora de polvo Mahor PMEX.msg]]   |
 | 10:08 04/11/2026 | Responded | Them | Email           | Screw doesn't mix homogeneously, powder helps. Masterbatch tests gave uneven colour, ground masterbatch worked better. Planning a multi-material mixing extrusion system. Would add our publication to their site. | ![[Re_ Consulta sobre la extrusora de polvo Mahor PMEX 3.msg]] |
-| 11:15 04/11/2026 | Awaiting  | Me   | Email           | Expressed interest in testing the mixing system for soft-magnetic composites. Asked about development stage and early prototype collaboration, offering systematic testing and characterization data.              | ![[RE_ Consulta sobre la extrusora de polvo Mahor PMEX 1.msg]] |
+| 11:15 04/11/2026 | Answered  | Me   | Email           | Expressed interest in testing the mixing system for soft-magnetic composites. Asked about development stage and early prototype collaboration, offering systematic testing and characterization data.              | ![[RE_ Consulta sobre la extrusora de polvo Mahor PMEX 1.msg]] |
+| 8:19 05/11/2026  | Responded | Them | Email           | Many components of the prototype have been developed. It is not intended to be used with solid materials, only with plastic. Asks for our requirments.                                                             | ![[Re_ Consulta sobre la extrusora de polvo Mahor PMEX.msg]]   |
+| 9:16 05/11/2026  | Waiting   | Me   | Email           | Explain our process. Say we're willing to adapt our experiments. Ask for flow rates.                                                                                                                               | ![[RE_ Consulta sobre la extrusora de polvo Mahor PMEX 1.msg]] |
 
 ## Initial email
 "Estimado Mahor,

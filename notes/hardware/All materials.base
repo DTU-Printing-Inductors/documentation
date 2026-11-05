@@ -1,3 +1,8 @@
+formulas:
+  last_update: file.mtime.format("DD/MM/YYYY HH:mm")
+properties:
+  formula.last_update:
+    displayName: Last update
 views:
   - type: table
     name: View
@@ -5,6 +10,7 @@ views:
       and:
         - file.inFolder("notes/hardware/materials")
         - '!file.inFolder("notes/hardware/materials/datasheets")'
+        - '!file.inFolder("notes/hardware/materials/info/raw")'
     order:
       - Manufacturer
       - Grade
@@ -26,7 +32,7 @@ views:
       - Status
       - Datasheet
       - Processing instructions
-      - Last update
+      - formula.last_update
     sort:
       - property: Surface resistance standard
         direction: ASC

@@ -1,10 +1,20 @@
-## Company information
-
-Website: https://www.studio3e8.com
-Contact: Cassie Lowell cassie@studio3e8.com, Casey Johnson casey@studio3e8.com (Cofounders)
-Location: USA
+---
+tags:
+  - company
 Company type: Manufacturer
-
+Location: USA
+Website: https://www.studio3e8.com
+Group: Machine maker
+Found:
+  - SPD machine
+Not found:
+Research depth: 2 - Products searched
+Scraped: true
+Engagement depth: 3 - In discussion
+Contacts:
+  - Cassie Lowell (Cofounder) - cassie@studio3e8.com
+  - Casey Johnson (Cofounder) - casey@studio3e8.com
+---
 They make the Mesa 1, a selective powder deposition and sintering machine, so far focused on metals. Kickstarter launch planned for December 2026.
 ## Investigation
 | Time       | Action                                                                                                                                                       |
