@@ -4,33 +4,34 @@
     "type": "split",
     "children": [
       {
-        "id": "4b4c46b373829ceb",
+        "id": "a741457636c55b54",
         "type": "tabs",
         "children": [
           {
-            "id": "e9532002f7ff87e3",
+            "id": "96418c88bc9357f2",
             "type": "leaf",
             "state": {
               "type": "bases",
               "state": {
-                "file": "notes/hardware/Unfilled materials.base",
+                "file": "notes/hardware/Electrically conductive materials.base",
                 "viewName": "View"
               },
               "icon": "lucide-table",
-              "title": "Unfilled materials"
+              "title": "Electrically conductive materials"
             }
           },
           {
-            "id": "3b4761db435b7a75",
+            "id": "f92d8b9e73db549c",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "TaskNotes/Views/tasks-default.base",
-                "viewName": "Manual Order"
+                "file": "notes/research directions/Working together with Andreas.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "tasknotes-simple",
-              "title": "tasks-default"
+              "icon": "lucide-file",
+              "title": "Working together with Andreas"
             }
           }
         ],
@@ -221,7 +222,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 405.5
+    "width": 405.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -248,44 +250,43 @@
       "copilot:Open Copilot Agent Chat": false
     }
   },
-  "active": "b37d9289e39cfa6f",
+  "active": "f92d8b9e73db549c",
   "lastOpenFiles": [
-    "notes/companies/pending",
-    "notes/hardware/Unfilled materials.base",
-    "notes/companies/active/Neosid.md",
-    "notes/companies/Companies.base",
-    "notes/hardware/Soft magnetic materials.base",
-    "notes/hardware/Electrically conductive materials.base",
-    "RE_ Visit to DTU_ potential collaboration and PFS9 1.msg",
-    "notes/hardware/materials/datasheets/manual parsed/Neosid_PFS9.pdf",
-    "SV_ Visit to DTU_ potential collaboration and PFS9.msg",
-    "RE_ Visit to DTU_ potential collaboration and PFS9.msg",
     "TaskNotes/Views/tasks-default.base",
-    "notes/hardware/materials/info/manual/Neosid PFS3.md",
-    "notes/hardware/Validation.base",
-    "notes/hardware/materials/info/AI/Syensqo Ixef 3012.md",
-    "notes/hardware/materials/info/AI/LyondellBasell Hostalen GM 9350 C BLACK.md",
-    "notes/hardware/materials/info/AI/Envalior Pocan B5221XF.md",
-    "notes/hardware/materials/info/AI/BASF Ultrason KR 4113.md",
-    "notes/hardware/materials/info/validate/Syensqo Ixef 3012.md",
-    "notes/hardware/materials/info/validate/Envalior Pocan B5221XF.md",
-    "notes/hardware/materials/info/validate/LyondellBasell Hostalen GM 9350 C BLACK.md",
-    "notes/hardware/materials/info/validate/BASF Ultrason KR 4113.md",
-    "notes/hardware/materials/info/raw/BASF_Ultrason_KR_4113.md",
-    "notes/hardware/materials/info/raw/Envalior_Pocan_B5221XF.md",
-    "notes/hardware/materials/info/raw/Syensqo_Ixef_3012.md",
-    "notes/hardware/materials/info/raw/LyondellBasell_Hostalen_GM_9350_C_BLACK.md",
-    "notes/hardware/materials/info/raw/PocanB5221XF.md",
-    "notes/hardware/materials/info/raw/PocanB3233HRE000000.md",
-    "notes/hardware/materials/info/raw/PocanB3216XHRE000000.md",
-    "notes/hardware/materials/info/raw/Ixef3012.md",
-    "notes/hardware/materials/info/raw/UltrasonKR4113.md",
-    "notes/hardware/materials/info/raw/PocanB3235E000000.md",
-    "notes/hardware/materials/info/raw/PocanB3217E000000.md",
-    "notes/hardware/materials/info/raw/PocanB3215E000000.md",
-    "notes/hardware/materials/info/raw/HostalenGM9350CBLACK.md",
-    "notes/hardware/materials/info/AI/MOCOM Alcom TPU 810-1998.1 CF.md",
-    "notes/hardware/materials/info/AI/MOCOM Alcom POM 770-1.1 CF20.md",
+    "notes/research directions/Working together with Andreas.md",
+    "notes/hardware/Electrically conductive materials.base",
+    "notes/hardware/materials/datasheets/AI parsed/MOCOM_ALCOM_TPU_810-3070.1_CF15.pdf",
+    "pdfs/Advanced Science - 2025 - Cañada - Magnetic Flux Guides by Material Extrusion.pdf",
+    "notes/companies/active/Evitron.md",
+    "notes/hardware/materials/info/manual/Multi3D Electrifi PE Filament.md",
+    "notes/hardware/materials/info/manual/Multi3D Electrifi Pellets.md",
+    "notes/hardware/materials/info/manual/Multi3D Electrifi Filament.md",
+    "notes/hardware/materials/info/manual/Arkema Rilsamid ASR 13.md",
+    "Inquiry about soft-magnetic compounds for research.msg",
+    "TaskNotes/Tasks/Talk to Gabi, about the Jorge email.md",
+    "notes/papers/canadaMagneticFluxGuides2026.md",
+    "notes/research groups/MIT, Luis Fernando Velásquez-García.md",
+    "notes/research groups/AI summary of Jorge Cañada.md",
+    "notes/hardware/Soft magnetic materials.base",
+    "notes/companies/closed/DMEGC.md",
+    "RE_ Inquiry about soft-magnetic and bonded-magnet pellets for research 1.msg",
+    "TaskNotes/Tasks/Scrape Evitron.md",
+    "RE_ Inquiry about soft-magnetic and bonded-magnet pellets for research.msg",
+    "notes/companies/Companies.base",
+    "TaskNotes/Tasks/Contact Hoganas.md",
+    "TaskNotes/Views/calendar-default.base",
+    "notes/companies/active/Hoganas.md",
+    "notes/companies/closed/Sintex.md",
+    "notes/companies/active/NTN.md",
+    "notes/hardware/materials/info/manual/NTN NIKAMET AS10.md",
+    "notes/hardware/materials/info/manual/NTN NIKAMET NT-811AS.md",
+    "TaskNotes/Tasks/Answer Peter from Sintex.md",
+    "notes/companies/active/Neosid.md",
+    "notes/papers/guerrero-munozProcessinginducedMagneticSoftening2026.md",
+    "notes/companies/active/Studio3e8.md",
+    "TaskNotes/Tasks/Scrape Barlog.md",
+    "TaskNotes/Tasks/Scrape NTN.md",
+    "notes/hardware/materials/info/raw/Envalior_Durethan_BCF30H2.0EF.md",
     "Untitled.canvas",
     "latex/presentations/1__08_10_2026_follow_up/images/types_of_AM_magnetic_methods.png",
     "latex/presentations/1__08_10_2026_follow_up/images/machine_yi_yan.png",

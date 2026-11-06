@@ -4,6 +4,7 @@
     "cssclasses": "multitext",
     "tags": "tags",
     "Supplier": "multitext",
-    "Volume resistivity (Ω·m)": "text"
+    "Volume resistivity (Ω·m)": "text",
+    "Surface resistivity (Ω/sq)": "text"
   }
 }

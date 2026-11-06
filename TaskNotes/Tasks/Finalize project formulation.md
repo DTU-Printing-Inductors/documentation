@@ -6,6 +6,7 @@ dateModified: 2026-11-02T15:40:11.507+01:00
 tags:
   - task
   - report
+tasknotes_manual_order: tngdbntwymga
 ---
 
 talk about how parameters during printing can also affect the permeability, basically mention other ways how permeability can be adjusted.

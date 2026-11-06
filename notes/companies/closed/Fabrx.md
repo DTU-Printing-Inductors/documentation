@@ -9,7 +9,7 @@ Found:
   - Powder extruder
 Not found:
 Research depth: 2 - Products searched
-Scraped: true
+Scraped: false
 Engagement depth: 6 - Closed
 Address: 29-39 Brunswick Square, London, WC1N 1AX, UK
 Contacts:

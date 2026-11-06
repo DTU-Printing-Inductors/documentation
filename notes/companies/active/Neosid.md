@@ -38,7 +38,8 @@ Contacts:
 | 28/10/2026 14.25                    | Closed    | Them        | Email           | Thanks.                                                                                                                                              | ![[SV_ Visit to DTU_ potential collaboration and PFS9 2.msg]] |
 | 14:14 05/11/2026                    | Answered  | Me          | Reminder        | Asking about PF1is, PFS3, PFS4, PFS9 again.                                                                                                          | ![[RE_ Visit to DTU_ potential collaboration and PFS9.msg]]   |
 | 14:29 05/11/2026                    | Responded | Them        | Email           | Giving info about PFS9.                                                                                                                              | ![[SV_ Visit to DTU_ potential collaboration and PFS9.msg]]   |
-| 14:40 05/11/2026                    | Waiting   | Me          | Email           | Asking polymer matrix, MOQ, price, and lead time for all of them.                                                                                    | ![[RE_ Visit to DTU_ potential collaboration and PFS9 1.msg]] |
+| 14:40 05/11/2026                    | Responded | Me          | Email           | Asking polymer matrix, MOQ, price, and lead time for all of them.                                                                                    | ![[RE_ Visit to DTU_ potential collaboration and PFS9 1.msg]] |
+| 8:15 06/11/2026                     | Waiting   | Them        | Email           | He'll check and get back to us.                                                                                                                      | ![[SV_ Visit to DTU_ potential collaboration and PFS9 1.msg]] |
 
 
 ## Initial email

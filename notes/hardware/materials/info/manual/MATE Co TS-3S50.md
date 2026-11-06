@@ -6,7 +6,7 @@ Supplier:
 Type: Soft Magnetic
 Matrix: PA12
 Filler: FeSiAl
-Filler loading: 78%
+Filler loading: 86%
 Size: n/a
 Permeability: 39-74
 MOQ: 1 kg

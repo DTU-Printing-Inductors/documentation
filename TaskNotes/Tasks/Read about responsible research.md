@@ -6,6 +6,7 @@ dateCreated: 2026-10-29T14:30:30.767+01:00
 dateModified: 2026-10-30T13:37:18.740+01:00
 tags:
   - task
+tasknotes_manual_order: tnephqvksjen
 ---
 
 **‘**[**DTU Policy for Research Data Management**](https://eur01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.bibliotek.dtu.dk%2Fen%2Fpublishing%2Fresearch-data%2Fpolicy&data=05%7C02%7Cartfi%40dtu.dk%7C2a179ad536e24c460aec08df35ac1f77%7Cf251f123c9ce448e927734bb285911d9%7C0%7C0%7C639288685534804698%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=rNYUQiCaQvg%2FGdHME5atjmq6G9AB6I0Hb54Z3CegsIA%3D&reserved=0 "https://www.bibliotek.dtu.dk/en/publishing/research-data/policy")**'**.
