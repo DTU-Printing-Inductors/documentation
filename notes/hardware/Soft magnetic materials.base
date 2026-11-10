@@ -21,6 +21,8 @@ views:
       - Matrix
       - MOQ
       - Permeability
+      - Permeability geometry
+      - Magnetic saturation (T)
       - Price
       - Lead time
       - Supplier

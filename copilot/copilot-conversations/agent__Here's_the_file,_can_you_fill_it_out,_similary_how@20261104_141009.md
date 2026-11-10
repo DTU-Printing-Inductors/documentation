@@ -6,7 +6,8 @@ sessionId: "1970f75e-7002-453a-86c3-7ae43e8a4792"
 topic: "Here's the file, can you fill it out, similary how i did oth…"
 tags:
   - copilot-conversation
-usage: '{"usedTokens":414724,"contextWindow":1000000,"inputTokens":2,"outputTokens":338,"cacheReadTokens":412888,"cacheWriteTokens":1496,"updatedAt":1793886537229}'
+usage: '{"usedTokens":491129,"contextWindow":1000000,"inputTokens":2,"outputTokens":4,"cacheReadTokens":490137,"cacheWriteTokens":986,"updatedAt":1794215325235}'
+lastAccessedAt: 1794213836992
 ---
 
 **user**: Here's the file, can you fill it out, similary how i did other company files, here's the email conversation "Thanks for providing the details. If I run into issues, I’ll let you know.
@@ -175,7 +176,7 @@ Denmark
  
  
 "
-[Timestamp: 2026/11/04 14:10:09]
+[Timestamp: 2026/11/04 14:10:11]
 
 **ai**: Let me look at a couple of filled-out examples.I filled out [[Direct3D]] using the same layout as [[Lati3Dlab]]:
 
@@ -193,7 +194,7 @@ Things I changed or removed from the old version:
 Two things to check:
 - Your closing reply has no timestamp in what you pasted, so that row only has the date.
 - I spelled the company "Lehmann & Voss", which I believe is the official name; Paolo wrote "Lehman and Voss".
-[Timestamp: 2026/11/04 14:10:09]
+[Timestamp: 2026/11/04 14:10:14]
 
 **user**: Here's the email convo "Dear Martina,
 
@@ -604,7 +605,7 @@ Things to check:
 - **Email links:** there are no `.msg` files for this thread in the vault, so the Email link column just says "Email". If you save the emails, I can add the embeds.
 - **Your last reply** has no timestamp, so that row only has the date.
 - **Leftover line:** I removed the unfinished "Hawa (eu distributor" line, since the HAWA details now sit in Company information. Earlier there was also a separate `Hawa (MATE Co EU distributor).md` note, which seems to have been removed or renamed in the meantime.
-[Timestamp: 2026/11/04 14:42:11]
+[Timestamp: 2026/11/04 14:42:15]
 
 **user**: You mention price list provided, where did you find it?
 [Timestamp: 2026/11/04 14:45:35]
@@ -620,13 +621,13 @@ I also added two details to that bullet that the email doesn't actually state:
 - **"/EUR":** she only says "between 165-180". EUR is the likely reference, but she doesn't say so.
 
 I can rewrite the bullet to stick to what she wrote, e.g. "Price list for all TS compounds attached to the 20/10/2026 email (Yen exchange rate 165–180 at the time)". If you save the attachment in the vault, I can link it there instead.
-[Timestamp: 2026/11/04 14:45:35]
+[Timestamp: 2026/11/04 14:45:38]
 
 **user**: Thanks, I forgot.
 [Timestamp: 2026/11/04 14:47:22]
 
 **ai**: No problem. If you save the price list in the vault, I can link it in [[MATE Co]] and tidy up that bullet.
-[Timestamp: 2026/11/04 14:47:22]
+[Timestamp: 2026/11/04 14:47:25]
 
 **user**: Do the same here, here's the email chain "Hi Cassie and Casey,
 
@@ -710,7 +711,7 @@ Things to check:
 - **I guessed the website** (`studio3e8.com`) from their email domain.
 - **Location is blank** because the emails don't say where they're based.
 - **There are no `.msg` files** for this thread in the vault, so the Email link column just says "Email".
-[Timestamp: 2026/11/04 15:10:18]
+[Timestamp: 2026/11/04 15:10:20]
 
 **user**: Same for maho "Hola Mahor:
 
@@ -880,7 +881,7 @@ Things to check:
 - **The demo video link:** I took the YouTube address out of the Outlook safelink, so it now points straight to `youtube.com/shorts/bDozSalDN2Q`.
 - **No V5 note exists** in the vault, so "Mahor V5 Professional" is plain text, not a link.
 - **There are no `.msg` files** for this thread in the vault, so the Email link column just says "Email".
-[Timestamp: 2026/11/04 15:13:40]
+[Timestamp: 2026/11/04 15:13:43]
 
 **user**: Same for adddix, here's the email convo "Hi Artis,
 
@@ -941,7 +942,7 @@ Things to check:
 - **Payam's reply has no timestamp** in what you pasted. I used 26/10/2026, the date from your original note.
 - **Name spelling:** the email header says "Pajam" but he signs "Payam", so I used Payam.
 - **The location (Germany)** is a guess from the `.de` domain and the German form text.
-[Timestamp: 2026/11/04 15:20:05]
+[Timestamp: 2026/11/04 15:20:11]
 
 **user**: Same for hymagin "Dear Camille,
 
@@ -1012,7 +1013,7 @@ Technical University of Denmark (DTU)
 This visitor has accepted the Privacy Policy. Date/Time: 2026-10-19 11:07:52 CEST
 
 "
-[Timestamp: 2026/11/04 15:23:14]
+[Timestamp: 2026/11/04 15:23:15]
 
 **ai**: I filled out [[HYMAG’IN]] in the same layout:
 
@@ -1030,10 +1031,10 @@ Things to check:
 - **Attachment:** Camille attached data for the NiZn filament. It isn't in the vault, so there's nothing to link.
 - **No material notes exist** for FILAMAG or Nanomag-MnZn, so they're plain text, not `[[links]]`.
 - **There are no `.msg` files** for this thread in the vault, so the Email link column just says "Email".
-[Timestamp: 2026/11/04 15:23:14]
+[Timestamp: 2026/11/04 15:23:18]
 
 **user**: Go through the company properties and remove the following "next step, last message by, last contact, first contact, contacted, scraped, found"
-[Timestamp: 2026/11/04 16:08:13]
+[Timestamp: 2026/11/04 16:08:14]
 
 **ai**: I've removed the properties. Now I'm checking two files that still mention them.I removed the 7 properties (Next step, Last message by, Last contact, First contact, Contacted, Scraped, Found) from the frontmatter of all 21 company notes. I used a script for this, since it was the same change in every file. Nothing else in the frontmatter or note text was touched; I checked [[Toda Kogyo]] and its frontmatter now holds just tags, Company type, Location, Website, Looked for, Research depth and Conversation.
 
@@ -1050,7 +1051,7 @@ Some notes had real content in these fields, which is now gone:
 If you want any of that back, it's only recoverable from git if those properties were committed before now.
 
 `notes/companies/Companies.base` still uses the removed properties. Those columns will now be empty, and the `days_since_contact` and `follow_up` formulas depend on "Last contact", so they'll show nothing. Should I remove those columns and formulas from the base as well?
-[Timestamp: 2026/11/04 16:08:13]
+[Timestamp: 2026/11/04 16:08:19]
 
 **user**: Don't make changes, but I just want to consult you, how could I nicely distinguish how in depth i searched and how in depth i talked to them, i think seperating them would make sense. For the companies
 [Timestamp: 2026/11/04 16:14:06]
@@ -1098,7 +1099,7 @@ If you want any of that back, it's only recoverable from git if those properties
 An **Outcome** property (e.g. *Relevant / Not relevant / Supplier / Referral only*) records *why* a thread ended. ADDDiX is "Not relevant", Direct3D is "Referral only". Without it you'd have to read the note to tell a closed dead end from a closed success.
 
 If you want this, I can update the frontmatter and `Companies.base` to match.
-[Timestamp: 2026/11/04 16:14:06]
+[Timestamp: 2026/11/04 16:14:21]
 
 **user**: Okey, apply the split. but have next to the number have the text as well. and as for conversation, and then remove conversation property, as engagement will quantify that
 [Timestamp: 2026/11/04 16:16:19]
@@ -1127,16 +1128,16 @@ I also updated `Companies.base`:
 - **Removed:** the `days_since_contact` and `follow_up` formulas, and the columns for the properties you deleted earlier. Those formulas relied on "Last contact" and "Conversation", which no longer exist.
 
 Without a status property, the base can't tell whose turn it is anymore, so the automatic "Follow up now" reminder is gone. In the notes, the last row of each communication table (e.g. "Awaiting") still shows it.
-[Timestamp: 2026/11/04 16:16:19]
+[Timestamp: 2026/11/04 16:16:30]
 
 **user**: I still don't like it basically my main point is that I want to have all the companies I should look into, then how much i looked into, what did i look for, how much did i scrape and then how much did i communicate, i feel like i am trying to combine research depth with scraping. But i also have cases where i looked at the full catalgoue scraped what i needed at the time, but then might need to go back and look for other things and then scrape again, I hope you understand my idea. I basically want to keep track of all of this, so that I can easily go back and realize how much did I look into and what i might've not scaped. Please propose a structure and properties I should then organize it in
 [Timestamp: 2026/11/04 16:27:44]
 
 **ai**: 
-[Timestamp: 2026/11/04 16:27:44]
+[Timestamp: 2026/11/04 16:28:00]
 
 **user**: Almost you got my idea, now I feel like "looked for" and "scraped" are kinda doing the same thing. Basically if I looked for it, then I will scrape that, if I find it. There has to be a better way of capturing all of this.
-[Timestamp: 2026/11/04 16:32:35]
+[Timestamp: 2026/11/04 16:32:19]
 
 **ai**: You're right that the two overlap. Whenever you look for something and find it, you scrape it, so scraping isn't a separate step. I've rewritten the proposal around that. You turned the revised plan down without a comment, so nothing has been changed in the vault.
 
@@ -1149,7 +1150,7 @@ The revised proposal:
 - **Category (new property):** Materials, Machines or Services, so the target checklist only applies to material suppliers, not companies like Mahor or Studio3e8.
 
 What isn't working for you: the Found / Not found split, the central target list, or something else?
-[Timestamp: 2026/11/04 16:32:35]
+[Timestamp: 2026/11/04 16:32:46]
 
 **user**: Alright, generate a markdown for Fabrx, here's the email chain "Dear Artis,
 My apologies for that! Please find the brochure attached now.
@@ -1259,7 +1260,7 @@ Gaps to fill in:
 - **Engagement depth is 3.** Change it to 4 once the meeting is set. [[Neosid]] was rated 4 with a meeting planned, so you could argue for 4 now.
 - **The brochure** isn't in the vault, so there's nothing to link yet.
 - **This uses the current properties** (Looked for, Research depth, Engagement depth), since the restructure you declined hasn't been applied.
-[Timestamp: 2026/11/05 09:21:59]
+[Timestamp: 2026/11/05 09:22:07]
 
 **user**: For all of the company markdown files, "## Company information
 
@@ -1290,7 +1291,7 @@ Contacts:
 **`Companies.base`:** I added a Contacts column (360 px wide) to the Overview and Active conversations views. Nothing else in the base changed.
 
 I edited each note individually, so you can review the diffs.
-[Timestamp: 2026/11/05 10:47:17]
+[Timestamp: 2026/11/05 10:47:26]
 
 **user**: Okey, I think I want to elaborate on the companies, i think i want to add two collumns, one will be found, and the other not found, where i will basically sort the things from looked for, and then. Research depth should have 0 - Not visited, 1 - Website skimmed, 2 - Relevant products searched, 3 - relevant products scrapped. Basically I kinda want to also highlight which have been scraped. Is there a whole better idea then this, if so propose it how to you know manage this or what could be the best obsidian way
 [Timestamp: 2026/11/05 11:19:55]
@@ -1332,7 +1333,7 @@ You could take this further by giving material notes a `Target: [[PA12-CF]]` pro
 Search a company, put what you looked for into Found or Not found, and set Research depth. Then create material notes for whatever you found. The ✅/⚠️ column updates by itself.
 
 If you want this, I'd convert the current Looked for entries (most can be sorted from your Investigation notes, and I'll list the unclear ones) and update `Companies.base`. Should I also do the target-note links?
-[Timestamp: 2026/11/05 11:19:55]
+[Timestamp: 2026/11/05 11:20:16]
 
 **user**: I like this, but don't implement it yet, because I see a glaring problem, that sometimes i might need to go back because i realized i didn't look for that and it exists, but i also feel like i don't want to record all of the materials they have or scrape all of them. i hope you see a problem, if not ask questions, i can elaborate a bit more
 [Timestamp: 2026/11/05 11:24:03]
@@ -1359,7 +1360,7 @@ So the real thing to track isn't what the company has. It's **which of my needs 
 1. **Is that the problem?** Or is it more that you found something once, didn't scrape it because it wasn't relevant then, and now it is?
 2. **Should every need apply to every company?** Soft magnetic suppliers will never have PA12-CF, so "Not checked: PA12-CF" would just be noise there. Do you want companies grouped by type (e.g. polymer suppliers vs magnetic compound suppliers vs machines), so each group only gets its own needs?
 3. **Does how thoroughly you searched matter per need,** or is one company-wide Research depth enough?
-[Timestamp: 2026/11/05 11:24:03]
+[Timestamp: 2026/11/05 11:24:17]
 
 **user**: 1. I think it'll be a problem. Everything feels overwhelming, can you help out. I feel like your solution is good, 2. Yeah, sort them like that, and then it will make sense. 3. I don't understand this question
 [Timestamp: 2026/11/05 11:33:24]
@@ -1410,7 +1411,7 @@ The needs list for each group lives in one place, in `Companies.base`. When a ne
 - **`Companies.base`:** add the needs lists, the formulas and the new views.
 
 The groups and needs above are my first guess, so correct anything that's wrong. Should I go ahead?
-[Timestamp: 2026/11/05 11:33:24]
+[Timestamp: 2026/11/05 11:33:41]
 
 **user**: I don't like the research depth last entry, as I'll never search the full catalgoue as i am always looking for specific things. When would I use that?
 [Timestamp: 2026/11/05 11:36:41]
@@ -1428,10 +1429,10 @@ Scraping isn't a level, because the ✅/⚠️ column already shows it.
 Companies currently marked "3 - Full catalogue searched" (ALBIS, Lati3Dlab, MATE Co) would become `2 - Products searched`.
 
 Does that work for you? If so, tell me to go ahead and I'll set up the whole structure with this scale.
-[Timestamp: 2026/11/05 11:36:41]
+[Timestamp: 2026/11/05 11:36:49]
 
 **user**: Yes, proceed with the changes
-[Timestamp: 2026/11/05 11:37:25]
+[Timestamp: 2026/11/05 11:37:26]
 
 **ai**: I have everything I need. Now I'm applying the new properties to the 22 company notes with a script, since it's the same structural change in each file.Notes are done. Now updating `Companies.base`.The new structure is in place. Every company note has the new properties, and no "Looked for" entries or old Research depth values remain (checked with grep). I haven't opened the base in Obsidian, so the formulas are untested. If a column shows an error, send me the message.
 
@@ -1465,7 +1466,7 @@ Choices you should check:
 - **Dropped entries:** Mahor's "Pellet blending" and "Research collaboration" and Direct3D's "Pellet sourcing advice" aren't needs, so I dropped them. That information is still in the note text.
 - **UltraPolymers and Direct3D:** both have nothing checked yet, so all their group's needs show as unchecked.
 - **Machine makers:** they'll show "SPD machine" or "Powder extruder" as unchecked even where it clearly doesn't apply (e.g. Mahor and SPD). Add those to Not found to clear them.
-[Timestamp: 2026/11/05 11:37:25]
+[Timestamp: 2026/11/05 11:37:32]
 
 **user**: I don't like the scaped part, i want it to be a manual yes or no
 [Timestamp: 2026/11/05 11:43:57]
@@ -1481,7 +1482,7 @@ I set the starting values from what's already in the vault:
 - **Scrape backlog** now lists companies where Found has entries but Scraped is unticked, leaving out skipped companies. For now that's Maglastic, HYMAG’IN and Iro3D.
 
 I added the property with a script, since it was the same change in all 22 company notes.
-[Timestamp: 2026/11/05 11:43:57]
+[Timestamp: 2026/11/05 11:44:06]
 
 **user**: Add how much materials each have
 [Timestamp: 2026/11/05 11:47:06]
@@ -1497,7 +1498,7 @@ The current counts, based on the links in the material notes:
 - **Resinex:** 2
 
 Machine makers (Mahor, Studio3e8, Fabrx) will show 0, because their hardware notes are in `notes/hardware/machines` and `notes/hardware/extruders`, and those notes don't link back to the company. If you want them counted, I can add a `Manufacturer: "[[Mahor]]"`-style property to those hardware notes as well.
-[Timestamp: 2026/11/05 11:47:06]
+[Timestamp: 2026/11/05 11:47:11]
 
 **user**: I wanted a better way to scrape, how about we use something to convert the pdfs to markdown and then i ask you to generate the material md files from the raw markdown. How could we do that and that work?
 [Timestamp: 2026/11/05 11:50:02]
@@ -1540,7 +1541,7 @@ To start, I'd:
 - test it on one of your existing Toda datasheets and compare the result with your manual note
 
 Should I go ahead? Installing Python means running an installer on your machine, so I'll confirm that step with you first.
-[Timestamp: 2026/11/05 11:50:02]
+[Timestamp: 2026/11/05 11:50:13]
 
 **user**: Alright, install docling, make the appropriate folders, and i want a seperate AI pdfs, and then AI raw, AI material notes, so basically I will add a pdf in datasheets/new, then you take them and once you made a raw markdown you put then in AI, or we can maybe recall it to AI parsed, and then you take the raw markdowns and turn them into the material notes which will be in the materials/AI materials or something like that. Basically I want to split off the ones I made, with the manual and such. How about you call docling. And then make a claude skill so it can be reused.
 [Timestamp: 2026/11/05 11:55:48]
@@ -1582,7 +1583,7 @@ I kept your `validate/` step from the existing `material-intake` instructions, s
 Your rules also mention a `Material source register` note, which doesn't exist in the vault. The skill doesn't use it, so tell me if you want it created.
 
 When the background parse finishes, I can run the rest of the intake on those 17 PDFs. What Functionality should they get?
-[Timestamp: 2026/11/05 11:55:48]
+[Timestamp: 2026/11/05 11:55:57]
 
 **user**: Now take from datasheets/AI, and generate the raw markdowns in info/raw and then generate markdown materials, and compare them with the ones already in info/AI, and then remove the duplicates, this is just to check if this is working
 [Timestamp: 2026/11/05 12:13:14]
@@ -1605,10 +1606,10 @@ Changes I've already made for your new folder layout:
 - **`.obsidian/app.json`** now hides `info/raw/` instead of the old folder.
 
 Check one thing: your manual PDFs are in a folder called `datasheets/manual parsed`. Was that rename intentional, or should it be `datasheets/manual`? I've referred to it as `manual parsed` in the skill for now.
-[Timestamp: 2026/11/05 12:13:14]
+[Timestamp: 2026/11/05 12:13:18]
 
 **user**: Can the parsing be paralized?
-[Timestamp: 2026/11/05 12:57:04]
+[Timestamp: 2026/11/05 12:57:05]
 
 **ai**: The parse of the 22 PDFs just finished. I'll check the result, then answer your question.All 22 parsed with no failures, at about 40 s per PDF. To answer your question with real numbers, I'll quickly time one datasheet with and without OCR:Yes. Here's what speeds it up on your laptop (8 CPU threads, no NVIDIA GPU):
 
@@ -1623,7 +1624,7 @@ Combined, that should bring it down from about 40 s to roughly **12–15 s per P
 There's one risk with skipping OCR: a scanned PDF (an image of a page) would come out nearly empty. To handle that, the script would detect suspiciously short output and automatically re-parse that file with OCR. You keep the speed on normal PDFs and stay safe on scans.
 
 Should I add this to the parse script? Either way, I'll then carry on with the comparison test on the 22 files already in `info/raw/`.
-[Timestamp: 2026/11/05 12:57:04]
+[Timestamp: 2026/11/05 12:57:17]
 
 **user**: Alright, lets do a batch, using all three optimizations, update the skills to remember to paralize it, i've added some pdfs in datasheets/new so extract and then create the material files and i'll go through it and validate
 [Timestamp: 2026/11/05 13:09:55]
@@ -1670,7 +1671,7 @@ Should I add this to the parse script? Either way, I'll then carry on with the c
 Two earlier items are still open:
 - **Comparison test:** the 22 existing AI notes vs freshly generated ones hasn't been run yet, though their raw markdown is ready in `info/raw/`.
 - **Empty folder:** the leftover locked `datasheets/AI parsed` folder from earlier is now the one you're using, so you don't need to delete it.
-[Timestamp: 2026/11/05 13:09:55]
+[Timestamp: 2026/11/05 13:10:03]
 
 **user**: Okey, I added a single datasheet that has multiple materials, convert it to markdown, and then say how many materials you found and then ill check and confirm and then you'll need to make them into the markdown materials
 [Timestamp: 2026/11/05 13:23:29]
@@ -1700,7 +1701,7 @@ The rest of the catalogue is intro text, two case studies (BMS and e-motor overm
 - **Granulate-fed 3D printing:** KERAFOL also mentions printing KERAMOLD this way. That's potentially relevant for your pellet extruder, so I'd mention it in the note body.
 
 Confirm the 6 (or tell me which to skip), and tell me the **Functionality** to use. I'd guess "Thermally conductive" for all six, but HIGHCARB might count as electrically conductive too. Then I'll write the notes. The catalogue PDF is still in `datasheets/new/` until then.
-[Timestamp: 2026/11/05 13:23:29]
+[Timestamp: 2026/11/05 13:23:32]
 
 **user**: Yes, confirm, make the notes, also the previous were validated, i moved them into the ai folder, update the status
 [Timestamp: 2026/11/05 13:26:26]
@@ -1728,16 +1729,16 @@ How I filled them in:
 Things to check against the PDF:
 - **HIGHCARB's thermal row** is labelled "Thermal n/a (conductivity) λ". I recorded 5.7 as thermal conductivity, but the label is odd.
 - **KERAFOL has no company note**, so Manufacturer is plain text and these notes won't count towards any company in `Companies.base`. If you want, I can create a company note for them (Germany, thermally conductive TPE granulates).
-[Timestamp: 2026/11/05 13:26:26]
+[Timestamp: 2026/11/05 13:26:34]
 
 **user**: You didn't add about the dielectic breakdown voltage
 [Timestamp: 2026/11/05 13:28:01]
 
 **ai**: I put it in the note text but not in the properties, so it doesn't show up in the bases. I'll add it as a property, right after the volume resistivity fields:Now adding a column for it to `Validation.base` and the thermally conductive base, so you can see it:This base already has a **"Dielectric properties"** column, so you have a property for this. Let me see how your existing notes use it:Last, I'm adding `Dielectric properties` to the skill's template so future batches include it automatically:
-[Timestamp: 2026/11/05 13:28:01]
+[Timestamp: 2026/11/05 13:28:05]
 
 **user**: No, it should show up in bases, underthe dielectric  properties, like the others, remember this
-[Timestamp: 2026/11/05 13:29:18]
+[Timestamp: 2026/11/05 13:29:16]
 
 **ai**: `Validation.base` already has a Dielectric properties column (you must have added it), so the KERAMOLD values will show there and in the thermally conductive base. Saving the rule:The breakdown voltage is now in each KERAMOLD note's `Dielectric properties`, written the same way as your other notes:
 
@@ -1757,7 +1758,7 @@ KERAFOL gives breakdown *voltage* in kV at 1.0 mm thickness. Your other notes gi
 To make it stick:
 - **Skill template:** `/datasheet-intake` now includes `Dielectric properties`, so future batches fill it in.
 - **Memory:** I saved a rule that every datasheet value goes into an existing property your bases show (like Dielectric properties), never only in the note text or in a new property.
-[Timestamp: 2026/11/05 13:29:18]
+[Timestamp: 2026/11/05 13:29:22]
 
 **user**: I confirm these
 [Timestamp: 2026/11/05 13:30:10]
@@ -1767,7 +1768,7 @@ To make it stick:
 They'll show up in `Thermally conductive materials.base` and `All materials.base`, including the Dielectric properties column.
 
 KERAFOL still has no company note, so these materials won't count towards any company in `Companies.base`. If you want, I can create one in `notes/companies/` (KERAFOL, Germany, thermally conductive TPE granulates) and link it as the Manufacturer in all six notes.
-[Timestamp: 2026/11/05 13:30:10]
+[Timestamp: 2026/11/05 13:30:17]
 
 **user**: Yes, create a KERAFOL and update it accordingly, i'll check it but basically it was scraped
 [Timestamp: 2026/11/05 13:31:06]
@@ -1787,7 +1788,7 @@ What I put in the company note:
 Two things to check:
 - **Not found:** PA12 and PA12-CF are there only because the catalogue doesn't include them. I didn't check their website for other products.
 - **Website:** `kerafol.com` comes from the catalogue footer. I didn't open the site to confirm it.
-[Timestamp: 2026/11/05 13:31:06]
+[Timestamp: 2026/11/05 13:31:09]
 
 **user**: How does TPE bond with PA6, PA6.66, PA12, POM?
 [Timestamp: 2026/11/05 13:33:14]
@@ -1831,7 +1832,7 @@ Sources:
 - [UL Prospector – Overmolding with TPEs (Teknor Apex webinar)](https://www.ulprospector.com/knowledge/media/2021/08/Overmolding-with-TPEs-webinar-slides-September-2021.pdf)
 - [EPO – compound with improved adhesion to POM](https://data.epo.org/publication-server/rest/v1.2/patents/EP1225036NWA1/document.pdf)
 - [Google Patents – US6296797B1, polyacetal–elastomer composite bodies](https://patents.google.com/patent/US6296797)
-[Timestamp: 2026/11/05 13:33:14]
+[Timestamp: 2026/11/05 13:33:20]
 
 **user**: Alright, I have a new batch of electrically conductive pdfs, do the process
 [Timestamp: 2026/11/05 13:37:12]
@@ -1866,7 +1867,7 @@ Sources:
 - **Units:** the Durethans give *volume resistivity* (Ω·m), while the MOCOM and ALFATER grades give *surface resistance* (Ω), so the two columns can't be compared directly.
 
 When you've reviewed them, tell me which to approve and I'll set them to Identified and move them to `info/AI`. All 11 list ALBIS as the supplier, so they'll count towards [[ALBIS NORDICS & BALTICS AB]] in `Companies.base` once approved.
-[Timestamp: 2026/11/05 13:37:12]
+[Timestamp: 2026/11/05 13:37:16]
 
 **user**: The Durethan pdf links dont work and the albis one as well
 [Timestamp: 2026/11/05 13:50:57]
@@ -1876,16 +1877,16 @@ When you've reviewed them, tell me which to approve and I'll set them to Identif
 The four broken ones (ALFATER and the three Durethans) were the last four files I moved, a few seconds after the rest. The working and broken PDFs are identical on disk, so the likely cause is that Obsidian's file watcher missed those last moves. To get Obsidian to notice them, I renamed each of the four away and back. No links were changed: there's no `_tmp_` anywhere in the vault.
 
 Check whether the links open now. If they still don't, reload Obsidian (Command palette → "Reload app without saving"), which makes it re-scan all files. If they're still broken after that, tell me what happens when you click one, e.g. "file not found" or it offers to create a new note, and I'll dig further.
-[Timestamp: 2026/11/05 13:50:57]
+[Timestamp: 2026/11/05 13:51:05]
 
 **user**: i have validated
 [Timestamp: 2026/11/05 13:53:25]
 
 **ai**: All 11 notes are approved and in `info/AI`. I also updated the `/datasheet-intake` skill: it now pauses briefly between file moves, and if a link to an existing file looks broken, it renames the file away and back so Obsidian picks it up.
-[Timestamp: 2026/11/05 13:53:25]
+[Timestamp: 2026/11/05 13:53:30]
 
 **user**: Alright, I've added new pdfs
-[Timestamp: 2026/11/05 13:55:12]
+[Timestamp: 2026/11/05 13:55:13]
 
 **ai**: Four PDFs came out short on the first pass and were re-parsed with OCR. That may mean they're scans, or just short summary sheets like the Durethan one. I'll check:All 9 now have usable content. Next I'll pull out the relevant parts:The Ixef 3012 file lost its title and composition during OCR. I'll check the PDF directly:The Ixef PDF is password-protected. That's why its first pass came out nearly empty and needed OCR, and also why I can't open it directly. OCR recovered the property tables but not the title block or composition.
 
@@ -1913,7 +1914,7 @@ I've parsed the whole batch. It's mixed, and I need your input before writing th
 1. **The 5 glass-fibre Pocans:** they have no conductive filler. Should I still make notes for them (e.g. as reference or base materials), or skip them? If I make them, which Functionality? Your current categories are Electrically conductive, Thermally conductive, Soft magnetic and Unfilled. "Unfilled" doesn't really fit glass-filled PBT.
 2. **The other 4:** OK to use **Electrically conductive** for all of them, including Hostalen and Pocan B5221XF, which are only antistatic? I'd note their resistivity range in the body either way.
 3. **Ixef 3012:** with the title block missing, Matrix would be "PARA" (from the brand) and Filler `n/a`. If you can get an unprotected PDF, I can fill those in properly.
-[Timestamp: 2026/11/05 13:55:12]
+[Timestamp: 2026/11/05 13:55:19]
 
 **user**: 1. Delete them 2. Yes. 4. It's not password protected, try again
 [Timestamp: 2026/11/05 14:04:09]
@@ -1940,7 +1941,7 @@ Things to check:
 - **Skill updates:**
   - If a PDF "won't open", the skill now retries once before reporting it.
   - Any PDF that needed the OCR retry gets read directly to confirm its grade name. OCR is where Ixef lost its title block.
-[Timestamp: 2026/11/05 14:04:09]
+[Timestamp: 2026/11/05 14:04:16]
 
 **user**: I confirm these
 [Timestamp: 2026/11/05 14:06:19]
@@ -1948,17 +1949,17 @@ Things to check:
 **ai**: I've approved all 4 notes: BASF Ultrason KR 4113, Envalior Pocan B5221XF, LyondellBasell Hostalen GM 9350 C BLACK and Syensqo Ixef 3012.
 
 They're now in `info/AI` with `Status: Identified` and today's Last update time, and `info/validate/` is empty. They'll show up in `Electrically conductive materials.base` and count towards [[ALBIS NORDICS & BALTICS AB]] in `Companies.base`.
-[Timestamp: 2026/11/05 14:06:19]
+[Timestamp: 2026/11/05 14:06:25]
 
 **user**: Why are there still alfa and durethan in the new datasheet section?
-[Timestamp: 2026/11/05 14:06:50]
+[Timestamp: 2026/11/05 14:06:46]
 
 **ai**: Check the file explorer now. Those four entries in `new/` should be gone. If they're still there, reload Obsidian (Command palette → "Reload app without saving"); that always clears stale entries.
 
 **Nothing was lost.** The four PDFs are in `datasheets/AI parsed/` with their new names, and their notes link to them there.
 
 **Why this keeps happening:** the vault is on OneDrive, and when several files are moved quickly from outside Obsidian, its watcher sometimes misses some of the moves. It's happened twice now, both times to the last few files in a batch. If it happens again, a reload of Obsidian fixes it.
-[Timestamp: 2026/11/05 14:06:46]
+[Timestamp: 2026/11/05 14:06:51]
 
 **user**: Is there a way to automate somehow, a task creation or something like that, basically where I update the companies communication back and forth, somehow it tracks when was the last one, it shows up automatically in properties for the company and then somehow a task gets created if it's past a certain time or somethin? Don't do anything, just tell me if it's possible and how and is it complex
 [Timestamp: 2026/11/05 14:17:07]
@@ -2005,12 +2006,9 @@ Option 2 as a Claude skill, plus the base columns from option 1:
 - **Follow-up delay:** I'd suggest 7 days.
 
 Tell me if you want it set up, and which follow-up delay you'd like if not 7 days.
-[Timestamp: 2026/11/05 14:17:07]
+[Timestamp: 2026/11/05 14:17:18]
 
 **user**: Fuck it, alright, can we automate the last update for the material to change if i change something?
-[Timestamp: 2026/11/05 14:44:13]
-
-**ai**: 
 [Timestamp: 2026/11/05 14:44:13]
 
 **user**: Dissmiss it, alright, can we automate the last update for the material to change if i change something?
@@ -2037,7 +2035,7 @@ This would update `Last update` automatically whenever *I* edit a material note.
 `Last update` is currently text in `HH:mm DD/MM/YYYY` format, so sorting by it in a base goes wrong. It sorts by hour first, not by date. If you want "most recently changed" sorting to work, switch to a real date-time property (e.g. `2026-11-05T14:04`). Obsidian still displays it nicely. That's a one-off conversion of the existing notes plus a format change in the skill.
 
 **My suggestion:** option 2 with "Update time on edit", limited to the materials folder. If you also want proper sorting, I'd convert `Last update` to a real date-time first, so the plugin writes that format from the start. Once you've installed the plugin, I can check its settings file and set it up. Should I also convert the existing dates?
-[Timestamp: 2026/11/05 14:44:36]
+[Timestamp: 2026/11/05 14:44:56]
 
 **user**: Do the 1., go through all of the materials and implement them
 [Timestamp: 2026/11/05 14:45:49]
@@ -2051,7 +2049,7 @@ This would update `Last update` automatically whenever *I* edit a material note.
 **Skill and `AGENTS.md`:** they no longer write a `Last update` property. Approving notes just sets `Status: Identified`, and the column takes care of itself.
 
 The column changes on any write to the file, not only your own edits. That includes when I approve notes or fix something in them, which counts as an update, and occasionally OneDrive sync. Moving files between folders keeps the time.
-[Timestamp: 2026/11/05 14:45:49]
+[Timestamp: 2026/11/05 14:46:05]
 
 **user**: Why is the month the first thing that shows, how can i change that
 [Timestamp: 2026/11/05 14:48:33]
@@ -2065,4 +2063,131 @@ The column changes on any write to the file, not only your own edits. That inclu
 - **Hidden sort:** keep day first on screen, but sort the view by the real modified time behind the scenes.
 
 Tell me if you want either.
-[Timestamp: 2026/11/05 14:48:33]
+[Timestamp: 2026/11/05 14:48:43]
+
+**user**: Alright, I've added new datasheets, do the workflow we talked about]
+[Timestamp: 2026/11/09 09:44:40]
+
+**ai**: Parsed all 14 in 186 s, no OCR needed. Let me read one fully to learn the Barlog layout, then condense the rest.I also want to check the drying info for the two PP grades and look at the ISO filler codes:There are no duplicates (the only matches are the raw files). Next I'll rename and file the PDFs and raw markdown:No PDFs are left in `new/`. Now I'm writing the 14 draft notes, with Manufacturer linked to [[Barlog Plastics]] and Functionality set to Soft magnetic:The Barlog batch is done: **14 draft notes are in `info/validate/`**, ready for review in `Validation.base`.
+
+**How the run went:**
+- Parsing took 186 s for 14 PDFs, and none needed the OCR retry.
+- There were no duplicates.
+- The PDFs are renamed `Barlog_KEBABLEND_MW_<grade>` and filed in `datasheets/AI parsed/`. `datasheets/new/` is empty.
+- All 14 datasheet and raw-markdown links point to existing files.
+
+**What every note has:** Manufacturer is `"[[Barlog Plastics]]"` and Functionality is Soft magnetic. Saturation goes in `Magnetic saturation (T)`, the property your MATE notes use. That property wasn't showing in any base, so I added the column next to Permeability in `Soft magnetic materials.base` and `Validation.base`.
+
+| Grade | Matrix | Filler (from ISO code) | Permeability (µr) | Saturation (T) |
+| --- | --- | --- | --- | --- |
+| **MW 39.1500 PA12** | PA12 | metal powder | **63** | 0.51 |
+| MW 39.1500 PPA | PA9T | metal powder | ~47 | ~0.495 |
+| **MW 28.1600 PA12** | PA12 | metal powder | **38** | 0.355 |
+| FE 181201 PPS* | PPS | metal powder | ~35 | 0.49 |
+| FE 200102 PA12* | PA12 | metal powder | 17 (1 MHz) | **1.20** |
+| MW 53.2000 PPS | PPS | metal powder | ~15 | 1.13 |
+| MW 35.1100 PA6 | PA6 | metal powder | 14 | 0.80 |
+| MW 25.1200 PA66 | PA66 | unspecified powder | 6 | 0.20 |
+| MW 24.1200 PE | PE | unspecified powder | ~5 | ~0.235 |
+| MW 21.1200 PP | PP | unspecified powder | < 5 (1 MHz) | ≤ 0.30 |
+| FE 200802/3* | PPS | metal powder | ~4 | ~0.23 |
+| FE 150204 PP* | PP | metal powder | n/a | n/a |
+| FE 181101 TPE* | TPE-S (SEBS), Shore A 80 | metal powder | n/a | n/a |
+| FE 200802/5* | PPS | metal powder | n/a | n/a |
+
+*FE = development product, which the note bodies flag.
+
+**Things to check:**
+- **Filler:** Barlog never names it. I read it from the ISO 1043 codes, where "MED" means metal powder and "ZD" means powder of unspecified material. The exact metal is unknown.
+- **MW 21.1200 PP** is called a development product in its datasheet text, even though it has no "FE" prefix.
+- **Matrix for FE 200802/3 and /5** comes from the datasheet text ("based on PPS"), since the file names didn't say.
+- **For your PA12 work,** MW 39.1500 PA12 (µr 63) and MW 28.1600 PA12 (µr 38) stand out. MW 39.1500 PPA is the only grade with an electrical value: 10⁶ Ω·m volume resistivity, so it's insulating.
+
+When you validate, I'll set the notes to Identified, move them to `info/AI`, and update [[Barlog Plastics]] (Found: Soft magnetic pellets, Scraped ticked, Products list). Barlog's Group is currently "Polymer supplier". Should I switch it to "Magnetic compound supplier"?
+[Timestamp: 2026/11/09 09:44:40]
+
+**user**: I edited them, now they're validated
+[Timestamp: 2026/11/09 09:55:14]
+
+**ai**: Now updating the company note:I approved all 14 Barlog notes. They're in `info/AI` with `Status: Identified`, and `info/validate/` is empty. They'll show up in `Soft magnetic materials.base`, including the new Magnetic saturation column.
+
+**[[Barlog Plastics]] is updated:**
+- **Found:** Soft magnetic pellets
+- **Scraped:** ticked
+- **Products:** links to all 14 grades, with the 6 FE grades marked as development products
+
+**I didn't change Group,** because you haven't answered yet. It's still "Polymer supplier", so the base will ask about PA12 and PA12-CF instead of soft magnetic pellets and powder. Should I switch it to "Magnetic compound supplier"?
+
+**Filler:** I saw you set it back to `n/a` on the notes where I'd read it from the ISO codes (MED/ZD). I've saved that as a rule: only record filler when the datasheet names it. I left the ISO-code wording in the note text, since you didn't touch that. Tell me if you want it removed too.
+[Timestamp: 2026/11/09 09:55:14]
+
+**user**: Alright, i have some thermally conductive datasheets in, do the workflow, they're from Barlog
+[Timestamp: 2026/11/09 09:58:52]
+
+**ai**: There are no duplicates. Next I'll file the PDFs and write the 3 notes. Filler stays `n/a` (Barlog only gives ISO codes), following your rule.**3 draft notes are in `info/validate/`**, ready for review in `Validation.base`. All three are Barlog development products (FE):
+- **Parsing:** 51 s, with no OCR retries and no duplicates.
+- **Links:** every note links to its PDF and raw file, and all of those links work.
+- **Fields:** Manufacturer is [[Barlog Plastics]], Functionality is "Thermally conductive", and Filler is `n/a`.
+
+| Grade | Matrix | Thermal conductivity in-plane / through-plane (W/m·K, DIN EN 821) | Electrical |
+| --- | --- | --- | --- |
+| TC FE 181003 PBT | PBT | 1.5 / 1.0 | "electrically insulating", no values |
+| TC FE 190205/1 PA6 | PA6 | **2 / 1** | "electrically insulating", no values |
+| TC FE 190802 PPS | PPS | 1.0 / 1.1 | 10¹⁴ Ω surface, 27 kV/mm in `Dielectric properties` |
+
+**Things to know:**
+- **Thermal values** are under the in-plane and through-plane properties, since Barlog gives both directions. The integral field stays `n/a`.
+- **The "G" parser glitch** hit two of the ISO designations ("PBT-?F-X", "PPS-I-?F+MD65"). I've noted that in the bodies.
+- **Barlog Plastics:** when you validate, I'll add "Thermally conductive" to its Found list and link these three under Products. Its Group is still "Polymer supplier", which fits these thermal grades better than the magnetic ones.
+[Timestamp: 2026/11/09 09:58:52]
+
+**user**: I validated them
+[Timestamp: 2026/11/09 10:01:38]
+
+**ai**: I've approved the three TC notes: they're in `info/AI` with `Status: Identified`, and `info/validate/` is empty. They'll show up in `Thermally conductive materials.base`.
+
+I also updated [[Barlog Plastics]]:
+- **Found:** added "Thermally conductive" next to "Soft magnetic pellets".
+- **Products:** listed the three TC grades, marked as development products.
+[Timestamp: 2026/11/09 10:01:38]
+
+**user**: Alright, I added some electrically conductive from Barlog
+[Timestamp: 2026/11/09 10:03:26]
+
+**ai**: There are no duplicates. Where the text names the filler (CF, graphite, glass or steel fibre, recycled), I'll record it. Where only an ISO code gives it, Filler stays `n/a`. Filing the files first:**9 draft notes are in `info/validate/`**, ready for review in `Validation.base`.
+- **Run:** parsing took 102 s, with no OCR retries and no duplicates. All links work.
+- **All 9 notes:** Manufacturer is [[Barlog Plastics]] and Functionality is "Electrically conductive".
+
+| Grade | Matrix | Filler (stated in text) | Electrical |
+| --- | --- | --- | --- |
+| EC FE 190304 TPE | TPE-S, Shore A 79 | n/a | **0.06 Ω·m** volume |
+| EC FE 190801 TPE | TPE-S, Shore D 45 | n/a | 0.6 Ω·m volume |
+| EC FE 170905 PPS | PPS | CF + graphite | 100 Ω surface |
+| EC FE 170603/4 (DB) | PA66, dry blend | n/a | 200 Ω·m volume, 2×10⁶ Ω surface |
+| EC FE211005/1 PBT | PBT | 20% recycled CF | none given |
+| EC FE 210204 PA66 (DB) | PA66, dry blend | n/a | none given |
+| EC FE 220601/1 PPS | PPS, dry blend | glass + steel fibre | none given |
+| EC FE 220603/1 PPS | PPS, dry blend | steel fibre | none given |
+| KEBALLOY ECO FE 191103 R-PET | recycled PET | glass + recycled CF | none given |
+
+**Things to check:**
+- **Five grades have no electrical values,** only the label "electrically conductive".
+- **FE 190801 TPE:** the description text calls it "FE 190501". It's flagged in the note.
+- **Filler:** recorded only where the text names it. For the others it's `n/a`, and the ISO code is mentioned in the body.
+- **Dry blends (DB):** three grades are supplied as dry blends, so their Feedstock format is "Dry blend". That could matter for feeding your pellet extruder.
+- **For your work:** the two conductive TPEs are worth a look as a soft conductive phase. FE 190801 is described as suited to 2K parts.
+
+Once you've validated them, I'll approve them and add "Electrically conductive" and the 9 products to [[Barlog Plastics]].
+[Timestamp: 2026/11/09 10:03:26]
+
+**user**: I validated.
+[Timestamp: 2026/11/09 10:08:19]
+
+**ai**: I've approved all 9 EC notes. They're in `info/AI` with `Status: Identified`, and `info/validate/` is empty. They'll show up in `Electrically conductive materials.base`.
+
+I also updated [[Barlog Plastics]]:
+- **Found:** added "Electrically conductive", alongside soft magnetic and thermally conductive.
+- **Products:** listed all 9 EC grades, with the 7 development products marked.
+
+Barlog now has 26 material notes: 14 MW, 3 TC and 9 EC.
+[Timestamp: 2026/11/09 10:08:19]

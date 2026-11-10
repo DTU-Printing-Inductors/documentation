@@ -19,6 +19,7 @@ views:
       - Matrix
       - MOQ
       - Permeability
+      - Magnetic saturation (T)
       - Surface resistivity (Ω/sq)
       - Surface resistance (Ω)
       - Volume resistivity (Ω·m)
@@ -34,8 +35,12 @@ views:
       - formula.last_update
       - Dielectric properties
     sort:
+      - property: Filler loading
+        direction: ASC
       - property: Surface resistance standard
         direction: ASC
     columnSize:
+      note.Filler: 104
+      note.Filler loading: 213
       note.Supplier: 180
       note.Status: 97

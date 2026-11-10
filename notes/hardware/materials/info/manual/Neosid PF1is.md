@@ -20,6 +20,8 @@ Datasheet: "[[Neosid_PF1is.pdf]]"
 Lead time: n/a
 Processing instructions: n/a
 Functionality: Soft magnetic
+Permeability geometry: d28/22mm t1.1mm and d28/22 t4.8mm
+Magnetic saturation (T): n/a
 ---
 ## Permeability measuring geometry
 n/a

@@ -1,9 +1,9 @@
 ---
-status: open
-priority: normal
-scheduled: 2026-11-09
+status: done
+priority: high
+scheduled: 2026-11-10
 dateCreated: 2026-10-30T09:29:19.664+01:00
-dateModified: 2026-11-02T15:40:30.997+01:00
+dateModified: 2026-11-10T09:15:32.345+01:00
 reminders:
   - id: rem_1793348956446
     type: relative
@@ -13,6 +13,7 @@ reminders:
 tags:
   - task
 due: 2026-11-10T13:00
-tasknotes_manual_order: tnjephqvksja
+tasknotes_manual_order: tnygygygygyi
+completedDate: 2026-11-10
 ---
 

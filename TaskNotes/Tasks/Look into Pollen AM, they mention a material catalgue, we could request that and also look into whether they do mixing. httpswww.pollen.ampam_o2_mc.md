@@ -3,10 +3,9 @@ title: Look into Pollen AM, they mention a material catalgue, we could request t
 status: open
 priority: high
 dateCreated: 2026-11-03T12:17:39.246+01:00
-dateModified: 2026-11-05T14:14:58.969+01:00
+dateModified: 2026-11-09T11:34:41.709+01:00
 tags:
   - task
-  - learnmore
-tasknotes_manual_order: tnksjephqvkn
+tasknotes_manual_order: tnwnwnwnwnwn
 ---
 

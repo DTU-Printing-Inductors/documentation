@@ -1,7 +1,8 @@
 ---
 Grade: KERAMOLD 15
 Manufacturer: "[[KERAFOL]]"
-Supplier: n/a
+Supplier:
+  - Kerafol
 Type: Thermally conductive
 Functionality: Thermally conductive
 Matrix: TPE (silicone-free)

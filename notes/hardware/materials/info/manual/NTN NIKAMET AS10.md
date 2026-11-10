@@ -17,4 +17,5 @@ Lead time: n/a
 Processing instructions: n/a
 Functionality: Soft magnetic
 Magnetic saturation (T): "0.8"
+Permeability geometry: n/a
 ---

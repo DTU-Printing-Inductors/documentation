@@ -1,7 +1,8 @@
 ---
 Grade: KERAMOLD HIGHCARB
 Manufacturer: "[[KERAFOL]]"
-Supplier: n/a
+Supplier:
+  - Kerafol
 Type: Thermally conductive, electrically conductive
 Functionality: Thermally conductive
 Matrix: TPE (silicone-free)

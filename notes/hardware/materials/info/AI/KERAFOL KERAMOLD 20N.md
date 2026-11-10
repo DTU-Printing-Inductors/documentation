@@ -1,7 +1,8 @@
 ---
 Grade: KERAMOLD 20N
 Manufacturer: "[[KERAFOL]]"
-Supplier: n/a
+Supplier:
+  - Kerafol
 Type: Thermally conductive
 Functionality: Thermally conductive
 Matrix: TPE (silicone-free)
@@ -16,7 +17,7 @@ Surface resistance standard: n/a
 Volume resistivity (Ω·m): n/a
 Volume resistivity standard: n/a
 Dielectric properties: Breakdown voltage 6 kV AC (1.0 mm); CTI 600 V; HAI PLC 0
-Thermal conductivity integral (W/m·K): 2.0
+Thermal conductivity integral (W/m·K): 2
 Thermal conductivity integral standard: n/a
 Thermal conductivity in-plane (W/m·K): n/a
 Thermal conductivity through-plane (W/m·K): n/a

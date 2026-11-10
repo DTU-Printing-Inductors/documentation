@@ -17,6 +17,7 @@ Lead time: 2.5 months
 Processing instructions: "[[Mate_Co_TS-3S50.pdf]]"
 Functionality: Soft magnetic
 Magnetic saturation (T): "0.45"
+Permeability geometry: d13/8 mm t5mm and d20/10mm t0.6mm
 ---
 ## Original material used in:
 [[canadaMagneticFluxGuides2026]]

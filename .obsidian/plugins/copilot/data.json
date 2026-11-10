@@ -699,25 +699,6 @@
         }
       },
       {
-        "id": "deepseek-v4-flash-0731",
-        "displayName": "DeepSeek V4 Flash 0731",
-        "description": "The July 2026 DeepSeek V4 Flash snapshot: fast, cheap, and broadly capable.",
-        "toolCall": true,
-        "reasoning": true,
-        "reasoningEfforts": [],
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "limits": {
-          "context": 1048576
-        }
-      },
-      {
         "id": "deepseek-v4.1-flash",
         "displayName": "DeepSeek V4.1 Flash",
         "description": "Fast multimodal reasoning for coding and agentic tasks.",
