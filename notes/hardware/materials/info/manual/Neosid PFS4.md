@@ -12,7 +12,7 @@ Thermal conductivity in-plane (W/m·K): n/a
 Thermal conductivity through-plane (W/m·K): n/a
 Thermal conductivity directional standard: n/a
 Size: n/a
-Permeability: 30-45*
+Permeability: 30-45
 MOQ: n/a
 Price: n/a
 Status: Dismissed, low permeability

@@ -6,7 +6,7 @@ sessionId: "1970f75e-7002-453a-86c3-7ae43e8a4792"
 topic: "Here's the file, can you fill it out, similary how i did oth…"
 tags:
   - copilot-conversation
-usage: '{"usedTokens":504918,"contextWindow":1000000,"inputTokens":2,"outputTokens":133,"cacheReadTokens":504351,"cacheWriteTokens":432,"updatedAt":1794305201725}'
+usage: '{"usedTokens":637912,"contextWindow":1000000,"inputTokens":2,"outputTokens":4,"cacheReadTokens":635025,"cacheWriteTokens":2881,"updatedAt":1794409141078}'
 lastAccessedAt: 1794213836992
 ---
 
@@ -2324,3 +2324,203 @@ The original filename was a long German name ("Hochgefüllte Kunststoffe…"), s
 
 They'll appear in the Thermally conductive and Electrically conductive material bases, and count towards [[PlastFormance]] in `Companies.base`. The company note was already set up when I created it (Found, Scraped and the product links), so it didn't need changing.
 [Timestamp: 2026/11/10 11:06:20]
+
+**user**: Alright, I want visualize the soft magnetic materials obisidian base, i want so that when i update the base and the values the python plot also updates. Basically I want to plot the magnetic saturation on x axis and y the permeability. If there are n/a values then don't plot those points, if only one of the values is n/a then use 0, to show that it doesn't have a value like in the NTN cases Then if it's a range use the number for example where there is "< 5" plot as the 5, where there is a two values for example "30-60". I want then the colouring or shape be the material, to show the highest performance materials are a certain material, show like the top 5 materials, that are commonly in the top, but like if PA12 shows up once, don't make it individual multiple times but like you get it hopefully. And then the rest you can call "others". I want one static image plot, and another a interactive one, where it's a plotly html file, where I can hover and it will show what material it is so i can trace it back to the base.
+[Timestamp: 2026/11/11 15:10:58]
+
+**ai**: I've checked all 33 soft magnetic notes. A few formats need deciding: ranges like `44-94`, empty saturation (Toda Kogyo), multi-matrix values like "PP, PBT, PPS, PA12", and "POM*". Three questions:The script ran: 30 notes plotted and 3 skipped, matching the plan. Let me check the image:Both plots are generated from the current notes:
+- **Static image:** `images/plots/soft_magnetic_saturation_vs_permeability.png`
+- **Interactive file:** `images/plots/soft_magnetic_saturation_vs_permeability.html`. Open it in a browser and hover over a point to see the note name, manufacturer, matrix, filler and the raw permeability and saturation values, so you can find it in the base.
+
+![[soft_magnetic_saturation_vs_permeability.png]]
+
+To refresh after you change values or the base's filters, run this from the vault folder:
+```
+uv run scripts/plot_soft_magnetic.py
+```
+Both files regenerate in a few seconds.
+
+**What it does:**
+- **Picks notes from the base itself:** it reads the filters from `Soft magnetic materials.base` and prints them, and it warns if it meets a filter it doesn't understand.
+- **This run:** 30 notes plotted. 3 Barlog FE notes were skipped because both values are n/a. 11 have one value missing, plotted at 0 with a hollow marker. Those are mostly the Toda Kogyo notes, whose saturation is empty, and the two NTN notes.
+- **Value rules:** ranges use the lower value (MATE TS-2S50C "44-94" → 44), "< 5" → 5, "~47" → 47.
+- **Top 5 matrices,** counted among the 10 highest-permeability points: PA12 (5 of the 10), PPS (2), PPA (1), PA6 (1). Only four matrices appear there, so the fifth slot went to "Multiple" (Toda's "PP, PBT, PPS, PA12" grades), based on its best permeability. Everything else is grey "Others".
+- **Labels:** the six highest-permeability points are labelled in the PNG, and the labels no longer overlap.
+
+Things to know:
+- **Colour check not run:** I couldn't run the dataviz skill's colour checker because Node.js isn't installed. To compensate, each matrix also has its own marker shape, and I left out the two palette colours known to clash in scatter plots.
+- **Excluded from the top 5:** notes with Matrix `n/a` (e.g. Neosid PFS4, NTN) count as "Unknown", which is always grouped into Others.
+- **Hidden overlap:** Toda Kogyo's PA6 and PPS grades with µr ≈ 16.5 sit almost on top of each other at x = 0. Hovering in the HTML separates them.
+[Timestamp: 2026/11/11 15:10:58]
+
+**user**: Okay, how about instead of colours and shapes being different for each material type, we have shapes as polymer matrix and colour being a company. And then don't write the names of the plot points, then the plot should be matplotlib, not just a screenshot of the html thing.
+[Timestamp: 2026/11/11 15:26:25]
+
+**ai**: The PNG was already drawn by matplotlib, not taken from the HTML. It probably looked that way because I styled it to match the interactive version. I'll keep it as a native matplotlib figure, and the new version will look more like a standard matplotlib plot: default font and fewer styling overrides.
+
+Here's the new encoding:
+- **Colour = company** (Manufacturer). You have 5 companies, so each gets its own colour. If you add more than 5 later, the extras fold into "Other companies".
+- **Shape = polymer matrix:** the top 5 matrices each get their own marker, and the rest share one "Other matrices" marker.
+- **No point labels.**I'll rewrite the plotting part of the script. The data collection and parsing stay the same.Both plots are regenerated with the new encoding:
+
+![[soft_magnetic_saturation_vs_permeability.png]]
+
+**What changed:**
+- **Colour = company:**
+  - Barlog Plastics: blue
+  - MATE Co: orange
+  - Neosid: aqua
+  - NTN: pink
+  - Toda Kogyo: dark violet
+
+  Colours follow alphabetical order, so a company keeps its colour when you add data. If more than 5 companies appear, the extras become grey "Other companies".
+- **Shape = matrix:** PA12 circle, PPS square, PPA triangle, PA6 diamond, Multiple downward triangle. Every other matrix is an ✕. Hollow markers still mean one value is missing and plotted at 0.
+- **No point labels.** There are two separate legends, one for colour and one for shape.
+- **Native matplotlib:** the PNG is drawn directly by matplotlib, now with matplotlib's default look instead of my custom styling. It was never a screenshot of the HTML. The interactive HTML still uses Plotly, since matplotlib can't make a hoverable web page. It uses the same colours and shapes, with hover details and clickable legends.
+- **Overwriting fix:** the first run couldn't overwrite the old PNG, probably because OneDrive or a viewer had it open. The script now writes a temporary file and swaps it in, retrying for a few seconds.
+- **Colours:** I swapped one colour because Neosid's aqua and Toda's green looked almost the same.
+
+**Overlapping points:**
+- **MATE at (0.45, 30):** TS-1S50 (PA6) and TS-6S50 (PPS) sit exactly on top of each other.
+- **Toda Kogyo at x = 0:** several hollow markers crowd together.
+
+Hovering in the HTML separates them.
+
+Refresh as before with `uv run scripts/plot_soft_magnetic.py`.
+[Timestamp: 2026/11/11 15:26:25]
+
+**user**: Nvm, let the colour be the matrix, remove the company
+[Timestamp: 2026/11/11 15:31:05]
+
+**ai**: Colour now shows the matrix, and the company encoding is gone from both the PNG and the HTML:
+
+![[soft_magnetic_saturation_vs_permeability.png]]
+
+- **Colours:** PA12 blue, PPS orange, PPA aqua, PA6 pink, Multiple violet. All other matrices are grey "Other matrices", drawn underneath so the top 5 stand out.
+- **Single legend:** "Matrix", with point counts.
+- **Shapes:** each matrix still has its own shape, matching its colour. I kept that as a second cue so the plot works for colour-blind readers and in black-and-white print. If you'd rather have every point as a circle, it's a one-line change.
+- **Unchanged:** hollow markers (one value missing, plotted at 0), the lower-value rule for ranges, and the hover details in the HTML (note name, manufacturer, matrix, filler, raw values).
+
+At (0.45, 30), MATE TS-1S50 (PA6) is hidden under TS-6S50 (PPS). Hovering in the HTML shows both.
+
+Refresh with `uv run scripts/plot_soft_magnetic.py`.
+[Timestamp: 2026/11/11 15:31:05]
+
+**user**: Let's do all circles, top 3 permeability matrixes only and the rest as other matrices, and then for those where there are two values, mark both and connect them or like show that they have two values measured
+[Timestamp: 2026/11/11 15:39:03]
+
+**ai**: The plot works, but the four MATE ranges at 0.45 T sit on the same vertical line and hide each other. I'm nudging ranges that share an x-value slightly apart horizontally so each stays visible:The plot is updated, in both the PNG and the interactive HTML:
+
+![[soft_magnetic_saturation_vs_permeability.png]]
+
+- **All circles.** Only colour encodes the matrix.
+- **Top 3 matrices by permeability:** PA12 (blue), PPS (orange) and PPA (aqua). Everything else is grey "Other matrices", which now includes PA6 and the Toda "Multiple" grades.
+- **Ranges are drawn as two points joined by a line**, one point at each end:
+  - Neosid PFS9 (50–80) and PFS4 (30–45)
+  - the four MATE grades (44–94, 39–74, 30–60 and 24–43)
+
+  In the HTML, hovering on either end shows "(range, lower end)" or "(range, upper end)".
+- **Nudged ranges:** four of the MATE ranges have the same saturation (0.45 T) and were hidden behind each other, so I shifted them apart by about 0.012 T each. The footnote says so.
+- **Unchanged:** hollow circles still mean one value is missing and plotted at 0, and "< 5" is still plotted at 5.
+
+The top 3 are still ranked on each material's lower permeability value, so ranges don't push a matrix up the ranking. Tell me if you'd rather rank on the upper end.
+
+Refresh with `uv run scripts/plot_soft_magnetic.py`.
+[Timestamp: 2026/11/11 15:39:03]
+
+**user**: Make the point as thick as the line connecting them so you dont have such an empasis that its two seperate but looks more like one, then isn't pa6 the top 3rd place on the highest permeability, as now we're using the higher bounds as well
+[Timestamp: 2026/11/11 15:47:05]
+
+**ai**: Two changes:
+- **Ranges:** each one becomes a single solid "capsule". The line is as thick as the dots and has round ends, with no white outline separating the end points.
+- **Ranking:** the top 3 will now use each material's highest value, the upper end of a range. MATE TS-1S50 (PA6, 30–60) then counts as 60. Let me see what that does to the ranking.You were right about PA6. With ranges counted at their upper value, MATE TS-1S50 (PA6, 30–60) counts as 60, so the top 3 are now **PA12, PA6 and PPS**. PPA (Barlog MW 39.1500 PPA, µr 47) drops into "Other matrices". In the top 10 by permeability, PA12 appears 6 times, and PA6 and PPS once each. PA6 and PPS also both reach 60, which puts them ahead of PPA in the tie-break.
+
+![[soft_magnetic_saturation_vs_permeability.png]]
+
+**Ranges look like one object now.** Each range is a single solid capsule as wide as a normal point, with rounded ends at the lower and upper values. There are no separate dots or white outlines. The HTML does the same: the line is as wide as the points, and you can still hover on either end.
+
+**The capsules are spread apart more.** The four MATE ranges at 0.45 T were overlapping with the thicker shape, so they're now about one capsule-width apart. That makes them appear between roughly 0.41 and 0.49 T, but hovering in the HTML shows the real values. The PA6 and PPS capsules (TS-1S50 and TS-6S50, both 30–60) are now side by side instead of on top of each other.
+
+Refresh with `uv run scripts/plot_soft_magnetic.py`.
+[Timestamp: 2026/11/11 15:47:05]
+
+**user**: Thinner lines and smaller points. Is there a way to make the points apear on top of the lines, without hardcoding it. Check how much stuff you've hardcoded, as I will be adding new entries and it should still work
+[Timestamp: 2026/11/11 15:49:51]
+
+**ai**: I found several values that only work for today's data. Let me read the whole script so I can fix them all at once:I'll rewrite the script in one go: smaller points with thinner lines drawn underneath, and nothing tied to today's data.The plot looks right. Next I'll test the parsing on formats that aren't in your notes yet, so new entries won't break it:Points and lines are smaller, points always sit on top of lines, and the script no longer depends on today's data.
+
+![[soft_magnetic_saturation_vs_permeability.png]]
+
+## Points on top of lines, without hardcoding
+The script now draws in two passes: first every range line from every material, then every point. All lines get a lower layer than any point, so a point can never end up under a line, whatever data you add. The HTML works the same way, with all line traces added before all point traces. Lines are now 1.5 pt (2 px in the HTML) and points 5 pt across (7 px).
+
+## Hardcoding audit
+| What | Before | Now |
+| --- | --- | --- |
+| Axis limits | Fixed at −0.03 T and −2 | 3% padding around whatever the data spans |
+| Nudge between overlapping ranges | Fixed 0.026 T | 1.2% of the x-span |
+| Which ranges count as overlapping | Exactly equal saturation (rounded to 0.001 T) | Within 0.4% of the x-span, so 0.45 and 0.451 count as the same |
+| Colours | Exactly 3; raising `TOP_N` would crash | Palette of 6 that cycles if needed. Beyond 3, colours get harder to tell apart, as the code comment says. |
+| Matrix spellings | Some covered | Also handles lowercase, "PA6.6" → PA66, "/" or ";" lists, and Obsidian list properties |
+| Number formats | Basic | Also handles "1.2E2", "0,45", "12 to 20" and en dashes |
+| Base filter `Property == "x"` | Failed on list properties | Works if the property is a list |
+| Legend entries | Always shown | "Range" and "Hollow" only appear when such points exist |
+
+I tested all of those formats directly against the parsing functions.
+
+**What still depends on you (settings at the top of the script):**
+- the base file path
+- the property names (`Permeability`, `Magnetic saturation (T)`, `Matrix`)
+- `TOP_N`
+- sizes
+
+Everything else is worked out on each run:
+- which notes are included, from the base's filters
+- which matrices exist (the console lists them)
+- the top 3
+- the axis ranges
+- the overlap nudging
+
+**One case it can't sort out for you:** a genuinely new polymer name that means the same as an existing one, e.g. "Nylon 12" vs "PA12", would count as a separate matrix. The console's "Matrices found" line makes that easy to spot.
+
+Refresh with `uv run scripts/plot_soft_magnetic.py`.
+[Timestamp: 2026/11/11 15:49:51]
+
+**user**: Now the line and point are not the same thickness, make the legend be in the plot.
+[Timestamp: 2026/11/11 15:53:33]
+
+**ai**: The line is a bit paler than the dots (80% opacity), so the end points still stand out. I'll make it fully opaque so each range reads as one shape:Both changes are in, for the PNG and the HTML:
+
+![[soft_magnetic_saturation_vs_permeability.png]]
+
+**Line and point are the same thickness.** The line width is now set from the point size itself (`LINE_W = POINT_D` and `LINE_PX = POINT_PX`). If you change the point size later, the lines follow. Lines are also fully opaque now, so a range reads as one rounded bar with no visible separate dots at the ends. The points are still drawn on top, so hovering on either end in the HTML still works.
+
+**The legend is inside the plot.** It has a light, semi-transparent box, so data behind it stays faintly visible. Its position isn't fixed:
+- **PNG:** matplotlib's automatic placement puts it wherever it covers the fewest points. Today that's the top right.
+- **HTML:** Plotly has no automatic placement, so the script counts the points in each corner and puts the legend in the emptiest one. That's also the top right today.
+
+If new entries fill the top right, the legend moves on its own. I also made the legend text a bit smaller so it fits.
+
+Refresh with `uv run scripts/plot_soft_magnetic.py`.
+[Timestamp: 2026/11/11 15:53:33]
+
+**user**: The nudge should be smaller, and also the ordered in the status should be x
+[Timestamp: 2026/11/11 15:57:50]
+
+**ai**: "Ordered" is a Status value: MATE TS-1S50, TS-2J50C and TS-2S50C have it. I'll draw those as an ✕ and halve the nudge.Both changes are in, for the PNG and the HTML. I ran the script and checked the PNG; I haven't opened the HTML.
+
+![[soft_magnetic_saturation_vs_permeability.png]]
+
+**Ordered = ✕.** Any material whose `Status` starts with "Ordered" is drawn as an ✕ in its matrix colour, slightly larger and on top of everything else. For ranges, both ends become ✕. The legend explains it.
+
+This marks the three you've ordered:
+- MATE TS-2S50C (PA12, 44–94)
+- MATE TS-2J50C (PA12, 24–43)
+- MATE TS-1S50 (PA6, 30–60)
+
+It reads Status on every run, so if you change a note to "Ordered" it gets an ✕ next time you refresh. If the wording ever differs (e.g. "Order placed"), you can change `ORDERED_STATUS` at the top of the script.
+
+**Smaller nudge.** The spacing between ranges at the same saturation is halved, from 1.2% to 0.6% of the x-axis span. The four MATE ranges at 0.45 T now sit close together and partly touch, but you can still tell them apart. If it's too tight, it's one number: `DODGE_FRAC`.
+
+Refresh with `uv run scripts/plot_soft_magnetic.py`.
+[Timestamp: 2026/11/11 15:57:50]

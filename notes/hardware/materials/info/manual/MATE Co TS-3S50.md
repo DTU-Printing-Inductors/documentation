@@ -4,7 +4,7 @@ Manufacturer: "[[MATE Co]]"
 Supplier:
   - Hawa
 Type: Soft Magnetic
-Matrix: PA12
+Matrix: PA12*
 Filler: FeSiAl
 Filler loading: 86%
 Size: n/a
@@ -23,4 +23,6 @@ Permeability geometry: d13/8 mm t5mm and d20/10mm t0.6mm
 [[canadaMagneticFluxGuides2026]]
 [[canada3DPrintedSoftMagnetic2024]]
 ## MOQ clarification
-During email exchange for a different material they mention that it is 1kg, so this is extrapolated.
+They mention this material is available from 1kg and others have been extrapolated.
+## Polymer matrix clarification
+In the Canada papers they mention it is PA12, but in the datasheet it mentions "Heat Resistant PA", that's why the permeability is different than others.

@@ -10,7 +10,7 @@ Filler: n/a
 Filler loading: n/a
 Size: n/a
 Feedstock format: n/a
-Permeability: 17 (at 1 MHz)
+Permeability: "17"
 Magnetic saturation (T): "1.20"
 Surface resistivity (Ω/sq): n/a
 Surface resistance (Ω): n/a

@@ -12,7 +12,7 @@ Thermal conductivity in-plane (W/m·K): n/a
 Thermal conductivity through-plane (W/m·K): n/a
 Thermal conductivity directional standard: n/a
 Size: n/a
-Permeability: 50-80*
+Permeability: 50-80
 MOQ: 1 kg
 Price: 150 eur/kg
 Status: Waiting for info

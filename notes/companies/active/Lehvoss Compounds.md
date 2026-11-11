@@ -16,6 +16,7 @@ Engagement depth: 1 - Inquiry sent
 Contacts:
   - Denmark - thomas.collet@lehvoss.de
   - compounds@lehvoss.de
+  - FGF - Matthias.Otte@lehvoss.de
 ---
 ## Investigation
 | Time       | Action                                                                                                                                                            |
@@ -25,10 +26,12 @@ Contacts:
 
 ## Communication
 
-| Timestamp        | Status  | Who? | Type            | Summary                                                | Email link                                                                |
-| ---------------- | ------- | ---- | --------------- | ------------------------------------------------------ | ------------------------------------------------------------------------- |
-| 10:45 10/11/2026 | Waiting | Me   | Initial email   | Asking for a catalogue, MOQ, and their three variants. | ![[Inquiry about LUVOCOM functional compounds.msg]]                       |
-| 10:45 10/11/2026 | Waiting | Them | Automatic email | Collet will be back on Nov 18.                         | ![[Automatische Antwort_ Inquiry about LUVOCOM functional compounds.msg]] |
+| Timestamp        | Status    | Who? | Type            | Summary                                                                                                                                                                                                                                          | Email link                                                                |
+| ---------------- | --------- | ---- | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------- |
+| 10:45 10/11/2026 | Responded | Me   | Initial email   | Asking for a catalogue, MOQ, and their three variants.                                                                                                                                                                                           | ![[Inquiry about LUVOCOM functional compounds.msg]]                       |
+| 10:45 10/11/2026 | Answered  | Them | Automatic email | Collet will be back on Nov 18.                                                                                                                                                                                                                   | ![[Automatische Antwort_ Inquiry about LUVOCOM functional compounds.msg]] |
+| 16:43 10/11/2026 | Answered  | Them | Email           | Adding FGF colleague Matthias. Saying there's a huge material list. Asks whether its buisness project or R&D.                                                                                                                                    | ![[AW_ Inquiry about LUVOCOM functional compounds.msg]]                   |
+| 14:54 11/11/2026 | Waiting   | Me   | Email           | Explain that it is FGF, but we're open to injection molding materials. Explaining that it is a review and we're looking for the highest values. Highlight what we found, and ask again for all soft magnetic materials and highest conductivity. | ![[RE_ Inquiry about LUVOCOM functional compounds.msg]]                   |
 
 
 ## Initial email
