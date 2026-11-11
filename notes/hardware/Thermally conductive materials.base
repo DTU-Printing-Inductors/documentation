@@ -37,7 +37,7 @@ views:
       - property: Surface resistance standard
         direction: ASC
     columnSize:
-      note.Grade: 62
+      note.Grade: 112
       note.Functionality: 61
       note.Filler: 89
       note.Filler loading: 103

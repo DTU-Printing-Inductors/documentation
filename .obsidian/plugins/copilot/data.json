@@ -105,7 +105,7 @@
         "defaultMode": "default"
       },
       "claude": {
-        "defaultMode": "plan"
+        "defaultMode": "default"
       }
     },
     "debugFullFrames": true,

@@ -10,6 +10,7 @@ Found:
   - PA12-CF
   - Thermally conductive
 Not found:
+  - Soft magnetic pellets
 Research depth: 2 - Products searched
 Scraped: true
 Engagement depth: 3 - In discussion
@@ -39,7 +40,9 @@ Potentially a sister company of Lati, that focusses on 3D printing.
 | 15:43 04/11/2026 | Answered  | Them | Response           | Henrik asks how much. MOQ - 25 kg.                                                                                                                                                 | ![[RE_ Quotation and Sample Request – PA12 Materials.msg]]   |
 | 15:46 04/11/2026 | Responded | Me   | Answer             | Ask for samples and price for 25 kg.                                                                                                                                               | ![[RE_ Quotation and Sample Request – PA12 Materials 1.msg]] |
 | 15:57 04/11/2026 | Answered  | Them | Response           | Sometimes they have smaller quantities. Asks again how much I need?                                                                                                                | ![[RE_ Quotation and Sample Request – PA12 Materials 2.msg]] |
-| 16:00 04/11/2026 | Waiting   | Me   | Answer             | 1 kg of each.                                                                                                                                                                      | ![[RE_ Quotation and Sample Request – PA12 Materials 3.msg]] |
+| 16:00 04/11/2026 | Responded | Me   | Answer             | 1 kg of each.                                                                                                                                                                      | ![[RE_ Quotation and Sample Request – PA12 Materials 3.msg]] |
+| 10:18 10/11/2026 | Answered  | Them | Email              | They offer free samples. Ask for confirmation of address.                                                                                                                          | ![[RE_ Quotation and Sample Request – PA12 Materials 5.msg]] |
+| 11:17 10/11/2026 | Waiting   | Me   | Email              | Confirming.                                                                                                                                                                        | ![[RE_ Quotation and Sample Request – PA12 Materials 6.msg]] |
 ## Initial inquiry
 "Dear Lati3Dlab Team,
 

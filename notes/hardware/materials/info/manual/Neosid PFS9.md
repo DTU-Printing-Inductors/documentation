@@ -20,7 +20,7 @@ Datasheet: "[[Neosid_PFS9.pdf]]"
 Lead time: n/a
 Processing instructions: n/a
 Functionality: Soft magnetic
-Permeability geometry: d28/22mm t1.1mm and d28/22 t4.8mm
+Permeability geometry: " d28/22 t4.8mm and d28/22mm t1.1mm"
 Magnetic saturation (T): "0.15"
 ---
 ## Permeability measuring geometry

@@ -5,6 +5,7 @@
     "tags": "tags",
     "Supplier": "multitext",
     "Volume resistivity (Ω·m)": "text",
-    "Surface resistivity (Ω/sq)": "text"
+    "Surface resistivity (Ω/sq)": "text",
+    "Functionality": "multitext"
   }
 }

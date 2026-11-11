@@ -3,7 +3,9 @@ Grade: PA66 910/32.1 TCE5 BK1152-08
 Manufacturer: MOCOM
 Supplier: "[[ALBIS NORDICS & BALTICS AB]]"
 Type: Thermally and electrically conductive
-Functionality: Electrically conductive
+Functionality:
+  - Electrically conductive
+  - Thermally conductive
 Matrix: PA66
 Filler: Special filler
 Filler loading: n/a

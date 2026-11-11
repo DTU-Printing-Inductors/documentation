@@ -34,11 +34,13 @@ views:
       - Processing instructions
       - formula.last_update
     sort:
+      - property: Functionality
+        direction: DESC
       - property: Surface resistance standard
         direction: ASC
     columnSize:
+      note.Functionality: 205
       note.Filler: 89
       note.Filler loading: 103
       note.Surface resistivity (Ω/sq): 25
       note.Supplier: 180
-      note.Status: 97

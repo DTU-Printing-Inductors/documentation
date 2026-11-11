@@ -11,10 +11,10 @@ Size: n/a
 Permeability: 24-43
 MOQ: 1 kg*
 Price: 70 eur
-Status: Waiting for info
+Status: Ordered
 Datasheet: "[[Mate_Co_TS-2J50C.pdf]]"
-Lead time: n/a
-Processing instructions: "[[Mate_Co_TS-2J50C.pdf]]"
+Lead time: in stock
+Processing instructions: "[[Mate_Co_handling_instructions.pdf]]"
 Functionality: Soft magnetic
 Magnetic saturation (T): "0.5"
 Permeability geometry: d13/8 mm t5mm and d20/10mm t0.6mm

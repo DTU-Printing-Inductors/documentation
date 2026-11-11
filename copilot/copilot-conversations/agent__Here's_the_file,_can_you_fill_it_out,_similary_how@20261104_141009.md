@@ -6,7 +6,7 @@ sessionId: "1970f75e-7002-453a-86c3-7ae43e8a4792"
 topic: "Here's the file, can you fill it out, similary how i did oth…"
 tags:
   - copilot-conversation
-usage: '{"usedTokens":491129,"contextWindow":1000000,"inputTokens":2,"outputTokens":4,"cacheReadTokens":490137,"cacheWriteTokens":986,"updatedAt":1794215325235}'
+usage: '{"usedTokens":504918,"contextWindow":1000000,"inputTokens":2,"outputTokens":133,"cacheReadTokens":504351,"cacheWriteTokens":432,"updatedAt":1794305201725}'
 lastAccessedAt: 1794213836992
 ---
 
@@ -2191,3 +2191,136 @@ I also updated [[Barlog Plastics]]:
 
 Barlog now has 26 material notes: 14 MW, 3 TC and 9 EC.
 [Timestamp: 2026/11/09 10:08:19]
+
+**user**: I added a new pdf, which contains info on thermally conductive and electrically conductive materials, i want you to do the workflow.
+[Timestamp: 2026/11/10 10:57:17]
+
+**ai**: **Error:** You've hit your 5-hour limit · resets 1:40pm (Europe/Copenhagen)
+[Timestamp: 2026/11/10 10:57:17]
+
+**user**: I added a new pdf, which contains info on thermally conductive and electrically conductive materials, i want you to do the workflow.
+[Timestamp: 2026/11/10 10:58:22]
+
+**ai**: The file in `datasheets/new/` is an HTML page, not a PDF, so the parse script skipped it. Docling can convert HTML too, so I'll run it on the file directly:
+[Timestamp: 2026/11/10 10:58:22]
+
+**user**: I added a new pdf, which contains info on thermally conductive and electrically conductive materials, i want you to do the workflow.
+[Timestamp: 2026/11/10 11:00:31]
+
+**ai**: I've parsed the PDF (95 s, no OCR needed). It isn't a datasheet: it's a printout of **PlastFormance GmbH**'s product overview page (Teisendorf, Germany). Their patented PlastFormance technology claims injection-moldable compounds at up to 80 vol% filler. Like the KERAFOL catalogue, I'll list what I found and wait for you to confirm before writing notes.
+
+## 17 grades in the series you asked for
+Electrical resistance is in Ω·cm as given; I'd convert it to Ω·m (÷100) for the notes.
+
+**Thermally Conductive series (9):** all electrically insulating.
+| Grade | Matrix | Thermal conductivity (W/mK) | Resistance (Ω·cm) |
+| --- | --- | --- | --- |
+| TC4-1624-PA6 | PA6 | 4.0 | >10¹² |
+| TC2-4424-PA12-FR | PA12, flame retardant | 2.2 | >10¹² |
+| TC3-4524-PA12 | PA12 | 3.0 | >10¹² |
+| TC2-6222-PBT | PBT | 2.3 | >10¹² |
+| TC1-2623-LCP-FR | LCP, flame retardant | 1.2 | >10¹² |
+| TC3-2723-LCP-FR | LCP, flame retardant | 3.1 | >10¹² |
+| TC8-1412-LCP-FR | LCP, flame retardant | **8.5** | >10¹² |
+| TC2-2424-TPE | TPE | 2.1 | >4×10¹⁰ |
+| TC3-316-SEBS | SEBS, extremely soft | 2.9 | 10⁹ |
+
+**EMI series (3):** shielding grades that are both electrically and thermally conductive.
+| Grade | Matrix | Thermal conductivity (W/mK) | Resistance (Ω·cm) |
+| --- | --- | --- | --- |
+| EMV-2824-PA6 | PA6 | 1.5 | 0.1–0.6 |
+| EMV-2924-PA6 | PA6 | 2.0 | 0.1–0.4 |
+| EMV-3024-LCP | LCP | 3.0 | 0.3–1.0 |
+
+**Electrically Conductive series (5):**
+| Grade | Matrix | Thermal conductivity (W/mK) | Resistance (Ω·cm) |
+| --- | --- | --- | --- |
+| EC1-GP56-305-PP | PP | 30 | 0.25 |
+| EC1-GP60-PP | PP | **40** | 0.12 |
+| EC1-6723-PP | PP | 20 | **0.06** |
+| EC3-NC-1561-PC | PC | 0.3 | 10⁵ |
+| EC3-CB-TPU R06-24 | TPU | 0.3 | <10⁷ |
+
+## Also on the page (left out unless you want them)
+- **Radiation Shielding series (3):** M10/M14-001-PA6-RS and M11-3024-PA12-RS. These are high-density gamma shielding grades, but they're also electrically conductive (0.2–0.5 Ω·cm).
+- **Heavy Plastic series (4):** M3.0-0724-PA6, M6.3-CP-PA12, M2.5- and M3.3-MP-ABS-MG. These are high-density grades with mixed electrical behaviour.
+
+## What the notes would and wouldn't contain
+- **Recorded:** each grade's thermal conductivity, which the page doesn't say is integral or directional. It would go under integral, with a note in the body.
+- **Missing:** the page gives no fillers, test standards, densities or processing settings. Filler would be `n/a`, even where a code like "GP" or "CB" hints at one, following your rule. The note bodies would say the source is a product overview page, not a datasheet.
+- **No company note:** PlastFormance doesn't have one yet, so I'd create it in `notes/companies/` the same way as KERAFOL.
+
+To go ahead, I need you to confirm three things:
+1. **Which grades:** the 17 above, or also the 7 radiation-shielding and heavy grades?
+2. **Functionality:**
+   - TC series and the two insulating-matrix EC3 grades: I'd use Thermally conductive and Electrically conductive respectively.
+   - EMI and EC1: both conductive, so I'd suggest Electrically conductive.
+3. **Company note:** should I create PlastFormance GmbH?
+[Timestamp: 2026/11/10 11:00:31]
+
+**user**: Yes, add all of them
+[Timestamp: 2026/11/10 11:03:55]
+
+**ai**: I'll add all 24, with this Functionality mapping:
+- **Thermally conductive:** the TC series, plus M6.3-CP-PA12 (insulating but thermally conductive)
+- **Electrically conductive:** EMI, EC, Radiation Shielding and the other Heavy grades
+
+First I'll file the PDF and raw markdown:
+[Timestamp: 2026/11/10 11:03:55]
+
+**user**: Add the 17 above. 2. Functionality, I agree with you. 3. Yes please, and add it under pending
+[Timestamp: 2026/11/10 11:04:46]
+
+**ai**: Got it: just the 17. Filing the PDF and raw markdown first:Next I'll generate the 17 notes. They're built from one table with the same template, so I'm using a script and will list the files afterwards.Now the company note under `pending/`:Everything is set up for your review:
+
+**17 draft notes are in `info/validate/`**, ready in `Validation.base`. I generated them with a script because they all come from one table:
+- **Thermally Conductive series** (Functionality: Thermally conductive):
+  - PlastFormance TC4-1624-PA6
+  - PlastFormance TC2-4424-PA12-FR
+  - PlastFormance TC3-4524-PA12
+  - PlastFormance TC2-6222-PBT
+  - PlastFormance TC1-2623-LCP-FR
+  - PlastFormance TC3-2723-LCP-FR
+  - PlastFormance TC8-1412-LCP-FR
+  - PlastFormance TC2-2424-TPE
+  - PlastFormance TC3-316-SEBS
+- **EMI series** (Functionality: Electrically conductive):
+  - PlastFormance EMV-2824-PA6
+  - PlastFormance EMV-2924-PA6
+  - PlastFormance EMV-3024-LCP
+- **Electrically Conductive series** (Functionality: Electrically conductive):
+  - PlastFormance EC1-GP56-305-PP
+  - PlastFormance EC1-GP60-PP
+  - PlastFormance EC1-6723-PP
+  - PlastFormance EC3-NC-1561-PC
+  - PlastFormance EC3-CB-TPU R06-24
+
+**What's in each note:**
+- **Thermal conductivity:** under *integral*, since the page doesn't say which direction it is.
+- **Electrical resistance:** converted from Ω·cm to Ω·m and recorded as volume resistivity, since the unit implies it. Values like ">10¹⁰" are kept as text. The original Ω·cm value is in each body.
+- **Filler, standards, density and processing:** `n/a`, because the page doesn't give them, and the bodies say so.
+
+**[[PlastFormance]]** is new in `notes/companies/pending/`:
+- **Group:** Polymer supplier
+- **Found:** Thermally conductive, Electrically conductive
+- **Scraped:** ticked
+- **Contact:** info@plastformance.com (address in Teisendorf)
+- **Body:** a description, an Investigation row noting the radiation-shielding and heavy-plastic series I skipped, and links to all 17 products
+
+I guessed the website (plastformance.com) from their email domain.
+
+**For your work:**
+- **TC3-4524-PA12** and **TC2-4424-PA12-FR** are PA12-based, thermally conductive and insulating.
+- **EC1** PP grades combine very low resistivity (down to 0.0006 Ω·m) with 20–40 W/mK.
+- **They supply test quantities,** which makes them worth contacting for samples.
+
+The original filename was a long German name ("Hochgefüllte Kunststoffe…"), so I renamed the PDF to `PlastFormance_Product_Overview_2025.pdf`.
+[Timestamp: 2026/11/10 11:04:46]
+
+**user**: I have validated them
+[Timestamp: 2026/11/10 11:06:20]
+
+**ai**: I've approved all 17 PlastFormance notes. They're in `info/AI` with `Status: Identified`, and `info/validate/` is empty.
+
+They'll appear in the Thermally conductive and Electrically conductive material bases, and count towards [[PlastFormance]] in `Companies.base`. The company note was already set up when I created it (Found, Scraped and the product links), so it didn't need changing.
+[Timestamp: 2026/11/10 11:06:20]

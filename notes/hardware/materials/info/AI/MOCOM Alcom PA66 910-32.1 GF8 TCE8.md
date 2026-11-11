@@ -3,7 +3,9 @@ Grade: PA66 910/32.1 GF8 TCE8
 Manufacturer: MOCOM
 Supplier: "[[ALBIS NORDICS & BALTICS AB]]"
 Type: Thermally and electrically conductive
-Functionality: Electrically conductive
+Functionality:
+  - Electrically conductive
+  - Thermally conductive
 Matrix: PA66
 Filler: Glass fibres
 Filler loading: 8%

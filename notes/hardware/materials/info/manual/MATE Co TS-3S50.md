@@ -13,8 +13,8 @@ MOQ: 1 kg
 Price: 70 eur
 Status: Rejected due to lead time
 Datasheet: "[[Mate_Co_TS-3S50.pdf]]"
-Lead time: 2.5 months
-Processing instructions: "[[Mate_Co_TS-3S50.pdf]]"
+Lead time: Jan 2027
+Processing instructions: "[[Mate_Co_handling_instructions.pdf]]"
 Functionality: Soft magnetic
 Magnetic saturation (T): "0.45"
 Permeability geometry: d13/8 mm t5mm and d20/10mm t0.6mm

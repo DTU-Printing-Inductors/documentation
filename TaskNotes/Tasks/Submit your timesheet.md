@@ -12,5 +12,5 @@ recurrence: DTSTART:20261030;FREQ=MONTHLY;BYDAY=-1FR
 complete_instances:
   - 2026-10-30
 skipped_instances: []
-tasknotes_manual_order: tnririririri
+tasknotes_manual_order: tnoqgmzzzzzr
 ---
