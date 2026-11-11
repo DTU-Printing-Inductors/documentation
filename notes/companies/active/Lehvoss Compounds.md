@@ -28,7 +28,7 @@ Contacts:
 | Timestamp        | Status  | Who? | Type            | Summary                                                | Email link                                                                |
 | ---------------- | ------- | ---- | --------------- | ------------------------------------------------------ | ------------------------------------------------------------------------- |
 | 10:45 10/11/2026 | Waiting | Me   | Initial email   | Asking for a catalogue, MOQ, and their three variants. | ![[Inquiry about LUVOCOM functional compounds.msg]]                       |
-| 10:45 10/11/2026 | Waiting | Them | Automatic email | Coller will be back on Nov 18.                         | ![[Automatische Antwort_ Inquiry about LUVOCOM functional compounds.msg]] |
+| 10:45 10/11/2026 | Waiting | Them | Automatic email | Collet will be back on Nov 18.                         | ![[Automatische Antwort_ Inquiry about LUVOCOM functional compounds.msg]] |
 
 
 ## Initial email

@@ -39,6 +39,19 @@
             "state": {
               "type": "bases",
               "state": {
+                "file": "notes/hardware/Thermally conductive materials.base",
+                "viewName": "View"
+              },
+              "icon": "lucide-table",
+              "title": "Thermally conductive materials"
+            }
+          },
+          {
+            "id": "ee54bb3990654347",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
                 "file": "TaskNotes/Views/tasks-default.base",
                 "viewName": "Manual Order"
               },
@@ -47,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -234,7 +247,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 405.5
+    "width": 405.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -261,15 +275,16 @@
       "copilot:Open Copilot Agent Chat": false
     }
   },
-  "active": "acfbc31a60288a44",
+  "active": "ee54bb3990654347",
   "lastOpenFiles": [
-    "TaskNotes/Tasks/In DTU Fusion sort out the invoice for Claude subscription.md",
-    "TaskNotes/Views/tasks-default.base",
-    "TaskNotes/Tasks/Ask Gabriel whether we can use the research data in the paper and do we need to ask for permission.md",
     "notes/hardware/Thermally conductive materials.base",
-    "notes/hardware/Soft magnetic materials.base",
-    "notes/hardware/All materials.base",
     "notes/hardware/Electrically conductive materials.base",
+    "notes/hardware/Soft magnetic materials.base",
+    "notes/companies/active/Lehvoss Compounds.md",
+    "TaskNotes/Views/tasks-default.base",
+    "TaskNotes/Tasks/In DTU Fusion sort out the invoice for Claude subscription.md",
+    "TaskNotes/Tasks/Ask Gabriel whether we can use the research data in the paper and do we need to ask for permission.md",
+    "notes/hardware/All materials.base",
     "notes/hardware/materials/datasheets/manual parsed/Mate_Co_handling_instructions.pdf",
     "notes/companies/active/MATE Co.md",
     "RE_ Technical University of Denmark _ Inquiry via HAWA Website _EN_ _ Inquiry about Nylon-12_FeSiAl pellets for research 4.msg",
@@ -297,8 +312,6 @@
     "notes/hardware/materials/info/AI/PlastFormance EMV-3024-LCP.md",
     "notes/hardware/materials/info/AI/PlastFormance EMV-2924-PA6.md",
     "notes/hardware/materials/info/AI/PlastFormance EMV-2824-PA6.md",
-    "notes/hardware/materials/info/AI/PlastFormance EC3-NC-1561-PC.md",
-    "notes/hardware/materials/info/AI/PlastFormance EC3-CB-TPU R06-24.md",
     "notes/hardware/materials/datasheets/new/Hochgefüllte Kunststoffe mit einzigartigen Eigenschaften_files/11062b_b5690303a8ff470e9b1c03a24aff140b~mv2_002_4D7D.avif",
     "notes/hardware/materials/datasheets/new/Hochgefüllte Kunststoffe mit einzigartigen Eigenschaften_files/DEU_2x_4D7D.png",
     "notes/hardware/materials/datasheets/new/Hochgefüllte Kunststoffe mit einzigartigen Eigenschaften_files/GBR_2x_4D7D.png",
