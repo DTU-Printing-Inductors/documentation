@@ -50,13 +50,14 @@
             "id": "ee54bb3990654347",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "TaskNotes/Views/tasks-default.base",
-                "viewName": "Manual Order"
+                "file": "TaskNotes/Tasks/Write to Toda Koygo asking whether the magnetic flux density B in their datasheets.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "tasknotes-simple",
-              "title": "tasks-default"
+              "icon": "lucide-file",
+              "title": "Write to Toda Koygo asking whether the magnetic flux density B in their datasheets"
             }
           }
         ],
@@ -277,11 +278,11 @@
   },
   "active": "ee54bb3990654347",
   "lastOpenFiles": [
+    "TaskNotes/Views/tasks-default.base",
     "notes/hardware/Thermally conductive materials.base",
     "notes/hardware/Electrically conductive materials.base",
     "notes/hardware/Soft magnetic materials.base",
     "notes/companies/active/Lehvoss Compounds.md",
-    "TaskNotes/Views/tasks-default.base",
     "TaskNotes/Tasks/In DTU Fusion sort out the invoice for Claude subscription.md",
     "TaskNotes/Tasks/Ask Gabriel whether we can use the research data in the paper and do we need to ask for permission.md",
     "notes/hardware/All materials.base",
