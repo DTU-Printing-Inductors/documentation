@@ -4,23 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "55e371006216fba7",
+        "id": "f4908201ee95e810",
         "type": "tabs",
         "children": [
           {
-            "id": "ee54bb3990654347",
+            "id": "65e7656eb594a2d8",
             "type": "leaf",
             "state": {
               "type": "bases",
               "state": {
-                "file": "TaskNotes/Views/tasks-default.base",
-                "viewName": "Manual Order"
+                "file": "notes/hardware/Electrically conductive materials.base",
+                "viewName": "View"
               },
-              "icon": "tasknotes-simple",
-              "title": "tasks-default"
+              "icon": "lucide-table",
+              "title": "Electrically conductive materials"
+            }
+          },
+          {
+            "id": "188c9d1764f31f6f",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "notes/hardware/Electrically conductive materials.base",
+                "viewName": "View"
+              },
+              "icon": "lucide-table",
+              "title": "Electrically conductive materials"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -231,49 +245,51 @@
       "tasknotes:Open Pomodoro timer": true,
       "tasknotes:Open Pomodoro statistics": true,
       "tasknotes:Create new task": false,
-      "copilot:Open Copilot Agent Chat": false
+      "copilot:Open Copilot Agent Chat": false,
+      "citation-extended:Show references for current note": false
     }
   },
-  "active": "ee54bb3990654347",
+  "active": "188c9d1764f31f6f",
   "lastOpenFiles": [
-    "TaskNotes/Tasks/Look into conductive polymers we could use to combine with Andreas SciteAi.md",
     "TaskNotes/Views/tasks-default.base",
-    "TaskNotes/Tasks/Make presentation to Gabriel.md",
-    "notes/companies/active/MATE Co.md",
-    "RE_ Technical University of Denmark _ Inquiry via HAWA Website _EN_ _ Inquiry about Nylon-12_FeSiAl pellets for research.msg",
-    "notes/hardware/Soft magnetic materials.base",
-    "notes/hardware/materials/info/manual/MATE Co TS-3S50.md",
-    "images/plots/soft_magnetic_saturation_vs_permeability.tmp.html",
+    "latex/presentations/5_research_immersion/~$Research immersion.tmp",
+    "latex/presentations/5_research_immersion/Research immersion.pptx",
+    "latex/presentations/5_research_immersion/Research recap.pptx",
+    "latex/presentations/5_research_immersion",
+    "latex/presentations/5_na - Copy/Research recap.pptx",
+    "latex/presentations/5_na - Copy",
+    "TaskNotes/Tasks/Look into material that conducts thermal limit to that fuse to PA.md",
+    "latex/presentations/5_na/Research recap.pptx",
+    "latex/presentations/5_na/~$LLM_comparison.tmp",
+    "latex/presentations/5_na/4__10_11_2026_LLM_comparison/LLM_comparison.pptx",
+    "latex/presentations/5_na/LLM_comparison.pptx",
+    "TaskNotes/Tasks/Deep dive in Schulatec TinCo 50.md",
+    "notes/hardware/materials/info/AI/A. Schulman SCHULATEC TinCo 50 PA6.md",
+    "notes/hardware/materials/info/raw/ASchulman_SCHULATEC_TinCo_50_PA6.md",
+    "notes/hardware/materials/info/validate/A. Schulman SCHULATEC TinCo 50 PA6.md",
+    "notes/hardware/materials/info/raw/PA6 TinCo 50 舒尔曼 A.Schulman SCHULATEC TinCo 50 PA6,,阻燃.md",
+    "notes/companies/skipped/Techmer (Electrifil).md",
+    "notes/companies/pending/Plastics.com.md",
+    "notes/hardware/materials/info/AI/RTP EMI 162.md",
+    "notes/hardware/materials/info/AI/RTP EMI 161.md",
+    "notes/hardware/materials/info/AI/RTP 285 D SI 2.md",
+    "notes/hardware/materials/info/AI/RTP 284 C TFE 15.md",
+    "notes/hardware/materials/info/AI/RTP 283 D TFE 15.md",
+    "notes/hardware/materials/info/AI/RTP 283 D TFE 15 SI 2.md",
+    "notes/hardware/materials/info/validate/RTP EMI 162.md",
+    "notes/hardware/materials/info/validate/RTP EMI 161.md",
+    "notes/hardware/materials/info/validate/RTP 285 D SI 2.md",
+    "notes/hardware/materials/info/validate/RTP 283 D TFE 15 SI 2.md",
+    "notes/hardware/materials/info/validate/RTP 283 D TFE 15.md",
+    "notes/hardware/materials/info/validate/RTP 284 C TFE 15.md",
+    "notes/hardware/materials/info/raw/RTP_EMI_162.md",
+    "notes/hardware/materials/info/raw/RTP_EMI_161.md",
+    "notes/hardware/materials/info/raw/RTP_285_D_SI_2.md",
+    "notes/hardware/materials/info/raw/RTP_283_D_TFE_15_SI_2.md",
+    "notes/hardware/materials/info/raw/RTP_283_D_TFE_15.md",
+    "notes/hardware/materials/datasheets/new/LATICONTHER 52_11 GR_50 - Material Detail _ LatiLambda_files/logo_3xsa.svg",
     "images/plots/soft_magnetic_saturation_vs_permeability.tmp.png",
-    "scripts/__pycache__/plot_soft_magnetic.cpython-312.pyc",
-    "scripts/__pycache__",
-    "notes/hardware/materials/info/manual/Neosid PFS9.md",
-    "notes/hardware/materials/datasheets/manual parsed/Toda_Kogyo_MC100LK31.pdf",
-    "notes/hardware/materials/datasheets/manual parsed/Toda_Kogyo_MSP-A524.pdf",
-    "notes/hardware/materials/datasheets/manual parsed/Neosid_PF1is.pdf",
-    "images/plots/soft_magnetic_saturation_vs_permeability.html",
     "images/plots/soft_magnetic_saturation_vs_permeability.png",
-    "notes/companies/active/Lehvoss Compounds.md",
-    "TaskNotes/Tasks/Write to Toda Koygo asking whether the magnetic flux density B in their datasheets.md",
-    "TaskNotes/Tasks/In DTU Fusion sort out the invoice for Claude subscription.md",
-    "TaskNotes/Tasks/Ask Gabriel whether we can use the research data in the paper and do we need to ask for permission.md",
-    "TaskNotes/Tasks/Update the MATE Co emails.md",
-    "notes/companies/pending/SpecialChem.md",
-    "notes/companies/active/PlastFormance.md",
-    "notes/hardware/materials/info/AI/ALBIS ALFATER XL A80 2EC0000.md",
-    "notes/companies/pending/Ultrus Prospector.md",
-    "notes/companies/pending/ALBIS NORDICS & BALTICS AB.md",
-    "notes/companies/active/Witcom.md",
-    "notes/companies/active/Lati3Dlab.md",
-    "notes/companies/skipped/Direct Express Ltd.md",
-    "notes/hardware/materials/info/AI/PlastFormance TC8-1412-LCP-FR.md",
-    "notes/hardware/materials/info/AI/PlastFormance TC4-1624-PA6.md",
-    "notes/hardware/materials/info/AI/PlastFormance TC3-4524-PA12.md",
-    "notes/hardware/materials/info/AI/PlastFormance TC3-316-SEBS.md",
-    "notes/hardware/materials/info/AI/PlastFormance TC3-2723-LCP-FR.md",
-    "notes/hardware/materials/info/AI/PlastFormance TC2-6222-PBT.md",
-    "notes/hardware/materials/info/AI/PlastFormance TC2-4424-PA12-FR.md",
-    "notes/hardware/materials/info/AI/PlastFormance TC2-2424-TPE.md",
     "notes/hardware/materials/datasheets/new/Hochgefüllte Kunststoffe mit einzigartigen Eigenschaften_files/11062b_b5690303a8ff470e9b1c03a24aff140b~mv2_002_4D7D.avif",
     "notes/hardware/materials/datasheets/new/Hochgefüllte Kunststoffe mit einzigartigen Eigenschaften_files/DEU_2x_4D7D.png",
     "notes/hardware/materials/datasheets/new/Hochgefüllte Kunststoffe mit einzigartigen Eigenschaften_files/GBR_2x_4D7D.png",
@@ -281,7 +297,6 @@
     "notes/hardware/materials/datasheets/new/Hochgefüllte Kunststoffe mit einzigartigen Eigenschaften_files/GBR_4D7D.png",
     "notes/hardware/materials/datasheets/new/Hochgefüllte Kunststoffe mit einzigartigen Eigenschaften_files/eed99f_282497f62dcf4892b360ac44e09086a8~mv2_4D7D.avif",
     "notes/hardware/materials/datasheets/new/Hochgefüllte Kunststoffe mit einzigartigen Eigenschaften_files/eed99f_d59845878f9b44dfbb92b2be570b5fec~mv2_4D7D.avif",
-    "notes/hardware/materials/datasheets/new/Hochgefüllte Kunststoffe mit einzigartigen Eigenschaften_files/DEU_4D7D.png",
     "Untitled.canvas"
   ]
 }

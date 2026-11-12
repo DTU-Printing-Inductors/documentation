@@ -1,0 +1,44 @@
+{
+  "citationExportPath": "",
+  "citationExportFormat": "csl-json",
+  "literatureNoteTitleTemplate": "{{citekey}}",
+  "literatureNoteFolder": "notes/papers",
+  "literatureNoteContentTemplate": "",
+  "literatureNoteContentTemplatePath": "templates/citation-content-template.md",
+  "citationStylePreset": "custom",
+  "markdownCitationTemplate": "[@{{citekey}}]",
+  "alternativeMarkdownCitationTemplate": "@{{citekey}}",
+  "autoCreateNoteOnCitation": false,
+  "noteUpdateMode": "sync",
+  "updateConfirmation": "conflicts",
+  "literatureNoteLinkDisplayTemplate": "",
+  "enableInlineSuggestions": true,
+  "bibliographyEntryTemplate": "{{authorString}}{{#if year}} ({{year}}){{/if}}. {{title}}.",
+  "referenceListSortOrder": "default",
+  "filenameSanitizationReplacement": "_",
+  "databases": [
+    {
+      "id": "db-1794471820203-456x",
+      "name": "Sources",
+      "type": "biblatex",
+      "path": "C:\\Users\\artfi\\OneDrive - Danmarks Tekniske Universitet\\Research\\documentation\\pdfs\\bibliography.bib",
+      "sourcePaths": {
+        "csl-json": ""
+      }
+    }
+  ],
+  "disableAutomaticNoteCreation": false,
+  "templateProfiles": [],
+  "fragmentProfiles": [
+    {
+      "id": "f8aa42af-e50c-4aa7-8aee-8c316e71ce3e",
+      "name": "New profile",
+      "template": ""
+    }
+  ],
+  "noteIdentifierField": "",
+  "readwiseLastSyncDate": "",
+  "readwiseSyncIntervalMinutes": 30,
+  "zoteroSyncIntervalMinutes": 0,
+  "libraryLoadTimeoutSeconds": 30
+}

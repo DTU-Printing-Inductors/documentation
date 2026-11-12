@@ -35,12 +35,16 @@ views:
       - formula.last_update
       - Dielectric properties
     sort:
+      - property: Matrix
+        direction: ASC
       - property: Filler loading
         direction: ASC
       - property: Surface resistance standard
         direction: ASC
     columnSize:
       note.Filler: 104
-      note.Filler loading: 213
+      note.Filler loading: 78
+      note.Permeability: 32
+      note.Magnetic saturation (T): 87
       note.Supplier: 180
       note.Status: 97

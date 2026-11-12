@@ -105,7 +105,7 @@
         "defaultMode": "default"
       },
       "claude": {
-        "defaultMode": "plan"
+        "defaultMode": "default"
       }
     },
     "debugFullFrames": true,
@@ -767,6 +767,8 @@
       "minimax-m3"
     ]
   },
+  "connectors": [],
+  "customConnectors": [],
   "miyoConnectionMode": "local",
   "_keychainVaultId": "5053c96e",
   "settingsVersion": 16

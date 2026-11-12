@@ -1,7 +1,7 @@
 {
 	"id": "literature-graph",
 	"name": "Literature Graph",
-	"version": "1.1.0",
+	"version": "1.2.0",
 	"minAppVersion": "1.13.7",
 	"description": "A citation graph of your Markdown literature notes: how they cite each other and the works they cite, from their reference lists, citation links and OpenAlex.",
 	"author": "Émile Lavoie",

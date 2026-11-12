@@ -31,11 +31,9 @@ views:
       - Processing instructions
       - formula.last_update
     sort:
-      - property: Manufacturer
-        direction: ASC
       - property: Volume resistivity (Ω·m)
         direction: ASC
-      - property: Surface resistance (Ω)
+      - property: Manufacturer
         direction: ASC
       - property: Surface resistance standard
         direction: ASC

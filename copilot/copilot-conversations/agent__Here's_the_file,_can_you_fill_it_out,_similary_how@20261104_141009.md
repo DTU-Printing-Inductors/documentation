@@ -6,8 +6,8 @@ sessionId: "1970f75e-7002-453a-86c3-7ae43e8a4792"
 topic: "Here's the file, can you fill it out, similary how i did oth…"
 tags:
   - copilot-conversation
-usage: '{"usedTokens":637912,"contextWindow":1000000,"inputTokens":2,"outputTokens":4,"cacheReadTokens":635025,"cacheWriteTokens":2881,"updatedAt":1794409141078}'
-lastAccessedAt: 1794213836992
+usage: '{"usedTokens":704628,"contextWindow":1000000,"inputTokens":2,"outputTokens":120,"cacheReadTokens":703917,"cacheWriteTokens":589,"updatedAt":1794491633372}'
+lastAccessedAt: 1794475450646
 ---
 
 **user**: Here's the file, can you fill it out, similary how i did other company files, here's the email conversation "Thanks for providing the details. If I run into issues, I’ll let you know.
@@ -1362,7 +1362,9 @@ So the real thing to track isn't what the company has. It's **which of my needs 
 3. **Does how thoroughly you searched matter per need,** or is one company-wide Research depth enough?
 [Timestamp: 2026/11/05 11:24:17]
 
-**user**: 1. I think it'll be a problem. Everything feels overwhelming, can you help out. I feel like your solution is good, 2. Yeah, sort them like that, and then it will make sense. 3. I don't understand this question
+**user**: 
+
+1. I think it'll be a problem. Everything feels overwhelming, can you help out. I feel like your solution is good, 2. Yeah, sort them like that, and then it will make sense. 3. I don't understand this question
 [Timestamp: 2026/11/05 11:33:24]
 
 **ai**: Let's keep it simple. Here's the whole thing in one place, and you only need to decide whether to go ahead.
@@ -1916,7 +1918,9 @@ I've parsed the whole batch. It's mixed, and I need your input before writing th
 3. **Ixef 3012:** with the title block missing, Matrix would be "PARA" (from the brand) and Filler `n/a`. If you can get an unprotected PDF, I can fill those in properly.
 [Timestamp: 2026/11/05 13:55:19]
 
-**user**: 1. Delete them 2. Yes. 4. It's not password protected, try again
+**user**: 
+
+1. Delete them 2. Yes. 4. It's not password protected, try again
 [Timestamp: 2026/11/05 14:04:09]
 
 **ai**: Next I'll write the 4 draft notes, all with Functionality "Electrically conductive":I've done all three.
@@ -2066,7 +2070,7 @@ Tell me if you want either.
 [Timestamp: 2026/11/05 14:48:43]
 
 **user**: Alright, I've added new datasheets, do the workflow we talked about]
-[Timestamp: 2026/11/09 09:44:40]
+[Timestamp: 2026/11/09 09:44:42]
 
 **ai**: Parsed all 14 in 186 s, no OCR needed. Let me read one fully to learn the Barlog layout, then condense the rest.I also want to check the drying info for the two PP grades and look at the ISO filler codes:There are no duplicates (the only matches are the raw files). Next I'll rename and file the PDFs and raw markdown:No PDFs are left in `new/`. Now I'm writing the 14 draft notes, with Manufacturer linked to [[Barlog Plastics]] and Functionality set to Soft magnetic:The Barlog batch is done: **14 draft notes are in `info/validate/`**, ready for review in `Validation.base`.
 
@@ -2104,7 +2108,7 @@ Tell me if you want either.
 - **For your PA12 work,** MW 39.1500 PA12 (µr 63) and MW 28.1600 PA12 (µr 38) stand out. MW 39.1500 PPA is the only grade with an electrical value: 10⁶ Ω·m volume resistivity, so it's insulating.
 
 When you validate, I'll set the notes to Identified, move them to `info/AI`, and update [[Barlog Plastics]] (Found: Soft magnetic pellets, Scraped ticked, Products list). Barlog's Group is currently "Polymer supplier". Should I switch it to "Magnetic compound supplier"?
-[Timestamp: 2026/11/09 09:44:40]
+[Timestamp: 2026/11/09 09:44:56]
 
 **user**: I edited them, now they're validated
 [Timestamp: 2026/11/09 09:55:14]
@@ -2119,7 +2123,7 @@ When you validate, I'll set the notes to Identified, move them to `info/AI`, and
 **I didn't change Group,** because you haven't answered yet. It's still "Polymer supplier", so the base will ask about PA12 and PA12-CF instead of soft magnetic pellets and powder. Should I switch it to "Magnetic compound supplier"?
 
 **Filler:** I saw you set it back to `n/a` on the notes where I'd read it from the ISO codes (MED/ZD). I've saved that as a rule: only record filler when the datasheet names it. I left the ISO-code wording in the note text, since you didn't touch that. Tell me if you want it removed too.
-[Timestamp: 2026/11/09 09:55:14]
+[Timestamp: 2026/11/09 09:55:22]
 
 **user**: Alright, i have some thermally conductive datasheets in, do the workflow, they're from Barlog
 [Timestamp: 2026/11/09 09:58:52]
@@ -2139,7 +2143,7 @@ When you validate, I'll set the notes to Identified, move them to `info/AI`, and
 - **Thermal values** are under the in-plane and through-plane properties, since Barlog gives both directions. The integral field stays `n/a`.
 - **The "G" parser glitch** hit two of the ISO designations ("PBT-?F-X", "PPS-I-?F+MD65"). I've noted that in the bodies.
 - **Barlog Plastics:** when you validate, I'll add "Thermally conductive" to its Found list and link these three under Products. Its Group is still "Polymer supplier", which fits these thermal grades better than the magnetic ones.
-[Timestamp: 2026/11/09 09:58:52]
+[Timestamp: 2026/11/09 09:58:57]
 
 **user**: I validated them
 [Timestamp: 2026/11/09 10:01:38]
@@ -2149,7 +2153,7 @@ When you validate, I'll set the notes to Identified, move them to `info/AI`, and
 I also updated [[Barlog Plastics]]:
 - **Found:** added "Thermally conductive" next to "Soft magnetic pellets".
 - **Products:** listed the three TC grades, marked as development products.
-[Timestamp: 2026/11/09 10:01:38]
+[Timestamp: 2026/11/09 10:01:44]
 
 **user**: Alright, I added some electrically conductive from Barlog
 [Timestamp: 2026/11/09 10:03:26]
@@ -2178,7 +2182,7 @@ I also updated [[Barlog Plastics]]:
 - **For your work:** the two conductive TPEs are worth a look as a soft conductive phase. FE 190801 is described as suited to 2K parts.
 
 Once you've validated them, I'll approve them and add "Electrically conductive" and the 9 products to [[Barlog Plastics]].
-[Timestamp: 2026/11/09 10:03:26]
+[Timestamp: 2026/11/09 10:03:30]
 
 **user**: I validated.
 [Timestamp: 2026/11/09 10:08:19]
@@ -2190,19 +2194,19 @@ I also updated [[Barlog Plastics]]:
 - **Products:** listed all 9 EC grades, with the 7 development products marked.
 
 Barlog now has 26 material notes: 14 MW, 3 TC and 9 EC.
-[Timestamp: 2026/11/09 10:08:19]
+[Timestamp: 2026/11/09 10:08:25]
 
 **user**: I added a new pdf, which contains info on thermally conductive and electrically conductive materials, i want you to do the workflow.
 [Timestamp: 2026/11/10 10:57:17]
 
-**ai**: **Error:** You've hit your 5-hour limit · resets 1:40pm (Europe/Copenhagen)
-[Timestamp: 2026/11/10 10:57:17]
+**ai**: You've hit your 5-hour limit · resets 1:40pm (Europe/Copenhagen)
+[Timestamp: 2026/11/10 10:57:18]
 
 **user**: I added a new pdf, which contains info on thermally conductive and electrically conductive materials, i want you to do the workflow.
 [Timestamp: 2026/11/10 10:58:22]
 
 **ai**: The file in `datasheets/new/` is an HTML page, not a PDF, so the parse script skipped it. Docling can convert HTML too, so I'll run it on the file directly:
-[Timestamp: 2026/11/10 10:58:22]
+[Timestamp: 2026/11/10 10:58:39]
 
 **user**: I added a new pdf, which contains info on thermally conductive and electrically conductive materials, i want you to do the workflow.
 [Timestamp: 2026/11/10 11:00:31]
@@ -2256,7 +2260,7 @@ To go ahead, I need you to confirm three things:
    - TC series and the two insulating-matrix EC3 grades: I'd use Thermally conductive and Electrically conductive respectively.
    - EMI and EC1: both conductive, so I'd suggest Electrically conductive.
 3. **Company note:** should I create PlastFormance GmbH?
-[Timestamp: 2026/11/10 11:00:31]
+[Timestamp: 2026/11/10 11:00:47]
 
 **user**: Yes, add all of them
 [Timestamp: 2026/11/10 11:03:55]
@@ -2266,10 +2270,10 @@ To go ahead, I need you to confirm three things:
 - **Electrically conductive:** EMI, EC, Radiation Shielding and the other Heavy grades
 
 First I'll file the PDF and raw markdown:
-[Timestamp: 2026/11/10 11:03:55]
+[Timestamp: 2026/11/10 11:04:04]
 
 **user**: Add the 17 above. 2. Functionality, I agree with you. 3. Yes please, and add it under pending
-[Timestamp: 2026/11/10 11:04:46]
+[Timestamp: 2026/11/10 11:04:47]
 
 **ai**: Got it: just the 17. Filing the PDF and raw markdown first:Next I'll generate the 17 notes. They're built from one table with the same template, so I'm using a script and will list the files afterwards.Now the company note under `pending/`:Everything is set up for your review:
 
@@ -2315,7 +2319,7 @@ I guessed the website (plastformance.com) from their email domain.
 - **They supply test quantities,** which makes them worth contacting for samples.
 
 The original filename was a long German name ("Hochgefüllte Kunststoffe…"), so I renamed the PDF to `PlastFormance_Product_Overview_2025.pdf`.
-[Timestamp: 2026/11/10 11:04:46]
+[Timestamp: 2026/11/10 11:04:51]
 
 **user**: I have validated them
 [Timestamp: 2026/11/10 11:06:20]
@@ -2323,7 +2327,7 @@ The original filename was a long German name ("Hochgefüllte Kunststoffe…"), s
 **ai**: I've approved all 17 PlastFormance notes. They're in `info/AI` with `Status: Identified`, and `info/validate/` is empty.
 
 They'll appear in the Thermally conductive and Electrically conductive material bases, and count towards [[PlastFormance]] in `Companies.base`. The company note was already set up when I created it (Found, Scraped and the product links), so it didn't need changing.
-[Timestamp: 2026/11/10 11:06:20]
+[Timestamp: 2026/11/10 11:06:26]
 
 **user**: Alright, I want visualize the soft magnetic materials obisidian base, i want so that when i update the base and the values the python plot also updates. Basically I want to plot the magnetic saturation on x axis and y the permeability. If there are n/a values then don't plot those points, if only one of the values is n/a then use 0, to show that it doesn't have a value like in the NTN cases Then if it's a range use the number for example where there is "< 5" plot as the 5, where there is a two values for example "30-60". I want then the colouring or shape be the material, to show the highest performance materials are a certain material, show like the top 5 materials, that are commonly in the top, but like if PA12 shows up once, don't make it individual multiple times but like you get it hopefully. And then the rest you can call "others". I want one static image plot, and another a interactive one, where it's a plotly html file, where I can hover and it will show what material it is so i can trace it back to the base.
 [Timestamp: 2026/11/11 15:10:58]
@@ -2351,7 +2355,7 @@ Things to know:
 - **Colour check not run:** I couldn't run the dataviz skill's colour checker because Node.js isn't installed. To compensate, each matrix also has its own marker shape, and I left out the two palette colours known to clash in scatter plots.
 - **Excluded from the top 5:** notes with Matrix `n/a` (e.g. Neosid PFS4, NTN) count as "Unknown", which is always grouped into Others.
 - **Hidden overlap:** Toda Kogyo's PA6 and PPS grades with µr ≈ 16.5 sit almost on top of each other at x = 0. Hovering in the HTML separates them.
-[Timestamp: 2026/11/11 15:10:58]
+[Timestamp: 2026/11/11 15:11:22]
 
 **user**: Okay, how about instead of colours and shapes being different for each material type, we have shapes as polymer matrix and colour being a company. And then don't write the names of the plot points, then the plot should be matplotlib, not just a screenshot of the html thing.
 [Timestamp: 2026/11/11 15:26:25]
@@ -2387,7 +2391,7 @@ Here's the new encoding:
 Hovering in the HTML separates them.
 
 Refresh as before with `uv run scripts/plot_soft_magnetic.py`.
-[Timestamp: 2026/11/11 15:26:25]
+[Timestamp: 2026/11/11 15:26:39]
 
 **user**: Nvm, let the colour be the matrix, remove the company
 [Timestamp: 2026/11/11 15:31:05]
@@ -2404,7 +2408,7 @@ Refresh as before with `uv run scripts/plot_soft_magnetic.py`.
 At (0.45, 30), MATE TS-1S50 (PA6) is hidden under TS-6S50 (PPS). Hovering in the HTML shows both.
 
 Refresh with `uv run scripts/plot_soft_magnetic.py`.
-[Timestamp: 2026/11/11 15:31:05]
+[Timestamp: 2026/11/11 15:31:13]
 
 **user**: Let's do all circles, top 3 permeability matrixes only and the rest as other matrices, and then for those where there are two values, mark both and connect them or like show that they have two values measured
 [Timestamp: 2026/11/11 15:39:03]
@@ -2426,7 +2430,7 @@ Refresh with `uv run scripts/plot_soft_magnetic.py`.
 The top 3 are still ranked on each material's lower permeability value, so ranges don't push a matrix up the ranking. Tell me if you'd rather rank on the upper end.
 
 Refresh with `uv run scripts/plot_soft_magnetic.py`.
-[Timestamp: 2026/11/11 15:39:03]
+[Timestamp: 2026/11/11 15:39:11]
 
 **user**: Make the point as thick as the line connecting them so you dont have such an empasis that its two seperate but looks more like one, then isn't pa6 the top 3rd place on the highest permeability, as now we're using the higher bounds as well
 [Timestamp: 2026/11/11 15:47:05]
@@ -2442,7 +2446,7 @@ Refresh with `uv run scripts/plot_soft_magnetic.py`.
 **The capsules are spread apart more.** The four MATE ranges at 0.45 T were overlapping with the thicker shape, so they're now about one capsule-width apart. That makes them appear between roughly 0.41 and 0.49 T, but hovering in the HTML shows the real values. The PA6 and PPS capsules (TS-1S50 and TS-6S50, both 30–60) are now side by side instead of on top of each other.
 
 Refresh with `uv run scripts/plot_soft_magnetic.py`.
-[Timestamp: 2026/11/11 15:47:05]
+[Timestamp: 2026/11/11 15:47:17]
 
 **user**: Thinner lines and smaller points. Is there a way to make the points apear on top of the lines, without hardcoding it. Check how much stuff you've hardcoded, as I will be adding new entries and it should still work
 [Timestamp: 2026/11/11 15:49:51]
@@ -2484,7 +2488,7 @@ Everything else is worked out on each run:
 **One case it can't sort out for you:** a genuinely new polymer name that means the same as an existing one, e.g. "Nylon 12" vs "PA12", would count as a separate matrix. The console's "Matrices found" line makes that easy to spot.
 
 Refresh with `uv run scripts/plot_soft_magnetic.py`.
-[Timestamp: 2026/11/11 15:49:51]
+[Timestamp: 2026/11/11 15:50:06]
 
 **user**: Now the line and point are not the same thickness, make the legend be in the plot.
 [Timestamp: 2026/11/11 15:53:33]
@@ -2502,7 +2506,7 @@ Refresh with `uv run scripts/plot_soft_magnetic.py`.
 If new entries fill the top right, the legend moves on its own. I also made the legend text a bit smaller so it fits.
 
 Refresh with `uv run scripts/plot_soft_magnetic.py`.
-[Timestamp: 2026/11/11 15:53:33]
+[Timestamp: 2026/11/11 15:53:46]
 
 **user**: The nudge should be smaller, and also the ordered in the status should be x
 [Timestamp: 2026/11/11 15:57:50]
@@ -2523,4 +2527,158 @@ It reads Status on every run, so if you change a note to "Ordered" it gets an �
 **Smaller nudge.** The spacing between ranges at the same saturation is halved, from 1.2% to 0.6% of the x-axis span. The four MATE ranges at 0.45 T now sit close together and partly touch, but you can still tell them apart. If it's too tight, it's one number: `DODGE_FRAC`.
 
 Refresh with `uv run scripts/plot_soft_magnetic.py`.
-[Timestamp: 2026/11/11 15:57:50]
+[Timestamp: 2026/11/11 15:58:12]
+
+**user**: Alright, I got new 20 files and I want to add them as thermally conductive do the workflow
+[Timestamp: 2026/11/12 10:24:35]
+
+**ai**: The key is in the data. The problem is that my earlier PowerShell edit corrupted the "°" inside the generator script itself. I'll match that row by its prefix instead, so the "°" doesn't matter:Before writing the notes, I'll check whether the same corruption hit other special characters in the template (Ω, ·, ÷). The property names depend on them:They're corrupted too, so the notes would have had wrong property names. I'll rewrite the generator cleanly with all the fixes included:All 20 drafts are written, and every link and property name checks out. Let me spot-check one note:**20 LATI draft notes are in `info/validate/`**, ready for review in `Validation.base`. All of them have Functionality "Thermally conductive".
+
+**How the run went:**
+- **Parsing:** 377 s, with no OCR retries.
+- **Duplicates:** none. The only existing LATICONTHER note is Lati3Dlab's SP4, a different grade.
+- **Filing:** the PDFs are renamed `LATI_<grade>` and in `datasheets/AI parsed/`, the raw markdown is in `info/raw/`, and `datasheets/new/` is empty.
+- **Checks:** every Datasheet and raw-markdown link resolves, and every note has the correct property names.
+
+**Note generation:** all 20 pages share one layout, so I generated the notes with a script.
+- **Thermal conductivity:** in-plane and through-plane are recorded separately (ASTM E 1461).
+- **Filler:** comes from LATI's "Additives" list, e.g. "Ceramic fillers, Glass fibres" or "Graphite".
+- **Dielectric properties:** dielectric strength and CTI go in `Dielectric properties`.
+- **Resistivity:** surface resistivity in "ohm" goes under surface resistance. Volume resistivity in Ω·cm is converted to Ω·m, with the original value in the note body.
+- **Note body:** density, flammability (UL 94 by thickness) and processing settings.
+
+| Group | Grades | In-plane / through-plane (W/m·K) | Electrical |
+| --- | --- | --- | --- |
+| **Graphite-filled** | 62 GR/70, 62 GR/50, 62 GR/50-V0, 52/11 GR/70, 80 GR/50, 87/28 GR/50, 62 GRG/500, 52/11 GR/50 | up to **28 / 4** (62 GR/70, PA6) | conductive to dissipative, 10¹–10⁴ Ω surface |
+| **Ceramic-filled** | 82 CP1/800 (PA12), 83 CP/85 (PA12), 57T CP8/400, 62 CP6/650-V0HF1, 62 CP7/700-V0HF1, 62 CP9/450-V0HF, 62 CEG/500-V0HF1, 62 CPG/500, 62 CPG/750, 52/11 CPG/700, 80 CPG/700 | up to 9.5 in-plane (82 CP1/800) | insulating, 10¹² Ω, 21–32 kV/mm |
+| **Glass-filled** | 66 VH MI02 G/35 (PA66) | 5 / 1.2 | n/a |
+
+**Things to check:**
+- **The graphite grades are electrically conductive** (e.g. 62 GR/70 at 1 Ω·m volume, 10 Ω surface), but the pages only call them "thermally conductive". Type is "Thermally conductive" on all of them. Tell me if you want "electrically conductive" added to the graphite ones.
+- **Missing through-plane value:** 82 CP1/800 (PA12) has 9.5 in-plane, but the page gives no through-plane value.
+- **Pages, not datasheets:** these are LatiLambda web pages, not full TDS PDFs.
+- **No company link:** Manufacturer is plain "LATI". There's no LATI company note, only [[Lati3Dlab]], which your note calls a possible sister company. I can create a LATI company note or link them to Lati3Dlab. Which do you prefer?
+
+**For your work:**
+- **PA12 grades:** 82 CP1/800 and 83 CP/85 (2.1 / 1.7, nearly isotropic, insulating).
+- **PA6 graphite grades:** much higher conductivity, but they conduct electricity.
+[Timestamp: 2026/11/12 10:24:35]
+
+**user**: I validate
+[Timestamp: 2026/11/12 10:36:02]
+
+**ai**: I've approved all 20 LATI notes. They're in `info/AI` with `Status: Identified`, and `info/validate/` is empty. They'll show up in `Thermally conductive materials.base`.
+
+One question is still open. Manufacturer is plain "LATI" for now, so these materials aren't linked to any company in `Companies.base`. Should I create a LATI company note, or link them to [[Lati3Dlab]]?
+[Timestamp: 2026/11/12 10:36:02]
+
+**user**: I've added new materials, these are supposted to be electrically conductive.
+[Timestamp: 2026/11/12 13:35:00]
+
+**ai**: These are RTP Company datasheets downloaded through [[Plastics.com]]. I'll pull out the key values from all six:There are no duplicates. Next I'll file the PDFs and write the 6 notes. Resistivity in Ω·cm is converted to Ω·m, and surface values given in Ω/sq go into `Surface resistivity (Ω/sq)`.**6 RTP Company draft notes are in `info/validate/`**, ready for review in `Validation.base`.
+- **Run:** parsing took 157 s, with no OCR retries and no duplicates.
+- **Links:** the PDFs are filed in `datasheets/AI parsed/` as `RTP_<grade>.pdf`, and every note's links work.
+- **Fields:** all six have Functionality "Electrically conductive", Manufacturer "RTP Company" and Supplier [[Plastics.com]].
+
+| Grade | Matrix | Filler | Volume resistivity (Ω·m) | Surface resistivity (Ω/sq) |
+| --- | --- | --- | --- | --- |
+| RTP 284 C TFE 15 | PA11 (58% renewable) | 25% CF + PTFE | 10⁻³ – 10⁻² | n/a |
+| RTP 283 D TFE 15 | PA612 | 20% CF + PTFE | 10⁻³ – 10⁻¹ | 10³ – 10⁵ |
+| RTP 283 D TFE 15 SI 2 | PA612 | 20% CF + PTFE + silicone | 10⁻³ – 10⁰ | 10³ – 10⁵ |
+| RTP 285 D SI 2 | PA612 | 30% CF + silicone | 10⁻³ – 10⁻¹ | 10² – 10⁵ |
+| RTP EMI 161 | PP | 10% stainless steel fibre | 10⁻³ – 10⁻¹ | 10² – 10⁴ |
+| RTP EMI 162 | PP | 15% stainless steel fibre | **10⁻⁴ – 10⁻²** | 10² – 10⁴ |
+
+**Things to check:**
+- **Units:** RTP gives volume resistivity in Ω·cm, so I divided by 100 for the Ω·m property. The original values are in each note body.
+- **Surface values:** these are given in Ω/sq, so this time they go in `Surface resistivity (Ω/sq)`, not surface resistance.
+- **Filler loading from grade names:** the datasheets only state the primary additive % (the carbon or steel fibre). The PTFE % and silicone % come from the grade names (TFE 15 = 15% PTFE, SI 2 = 2% silicone), which is RTP's naming convention but not written in the datasheet. Tell me if you'd rather those were `n/a`.
+- **Shielding effectiveness:** EMI 161 reports 46–70 dB (2–3 mm, 300–1500 MHz). That's in the note body, since there's no property for it.
+- **For your work:** the three PA612 grades are close relatives of PA12, all with carbon fibre and about 10⁻³ Ω·m at best.
+
+When you validate them, I'll approve the notes and update [[Plastics.com]]: Found "Electrically conductive", Scraped ticked, and links to these 6 under Products.
+[Timestamp: 2026/11/12 13:35:00]
+
+**user**: make the volume resistivity the average of the two values, and make it numerical
+[Timestamp: 2026/11/12 13:50:33]
+
+**ai**: Here are the arithmetic means of each range in Ω·m, written as plain numbers so the base can sort them. I'll keep the original range in each note body:In all 6 RTP drafts, the volume resistivity property is now the average of the two range ends, written as a plain number so the base can sort and compare it:
+
+| Grade | Range (Ω·m) | Property value (Ω·m) |
+| --- | --- | --- |
+| RTP 284 C TFE 15 | 10⁻³ – 10⁻² | 0.0055 |
+| RTP 283 D TFE 15 | 10⁻³ – 10⁻¹ | 0.0505 |
+| RTP 283 D TFE 15 SI 2 | 10⁻³ – 10⁰ | 0.5005 |
+| RTP 285 D SI 2 | 10⁻³ – 10⁻¹ | 0.0505 |
+| RTP EMI 161 | 10⁻³ – 10⁻¹ | 0.0505 |
+| RTP EMI 162 | 10⁻⁴ – 10⁻² | 0.00505 |
+
+Each note body still states the original Ω·cm range, the converted Ω·m range, and that the property holds the mean.
+
+These ranges span one to three orders of magnitude, so a plain average sits almost at the upper end. RTP 283 D TFE 15 SI 2, for example, gets 0.5 Ω·m, even though its range starts at 0.001. The geometric mean (the middle on a log scale) would represent the range more fairly: 0.0032, 0.01, 0.032, 0.01, 0.01 and 0.001 Ω·m. Tell me if you'd rather use that.
+[Timestamp: 2026/11/12 13:50:33]
+
+**user**: I've validated
+[Timestamp: 2026/11/12 13:52:56]
+
+**ai**: I've approved all 6 RTP notes. They're in `info/AI` with `Status: Identified`, and `info/validate/` is empty. They'll show up in `Electrically conductive materials.base`.
+
+I also updated [[Plastics.com]]:
+- **Found:** "Electrically conductive"
+- **Scraped:** ticked
+- **Products:** links to all 6 RTP grades
+
+Your Investigation note says you're still gathering from Plastics.com, e.g. Techmer's Electrifil and Highfil. If more batches are coming, untick Scraped until you're done, or I'll keep adding to the Products list as they arrive.
+[Timestamp: 2026/11/12 13:52:56]
+
+**user**: Go back to those, and make them a dot not a comma
+[Timestamp: 2026/11/12 13:54:50]
+
+**ai**: 
+[Timestamp: 2026/11/12 13:54:50]
+
+**user**: Go back to those which i added and for the numerical values have a dot as the seperator not comma
+[Timestamp: 2026/11/12 13:55:28]
+
+**ai**: I searched the properties of every note in the vault (raw markdown excluded) for numbers written with a decimal comma. There was only one, and I've fixed it:
+
+- [[Arkema Rilsamid ASR 13]]: `Price: 42,30 eur/kg` → `42.30 eur/kg`
+
+All other stored values already use a dot, including the RTP volume resistivities (0.0055, 0.0505, …), the LATI thermal conductivities and the Barlog saturations.
+
+If you're still seeing commas in `Electrically conductive materials.base`, that's how Obsidian displays numbers, not what's stored in the notes. For properties stored as numbers (like the new RTP volume resistivities), Obsidian formats them in your system's number style, and Danish settings show a decimal comma. If that's it, there are two ways to get dots:
+- Change Windows' region or number format to use "." as the decimal symbol, then restart Obsidian.
+- Store those values as text (in quotes), so Obsidian shows them exactly as written. The downside is that the base would sort them as text, not as numbers.
+
+If you meant specific notes, tell me which ones and I'll check them directly.
+[Timestamp: 2026/11/12 13:55:28]
+
+**user**: I got a new electrically conductive material
+[Timestamp: 2026/11/12 14:22:28]
+
+**ai**: The draft note is in `info/validate/`: [[A. Schulman SCHULATEC TinCo 50 PA6]].
+
+**Summary:**
+- **Matrix:** PA6, delivered as pellets.
+- **Volume resistivity:** 0.000005 Ω·m, stored as a number. The datasheet gives 5.0×10⁻⁴ Ω·cm (IEC 60093). That's by far the most conductive material in your vault, about 1,000× more conductive than the best RTP grade.
+- **Density:** 3.40 g/cm³, very high for a polymer, so it's almost certainly metal-filled.
+- **Processing:** dry 3–4 h at 80 °C, mold 50–80 °C. The page leaves melt temperature blank.
+- **Mechanical:** tensile strength 33 MPa, modulus 4100 MPa, elongation 3%. That's quite brittle, which could matter for printing.
+- **Filing:** the PDF is renamed `ASchulman_SCHULATEC_TinCo_50_PA6.pdf` and in `datasheets/AI parsed/`, with no duplicates found.
+
+**Things to check:**
+- **Source:** this is a Chinese distributor's page (shshsj.com), not an official A. Schulman datasheet. A. Schulman is now part of LyondellBasell, so an official TDS might be under that name.
+- **Filler is `n/a`.** "TinCo" plus the density suggests a tin/copper metal filler, but the page doesn't say so. Following your rule, I only mentioned that guess in the note body.
+- **Flame retardance:** the page lists "flame retardant" (阻燃) as a characteristic, but the UL 94 rating is only HB at 1.5 mm.
+- **Supplier:** I set it as plain text ("shshsj.com (Chinese distributor)"). There's no company note for it, and none for A. Schulman.
+
+When you validate it, I'll approve it. Should I also create a company note for A. Schulman (or LyondellBasell), or for the distributor?
+[Timestamp: 2026/11/12 14:22:28]
+
+**user**: I've validated
+[Timestamp: 2026/11/12 14:52:58]
+
+**ai**: I updated the note text to match: it now says the distributor page doesn't name the filler, and that the copper and tin/zinc figures were added during validation. Your filler values and the "(LyondellBasell)" you added to Manufacturer are unchanged.
+
+There's still no company note for A. Schulman / LyondellBasell. If you want one, I can create it and link this material to it.
+[Timestamp: 2026/11/12 14:52:58]

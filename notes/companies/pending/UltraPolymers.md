@@ -7,7 +7,7 @@ Website: https://ultrapolymers.com/
 Group: Polymer supplier
 Found:
 Not found:
-Research depth: 1 - Website skimmed
+Research depth: 0 - Identified
 Scraped: false
 Engagement depth: 0 - Not contacted
 Contacts:

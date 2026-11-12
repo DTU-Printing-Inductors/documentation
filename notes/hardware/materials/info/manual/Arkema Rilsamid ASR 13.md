@@ -8,7 +8,7 @@ Filler: Carbon fibres
 Filler loading: 15%
 Size: n/a
 MOQ: 25 kg
-Price: 42,30 eur/kg
+Price: 42.30 eur/kg
 Status: Rejected
 Datasheet: "[[Arkema_Rilsamid_ASR_13.pdf]]"
 Lead time: February 2027

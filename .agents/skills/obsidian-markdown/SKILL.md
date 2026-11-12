@@ -1,10 +1,10 @@
 ---
 name: obsidian-markdown
-description: Create and edit Obsidian-specific Markdown in .md notes, including wikilinks, block IDs (^id) with block and list embeds, heading embeds, callouts, properties and frontmatter, tags, aliases, and comments. Load before adding or changing any of these in a note, such as linking or embedding a paragraph, list or section, or setting a note's properties.
+description: Create and edit Obsidian-specific Markdown in .md notes, including wikilinks, block IDs (^id) with block and list embeds, heading embeds, callouts, properties and frontmatter, tags, aliases, comments, and Mermaid diagrams. Load before adding or changing any of these in a note, such as linking or embedding a paragraph, list or section, or setting a note's properties, and before drawing a Mermaid diagram in a note or a reply.
 license: MIT
 metadata:
   copilot-enabled-agents: opencode, codex
-  copilot-builtin-version: "4"
+  copilot-builtin-version: "5"
   copilot-upstream-revision: "a1dc48e68138490d522c04cbf5822214c6eb1202"
 ---
 
@@ -95,6 +95,16 @@ separate lines.
 | Name | Formula |
 | --- | --- |
 | Absolute value | $\lvert x \rvert$ |
+~~~
+
+## Render-safe Mermaid
+
+Mermaid ends a statement at <code>;</code>, so a semicolon in a message or label
+breaks the diagram. Write it as <code>#59;</code>:
+
+~~~markdown
+sequenceDiagram
+  Copilot->>Vault: Write the TL#59;DR
 ~~~
 
 ## Attribution

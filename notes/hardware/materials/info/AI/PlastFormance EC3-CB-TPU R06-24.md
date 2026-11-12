@@ -13,7 +13,7 @@ Permeability: n/a
 Surface resistivity (Ω/sq): n/a
 Surface resistance (Ω): n/a
 Surface resistance standard: n/a
-Volume resistivity (Ω·m): "<1E5"
+Volume resistivity (Ω·m): "100000"
 Volume resistivity standard: n/a
 Dielectric properties: n/a
 Thermal conductivity integral (W/m·K): 0.3

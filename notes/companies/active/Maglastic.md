@@ -24,7 +24,7 @@ Contacts:
 
 | Timestamp        | Status   | Who? | Type            | Summary                                                                                                                         | Email link                                          |
 | ---------------- | -------- | ---- | --------------- | ------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------- |
-| 19/10./026       | Awaiting | Me   | Initial inquiry | Wrote an Inquiry and sample request, asking for a datasheet, their pdf download button does not work. Through the contact form. | Website inquiry                                     |
+| 19/10/2026       | Awaiting | Me   | Initial inquiry | Wrote an Inquiry and sample request, asking for a datasheet, their pdf download button does not work. Through the contact form. | Website inquiry                                     |
 | 13:05 04/11/2026 | Awaiting | Me   | Initial email   | Asked for polymer matrix, magnetic filler, size and shape of pellets, datasheet, price, MOQ and lead time.                      | ![[Inquiry for Soft Magnetic Bonded Compounds.msg]] |
 
 ## Initial email
