@@ -30,23 +30,32 @@ To address the discovered problems, the work will investigate the following rese
   \textit{Can varying the blend ratio of magnetic-filled and unfilled polymer pellets produce reproducible changes in the  permeability of a soft-magnetic composite manufactured using a commercial pellet extruder?} 
 \end{quote}
 
+The problem with this research question, is that combines both can we print multiple blend regions in one part and combines the testing if its succesful by figuering out if the regions have distinct permeabilities. So we need 
+
 \begin{quote}
   \textit{Can discrete permeability regions be fabricated by sequentially printing pre-blended pellet batches, using controlled purging to achieve distinct and reproducible material compositions?} 
 \end{quote}
 
+\begin{quote}
+  \textit{How does the magnetic properties of multi-permeability constant flux inductor compare with a single-permeability constant flux inductor?} 
+\end{quote}
 
 \subsection{Requirements}
 To address the research question and capture the overarching scientific plan, the following requirements have been defined:
 \begin{itemize}
   \item Establish a repeatable pellet-extrusion process for producing test specimens from the selected magnetic-filled and unfilled polymer pellets.
-  \item Manufacture three specimen per each magnetic-filled-to-unfilled pellet mass ratio (0:100, 25:75, 50:50, 75:25 and 100:0).
-  \item Characterize the effective permeability and its variability between each specimen in a given ratio. 
+  \item Manufacture three specimen per each magnetic-filled-to-unfilled pellet mass ratio (0:100, 25:75, 50:50, 75:25 and 100:0) for characterization.
+  \item Characterize the effective permeability and its variance between each specimen in a given ratio. 
   \item Characterize the amount of magnetic filler present in each of the specimen.
   \item Characterize the uniformity of magnetic filler in each of the specimen. 
   \item Assess the correlation between effective permeability, amount of magnetic filler present and the uniformity of magnetic filler. 
   \item Establish a repeatable pause-purge-resume procedure that limits residual material from the previous pellet batch when switching blend ratios.
   \item Evaluate the feasibility of fabricating a multi-permeability core with three distinct permeability regions by sequentially printing pre-blended pellet batches.
-  \item Characterize the multi-permeability core's inductance and, where resources permit, saturation behaviour and core losses, and compare its performance with a uniform-permeability reference core of identical geometry.
+  \item Manufacture single-permeability core for comparison.
+  \item Characterize the inductance of the single-permeability and multi-permeability cores.
+  \item Characterize saturation behaviour for both cores.
+  \item Characterize the core losses for both cores.
+  \item Compare the measured results.
 \end{itemize}
 
 \subsection{Methodology}
@@ -54,13 +63,17 @@ To fulfill the set-out requirements, the following methodology has to be used:
 \begin{itemize}
   \item Conduct a targeted review of commercially available pellet extruders and compatible polymer feedstocks. Create an evaluation matrix, setting out project criterion with their specific weight. Select the highest rated path of solutions. Develop and assemble the selected manufacturing process. Investigate appropriate printing parameters.
   \item Design a specimen geometry. Using the developed manufacturing process, fabricate three specimen at each specific (0:100, 25:75, 50:50, 75:25, 100:0) magnetic-filled-to-unfilled pellet mass ratios.
-  \item Wind the same number of turns of isolated copper wire around each specimen, ensuring consistent winding arrangement. Measure the inductance and its between-specimen variability using an impedance analyzer across a specific frequency range. Calculate the effective permeability.
+  \item Wind the same number of turns of isolated copper wire around each specimen, ensuring consistent winding arrangement. Measure the inductance and its between-specimen variability using an impedance analyzer across a specific frequency range. Calculate the effective permeability and variance.
   \item Use Thermogravimetric Analysis (TGA) under inert gas (to avoid oxidation) to estimate bulk filler content, calibrated to the known filler content. Samples from independent extrusion runs and different specimen locations will be analyzed.
   \item Use Scanning Electron Microscopy paired with Energy-Dispersive X-ray Spectroscopy (SEM–EDS) mapping of cross-sections to quantify local FeSiAl distribution. Samples from independent extrusion runs and different specimen locations will be analyzed. Use image processing to quantify numerically the filler distribution.
   \item Plot the results from TGA, SEM-EDS and effective permeability. Visually inspect whether there are trends. Draw a conclusion.
   \item To determine the required purge amount, a print will be paused after reaching steady-state extrusion with a 0:100 blend, and the remaining pellets will be removed from the hopper before loading the 100:0 blend. The extruder will then be purged into separately collected samples at defined cumulative extruded masses. TGA will be used to estimate the composition of each sample, using known blend ratios to establish a calibration. The composition will be plotted against the cumulative purge mass to determine how much material must be purged before the new blend reaches a stable composition. The procedure will be repeated to additionally for the transition from 100:0 to 0:100 ratio.
-  \item Design a multi-permeability magnetic core with three regions (100:0, 75:25 and 50:50) arranged to accommodate sequential material changes. Assign each region a blend ratio based on the experimentally characterized permeability values. Manufacture the core using the established pause-purge-resume procedure. Visually assess whether the intended regions have distinct compositions.
-  \item Wind the same amount of turns of isolated copper wire around the manufactured core. Measure the inductance of the multi-permeability specimen and uniform permeability specimen with an impedance analyzer across a specific frequency range. Remove the winding. Wind an excitation coil and a separate sensing coil around the core. Drive the  excitation coil with a controlled AC source. Measure the excitation current and sensing coil voltage. Calculate the magnetic field strength and flux density. To measure the core losses, adjust the source, so the core reaches the peak flux density. Record the B-H loop. Calculate the energy loss from its enclosed area. Repeat the procedures for uniform permeability specimen. Compare the results.
+  \item Design a multi-permeability CFI using the blend ratios based on the experimentally characterized permeability values. Manufacture the core using the established pause-purge-resume procedure. Visually assess whether the intended regions have distinct compositions.
+  \item Design a single-permeability inductor using the blend ratios based on the experimentally characterized permeability values. Manufacture the core using the established printing process.
+  \item Assemble both magnetic cores with copper wire to create an inductor. Measure the inductance of the multi-permeability specimen and uniform permeability specimen with an impedance analyzer across a specific frequency range. Remove the winding. 
+  \item Wind an excitation coil and a separate sensing coil around the core. Drive the  excitation coil with a controlled AC source. Measure the excitation current and sensing coil voltage. Calculate the magnetic field strength and flux density. 
+  \item To measure the core losses, adjust the source, so the core reaches the peak flux density. Record the B-H loop. Calculate the energy loss from its enclosed area. Repeat the procedures for uniform permeability specimen. 
+  \item Plot together the results from the measurements. Visually inspect the differences. Draw conclusions.
 \end{itemize}
 
 \subsection{Delimitations}

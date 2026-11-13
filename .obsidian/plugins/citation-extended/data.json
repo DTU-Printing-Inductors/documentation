@@ -1,8 +1,8 @@
 {
   "citationExportPath": "",
   "citationExportFormat": "csl-json",
-  "literatureNoteTitleTemplate": "{{citekey}}",
-  "literatureNoteFolder": "notes/papers",
+  "literatureNoteTitleTemplate": "@{{citekey}}",
+  "literatureNoteFolder": "Reading notes",
   "literatureNoteContentTemplate": "",
   "literatureNoteContentTemplatePath": "templates/citation-content-template.md",
   "citationStylePreset": "custom",

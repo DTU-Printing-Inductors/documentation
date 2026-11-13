@@ -1,5 +1,5 @@
 ---
-Grade: Electrifi PE Filament
+Grade: Electrifi HT Filament
 Manufacturer: Multi3D
 Supplier:
   - Multi3D

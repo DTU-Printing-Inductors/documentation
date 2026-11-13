@@ -6,7 +6,7 @@ sessionId: "1970f75e-7002-453a-86c3-7ae43e8a4792"
 topic: "Here's the file, can you fill it out, similary how i did oth…"
 tags:
   - copilot-conversation
-usage: '{"usedTokens":704628,"contextWindow":1000000,"inputTokens":2,"outputTokens":120,"cacheReadTokens":703917,"cacheWriteTokens":589,"updatedAt":1794491633372}'
+usage: '{"usedTokens":706432,"contextWindow":1000000,"inputTokens":2,"outputTokens":6,"cacheReadTokens":705143,"cacheWriteTokens":1281,"updatedAt":1794574812320}'
 lastAccessedAt: 1794475450646
 ---
 
@@ -2682,3 +2682,13 @@ When you validate it, I'll approve it. Should I also create a company note for A
 
 There's still no company note for A. Schulman / LyondellBasell. If you want one, I can create it and link this material to it.
 [Timestamp: 2026/11/12 14:52:58]
+
+**user**: I've added a new electrically conductive material
+[Timestamp: 2026/11/13 13:55:57]
+
+**ai**: The file name suggests a second copy of **RTP EMI 162**, which is already in your vault. Let me compare it with the existing raw file:This is an exact duplicate. `pp-1680-emi-162-1.pdf` is byte-for-byte identical to the PDF behind [[RTP EMI 162]], which you validated yesterday: same file hash and the same parsed text (PP, 15% stainless steel fibre, 10⁻²–10⁰ Ω·cm). The "-1" in the name is probably just a second download.
+
+So I haven't created a note. The duplicate PDF is still in `datasheets/new/` and its parsed copy is in `info/raw/` as `pp-1680-emi-162-1.md`. Since the files are identical, there's nothing to gain by keeping them. Should I delete both, or keep the PDF as a `_reprint` copy as your rules normally say for duplicates?
+
+If you meant to add a different material, the file may have been saved under the wrong name, so check your downloads.
+[Timestamp: 2026/11/13 13:55:57]

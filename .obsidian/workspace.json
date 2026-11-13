@@ -4,37 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "f4908201ee95e810",
+        "id": "aacb312e4af97f44",
         "type": "tabs",
         "children": [
           {
-            "id": "65e7656eb594a2d8",
+            "id": "0302be66e9b0d9ba",
             "type": "leaf",
             "state": {
               "type": "bases",
               "state": {
-                "file": "notes/hardware/Electrically conductive materials.base",
-                "viewName": "View"
+                "file": "notes/hardware/AM feedstock map/AM feedstock map.base",
+                "viewName": "All entries"
               },
               "icon": "lucide-table",
-              "title": "Electrically conductive materials"
-            }
-          },
-          {
-            "id": "188c9d1764f31f6f",
-            "type": "leaf",
-            "state": {
-              "type": "bases",
-              "state": {
-                "file": "notes/hardware/Electrically conductive materials.base",
-                "viewName": "View"
-              },
-              "icon": "lucide-table",
-              "title": "Electrically conductive materials"
+              "title": "AM feedstock map"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -249,54 +235,53 @@
       "citation-extended:Show references for current note": false
     }
   },
-  "active": "188c9d1764f31f6f",
+  "active": "0302be66e9b0d9ba",
   "lastOpenFiles": [
-    "TaskNotes/Views/tasks-default.base",
-    "latex/presentations/5_research_immersion/~$Research immersion.tmp",
-    "latex/presentations/5_research_immersion/Research immersion.pptx",
-    "latex/presentations/5_research_immersion/Research recap.pptx",
-    "latex/presentations/5_research_immersion",
-    "latex/presentations/5_na - Copy/Research recap.pptx",
-    "latex/presentations/5_na - Copy",
-    "TaskNotes/Tasks/Look into material that conducts thermal limit to that fuse to PA.md",
-    "latex/presentations/5_na/Research recap.pptx",
-    "latex/presentations/5_na/~$LLM_comparison.tmp",
-    "latex/presentations/5_na/4__10_11_2026_LLM_comparison/LLM_comparison.pptx",
-    "latex/presentations/5_na/LLM_comparison.pptx",
-    "TaskNotes/Tasks/Deep dive in Schulatec TinCo 50.md",
+    "images/plots/am_feedstock_state_of_the_art.tmp.html",
+    "images/plots/am_feedstock_state_of_the_art.tmp.png",
+    "images/plots/am_feedstock_overview.tmp.html",
+    "images/plots/am_feedstock_overview.tmp.png",
+    "notes/hardware/AM feedstock map/entries/Product - Desktop Metal Copper.md",
+    "notes/hardware/AM feedstock map/AM feedstock map.base",
+    "notes/hardware/Validation.base",
     "notes/hardware/materials/info/AI/A. Schulman SCHULATEC TinCo 50 PA6.md",
-    "notes/hardware/materials/info/raw/ASchulman_SCHULATEC_TinCo_50_PA6.md",
-    "notes/hardware/materials/info/validate/A. Schulman SCHULATEC TinCo 50 PA6.md",
-    "notes/hardware/materials/info/raw/PA6 TinCo 50 舒尔曼 A.Schulman SCHULATEC TinCo 50 PA6,,阻燃.md",
-    "notes/companies/skipped/Techmer (Electrifil).md",
-    "notes/companies/pending/Plastics.com.md",
-    "notes/hardware/materials/info/AI/RTP EMI 162.md",
+    "notes/hardware/AM feedstock map/entries/Link - SCHULATEC TinCo 50.md",
+    "notes/hardware/materials/info/raw/pp-1680-emi-162-1.md",
+    "notes/hardware/AM feedstock map/entries/Link - RTP EMI 162.md",
+    "notes/hardware/AM feedstock map/entries/Link - RTP EMI 161.md",
+    "notes/hardware/materials/datasheets/AI parsed/RTP_EMI_161.pdf",
+    "notes/hardware/materials/datasheets/new/pp-1680-emi-162-1.pdf",
     "notes/hardware/materials/info/AI/RTP EMI 161.md",
-    "notes/hardware/materials/info/AI/RTP 285 D SI 2.md",
-    "notes/hardware/materials/info/AI/RTP 284 C TFE 15.md",
-    "notes/hardware/materials/info/AI/RTP 283 D TFE 15.md",
-    "notes/hardware/materials/info/AI/RTP 283 D TFE 15 SI 2.md",
-    "notes/hardware/materials/info/validate/RTP EMI 162.md",
-    "notes/hardware/materials/info/validate/RTP EMI 161.md",
-    "notes/hardware/materials/info/validate/RTP 285 D SI 2.md",
-    "notes/hardware/materials/info/validate/RTP 283 D TFE 15 SI 2.md",
-    "notes/hardware/materials/info/validate/RTP 283 D TFE 15.md",
-    "notes/hardware/materials/info/validate/RTP 284 C TFE 15.md",
-    "notes/hardware/materials/info/raw/RTP_EMI_162.md",
-    "notes/hardware/materials/info/raw/RTP_EMI_161.md",
-    "notes/hardware/materials/info/raw/RTP_285_D_SI_2.md",
-    "notes/hardware/materials/info/raw/RTP_283_D_TFE_15_SI_2.md",
-    "notes/hardware/materials/info/raw/RTP_283_D_TFE_15.md",
-    "notes/hardware/materials/datasheets/new/LATICONTHER 52_11 GR_50 - Material Detail _ LatiLambda_files/logo_3xsa.svg",
+    "notes/hardware/AM feedstock map/entries/Area - Antistatic filaments.md",
+    "notes/hardware/AM feedstock map/entries/Area - Carbon black filaments.md",
+    "notes/hardware/AM feedstock map/entries/Band - Insulative.md",
+    "notes/hardware/AM feedstock map/entries/Band - Static dissipative.md",
+    "TaskNotes/Views/tasks-default.base",
+    "TaskNotes/Tasks/Call maglastic httpschasemagnet.comcontact-us-chasemagnets-magnetic-compounds-manufacturer.md",
+    "notes/companies/active/Kupros.md",
+    "Cu29 inquiry for 3D-printed windings (DTU).msg",
+    "notes/companies/active/Barlog Plastics.md",
+    "notes/hardware/AM feedstock map/entries/Product - Kupros Cu29.md",
+    "latex/presentations/5_research_immersion/Artis_Research_immersion.pptx",
+    "latex/presentations/5_research_immersion/~$Research immersion.tmp",
+    "notes/hardware/AM feedstock map/entries/Link - Multi3D Electrifi HT Filament.md",
+    "notes/hardware/materials/info/manual/Multi3D Electrifi HT Filament.md",
+    "notes/hardware/AM feedstock map/entries/Lit - Siemens PPS + Sn-Zn alloy + Cu fibre.md",
+    "notes/hardware/AM feedstock map/entries/Lit - Siemens PA6 + Sn-Zn alloy + Cu fibre.md",
+    "notes/hardware/AM feedstock map/entries/Lit - Lei Ag flake PVB filament.md",
+    "notes/hardware/AM feedstock map/entries/Lit - JST ABS + Sn-Cu-Ni solder + Cu powder.md",
+    "notes/hardware/AM feedstock map/entries/Lit - Ag-TPU filament patent.md",
+    "notes/hardware/AM feedstock map/entries/Lit - Ag flake polyester PVB filament.md",
+    "notes/hardware/AM feedstock map/entries/Link - Multi3D Electrifi.md",
+    "notes/hardware/AM feedstock map/entries/Lit - Tan and Low Ni + SnAgCu printed tracks.md",
+    "images/plots/am_feedstock_state_of_the_art.png",
     "images/plots/soft_magnetic_saturation_vs_permeability.tmp.png",
+    "images/plots/am_feedstock_zoom_metals.tmp.png",
+    "images/plots/am_feedstock_zoom_metals.png",
+    "images/plots/am_feedstock_overview.png",
+    "notes/hardware/materials/datasheets/new/LATICONTHER 52_11 GR_50 - Material Detail _ LatiLambda_files/logo_3xsa.svg",
     "images/plots/soft_magnetic_saturation_vs_permeability.png",
     "notes/hardware/materials/datasheets/new/Hochgefüllte Kunststoffe mit einzigartigen Eigenschaften_files/11062b_b5690303a8ff470e9b1c03a24aff140b~mv2_002_4D7D.avif",
-    "notes/hardware/materials/datasheets/new/Hochgefüllte Kunststoffe mit einzigartigen Eigenschaften_files/DEU_2x_4D7D.png",
-    "notes/hardware/materials/datasheets/new/Hochgefüllte Kunststoffe mit einzigartigen Eigenschaften_files/GBR_2x_4D7D.png",
-    "notes/hardware/materials/datasheets/new/Hochgefüllte Kunststoffe mit einzigartigen Eigenschaften_files/eed99f_d6eb59d16b734bab9b27dc303f7415cf~mv2_4D7D.avif",
-    "notes/hardware/materials/datasheets/new/Hochgefüllte Kunststoffe mit einzigartigen Eigenschaften_files/GBR_4D7D.png",
-    "notes/hardware/materials/datasheets/new/Hochgefüllte Kunststoffe mit einzigartigen Eigenschaften_files/eed99f_282497f62dcf4892b360ac44e09086a8~mv2_4D7D.avif",
-    "notes/hardware/materials/datasheets/new/Hochgefüllte Kunststoffe mit einzigartigen Eigenschaften_files/eed99f_d59845878f9b44dfbb92b2be570b5fec~mv2_4D7D.avif",
     "Untitled.canvas"
   ]
 }

@@ -1,0 +1,52 @@
+formulas:
+  last_update: file.mtime.format("DD/MM/YYYY HH:mm")
+properties:
+  formula.last_update:
+    displayName: Last update
+views:
+  - type: table
+    name: All entries
+    filters:
+      and:
+        - file.inFolder("notes/hardware/AM feedstock map/entries")
+    order:
+      - file.name
+      - Plot category
+      - Entry type
+      - Plots
+      - Commercial status
+      - Plot label
+      - Manufacturer
+      - Grade
+      - Feedstock format
+      - Volume resistivity (Ω·m)
+      - Surface resistance (Ω)
+      - Value basis
+      - Requires sintering
+      - Source note
+      - References
+      - Status
+      - formula.last_update
+    sort:
+      - property: Plot category
+        direction: ASC
+      - property: Volume resistivity (Ω·m)
+        direction: DESC
+  - type: table
+    name: To validate
+    filters:
+      and:
+        - file.inFolder("notes/hardware/AM feedstock map/entries")
+        - Status == "To validate"
+    order:
+      - file.name
+      - Plot category
+      - Entry type
+      - Volume resistivity (Ω·m)
+      - Surface resistance (Ω)
+      - Value basis
+      - References
+      - formula.last_update
+    sort:
+      - property: Entry type
+        direction: ASC
