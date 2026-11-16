@@ -32,8 +32,8 @@ BASE_FILE = VAULT / "notes" / "hardware" / "AM feedstock map" / "AM feedstock ma
 OUT_DIR = VAULT / "images" / "plots"
 OVERVIEW_NAME = "am_feedstock_overview"
 ZOOM_NAME = "am_feedstock_state_of_the_art"
-OVERVIEW_TITLE = "Commercial AM feedstocks: volume resistivity overview"
-ZOOM_TITLE = "State of the art: near-metal window"
+OVERVIEW_TITLE = "Overview of Commercial Material Extrusion feedstocks"
+ZOOM_TITLE = "State-of-the-art Material Extrusion feedstocks"
 
 VOL_KEY = "Volume resistivity (Ω·m)"
 SURF_KEY = "Surface resistance (Ω)"
@@ -80,6 +80,8 @@ ZOOM_ROWS = {
     "Reference": "Bulk metals",
 }
 ZOOM_ROW_ORDER = ["Commercially available", "Research (papers)", "Patents", "Bulk metals"]
+RHO_CU = 1.7241e-8          # Ω·m, 100 % IACS; the state-of-the-art top axis is ρ / RHO_CU
+REF_EMPHASIS = {"copper"}   # reference lines drawn darker (others lighter)
 ZOOM_ROW_COLOURS = {  # colour repeats the row, so availability reads at a glance
     "Commercially available": PALETTE[0],
     "Research (papers)": PALETTE[2],
@@ -90,6 +92,7 @@ ZOOM_ROW_COLOURS = {  # colour repeats the row, so availability reads at a glanc
 MARKERS = {"filament": ("o", "circle"), "pellet": ("s", "square"), "ink": ("^", "triangle-up"),
            "other": ("D", "diamond")}
 FORMAT_LABEL = {"filament": "Filament", "pellet": "Pellets", "ink": "Ink / paste", "other": "Molded / other"}
+TITLE_SIZE = 15    # figure title font size, pt (HTML uses TITLE_SIZE + 5 px)
 POINT_D = 7.0      # marker diameter, pt
 BAR_W = 9.0        # range bar width in the state-of-the-art plot, pt
 OVERVIEW_BAR_H = 1.0   # overview bar height in row units (1.0 = bars fill the row up to the dividers)
@@ -273,14 +276,40 @@ def place_labels(entries, y_of, xmin, xmax, prefer_below_ranges=False):
             e["label_dy"] = s
 
 
+def group_labels(entries):
+    """One label per product family: entries in the same row from the same manufacturer share a label
+    ('Electrifi (3 grades)', 'RTP EMI 161/162'), placed at their geometric centre. Others keep their own label."""
+    groups = defaultdict(list)
+    for e in entries:
+        key = (e["category"], e["manufacturer"]) if e["manufacturer"] != "n/a" else (e["category"], e["note"])
+        groups[key].append(e)
+    items = []
+    for members in groups.values():
+        if len(members) == 1:
+            items.append(dict(members[0]))
+            continue
+        words = [m["label"].split() for m in members]
+        common = []
+        for parts in zip(*words):
+            if len(set(parts)) != 1:
+                break
+            common.append(parts[0])
+        rest = [" ".join(w[len(common):]) for w in words]
+        base = " ".join(common) or members[0]["manufacturer"]
+        label = f"{base} {'/'.join(rest)}" if all(rest) and len(set(rest)) == len(rest) else f"{base} ({len(members)} grades)"
+        xs = [label_x(m) for m in members]
+        items.append({**members[0], "label": label, "lo": 10 ** (sum(map(math.log10, xs)) / len(xs)), "hi": None})
+    return items
+
+
 # ---------- matplotlib ----------
-def setup_axes(ax, xmin, xmax, order, n_lanes, title):
+def setup_axes(ax, xmin, xmax, order, n_lanes, title, top_axis="conductivity", xlabel="Volume resistivity ρ (Ω·m)"):
     ax.set_xscale("log")
     ax.set_xlim(xmax, xmin)  # reversed: insulators left, metals right
     ax.set_ylim(len(order) - 0.4, -n_lanes - 0.6)
     ax.set_yticks(range(len(order)))
     ax.set_yticklabels(order, fontsize=8.5)
-    ax.set_xlabel("Volume resistivity ρ (Ω·m)")
+    ax.set_xlabel(xlabel)
     ax.grid(True, axis="x", which="major", alpha=0.25)
     ax.set_axisbelow(True)
     for s in ("top", "right"):
@@ -292,9 +321,30 @@ def setup_axes(ax, xmin, xmax, order, n_lanes, title):
         with np.errstate(divide="ignore"):
             return np.where(x > 0, 1.0 / np.where(x > 0, x, 1.0), np.inf)
 
-    top = ax.secondary_xaxis("top", functions=(inv, inv))
-    top.set_xlabel("Conductivity σ (S/m)", fontsize=9)
-    ax.set_title(title, fontsize=11, loc="center", pad=28)
+    if top_axis == "resistivity":
+        # Bottom axis shows conductivity σ = 1/ρ, top axis shows the stored volume resistivity ρ (the ESD/insulative
+        # band limits are defined in resistivity).
+        from matplotlib.ticker import FixedLocator, FuncFormatter, NullFormatter
+        ax.xaxis.set_major_formatter(FuncFormatter(lambda v, _: f"$10^{{{round(-math.log10(v))}}}$" if v > 0 else ""))
+        ax.xaxis.set_minor_formatter(NullFormatter())
+        top = ax.secondary_xaxis("top", functions=(lambda x: np.asarray(x), lambda x: np.asarray(x)))
+        top.set_xlabel("Volume resistivity ρ (Ω·m)", fontsize=9)
+        top.xaxis.set_major_locator(FixedLocator(ax.get_xticks()))  # same decades as the bottom axis
+        top.xaxis.set_minor_formatter(NullFormatter())
+    elif top_axis == "iacs":
+        # Bottom axis shows conductivity σ = 1/ρ (the data stay in ρ; the reversed ρ axis already runs low σ -> high σ),
+        # top axis shows conductivity relative to annealed copper (% IACS).
+        from matplotlib.ticker import FuncFormatter, LogLocator, NullFormatter
+        ax.xaxis.set_major_formatter(FuncFormatter(lambda v, _: f"$10^{{{round(-math.log10(v))}}}$" if v > 0 else ""))
+        ax.xaxis.set_minor_formatter(NullFormatter())
+        top = ax.secondary_xaxis("top", functions=(lambda x: inv(x) * RHO_CU * 100, lambda p: inv(p) * RHO_CU * 100))
+        top.set_xlabel("Conductivity relative to copper (% IACS)", fontsize=9)
+        top.xaxis.set_major_locator(LogLocator(base=10))
+        top.xaxis.set_major_formatter(FuncFormatter(lambda v, _: f"{v:g} %"))
+    else:
+        top = ax.secondary_xaxis("top", functions=(inv, inv))
+        top.set_xlabel("Conductivity σ (S/m)", fontsize=9)
+    ax.set_title(title, fontsize=TITLE_SIZE, loc="center", pad=30, fontweight="bold")
 
 
 def draw_bands_png(ax, bands, xmin, xmax, n_rows):
@@ -346,7 +396,8 @@ def overview_areas(entries):
         commercial = [e for e in group if e["status"].startswith("Commercial") or e["status"] == "Reference"]
         others = [e for e in group if e not in commercial]
         # full span (incl. research / patents) drawn light underneath, commercial span drawn solid on top
-        for members, light in ((group, True), (commercial, False)) if others and commercial else ((group, False),):
+        # rows with only research/patent entries are drawn light too, so solid always means "commercial"
+        for members, light in ((group, True), (commercial, False)) if others and commercial else ((group, not commercial),):
             vals = [e["lo"] for e in members]
             lo, hi = min(vals), max(vals)
             if hi / lo < 10 ** (2 * SINGLE_HALF_DEC):
@@ -371,14 +422,15 @@ def plot_overview_png(entries, bands):
     xmin, xmax = x_limits(entries + bands)
     n_lanes = band_lanes(bands)
     fig, ax = plt.subplots(figsize=(11, 0.55 * (len(order) + n_lanes) + 2.4), dpi=200)
-    setup_axes(ax, xmin, xmax, order, n_lanes, OVERVIEW_TITLE)
+    setup_axes(ax, xmin, xmax, order, n_lanes, OVERVIEW_TITLE, top_axis="resistivity",
+               xlabel="Electrical conductivity σ (S/m)")
     draw_bands_png(ax, bands, xmin, xmax, len(order))
 
     # zoom window
     zlo, zhi = ZOOM_WINDOW
     ax.add_patch(Rectangle((zlo, -0.5), zhi - zlo, len(order), fill=False, linestyle="--", edgecolor=INK,
                            linewidth=1.0, zorder=3))
-    ax.text(gmean(zlo, zhi), len(order) - 0.5, "state of the art", ha="center", va="bottom", fontsize=7.5, color=INK)
+    ax.text(gmean(zlo, zhi), len(order) - 0.5, "state-of-the-art", ha="center", va="bottom", fontsize=7.5, color=INK)
 
     colour = lambda e: ROW_COLOURS.get(e["category"], GREY)
     h = OVERVIEW_BAR_H
@@ -427,23 +479,31 @@ def plot_zoom_png(entries, bands):
     import matplotlib.pyplot as plt
     from matplotlib.lines import Line2D
 
+    refs = [e for e in entries if e["status"] == "Reference"]  # bulk metals -> vertical reference lines
+    entries = [e for e in entries if e["status"] != "Reference"]
     y_of, order = rows_for(entries, ZOOM_ROW_ORDER)
     xmin, xmax = 10 ** (math.log10(ZOOM_WINDOW[0]) - 0.3), 10 ** (math.log10(ZOOM_WINDOW[1]) + 0.3)
-    n_lanes = band_lanes(bands)
-    fig, ax = plt.subplots(figsize=(11, 1.0 * (len(order) + n_lanes) + 2.6), dpi=200)
-    setup_axes(ax, xmin, xmax, order, n_lanes, ZOOM_TITLE)
-    draw_bands_png(ax, bands, xmin, xmax, len(order))
+    fig, ax = plt.subplots(figsize=(11, 1.0 * len(order) + 2.6), dpi=200)
+    setup_axes(ax, xmin, xmax, order, 0, ZOOM_TITLE, top_axis="iacs", xlabel="Electrical conductivity σ (S/m)")
+
+    # reference lines, labelled along the bottom edge; neighbours alternate sides of their line so they don't overlap
+    for k, r in enumerate(sorted(refs, key=lambda r: -r["lo"])):
+        main = r["label"].lower() in REF_EMPHASIS
+        ax.axvline(r["lo"], color=INK, linestyle="--", linewidth=1.1 if main else 0.7, alpha=0.8 if main else 0.4, zorder=1)
+        ax.text(r["lo"], len(order) - 0.45, f" {r['label']} ", rotation=90, ha="right" if k % 2 == 0 else "left",
+                va="bottom", fontsize=7, color=INK, alpha=1 if main else 0.65)
 
     colour = lambda e: ZOOM_ROW_COLOURS.get(e["category"], GREY)
-    place_labels(entries, lambda e: y_of[e["category"]], xmin, xmax)
+    items = group_labels(entries)
+    place_labels(items, lambda e: y_of[e["category"]], xmin, xmax)
     for e in entries:
         y, c = y_of[e["category"]], colour(e)
         if e["hi"]:
             ax.plot([e["lo"], e["hi"]], [y, y], color=c, linewidth=BAR_W, solid_capstyle="round", alpha=0.6, zorder=5)
-            label_png(ax, e, gmean(e["lo"], e["hi"]), y)
         else:
             draw_point_png(ax, e["lo"], y, c, e["format"], e["sinter"], z=20)
-            label_png(ax, e, e["lo"], y)
+    for it in items:
+        label_png(ax, it, label_x(it), y_of[it["category"]])
 
     handles = [Line2D([], [], marker="o", linestyle="", markersize=POINT_D, markerfacecolor=c, markeredgecolor="white",
                       label=r) for r, c in ZOOM_ROW_COLOURS.items() if r in order]
@@ -453,7 +513,9 @@ def plot_zoom_png(entries, bands):
     if any(e["sinter"] for e in entries):
         handles.append(Line2D([], [], marker="o", linestyle="", markersize=POINT_D, markerfacecolor="white",
                               markeredgecolor=INK, markeredgewidth=1.4, label="Hollow = requires sintering"))
-    ax.legend(handles=handles, loc="upper center", bbox_to_anchor=(0.5, -0.09), ncol=4, fontsize=7.5, frameon=False,
+    if refs:
+        handles.append(Line2D([0, 1], [0, 0], color=INK, linestyle="--", linewidth=1.1, label="Bulk metal reference"))
+    ax.legend(handles=handles, loc="upper center", bbox_to_anchor=(0.5, -0.17), ncol=4, fontsize=7.5, frameon=False,
               title="Colour = availability (row)   ·   shape = feedstock format", title_fontsize=7.5)
     fig.tight_layout()
     out = save_png(fig, ZOOM_NAME)
@@ -524,12 +586,12 @@ def plotly_fig(entries, bands, order, y_of, xmin, xmax, n_lanes, title, colour_o
                                      textfont=dict(size=10)))
         else:
             sym = MARKERS[e["format"]][1] + ("-open" if e["sinter"] else "")
-            fig.add_trace(go.Scatter(x=[e["lo"]], y=[y], mode="markers+text", text=[e["label"]],
+            fig.add_trace(go.Scatter(x=[e["lo"]], y=[y], mode="markers+text", text=["" if mode == "zoom" else e["label"]],
                                      textposition="top center" if e.get("label_dy", 1) > 0 else "bottom center",
                                      marker=dict(size=POINT_PX, color=c, symbol=sym, line=dict(width=2 if e["sinter"] else 0, color=c)),
                                      customdata=[custom(e)], hovertemplate=HOVER, showlegend=False, textfont=dict(size=10)))
     fig.update_layout(
-        title=dict(text=title, x=0.5, xanchor="center"), template="plotly_white", shapes=shapes, annotations=annotations,
+        title=dict(text=title, x=0.5, xanchor="center", font=dict(size=TITLE_SIZE + 5)), template="plotly_white", shapes=shapes, annotations=annotations,
         height=60 * (len(order) + n_lanes) + 200,
         xaxis=dict(type="log", range=[math.log10(xmax), math.log10(xmin)], title="Volume resistivity ρ (Ω·m)",
                    exponentformat="power"),
@@ -549,6 +611,10 @@ def save_html(fig, name):
 
 
 def plot_html(entries, bands, mode):
+    refs = []
+    if mode == "zoom":  # same simplifications as the PNG: no bands, bulk metals as reference lines
+        refs = [e for e in entries if e["status"] == "Reference"]
+        entries, bands = [e for e in entries if e["status"] != "Reference"], []
     y_of, order = rows_for(entries, ROW_ORDER if mode == "overview" else ZOOM_ROW_ORDER)
     n_lanes = band_lanes(bands)
     if mode == "overview":
@@ -560,7 +626,25 @@ def plot_html(entries, bands, mode):
         colour_of = lambda e: ZOOM_ROW_COLOURS.get(e["category"], GREY)
         title, name = ZOOM_TITLE, ZOOM_NAME
     place_labels(entries, lambda e: y_of[e["category"]], xmin, xmax, prefer_below_ranges=(mode == "overview"))
-    return save_html(plotly_fig(entries, bands, order, y_of, xmin, xmax, n_lanes, title, colour_of, mode), name)
+    fig = plotly_fig(entries, bands, order, y_of, xmin, xmax, n_lanes, title, colour_of, mode)
+    if mode == "overview":  # conductivity labels on the bottom axis, as in the PNG
+        decades = range(math.ceil(math.log10(xmin)), math.floor(math.log10(xmax)) + 1, 3)
+        fig.update_xaxes(title="Electrical conductivity σ (S/m)   (resistivity ρ = 1/σ in the hover)",
+                         tickvals=[10 ** d for d in decades], ticktext=[f"10<sup>{-d}</sup>" for d in decades])
+    if mode == "zoom":
+        items = group_labels(entries)
+        place_labels(items, lambda e: y_of[e["category"]], xmin, xmax)
+        for it in items:
+            fig.add_annotation(x=math.log10(label_x(it)), y=y_of[it["category"]], text=it["label"], showarrow=False,
+                               yshift=14 * it.get("label_dy", 1), font=dict(size=10, color="#333333"))
+        for r in refs:
+            main = r["label"].lower() in REF_EMPHASIS
+            fig.add_vline(x=r["lo"], line=dict(color=INK, dash="dash", width=1.5 if main else 1), opacity=0.8 if main else 0.4,
+                          annotation_text=r["label"], annotation_position="top")
+        decades = range(math.ceil(math.log10(xmin)), math.floor(math.log10(xmax)) + 1)
+        fig.update_xaxes(title="Electrical conductivity σ (S/m)", tickvals=[10 ** d for d in decades],
+                         ticktext=[f"10<sup>{-d}</sup>" for d in decades])
+    return save_html(fig, name)
 
 
 # ---------- main ----------

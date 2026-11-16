@@ -27,7 +27,7 @@ Lead time: n/a
 Status: To validate
 Datasheet: n/a
 Processing instructions: n/a
-Plot category: Metal-polymer
+Plot category: Metal
 Entry type: Product
 Plots:
   - Zoom

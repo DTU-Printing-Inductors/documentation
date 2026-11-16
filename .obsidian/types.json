@@ -7,6 +7,7 @@
     "Volume resistivity (Ω·m)": "text",
     "Surface resistivity (Ω/sq)": "text",
     "Functionality": "multitext",
-    "Website": "multitext"
+    "Website": "multitext",
+    "Source note": "multitext"
   }
 }

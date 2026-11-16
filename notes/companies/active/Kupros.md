@@ -23,9 +23,11 @@ Contacts:
 
 ## Communication
 
-| Timestamp        | Status  | Who? | Type          | Summary                                                      | Email link                                          |
-| ---------------- | ------- | ---- | ------------- | ------------------------------------------------------------ | --------------------------------------------------- |
-| 13:21 13/11/2026 | Waiting | Me   | Initial email | Asking about adherence to polymers, stock, price, lead time. | ![[Cu29 inquiry for 3D-printed windings (DTU).msg]] |
+| Timestamp        | Status    | Who? | Type          | Summary                                                                                                                                                                    | Email link                                                |
+| ---------------- | --------- | ---- | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------- |
+| 13:21 13/11/2026 | Responded | Me   | Initial email | Asking about adherence to polymers, stock, price, lead time.                                                                                                               | ![[Cu29 inquiry for 3D-printed windings (DTU).msg]]       |
+| 15:54 16/11/2026 | Answered  | Them | Email         | They're interested. They haven't tested adherence to PA12. They can't ship outside of US. Happy to stay in touch.                                                          | ![[Re_ Cu29 inquiry for 3D-printed windings (DTU).msg]]   |
+| 10:13 16/11/2026 | Waiting   | Me   | Email         | Mentioning that we're eager to test it. Asking clarification for the legality and whether they would do freight forwarder. Asking about layer-by-layer adhesion and stuff. | ![[RE_ Cu29 inquiry for 3D-printed windings (DTU) 1.msg]] |
 
 
 ## Initial email

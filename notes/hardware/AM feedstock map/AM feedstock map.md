@@ -4,7 +4,9 @@ Two figures of volume resistivity (Ω·m) for the review, generated from the ent
 
 1. **Overview**: commercial AM feedstocks from insulators to metals, kept general. One thick bar per category over the ESD / conductive / EMI / metal bands, plus a box marking the state-of-the-art window. No format or product detail: a row that has no `Area` entry gets one bar spanning its products.
 2. **State of the art**: the near-metal window (1e-8 to 1e-3 Ω·m). This is where the detail goes.
-   - **rows** = availability, from `Commercial status`: Commercially available (AM feedstock and molding-only; molding-only ones say so in their label), Research (papers), Patents, Bulk metals
+   - **rows** = availability, from `Commercial status`: Commercially available (AM feedstock and molding-only), Research (papers), Patents. Bulk metals (`Reference`) are drawn as dashed vertical lines, copper darkest
+   - **top axis** = resistivity relative to copper (× ρ_Cu); no band strip
+   - **labels**: entries in the same row from the same manufacturer share one label (e.g. "Electrifi (3 grades)"); individual names are in the HTML hover
    - **colour** repeats the row: commercial (blue), research (green), patents (orange), bulk metals (dark grey)
    - **shape** = filament ● / pellet ■ / molded or other ◆
    - **hollow** = requires sintering

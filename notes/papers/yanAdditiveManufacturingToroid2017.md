@@ -65,6 +65,10 @@ Entry: "[[Additive_Manufacturing_of_Toroid_Inductor_for_Power_Electronics_Applic
 > [!PDF|yellow] [[Additive_Manufacturing_of_Toroid_Inductor_for_Power_Electronics_Applications.pdf#page=5&selection=57,11,60,15&color=yellow|Additive_Manufacturing_of_Toroid_Inductor_for_Power_Electronics_Applications, p.5]]
 > > Because the Metglas material is highly conductive, we believe that the interflake eddy-current loss is a significant contributor to the higher core-loss density found in the cured poly-mag cores.
 
+> [!PDF|yellow] [[Additive_Manufacturing_of_Toroid_Inductor_for_Power_Electronics_Applications.pdf#page=3&selection=136,0,137,52&color=yellow|Additive_Manufacturing_of_Toroid_Inductor_for_Power_Electronics_Applications, p.3]]
+> > To print electrical winding, we tested the commercial nanosilver paste which was developed for chip bonding [19].
+> 
+> Links back to [[Virginia Tech Nanosilver ink]]
 ## Interpretation
 
 ## Ideas
