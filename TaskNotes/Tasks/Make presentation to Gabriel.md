@@ -5,7 +5,7 @@ dateCreated: 2026-11-11T16:26:16.061+01:00
 dateModified: 2026-11-12T15:33:28.181+01:00
 tags:
   - task
-tasknotes_manual_order: tnyjtmzzzzzl
+tasknotes_manual_order: tntmzzzzzzzo
 ---
 
 Present the finding from the soft magnetics materials.

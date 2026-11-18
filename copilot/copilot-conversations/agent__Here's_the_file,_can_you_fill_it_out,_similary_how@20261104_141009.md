@@ -6,8 +6,8 @@ sessionId: "1970f75e-7002-453a-86c3-7ae43e8a4792"
 topic: "Here's the file, can you fill it out, similary how i did oth…"
 tags:
   - copilot-conversation
-usage: '{"usedTokens":706432,"contextWindow":1000000,"inputTokens":2,"outputTokens":6,"cacheReadTokens":705143,"cacheWriteTokens":1281,"updatedAt":1794574812320}'
-lastAccessedAt: 1794475450646
+usage: '{"usedTokens":738252,"contextWindow":1000000,"inputTokens":2,"outputTokens":182,"cacheReadTokens":737635,"cacheWriteTokens":433,"updatedAt":1794834443480}'
+lastAccessedAt: 1794833625736
 ---
 
 **user**: Here's the file, can you fill it out, similary how i did other company files, here's the email conversation "Thanks for providing the details. If I run into issues, I’ll let you know.
@@ -2530,7 +2530,7 @@ Refresh with `uv run scripts/plot_soft_magnetic.py`.
 [Timestamp: 2026/11/11 15:58:12]
 
 **user**: Alright, I got new 20 files and I want to add them as thermally conductive do the workflow
-[Timestamp: 2026/11/12 10:24:35]
+[Timestamp: 2026/11/12 10:24:37]
 
 **ai**: The key is in the data. The problem is that my earlier PowerShell edit corrupted the "°" inside the generator script itself. I'll match that row by its prefix instead, so the "°" doesn't matter:Before writing the notes, I'll check whether the same corruption hit other special characters in the template (Ω, ·, ÷). The property names depend on them:They're corrupted too, so the notes would have had wrong property names. I'll rewrite the generator cleanly with all the fixes included:All 20 drafts are written, and every link and property name checks out. Let me spot-check one note:**20 LATI draft notes are in `info/validate/`**, ready for review in `Validation.base`. All of them have Functionality "Thermally conductive".
 
@@ -2562,7 +2562,7 @@ Refresh with `uv run scripts/plot_soft_magnetic.py`.
 **For your work:**
 - **PA12 grades:** 82 CP1/800 and 83 CP/85 (2.1 / 1.7, nearly isotropic, insulating).
 - **PA6 graphite grades:** much higher conductivity, but they conduct electricity.
-[Timestamp: 2026/11/12 10:24:35]
+[Timestamp: 2026/11/12 10:24:57]
 
 **user**: I validate
 [Timestamp: 2026/11/12 10:36:02]
@@ -2570,7 +2570,7 @@ Refresh with `uv run scripts/plot_soft_magnetic.py`.
 **ai**: I've approved all 20 LATI notes. They're in `info/AI` with `Status: Identified`, and `info/validate/` is empty. They'll show up in `Thermally conductive materials.base`.
 
 One question is still open. Manufacturer is plain "LATI" for now, so these materials aren't linked to any company in `Companies.base`. Should I create a LATI company note, or link them to [[Lati3Dlab]]?
-[Timestamp: 2026/11/12 10:36:02]
+[Timestamp: 2026/11/12 10:36:09]
 
 **user**: I've added new materials, these are supposted to be electrically conductive.
 [Timestamp: 2026/11/12 13:35:00]
@@ -2597,7 +2597,7 @@ One question is still open. Manufacturer is plain "LATI" for now, so these mater
 - **For your work:** the three PA612 grades are close relatives of PA12, all with carbon fibre and about 10⁻³ Ω·m at best.
 
 When you validate them, I'll approve the notes and update [[Plastics.com]]: Found "Electrically conductive", Scraped ticked, and links to these 6 under Products.
-[Timestamp: 2026/11/12 13:35:00]
+[Timestamp: 2026/11/12 13:35:33]
 
 **user**: make the volume resistivity the average of the two values, and make it numerical
 [Timestamp: 2026/11/12 13:50:33]
@@ -2616,7 +2616,7 @@ When you validate them, I'll approve the notes and update [[Plastics.com]]: Foun
 Each note body still states the original Ω·cm range, the converted Ω·m range, and that the property holds the mean.
 
 These ranges span one to three orders of magnitude, so a plain average sits almost at the upper end. RTP 283 D TFE 15 SI 2, for example, gets 0.5 Ω·m, even though its range starts at 0.001. The geometric mean (the middle on a log scale) would represent the range more fairly: 0.0032, 0.01, 0.032, 0.01, 0.01 and 0.001 Ω·m. Tell me if you'd rather use that.
-[Timestamp: 2026/11/12 13:50:33]
+[Timestamp: 2026/11/12 13:50:44]
 
 **user**: I've validated
 [Timestamp: 2026/11/12 13:52:56]
@@ -2629,13 +2629,13 @@ I also updated [[Plastics.com]]:
 - **Products:** links to all 6 RTP grades
 
 Your Investigation note says you're still gathering from Plastics.com, e.g. Techmer's Electrifil and Highfil. If more batches are coming, untick Scraped until you're done, or I'll keep adding to the Products list as they arrive.
-[Timestamp: 2026/11/12 13:52:56]
+[Timestamp: 2026/11/12 13:53:03]
 
 **user**: Go back to those, and make them a dot not a comma
 [Timestamp: 2026/11/12 13:54:50]
 
 **ai**: 
-[Timestamp: 2026/11/12 13:54:50]
+[Timestamp: 2026/11/12 13:54:57]
 
 **user**: Go back to those which i added and for the numerical values have a dot as the seperator not comma
 [Timestamp: 2026/11/12 13:55:28]
@@ -2651,7 +2651,7 @@ If you're still seeing commas in `Electrically conductive materials.base`, that'
 - Store those values as text (in quotes), so Obsidian shows them exactly as written. The downside is that the base would sort them as text, not as numbers.
 
 If you meant specific notes, tell me which ones and I'll check them directly.
-[Timestamp: 2026/11/12 13:55:28]
+[Timestamp: 2026/11/12 13:55:35]
 
 **user**: I got a new electrically conductive material
 [Timestamp: 2026/11/12 14:22:28]
@@ -2673,7 +2673,7 @@ If you meant specific notes, tell me which ones and I'll check them directly.
 - **Supplier:** I set it as plain text ("shshsj.com (Chinese distributor)"). There's no company note for it, and none for A. Schulman.
 
 When you validate it, I'll approve it. Should I also create a company note for A. Schulman (or LyondellBasell), or for the distributor?
-[Timestamp: 2026/11/12 14:22:28]
+[Timestamp: 2026/11/12 14:22:52]
 
 **user**: I've validated
 [Timestamp: 2026/11/12 14:52:58]
@@ -2681,7 +2681,7 @@ When you validate it, I'll approve it. Should I also create a company note for A
 **ai**: I updated the note text to match: it now says the distributor page doesn't name the filler, and that the copper and tin/zinc figures were added during validation. Your filler values and the "(LyondellBasell)" you added to Manufacturer are unchanged.
 
 There's still no company note for A. Schulman / LyondellBasell. If you want one, I can create it and link this material to it.
-[Timestamp: 2026/11/12 14:52:58]
+[Timestamp: 2026/11/12 14:53:21]
 
 **user**: I've added a new electrically conductive material
 [Timestamp: 2026/11/13 13:55:57]
@@ -2691,4 +2691,90 @@ There's still no company note for A. Schulman / LyondellBasell. If you want one,
 So I haven't created a note. The duplicate PDF is still in `datasheets/new/` and its parsed copy is in `info/raw/` as `pp-1680-emi-162-1.md`. Since the files are identical, there's nothing to gain by keeping them. Should I delete both, or keep the PDF as a `_reprint` copy as your rules normally say for duplicates?
 
 If you meant to add a different material, the file may have been saved under the wrong name, so check your downloads.
-[Timestamp: 2026/11/13 13:55:57]
+[Timestamp: 2026/11/13 13:56:18]
+
+**user**: I've added new materials, as thermally conductive and electrically insulative, do the workflow
+[Timestamp: 2026/11/16 13:54:08]
+
+**ai**: `datasheets/new/` is empty, so there was nothing to parse. Let me check whether the files landed somewhere else:The files are there now. They were probably still syncing through OneDrive a moment ago. Parsing the 10 RTP PDFs:**10 RTP Company draft notes are in `info/validate/`**, ready for review in `Validation.base`.
+- **Run:** parsing took 166 s, with no OCR retries and no duplicates.
+- **Filing:** the PDFs are renamed `RTP_<grade>.pdf` in `datasheets/AI parsed/`, and every link works.
+- **Fields:** all 10 have Functionality "Thermally conductive", Type "Thermally conductive, electrically insulative", Supplier [[Plastics.com]], and Filler `n/a`, since none of the datasheets name a filler.
+
+| Grade | Matrix | Through-plane k (W/m·K) | Insulation | Other |
+| --- | --- | --- | --- | --- |
+| RTP 1399 X 137161 A | PPS | **1.30** | >10¹⁴ Ω/sq, 15.5 kV/mm | V-0 |
+| RTP 299 X 134444 C | PA66 | 1.20 | >10¹² Ω/sq | |
+| RTP 299 X 137151 A | PA66 | 1.20 | >10¹² Ω/sq, 15.5 kV/mm | V-0, flame retardant |
+| RTP 299 X 137151 B | PA66 | 1.20 | >10¹² Ω/sq | V-0, flame retardant |
+| RTP 1399 X 138961 | PPS | 1.00 | 15.0 kV/mm | V-0, HDT 232 °C |
+| RTP 299 X 137092 D | PA66 | 1.00 | >10¹⁰ Ω·m volume | 95% reflectivity |
+| RTP 1399 X 128625 | PPS | 0.90 | >10¹² Ω/sq | V-0, HDT 271 °C |
+| RTP 1399 X 137161 C | PPS | 0.80 | >10¹⁴ Ω/sq | V-0 |
+| RTP 299 X 140979 | PA66 | 0.70 | >10¹² Ω/sq, 15.0 kV/mm | |
+| RTP 199 X 91020 A Z | PP | 0.60 | >10¹⁰ Ω·m volume | FDA-compliant ingredients |
+
+**How I stored the values:**
+- **Through-plane only:** these datasheets give only through-plane conductivity (ASTM E 1530), so in-plane stays `n/a`. That makes them easy to compare with your other grades on the through-plane axis.
+- **Lower bounds:** values like ">10¹²" are stored as plain numbers at the bound (e.g. 1E12 Ω/sq, or 1E10 Ω·m converted from Ω·cm), so the base can sort them. The ">" is stated in each body.
+
+**For your work:**
+- **PPS grades** need drying at 149 °C and a 307–329 °C melt, which is within your Mahor V5's range.
+- **PA66 grades** process at 277–299 °C.
+
+When you validate them, I'll approve the notes and add these 10 to the Products list in [[Plastics.com]], with "Thermally conductive" added to its Found list.
+[Timestamp: 2026/11/16 13:54:08]
+
+**user**: The supplier is not Plastics.com it's RTP. I corrected, and validated
+[Timestamp: 2026/11/16 14:00:54]
+
+**ai**: I've approved all 10 RTP notes with your corrected Supplier. They're in `info/AI` with `Status: Identified`, and `info/validate/` is empty.
+
+I didn't add them to [[Plastics.com]], since it's only the database you searched. I've also saved that as a rule: Supplier is the company that sells the material, not the site where the datasheet came from.
+
+The 6 electrically conductive RTP notes from 12 November still have the same mistake:
+- **Their notes** still say `Supplier: "[[Plastics.com]]"`. They are RTP 284 C TFE 15, RTP 283 D TFE 15, RTP 283 D TFE 15 SI 2, RTP 285 D SI 2, RTP EMI 161 and RTP EMI 162.
+- **[[Plastics.com]]** lists those 6 under Products, and I set its Found to "Electrically conductive" and ticked Scraped because of them.
+
+Should I correct those 6 to match the format you used on the new ones, and remove them from Plastics.com?
+[Timestamp: 2026/11/16 14:00:54]
+
+**user**: Now I added electrically conductive from RTP
+[Timestamp: 2026/11/16 14:03:01]
+
+**ai**: **14 RTP draft notes are in `info/validate/`**, ready for review in `Validation.base`.
+- **Run:** parsing took 126 s, with no OCR retries and no duplicates.
+- **Filing:** the PDFs are in `datasheets/AI parsed/` as `RTP_<grade>.pdf`, and all links work.
+- **Fields:** Supplier is `RTP`, in the list format you used, and Functionality is "Electrically conductive". Filler is `n/a`, since RTP doesn't name it.
+
+| Grade | Matrix | Through / in-plane k (W/m·K) | Volume resistivity (Ω·m) | Notes |
+| --- | --- | --- | --- | --- |
+| RTP 1399 X 137162 B | PPS | 2.70 / **20.0** | < 1 | V-0, flame retardant |
+| RTP 299 X 137152 A | PA66 | 2.50 / **20.0** | < 1 | V-0, flame retardant |
+| RTP 1399 X 137162 L | PPS | 2.00 / **20.0** | < 100 | V-0 |
+| RTP 3499-3 X 92886 | LCP | **3.00** / 18.0 | **< 0.1** | V-0, melt 332–366 °C |
+| RTP 299 X 140984 | PA66 | 2.50 / 10.0 | < 100 | |
+| RTP 799 X 131030 C | HDPE | 1.50 / 6.0 | < 100 | |
+| RTP 4099 X 137099 D | PPA | 1.20 / 6.0 | n/a (surface < 10⁶ Ω/sq) | |
+| RTP 1399 X 137162 E | PPS | 1.20 / 5.0 | < 100 | V-0 |
+| RTP 299 X 137152 C | PA66 | 1.50 / 5.0 | < 100 | V-0, flame retardant |
+| RTP 399 X 137054 | PC | 0.85 / 4.0 | < 10⁴ | |
+| RTP 200 TC-C-20 FR | PA66 | 1.30 / 2.74 | < 1 | V-0, flame retardant |
+| RTP 799 X 116773 | HDPE | 2.20 / n/a | 0.5005 (mean of 0.001–1) | |
+| RTP 199 X 104849 A | PP | 1.70 / n/a | < 0.1 | HB |
+| RTP 1399 X 137162 J | PPS | 0.75 / 2.50 | n/a | see below |
+
+**Things to check:**
+- **RTP 1399 X 137162 J has no electrical values,** and its title says only "Thermally conductive". I still set it to "Electrically conductive" because you called the batch that, but it may belong under thermally conductive instead.
+- **RTP 199 X 104849 A** is also titled only "Thermally conductive", although its datasheet gives < 10⁻¹ Ω·m, so it does conduct electricity.
+- **"<" values** are upper bounds stored as the bound value, so the real resistivity is that or lower. RTP 799 X 116773 gives a range, which I stored as the arithmetic mean like before. Each note body says which applies.
+- **Units:** Ω·cm was converted to Ω·m (÷100).
+[Timestamp: 2026/11/16 14:03:01]
+
+**user**: I approve
+[Timestamp: 2026/11/16 14:07:02]
+
+**ai**: I've approved all 14 RTP notes. They're in `info/AI` with `Status: Identified`, and `info/validate/` is empty. They'll show up in `Electrically conductive materials.base`, including RTP 1399 X 137162 J.
+
+One thing from 16 November is still open: the 6 older RTP electrically conductive notes still list `Supplier: "[[Plastics.com]]"`, and they're listed under Products in [[Plastics.com]]. Should I change them to `RTP` like the newer ones and remove them from Plastics.com?
+[Timestamp: 2026/11/16 14:07:02]

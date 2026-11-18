@@ -1,1 +1,3 @@
 Print a component that has heat conducting but electrically isolating heatsink, then a magnetic core and inside it theres conductive traces. TPU or other material can be used as an interface to bond two materials that might not be compatible. For example Electrifi polyester with PA12 FeSiAl, and then the heatsink can be PA12 based as well, to bond, or we can switch to PA6.66 or similar if that's better.
+
+If we go with all-metal filament, and we encounter adhesion issues, we can use copper filament, for it to adhere, or print/solder on it.

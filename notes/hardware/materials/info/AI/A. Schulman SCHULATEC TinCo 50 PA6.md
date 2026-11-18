@@ -31,3 +31,9 @@ Processing instructions: Injection molding; dry 3-4 h at 80 °C; mold 50-80 °C;
 Parsed source: [[notes/hardware/materials/info/raw/ASchulman_SCHULATEC_TinCo_50_PA6.md]]
 
 Chinese distributor page (shshsj.com), not an official A. Schulman TDS (A. Schulman is now part of LyondellBasell). Volume resistivity given as 5.0E-4 Ω·cm (IEC 60093), converted to 5E-6 Ω·m: by far the most conductive material in the vault, close to metal-like. The distributor page doesn't name the filler; the filler properties (Cu fibre 52 wt%, Sn/Zn alloy 33 wt%) were added during validation, which is consistent with the very high density (3.40 g/cm³). The page lists the material characteristic as flame retardant (阻燃), yet the flammability rating is UL 94 HB at 1.5 mm. Natural colour, pellets. Water absorption 2.2% (24 h), tensile strength 33 MPa, tensile modulus 4100 MPa, elongation at break 3%, HDT 181 °C (0.45 MPa) / 110 °C (1.8 MPa), Vicat 215 °C.
+
+## Mentions
+- DTU CIRP Annals 2017 paper used it for direct electroplating, [10.1016/j.cirp.2017.04.124](https://doi.org/10.1016/j.cirp.2017.04.124)
+- DTU 2016 Injection molded hearing aid https://orbit.dtu.dk/en/publications/feasibility-study-of-injection-mouldable-conductive-plastic-for-t/
+- Developed for [[Hella]] (https://www.designnews.com/electronics/new-technology-molds-electrical-circuits-into-plastic-compounds)
+- https://backend.orbit.dtu.dk/ws/files/236210450/Development_of_metal_graphene_filled_hybrid_composites.pdf

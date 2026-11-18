@@ -39,6 +39,7 @@ Requires sintering: false
 Value basis: Patent
 References:
   - https://patents.google.com/patent/US20070158617A1/en
+  - https://publications.rwth-aachen.de/record/189110/
 ---
 PA6:MCP 200:Cu fibre = 10:35:55 wt%, 5.4e-5 Ω·cm. TinCo 50 descends from this family.
 

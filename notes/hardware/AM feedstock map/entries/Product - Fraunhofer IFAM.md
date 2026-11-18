@@ -1,19 +1,19 @@
 ---
-Grade: Ag-TPU filament patent
-Manufacturer: n/a
+Grade: n/a
+Manufacturer: Fraunhofer IFAM
 Supplier: n/a
-Type: Research composite
+Type: Electrically conductive
 Functionality: n/a
-Matrix: TPU
-Filler: Silver 5-30 vol%
+Matrix: PA6, PA6.6, PA12, PP, PPS, ABS, PEI and PEEK
+Filler: n/a
 Filler loading: n/a
 Size: n/a
-Feedstock format: Filament
+Feedstock format: Pellets, Filament
 Permeability: n/a
 Surface resistivity (Ω/sq): n/a
 Surface resistance (Ω): n/a
 Surface resistance standard: n/a
-Volume resistivity (Ω·m): "6.3e-5"
+Volume resistivity (Ω·m): "0.000001"
 Volume resistivity standard: n/a
 Dielectric properties: n/a
 Thermal conductivity integral (W/m·K): n/a
@@ -24,26 +24,21 @@ Thermal conductivity directional standard: n/a
 MOQ: n/a
 Price: n/a
 Lead time: n/a
-Status: To validate
+Status: Validated
 Datasheet: n/a
 Processing instructions: n/a
 Plot category: Metal-polymer
-Entry type: Literature
+Entry type: Product
 Plots:
-  - Overview
   - Zoom
-Commercial status: Patent
-Plot label: Ag/TPU
+Commercial status: Commercial AM feedstock
+Plot label: Fraunhofer
 Source note: n/a
 Requires sintering: false
-Value basis: Patent
+Value basis: n/a
 References:
-  - https://patents.google.com/patent/EP4184529A1/en
+  - https://www.ifam.fraunhofer.de/en/technologies/electrically-conductive-composites-.html
+  - https://www.ifam.fraunhofer.de/en/technologies/filament-production-for-3D-printing.html
 ---
-0.0063 ± 0.0025 Ω·cm.
 
-## Sources
-- [EP4184529A1](https://patents.google.com/patent/EP4184529A1/en)
 
-## To validate
-- [ ] Read the full text and confirm the value, unit and specimen type
