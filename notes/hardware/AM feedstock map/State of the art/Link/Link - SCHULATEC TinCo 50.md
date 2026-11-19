@@ -1,7 +1,7 @@
 ---
 Feedstock format: Molded
 Status: Identified
-Plot category: Metal-polymer
+Plot category: Low-melt alloy hybrids
 Entry type: Product
 Plots:
   - Overview
@@ -10,6 +10,7 @@ Commercial status: Commercial molding-only
 Plot label: TinCo 50
 Source note: "[[A. Schulman SCHULATEC TinCo 50 PA6]]"
 Requires sintering: false
+Printed: false
 Value basis: From source note
 References: []
 ---

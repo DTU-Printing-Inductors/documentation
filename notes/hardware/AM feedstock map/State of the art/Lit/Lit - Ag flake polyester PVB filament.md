@@ -27,7 +27,7 @@ Lead time: n/a
 Status: "To validate"
 Datasheet: n/a
 Processing instructions: n/a
-Plot category: "Metal-polymer"
+Plot category: "Metal-filled polymers"
 Entry type: "Literature"
 Plots:
   - "Overview"
@@ -36,6 +36,7 @@ Commercial status: "Research"
 Plot label: "Ag flake / SP / PVB"
 Source note: n/a
 Requires sintering: false
+Printed: true
 Value basis: "Paper / patent"
 References:
   - "https://www.sciencedirect.com/science/article/abs/pii/S0266353818331282"
@@ -43,7 +44,7 @@ References:
 3.14e-4 Ω·cm via film transition and flow-aligned 2D silver flakes.
 
 ## Sources
-- Ag/saturated polyester/polyvinyl butyral composite filaments, *Composites Science and Technology* (2019), [ScienceDirect](https://www.sciencedirect.com/science/article/abs/pii/S0266353818331282)
+- Lei, Chen, Zhou et al., *Composites Science and Technology* 180 (2019) 44-50, [10.1016/j.compscitech.2019.05.003](https://doi.org/10.1016/j.compscitech.2019.05.003) ([ScienceDirect](https://www.sciencedirect.com/science/article/abs/pii/S0266353818331282)): the value is the filament's; 3D-printed samples were tested for adhesion on paper, PET and alumina.
 
 ## To validate
 - [ ] Read the full text and confirm the value, unit and specimen type

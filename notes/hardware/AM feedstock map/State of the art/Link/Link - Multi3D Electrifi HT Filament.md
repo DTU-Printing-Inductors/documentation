@@ -1,7 +1,7 @@
 ---
 Feedstock format: Filament
 Status: Identified
-Plot category: Metal-polymer
+Plot category: Metal-filled polymers
 Entry type: Product
 Plots:
   - Overview
@@ -10,6 +10,7 @@ Commercial status: Commercial AM feedstock
 Plot label: Electrifi HT
 Source note: "[[Multi3D Electrifi HT Filament]]"
 Requires sintering: false
+Printed: true
 Value basis: From source note
 References: []
 ---

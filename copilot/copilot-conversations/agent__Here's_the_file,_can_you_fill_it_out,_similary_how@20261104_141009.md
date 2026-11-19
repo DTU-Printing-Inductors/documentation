@@ -6,7 +6,7 @@ sessionId: "1970f75e-7002-453a-86c3-7ae43e8a4792"
 topic: "Here's the file, can you fill it out, similary how i did oth…"
 tags:
   - copilot-conversation
-usage: '{"usedTokens":738252,"contextWindow":1000000,"inputTokens":2,"outputTokens":182,"cacheReadTokens":737635,"cacheWriteTokens":433,"updatedAt":1794834443480}'
+usage: '{"usedTokens":756035,"contextWindow":1000000,"inputTokens":2,"outputTokens":8,"cacheReadTokens":753424,"cacheWriteTokens":2601,"updatedAt":1795083237268}'
 lastAccessedAt: 1794833625736
 ---
 
@@ -2778,3 +2778,151 @@ Should I correct those 6 to match the format you used on the new ones, and remov
 
 One thing from 16 November is still open: the 6 older RTP electrically conductive notes still list `Supplier: "[[Plastics.com]]"`, and they're listed under Products in [[Plastics.com]]. Should I change them to `RTP` like the newer ones and remove them from Plastics.com?
 [Timestamp: 2026/11/16 14:07:02]
+
+**user**: I want to create an evaluation matrix in bases, where each property will have a value and then will be multiplied by a weight which is the same for the whole property and then i will want to calculate the total score in the end. And then also have like explanation for each property. How can I achieve this, do I need kinda like a configuration file, where I input the weights for the properties, and then also explain the scores there as well?
+[Timestamp: 2026/11/19 11:06:11]
+
+**ai**: Yes, bases can do this. You need three pieces: scores on each category note, weights and total in the base, and one explanation note.
+
+## 1. Scores: a number property on each category note
+Each note in `State of the art/Categories/` (Metal-filled polymers, Liquid metals, …) gets one property per criterion. Those notes are empty right now, so this is where your input goes:
+```yaml
+---
+Compatibility with PA: 4
+Cost: 2
+Process simplicity: 3
+Adaption maturity: 4
+Availability: 3
+Implementation simplicity: 3
+Conductivity: 5
+---
+```
+Use one fixed scale for every criterion, e.g. 1–5, where 5 is always the best. For cost that means 5 = cheapest. That way "higher is better" holds everywhere and the weights work consistently.
+
+## 2. Weights and total: inside the base
+Put the weights directly in the `.base` file as formulas. A base can't reliably read properties from a separate configuration note, but formulas work for this:
+```yaml
+formulas:
+  w_pa: "3"
+  w_cost: "2"
+  w_process: "2"
+  w_maturity: "1"
+  w_availability: "1"
+  w_implementation: "2"
+  w_conductivity: "3"
+  total: '(note["Compatibility with PA"] * formula.w_pa + note["Cost"] * formula.w_cost + ...) / (formula.w_pa + formula.w_cost + ...)'
+```
+- **One weight per criterion,** defined once for the whole matrix. Change a number and every row's total updates.
+- **Total as a weighted average:** Σ(weight × score) / Σweights. It stays on the same 1–5 scale as the scores, so it's easy to read and doesn't jump when you add a criterion.
+- **Columns:** each criterion, then "Total", sorted by Total in descending order. Optionally add weighted-contribution columns (score × weight) so you can see what drives a total.
+- **Missing scores:** a missing score can be treated as 0 or excluded from the average. Excluding is fairer while you're still filling things in.
+
+## 3. Explanations: one rubric note
+Create a note like `State-of-the-art evaluation criteria.md` next to the base. It holds:
+- **Per criterion:** what it means, its weight and why, and what each score means. For example, Conductivity: 5 = metal-like (< 10⁻⁵ Ω·cm), 3 = …, 1 = …
+- **The base embedded at the bottom** (`![[State-of-the-art category evaluation matrix.base]]`), so the rubric and the live matrix sit on one page.
+
+The catch: the weights then appear in two places, the base formulas (which do the calculation) and the rubric (which documents them). I'd make the rubric table say "weights are set in the base" and keep it short, so the two don't drift apart.
+
+## Per-category justification
+Explain *why* a category got a particular score in the body of that category's note, e.g. a "Scoring rationale" section with one line per criterion and links to the sources (your `Lit -`, `Product -` and `Link -` notes). I wouldn't put the rationale in properties, because long text makes the base table unreadable.
+
+## Summary
+| What | Where |
+| --- | --- |
+| Scores (1–5) | Properties on each category note |
+| Weights and total formula | The `.base` file (formulas) |
+| What each criterion and score means | A rubric note with the base embedded |
+| Why a category got its score | That category's note body |
+
+If you want, I can set it up:
+- add the 7 empty score properties to the 6 category notes
+- write the weight and total formulas into the base
+- create the rubric note with a draft scoring scale for you to adjust
+
+You'd then fill in the scores and tune the weights. What weights would you start with, or should I use equal weights for now?
+[Timestamp: 2026/11/19 11:06:11]
+
+**user**: Can't I have one criteria file where there are the weights, and then the base fetches them?
+[Timestamp: 2026/11/19 11:08:57]
+
+**ai**: Yes. Bases can read another note's properties with `file(...)` (or `link(...).asFile()`) followed by `.properties`. That's available from Obsidian 1.9.7 onwards ([forum: cross-note lookup](https://forum.obsidian.md/t/bases-formula-cross-note-lookup-rollup/101990), [forum: reading a referenced note's property](https://forum.obsidian.md/t/bases-formulas-get-the-note-property-that-is-referenced-in-the-note-property-in-the-base/108898)). So the weights can live in one criteria note, and the base fetches them from there.
+
+## How it would look
+**Criteria note** (e.g. `State of the art/Evaluation criteria.md`): the weights are its properties, and the explanations go in its body.
+```yaml
+---
+W Compatibility with PA: 3
+W Cost: 2
+W Process simplicity: 2
+W Adaption maturity: 1
+W Availability: 1
+W Implementation simplicity: 2
+W Conductivity: 3
+---
+## Compatibility with PA (weight 3)
+Why it matters …
+5 = …, 3 = …, 1 = …
+```
+
+**Base:** one formula points at the criteria note, and the others read the weights from it:
+```yaml
+formulas:
+  crit: 'file("notes/hardware/AM feedstock map/State of the art/Evaluation criteria.md")'
+  w_cost: 'formula.crit.properties["W Cost"]'
+  ...
+  total: '(note["Cost"] * formula.w_cost + ...) / (formula.w_cost + ...)'
+```
+
+That gives you exactly what you asked for:
+- **Weights in one place:** change a number in the criteria note, and every total in the base updates.
+- **Rubric next to the weights:** the scoring explanations sit right beside the weights. You can embed the base at the bottom of the criteria note so the whole thing reads as one page.
+- **Scores stay on each category note,** as properties with the same names as the criteria.
+
+## Caveats
+- **I haven't tried this in your vault.** The syntax comes from Obsidian forum posts, not the official docs, so it needs checking once in Obsidian. If `file()` doesn't work, the fallback is the weights written directly in the base formulas. That's less elegant but works for sure.
+- **Renaming the criteria note** breaks the path in the `crit` formula, which doesn't update automatically. To avoid that, the base could filter by a tag instead of a path, or you just keep the name stable.
+- **Matching names:** criterion names have to match exactly between the weight properties ("W Cost"), the score properties ("Cost") and the formulas. If you add a criterion, all three places need it.
+
+Should I set it up? I'd create the criteria note with equal weights and a draft rubric to edit. Then I'd add empty score properties to the 6 category notes and write the formulas into the base. You'd open the base once to confirm the totals calculate.
+[Timestamp: 2026/11/19 11:08:57]
+
+**user**: Alright, make the criteria file, and then make so that the weight is used when calculating the total score.
+[Timestamp: 2026/11/19 11:10:48]
+
+**ai**: I'll create the criteria note with equal weights (all 1) to start, plus a draft scoring rubric for you to adjust, and the base embedded at the bottom:Next, the base: it reads the weights from that note and calculates the weighted total.You'd added a "Total Score" column that points at a note property. I'll replace it with the calculated formula:I've set both up. **Open the base in Obsidian once to confirm the totals calculate.** I can't run Bases outside Obsidian, so the formulas are untested.
+
+**New note: [[State-of-the-art evaluation criteria]]**, in `State of the art/`.
+- **Weights:** the properties `W Compatibility with PA`, `W Cost`, `W Process simplicity`, `W Adaption maturity`, `W Availability`, `W Implementation simplicity` and `W Conductivity`. They're all **1** to start, so the total is currently a plain average. Change them here.
+- **Rubric:** a draft 1–5 rubric per criterion, where 5 is always best. Conductivity uses resistivity bands from below 10⁻⁴ Ω·cm (score 5) to above 10 Ω·cm (score 1). Adjust the definitions to fit how you want to judge.
+- **The matrix itself** is embedded at the bottom, so the rubric and the matrix sit on one page.
+
+**Updated: `State-of-the-art category evaluation matrix.base`**
+- **Weights:** it reads each weight from the criteria note with `file("…/State-of-the-art evaluation criteria.md").properties["W …"]`.
+- **Total Score** = Σ(weight × score) / Σ(weight), rounded to 2 decimals. It only counts criteria with a score, so a half-filled category isn't pulled down by blanks.
+- **Sorting:** the table sorts by Total Score, highest first. I replaced the "Total Score" column you'd added, which pointed at a note property, with this calculated version and kept your name for it.
+
+**What you need to do:** the 6 category notes in `Categories/` are still empty. Give each one the scores as properties, named exactly like the columns:
+```yaml
+Compatibility with PA: 4
+Cost: 2
+...
+```
+The totals then appear automatically.
+
+**If the Total Score column shows nothing or an error** once there are scores, that means `file(…).properties` isn't supported in your Obsidian version. In that case I'll move the weights into the base as plain numbers. Two other things to keep stable:
+- **The criteria note name:** if you rename or move it, the path in the base's `crit` formula has to change too.
+- **Criterion names:** they have to match in three places (the `W …` weight, the score property and the base formulas). If you add or rename a criterion, I need to update all three.
+[Timestamp: 2026/11/19 11:10:48]
+
+**user**: Can I swap the rows with collumns, in this base?
+[Timestamp: 2026/11/19 11:13:45]
+
+**ai**: Not directly. A base table always shows **one row per note** and **one column per property**, and there's no transpose setting. You have three options, depending on why you want it flipped:
+
+1. **Cards view (closest, no restructuring).** Bases has a *Cards* layout that shows each category as a card, with its properties listed underneath it. The criteria then read top to bottom per category, so you can compare categories side by side across the cards. In the base, use the view menu, add a view and choose **Cards**. You keep the same filter, properties and Total Score, and the Table view stays as a second tab. I can add it to the `.base` file for you.
+2. **Restructure the notes (true transpose, but I wouldn't).** You'd make one note per *criterion*, each with a score property per category. Then the rows would be criteria and the columns categories. But the total score would become a row instead of a column, and the base can't add up "down a column" into a total row. The weighted-total calculation would stop working, and every new category would need a property added to every criterion note.
+3. **A generated table (fully transposed, static).** A small script could read the category notes and write a markdown table with criteria as rows and categories as columns, plus weight and total rows. It looks exactly how you want and is good for exporting to a paper or slides. The downside is that it doesn't update live; you'd re-run it after changing scores, like the material plot.
+
+**My recommendation:** keep the table as it is for scoring and sorting. Add a **Cards view** if the issue is readability. Use option 3 if you need the transposed table as a figure or document. Which do you want?
+[Timestamp: 2026/11/19 11:13:45]

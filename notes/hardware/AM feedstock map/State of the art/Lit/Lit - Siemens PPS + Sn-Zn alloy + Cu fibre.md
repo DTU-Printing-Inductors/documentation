@@ -1,6 +1,6 @@
 ---
 Grade: Siemens PPS + Sn-Zn alloy + Cu fibre
-Manufacturer: n/a
+Manufacturer: Siemens AG
 Supplier: n/a
 Type: Research composite
 Functionality: n/a
@@ -27,15 +27,16 @@ Lead time: n/a
 Status: To validate
 Datasheet: n/a
 Processing instructions: n/a
-Plot category: Metal-polymer
+Plot category: Low-melt alloy hybrids
 Entry type: Literature
 Plots:
   - Overview
   - Zoom
 Commercial status: Patent
-Plot label: PPS/Sn-Zn/Cu
+Plot label: Siemens PPS
 Source note: n/a
 Requires sintering: false
+Printed: false
 Value basis: Patent
 References:
   - https://patents.google.com/patent/US20070158617A1/en

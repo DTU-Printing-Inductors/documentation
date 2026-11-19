@@ -27,7 +27,7 @@ Lead time: n/a
 Status: Indentified
 Datasheet: n/a
 Processing instructions: n/a
-Plot category: Metal-polymer
+Plot category: Cured inks and pastes
 Entry type: Product
 Plots:
   - Zoom
@@ -35,9 +35,12 @@ Commercial status: Commercial AM feedstock
 Plot label: PriElex AG-1074
 Source note: n/a
 Requires sintering: false
+Printed: true
 Value basis: Manufacturer-quoted
 References:
   - "[[canadaFully3DPrintedElectric2026]]"
 ---
+Cured silver ink (80 °C), no sintering: the "Cured inks and pastes" row.
+
 ## Sources
-- 
+- [[canadaFully3DPrintedElectric2026]]: selected for the printed traces of a fully 3D-printed motor; low-temperature curing silver ink (80 °C), printed by direct ink writing.

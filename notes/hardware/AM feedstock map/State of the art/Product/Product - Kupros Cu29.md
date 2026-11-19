@@ -27,7 +27,7 @@ Lead time: n/a
 Status: To validate
 Datasheet: n/a
 Processing instructions: n/a
-Plot category: Metal
+Plot category: Low-melt alloy filaments
 Entry type: Product
 Plots:
   - Zoom
@@ -35,9 +35,14 @@ Commercial status: Commercial AM feedstock
 Plot label: Kupros Cu29
 Source note: n/a
 Requires sintering: false
-Value basis: n/a
+Printed: true
+Value basis: Manufacturer-quoted
 References:
   - https://www.kuprosinc.com/
 ---
+## Sources
+- [kuprosinc.com](https://www.kuprosinc.com/): published resistivity 1.226 × 10⁻⁵ Ω·cm (about 8.16e6 S/m, 14 % IACS); all-metal, conductive directly after printing, no sintering, plating or curing. Composition not disclosed; ordering by contact only.
+- Emails of 16/11/2026 (see [[Kupros]]): can't ship outside the US yet (export classification pending).
+- 8.2e6 S/m is the same as bulk tin (8.7e6 S/m), so it most likely behaves as a tin-rich alloy despite the name. This is an inference, not stated by Kupros.
 
 

@@ -7,8 +7,9 @@ views:
   - type: table
     name: All entries
     filters:
-      and:
-        - file.inFolder("notes/hardware/AM feedstock map/entries")
+      or:
+        - file.inFolder("notes/hardware/AM feedstock map/Overview")
+        - file.inFolder("notes/hardware/AM feedstock map/State of the art")
     order:
       - file.name
       - Plot category
@@ -23,6 +24,8 @@ views:
       - Surface resistance (Ω)
       - Value basis
       - Requires sintering
+      - Printed
+      - Context only
       - Source note
       - References
       - Status
@@ -36,7 +39,9 @@ views:
     name: To validate
     filters:
       and:
-        - file.inFolder("notes/hardware/AM feedstock map/entries")
+        - or:
+            - file.inFolder("notes/hardware/AM feedstock map/Overview")
+            - file.inFolder("notes/hardware/AM feedstock map/State of the art")
         - Status == "To validate"
     order:
       - file.name

@@ -13,7 +13,7 @@ Permeability: n/a
 Surface resistivity (Ω/sq): n/a
 Surface resistance (Ω): n/a
 Surface resistance standard: n/a
-Volume resistivity (Ω·m): "1e-7"
+Volume resistivity (Ω·m): "0.0000001"
 Volume resistivity standard: n/a
 Dielectric properties: n/a
 Thermal conductivity integral (W/m·K): n/a
@@ -24,26 +24,33 @@ Thermal conductivity directional standard: n/a
 MOQ: n/a
 Price: n/a
 Lead time: n/a
-Status: To validate
+Status: Validated
 Datasheet: n/a
 Processing instructions: n/a
-Plot category: Metal-polymer
+Plot category: Low-melt alloy hybrids
 Entry type: Literature
 Plots:
   - Overview
   - Zoom
 Commercial status: Patent
-Plot label: ABS/solder/Cu
+Plot label: JST ABS
 Source note: n/a
 Requires sintering: false
-Value basis: Patent
+Printed: false
+Value basis: Patent (order of magnitude only)
 References:
   - https://patents.google.com/patent/US6342680B1/en
+  - "[[US6342680.pdf]]"
 ---
-Kneaded at 220 °C, injection molded at 230-280 °C; 'on the order of 1e-5 Ω·cm'.
+> [!PDF|yellow] [[US6342680.pdf#page=8&selection=22,6,23,16&color=yellow|US6342680, p.8]]
+> >  The volumetric resistivity of this sample was on the order of 10^-5 ohm* cm
+> 
+> I used this value for the datasheet
 
+> [!PDF|yellow] [[US6342680.pdf#page=8&selection=92,23,93,35&color=yellow|US6342680, p.8]]
+> > The volumetric resistivity of this sample was on the order of 4* 10^-5 ohm* cm
+> 
+> There's also mention of a different mixture but resistivity of this.
 ## Sources
 - [US6342680B1](https://patents.google.com/patent/US6342680B1/en) (Japan Science and Technology Corp; Nakagawa & Noguchi)
 
-## To validate
-- [ ] Read the full text and confirm the value, unit and specimen type

@@ -1,0 +1,35 @@
+formulas:
+  crit: file("notes/hardware/AM feedstock map/State of the art/State-of-the-art evaluation criteria.md")
+  w_pa: number(formula.crit.properties["W Compatibility with PA"])
+  w_cost: number(formula.crit.properties["W Cost"])
+  w_process: number(formula.crit.properties["W Process simplicity"])
+  w_maturity: number(formula.crit.properties["W Adaption maturity"])
+  w_availability: number(formula.crit.properties["W Availability"])
+  w_implementation: number(formula.crit.properties["W Implementation simplicity"])
+  w_conductivity: number(formula.crit.properties["W Conductivity"])
+  weighted_sum: (if(note["Compatibility with PA"], number(note["Compatibility with PA"]) * formula.w_pa, 0) + if(note["Cost"], number(note["Cost"]) * formula.w_cost, 0) + if(note["Process simplicity"], number(note["Process simplicity"]) * formula.w_process, 0) + if(note["Adaption maturity"], number(note["Adaption maturity"]) * formula.w_maturity, 0) + if(note["Availability"], number(note["Availability"]) * formula.w_availability, 0) + if(note["Implementation simplicity"], number(note["Implementation simplicity"]) * formula.w_implementation, 0) + if(note["Conductivity"], number(note["Conductivity"]) * formula.w_conductivity, 0))
+  weight_used: (if(note["Compatibility with PA"], formula.w_pa, 0) + if(note["Cost"], formula.w_cost, 0) + if(note["Process simplicity"], formula.w_process, 0) + if(note["Adaption maturity"], formula.w_maturity, 0) + if(note["Availability"], formula.w_availability, 0) + if(note["Implementation simplicity"], formula.w_implementation, 0) + if(note["Conductivity"], formula.w_conductivity, 0))
+  total: if(formula.weight_used > 0, (formula.weighted_sum / formula.weight_used).round(2), "")
+properties:
+  formula.total:
+    displayName: Total Score
+views:
+  - type: table
+    name: View
+    filters:
+      and:
+        - file.inFolder("notes/hardware/AM feedstock map/State of the art/Categories")
+    order:
+      - file.name
+      - Compatibility with PA
+      - Process simplicity
+      - Adaption maturity
+      - Availability
+      - Implementation simplicity
+      - Conductivity
+      - formula.total
+    sort:
+      - property: Cost
+        direction: ASC
+      - property: formula.total
+        direction: DESC

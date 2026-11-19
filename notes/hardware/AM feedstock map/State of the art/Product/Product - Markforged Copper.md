@@ -27,7 +27,7 @@ Lead time: n/a
 Status: "To validate"
 Datasheet: n/a
 Processing instructions: n/a
-Plot category: "Bound metal / MIM (sintered)"
+Plot category: "Sintered metals"
 Entry type: "Product"
 Plots:
   - "Overview"
@@ -36,6 +36,7 @@ Commercial status: "Commercial AM feedstock"
 Plot label: "Markforged Cu"
 Source note: n/a
 Requires sintering: true
+Printed: true
 Value basis: "Datasheet (sintered)"
 References:
   - "https://pages.hawkridgesys.com/rs/499-VQL-975/images/Markforged_Copper%20Datasheet_02.10.20.pdf"

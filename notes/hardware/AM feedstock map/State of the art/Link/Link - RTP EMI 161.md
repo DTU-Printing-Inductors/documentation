@@ -1,7 +1,7 @@
 ---
 Feedstock format: Pellets
 Status: Identified
-Plot category: Metal-polymer
+Plot category: Metal-filled polymers
 Entry type: Product
 Plots:
   - Overview
@@ -10,6 +10,7 @@ Commercial status: Commercial molding-only
 Plot label: RTP EMI 161
 Source note: "[[RTP EMI 161]]"
 Requires sintering: false
+Printed: false
 Value basis: From source note
 References: []
 ---

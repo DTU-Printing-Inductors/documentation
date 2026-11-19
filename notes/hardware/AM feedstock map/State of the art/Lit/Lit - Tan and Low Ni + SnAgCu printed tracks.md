@@ -27,7 +27,7 @@ Lead time: n/a
 Status: To validate
 Datasheet: n/a
 Processing instructions: n/a
-Plot category: Metal-polymer
+Plot category: Low-melt alloy hybrids
 Entry type: Literature
 Plots:
   - Overview
@@ -36,6 +36,7 @@ Commercial status: Research
 Plot label: Ni/SAC
 Source note: n/a
 Requires sintering: false
+Printed: true
 Value basis: Paper / patent
 References:
   - https://repository.sutd.edu.sg/esploro/outputs/journalArticle/Embedded-electrical-tracks-in-3D-printed/9911036209846

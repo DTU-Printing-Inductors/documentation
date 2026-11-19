@@ -1,19 +1,19 @@
 ---
 Grade: n/a
-Manufacturer: StackedCircuits
+Manufacturer: TE Connectivity
 Supplier: n/a
-Type: All-metal conductive filament
+Type: Electrically conductive
 Functionality: n/a
-Matrix: n/a
-Filler: n/a
+Matrix: Thermoplastic blend (proprietary)
+Filler: Copper and tin particles (intermetallic filler)
 Filler loading: n/a
 Size: n/a
-Feedstock format: Filament
+Feedstock format: Molded
 Permeability: n/a
 Surface resistivity (Ω/sq): n/a
 Surface resistance (Ω): n/a
 Surface resistance standard: n/a
-Volume resistivity (Ω·m): "0.00000015"
+Volume resistivity (Ω·m): "1.724e-6"
 Volume resistivity standard: n/a
 Dielectric properties: n/a
 Thermal conductivity integral (W/m·K): n/a
@@ -27,18 +27,19 @@ Lead time: n/a
 Status: Validated
 Datasheet: n/a
 Processing instructions: n/a
-Plot category: Metal
+Plot category: Low-melt alloy hybrids
 Entry type: Product
 Plots:
   - Zoom
 Commercial status: Commercial AM feedstock
-Plot label: StackedCircuits
+Plot label: TE IM
 Source note: n/a
 Requires sintering: false
-Value basis: n/a
+Printed: false
+Value basis: Manufacturer-quoted (best case 1 % IACS)
 References:
-  - https://stackedcircuits.com/
-  - https://patents.google.com/patent/US20260138183A1/en?oq=US2026%2f0138183
+  - https://www.te.com/en/about-te/capabilities/materials-science/building-lighter-less-expensive-products-with-conductive-plastics.html
+  - https://als.lbl.gov/te-connectivity-uses-als-improve-conductive-plastics/
 ---
-
+The website mentions a injection molding grade, which up to 1 % IACS (1.724e-6 Ω·m). 
 
